@@ -22,7 +22,7 @@ It worked the same on both the masOS Terminal and WezTerm.  The theming in
 **Apprentice** was simpler than **two-firewatch**.
 
 With this new found knowledge, I simplified my theming abstraction and started work
-on this colorscheme name [**frontier**](https://github.com/rubocode/frontier.nvim).
+on this colorscheme named [**frontier**](https://github.com/rubocode/frontier.nvim).
 
 ### COLORSCHEMES
 

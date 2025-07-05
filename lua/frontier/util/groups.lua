@@ -5,6 +5,7 @@ local M = {}
 
 M.STDS = {
 	"normal",
+	"diff",
 	"editor",
 	"syntax",
 	"diagnostics",

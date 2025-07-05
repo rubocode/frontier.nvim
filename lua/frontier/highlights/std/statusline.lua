@@ -7,7 +7,7 @@ local M = {}
 
 M.CHANGES = {
 	StatusLine = { fg = grey.AlmostBlack, bg = grey.Lighter },
-	StatusLineNC = { fg = grey.Lighter, bg = grey.AlmostBlack },
+	StatusLineNC = { fg = grey.Loud, bg = grey.Quiet },
 	StatusLineTerm = { fg = grey.Loud, bg = grey.AlmostBlack },
 	StatusLineTermNC = { fg = grey.Lighter, bg = grey.Darker },
 }

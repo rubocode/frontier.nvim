@@ -12,10 +12,6 @@ local style = require("frontier.highlights.style")
 local M = {}
 
 M.CHANGES = {
-	DiffAdd = { fg = green.Normal, bg = grey.Dark, style = style.Reverse },
-	DiffChange = { fg = yellow.Normal, bg = grey.Dark, style = style.Reverse },
-	DiffDelete = { fg = red.Normal, bg = grey.Dark, style = style.Reverse },
-	DiffText = { fg = grey.Lighter, style = style.Reverse },
 	Directory = { fg = grey.Darker },
 	EndOfBuffer = { fg = grey.Normal },
 	FoldColumn = { fg = grey.Darker, bg = grey.AlmostBlack },

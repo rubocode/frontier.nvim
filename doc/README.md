@@ -1,4 +1,4 @@
-## XTERM256 COLORS
+## THE ORIGIN OF THE FRONTIER COLORSCHEME
 
 The initial problem I had was not having a decent colorscheme for the Terminal on macOS.
 It was limited to the 256 standard colors of xterm (xterm256-color).

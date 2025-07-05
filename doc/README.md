@@ -4,7 +4,7 @@ The initial problem I had was not having a decent colorscheme for the Terminal o
 It was limited to the 256 standard colors of xterm (xterm256-color).
 
 Eventually I found a colorscheme I liked.  That was the xterm256 scheme provided by
-[vim-two-firewatch](../two-firewatch/README.md).
+[vim-two-firewatch](two-firewatch/README.md).
 
 However, what they really intended to provide was its truecolor colorscheme.
 When I switched from macOS Terminal to WezTerm, the colorscheme looked veru different.

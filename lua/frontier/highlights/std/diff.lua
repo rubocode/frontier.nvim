@@ -4,7 +4,6 @@
 local blue = require("frontier.theme.colors.blue")
 local green = require("frontier.theme.colors.green")
 local grey = require("frontier.theme.colors.grey")
-local yellow = require("frontier.theme.colors.yellow")
 local red = require("frontier.theme.colors.red")
 
 local M = {}

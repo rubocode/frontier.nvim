@@ -11,7 +11,7 @@ M.CHANGES = {
 	PmenuSbar = { bg = grey.Quiet },
 	PmenuSel = { fg = grey.AlmostBlack, bg = grey.Lighter },
 	PmenuThumb = { fg = grey.Darker, bg = grey.Darker },
-	WildMenu = { fg = grey.AlmostBlack, bg = yellow.Brighter },
+	WildMenu = { fg = grey.AlmostBlack, bg = yellow.Lighter },
 }
 
 M.LINKS = {}

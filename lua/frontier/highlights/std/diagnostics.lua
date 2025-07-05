@@ -11,7 +11,7 @@ local M = {}
 
 M.CHANGES = {
 	ErrorMsg = { fg = grey.Lighter, bg = red.Normal },
-	ModeMsg = { fg = green.Brighter, bg = grey.AlmostBlack },
+	ModeMsg = { fg = green.Lighter, bg = grey.AlmostBlack },
 	MoreMsg = { fg = grey.Black, bg = cyan.Normal },
 	WarningMsg = { fg = grey.Loud, bg = red.Normal },
 	DiagnosticError = { fg = grey.Black, bg = red.Normal },

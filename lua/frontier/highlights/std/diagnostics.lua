@@ -18,7 +18,7 @@ M.CHANGES = {
 	DiagnosticInfo = { fg = grey.Loud, bg = cyan.Normal },
 	DiagnosticWarn = { fg = grey.Lighter, bg = grey.Quiet },
 	DiagnosticHint = { fg = grey.Loud, bg = blue.Normal },
-	DiagnosticOk = { fg = grey.Ligher, bg = green.Normal },
+	DiagnosticOk = { fg = grey.Lighter, bg = green.Normal },
 }
 
 M.LINKS = {}

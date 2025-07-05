@@ -11,7 +11,7 @@ local M = {}
 M.CHANGES = {
 	DiffAdd = { fg = grey.AlmostBlack, bg = blue.Normal },
 	DiffChange = { fg = grey.AlmostBlack, bg = green.Normal },
-	DiffDelete = { fg = grey.AlmostBlack, bg = red.Darker },
+	DiffDelete = { fg = grey.Quiet, bg = red.Darker },
 	DiffText = { fg = grey.Loud, bg = red.Darker },
 }
 

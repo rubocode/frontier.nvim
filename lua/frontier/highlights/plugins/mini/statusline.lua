@@ -1,24 +1,29 @@
 -- MINI.STATUSLINE HIGHLIGHTS
 -- JUL 05, 2025
 
+local blue = require("frontier.theme.colors.blue")
+local green = require("frontier.theme.colors.green")
+local grey = require("frontier.theme.colors.grey")
+local red = require("frontier.theme.colors.red")
+
 local M = {}
 
 M.CHANGES = {
-	-- MiniStatuslineModeNormal = { fg = grey.Normal, bg = grey.AlmostBlack },
-	-- MiniStatuslineModeInsert = { fg = grey.Normal, bg = normal.Green },
-	-- MiniStatuslineModeVisual = { fg = grey.Normal, bg = normal.Purple },
-	-- MiniStatuslineModeReplace = { fg = grey.Normal, bg = normal.Red },
-	-- MiniStatuslineModeCommand = { fg = grey.Normal, bg = normal.Blue },
-	-- MiniStatuslineModeOther = { fg = grey.Black, bg = grey.Normal },
+	MiniStatuslineModeNormal = { fg = grey.Lighter, bg = grey.Black },
+	MiniStatuslineModeInsert = { fg = grey.AlmostBlack, bg = green.Normal },
+	MiniStatuslineModeVisual = { fg = grey.AlmostBlack, bg = blue.Normal },
+	MiniStatuslineModeReplace = { fg = grey.Normal, bg = red.Normal },
+	MiniStatuslineModeCommand = { fg = grey.Loud, bg = red.Darker },
+	MiniStatuslineModeOther = { fg = grey.Black, bg = grey.Darker },
 
-	-- -- Highlight used in default statusline
-	-- MiniStatuslineDevinfo = { fg = grey.White, bg = grey.Black },
+	-- Highlight used in default statusline
+	MiniStatuslineDevinfo = { fg = grey.AlmostBlack, bg = grey.Normal },
 
-	-- --   (|MiniStatusline.section_git| and |MiniStatusline.section_diagnostics|)
-	-- MiniStatuslineFilename = { fg = grey.Normal, bg = normal.Cyan },
-	-- MiniStatuslineFileinfo = { fg = grey.Normal, bg = normal.Yellow },
-	-- -- Other groups,
-	-- MiniStatuslineInactive = { fg = grey.AlmostBlack, bg = grey.Darker },
+	--   (|MiniStatusline.section_git| and |MiniStatusline.section_diagnostics|)
+	MiniStatuslineFilename = { fg = grey.Loud, bg = grey.Quiet },
+	MiniStatuslineFileinfo = { fg = grey.AlmostBlack, bg = grey.Normal },
+	-- Other groups,
+	MiniStatuslineInactive = { fg = grey.Darker, bg = grey.Quieter },
 }
 
 M.LINKS = {}

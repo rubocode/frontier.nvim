@@ -1,4 +1,4 @@
--- Character Style
+-- CHARACTER STYLE
 -- JUL 05, 2025
 
 local M = {

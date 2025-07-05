@@ -6,6 +6,7 @@ local green = require("frontier.theme.colors.green")
 local grey = require("frontier.theme.colors.grey")
 local red = require("frontier.theme.colors.red")
 local style = require("frontier.highlights.style")
+
 local M = {}
 
 M.CHANGES = {

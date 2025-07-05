@@ -1,11 +1,7 @@
 -- vim editor highlight colors
 --
 
-local brighter = require("frontier.theme.colors.brighter")
 local grey = require("frontier.theme.colors.grey")
-local normal = require("frontier.theme.colors.normal")
-
-local style = require("frontier.highlights.style")
 
 local M = {}
 

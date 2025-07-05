@@ -1,37 +1,38 @@
 -- syntax highlight groups
 --
 
-local brighter = require("frontier.theme.colors.brighter")
+local cyan = require("frontier.theme.colors.cyan")
+local green = require("frontier.theme.colors.green")
 local grey = require("frontier.theme.colors.grey")
-local normal = require("frontier.theme.colors.normal")
-
+local purple = require("frontier.theme.colors.purple")
+local red = require("frontier.theme.colors.red")
 local style = require("frontier.highlights.style")
+local yellow = require("frontier.theme.colors.yellow")
 
 local M = {}
 
 M.CHANGES = {
 	Comment = { fg = grey.Quiet },
 	Conceal = { fg = grey.Normal },
-	Constant = { fg = normal.Red },
-	Error = { fg = normal.Red, style = style.Reverse },
-	Function = { fg = normal.Green },
-	Identifier = { fg = normal.Green },
+	Constant = { fg = red.Normal },
+	Error = { fg = red.Normal, style = style.Reverse },
+	Function = { fg = green.Normal },
+	Identifier = { fg = green.Normal },
 	Ignore = {},
-	PreProc = { fg = normal.Cyan },
-	Special = { fg = normal.Green },
+	PreProc = { fg = cyan.Normal },
+	Special = { fg = green.Normal },
 	SpecialKey = { fg = grey.Quiet },
-	Statement = { fg = normal.Yellow },
-	String = { fg = brighter.Green },
+	Statement = { fg = yellow.Normal },
+	String = { fg = green.Brighter },
 	Title = {},
 	Todo = { style = style.reverse },
-	Type = { fg = brighter.Purple },
-	Underlined = { fg = normal.Cyan, style = style.Underline },
+	Type = { fg = purple.Brighter },
+	Underlined = { fg = cyan.Normal, style = style.Underline },
 	helpLeadBlank = {},
 	helpNormal = {},
 }
 
 M.LINKS = {
-	Number = { link = "Constant" },
 	Boolean = { link = "Constant" },
 	Character = { link = "Constant" },
 	Conditional = { link = "Statement" },
@@ -40,10 +41,13 @@ M.LINKS = {
 	Delimiter = { link = "Special" },
 	Exception = { link = "Statement" },
 	Float = { link = "Number" },
+	HelpCommand = { link = "Statement" },
+	HelpExample = { link = "Statement" },
 	Include = { link = "PreProc" },
 	Keyword = { link = "Statement" },
 	Label = { link = "Statement" },
 	Macro = { link = "PreProc" },
+	Number = { link = "Constant" },
 	Operator = { link = "Statement" },
 	PreCondit = { link = "PreProc" },
 	Repeat = { link = "Statement" },
@@ -53,21 +57,19 @@ M.LINKS = {
 	Structure = { link = "Type" },
 	Tag = { link = "Special" },
 	Typedef = { link = "Type" },
-	HelpCommand = { link = "Statement" },
-	HelpExample = { link = "Statement" },
-	htmlTagName = { link = "Statement" },
+	asciidocQuotedEmphasized = { link = "Preproc" },
+	htmlArg = { link = "htmlTagName" },
+	htmlBold = { link = "Normal" },
 	htmlEndTag = { link = "htmlTagName" },
+	htmlItalic = { link = "Normal" },
 	htmlLink = { link = "Function" },
 	htmlSpecialTagName = { link = "htmlTagName" },
 	htmlTag = { link = "htmlTagName" },
-	htmlBold = { link = "Normal" },
-	htmlItalic = { link = "Normal" },
-	htmlArg = { link = "htmlTagName" },
+	htmlTagName = { link = "Statement" },
+	markdownItalic = { link = "Preproc" },
+	xmlEndTag = { link = "Statement" },
 	xmlTag = { link = "Statement" },
 	xmlTagName = { link = "Statement" },
-	xmlEndTag = { link = "Statement" },
-	markdownItalic = { link = "Preproc" },
-	asciidocQuotedEmphasized = { link = "Preproc" },
 }
 
 return M

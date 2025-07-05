@@ -11,8 +11,8 @@ local M = {}
 M.CHANGES = {
 	DiffAdd = { fg = grey.AlmostBlack, bg = blue.Normal },
 	DiffChange = { fg = grey.AlmostBlack, bg = green.Normal },
-	DiffDelete = { fg = grey.AlmostBlack, bg = red.Normal },
-	DiffText = { fg = grey.Loud, bg = red.Normal },
+	DiffDelete = { fg = grey.AlmostBlack, bg = red.Darker },
+	DiffText = { fg = grey.Loud, bg = red.Darker },
 }
 
 M.LINKS = {}

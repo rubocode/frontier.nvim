@@ -6,15 +6,18 @@ local grey = require("frontier.theme.colors.grey")
 local M = {}
 
 M.CHANGES = {
-	Normal = { fg = grey.Normal, bg = grey.AlmostBlack },
-	NormalFloat = { bg = grey.AlmostBlack },
-
 	ColorColumn = { bg = grey.AlmostBlack },
-	Cursor = { fg = grey.AlmostBlack, bg = grey.Lighter },
+	Cursor = { fg = grey.Lighter, bg = grey.Black },
 	CursorColumn = { fg = grey.AlmostBlack, bg = grey.Darker },
 	CursorLine = { fg = grey.Lighter, bg = grey.Black },
 	CursorLineNr = { fg = grey.Lighter, bg = grey.Quiet },
 	LineNr = { fg = grey.Darker, bg = grey.Black },
+	Normal = { fg = grey.Normal, bg = grey.AlmostBlack },
+	NormalFloat = { bg = grey.AlmostBlack },
+	StatusLineNC = { fg = grey.Lighter, bg = grey.Quieter },
+	StatusLineTerm = { fg = grey.Loud, bg = grey.AlmostBlack },
+	StatusLineTermNC = { fg = grey.Lighter, bg = grey.Darker },
+	StatusLine = { fg = grey.AlmostBlack, bg = grey.Lighter },
 }
 
 M.LINKS = {

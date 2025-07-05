@@ -10,14 +10,14 @@ local red = require("frontier.theme.colors.red")
 local M = {}
 
 M.CHANGES = {
-	ErrorMsg = { fg = grey.Lighter, bg = red.Normal },
+	ErrorMsg = { fg = red.Normal },
 	ModeMsg = { fg = green.Lighter, bg = grey.AlmostBlack },
 	MoreMsg = { fg = grey.Black, bg = cyan.Normal },
 	WarningMsg = { fg = grey.Loud, bg = red.Normal },
-	DiagnosticError = { fg = grey.Black, bg = red.Normal },
-	DiagnosticInfo = { fg = grey.Lighter, bg = cyan.Normal },
+	DiagnosticError = { fg = grey.Normal, bg = red.Darker },
+	DiagnosticInfo = { fg = grey.Loud, bg = cyan.Normal },
 	DiagnosticWarn = { fg = grey.Lighter, bg = grey.Quiet },
-	DiagnosticHint = { fg = grey.Lighter, bg = blue.Normal },
+	DiagnosticHint = { fg = grey.Loud, bg = blue.Normal },
 	DiagnosticOk = { fg = grey.Ligher, bg = green.Normal },
 }
 

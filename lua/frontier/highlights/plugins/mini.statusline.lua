@@ -1,9 +1,7 @@
 -- MINI.STATUSLINE HIGHLIGHTS
 -- JUL 05, 2025
 
-local brighter = require("uniwatch.scheme.frontier.colors.brighter")
-local grey = require("uniwatch.scheme.frontier.colors.grey")
-local normal = require("uniwatch.scheme.frontier.colors.normal")
+local grey = require("frontier.theme.colors.grey")
 
 local M = {}
 
@@ -21,7 +19,6 @@ M.CHANGES = {
 	-- --   (|MiniStatusline.section_git| and |MiniStatusline.section_diagnostics|)
 	-- MiniStatuslineFilename = { fg = grey.Normal, bg = normal.Cyan },
 	-- MiniStatuslineFileinfo = { fg = grey.Normal, bg = normal.Yellow },
-
 	-- -- Other groups,
 	-- MiniStatuslineInactive = { fg = grey.AlmostBlack, bg = grey.Darker },
 }

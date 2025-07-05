@@ -36,7 +36,7 @@ M.LANGS = {
 }
 
 M.PLUGINS = {
-	"mini.statusline",
+	"gitsigns",
 }
 
 return M

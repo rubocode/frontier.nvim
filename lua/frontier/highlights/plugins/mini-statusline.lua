@@ -2,7 +2,6 @@
 -- JUL 05, 2025
 
 local grey = require("frontier.theme.colors.grey")
-
 local M = {}
 
 M.CHANGES = {

@@ -1,15 +1,15 @@
 -- NORMAL HIGHLIGHTS
 -- JUL 03, 2025
 
-local grey = require("frontier.theme.colors.grey")
+local normal = require("frontier.theme.normal")
 
 local M = {}
 
 M.CHANGES = {
-	ColorColumn = { bg = grey.AlmostBlack },
-	LineNr = { fg = grey.Quiet, bg = grey.Black },
-	Normal = { fg = grey.Normal, bg = grey.AlmostBlack },
-	NormalFloat = { bg = grey.Quieter },
+	ColorColumn = normal.ColorColumn,
+	LineNr = normal.LineNr,
+	Normal = normal.Normal,
+	NormalFloat = normal.NormalFloat,
 }
 
 M.LINKS = {

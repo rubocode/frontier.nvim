@@ -1,34 +1,29 @@
 -- syntax highlight groups
 --
-local blue = require("frontier.theme.colors.blue")
-local cyan = require("frontier.theme.colors.cyan")
-local green = require("frontier.theme.colors.green")
-local grey = require("frontier.theme.colors.grey")
-local red = require("frontier.theme.colors.red")
-local style = require("frontier.highlights.style")
-local yellow = require("frontier.theme.colors.yellow")
+
+local syntax = require("frontier.theme.syntax")
 
 local M = {}
 
 M.CHANGES = {
-	Comment = { fg = grey.Quiet },
-	Conceal = { fg = grey.Normal },
-	Constant = { fg = red.Normal },
-	Error = { fg = red.Normal, style = style.Reverse },
-	Function = { fg = yellow.Normal },
-	Identifier = { fg = green.Normal },
-	Ignore = {},
-	PreProc = { fg = cyan.Normal },
-	Special = { fg = green.Normal },
-	SpecialKey = { fg = grey.Quiet },
-	Statement = { fg = grey.Lighter },
-	String = { fg = green.Lighter },
-	Title = {},
-	Todo = { style = style.reverse },
-	Type = { fg = red.Lighter },
-	Underlined = { fg = cyan.Normal, style = style.Underline },
-	helpLeadBlank = {},
-	helpNormal = {},
+	Comment = syntax.Comment,
+	Conceal = syntax.Conceal,
+	Constant = syntax.Constant,
+	Error = syntax.Error,
+	Function = syntax.Function,
+	Identifier = syntax.Identifier,
+	Ignore = syntax.Ignore,
+	PreProc = syntax.PreProc,
+	Special = syntax.Special,
+	SpecialKey = syntax.SpecialKey,
+	Statement = syntax.Statement,
+	String = syntax.String,
+	Title = syntax.Title,
+	Todo = syntax.Todo,
+	Type = syntax.Type,
+	Underlined = syntax.Underlined,
+	helpLeadBlank = syntax.helpLeadBlank,
+	helpNormal = syntax.helpNormal,
 }
 
 M.LINKS = {

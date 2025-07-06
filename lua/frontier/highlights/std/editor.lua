@@ -1,11 +1,11 @@
 -- vim editor highlight colors
 --
 
-local cyan = require("frontier.theme.colors.cyan")
-local green = require("frontier.theme.colors.green")
-local grey = require("frontier.theme.colors.grey")
-local red = require("frontier.theme.colors.red")
-local yellow = require("frontier.theme.colors.yellow")
+local cyan = require("frontier.colors.cyan")
+local green = require("frontier.colors.green")
+local grey = require("frontier.colors.grey")
+local red = require("frontier.colors.red")
+local yellow = require("frontier.colors.yellow")
 
 local style = require("frontier.highlights.style")
 

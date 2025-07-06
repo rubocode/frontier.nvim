@@ -1,7 +1,7 @@
 -- NORMAL HIGHLIGHTS
 -- JUL 03, 2025
 
-local grey = require("frontier.theme.colors.grey")
+local grey = require("frontier.colors.grey")
 
 local M = {}
 

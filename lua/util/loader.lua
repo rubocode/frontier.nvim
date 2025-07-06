@@ -65,7 +65,6 @@ local process_links = function(links)
 		if verbose then
 			print(group, " -> ", opts.link)
 		end
-
 		vim.api.nvim_set_hl(0, group, opts)
 	end
 end

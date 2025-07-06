@@ -4,7 +4,6 @@ local blue = require("frontier.theme.colors.blue")
 local cyan = require("frontier.theme.colors.cyan")
 local green = require("frontier.theme.colors.green")
 local grey = require("frontier.theme.colors.grey")
-local purple = require("frontier.theme.colors.purple")
 local red = require("frontier.theme.colors.red")
 local style = require("frontier.highlights.style")
 local yellow = require("frontier.theme.colors.yellow")
@@ -16,17 +15,17 @@ M.CHANGES = {
 	Conceal = { fg = grey.Normal },
 	Constant = { fg = red.Normal },
 	Error = { fg = red.Normal, style = style.Reverse },
-	Function = { fg = blue.Normal },
+	Function = { fg = green.Normal },
 	Identifier = { fg = green.Normal },
 	Ignore = {},
 	PreProc = { fg = cyan.Normal },
 	Special = { fg = green.Normal },
 	SpecialKey = { fg = grey.Quiet },
-	Statement = { fg = yellow.Normal },
+	Statement = { fg = grey.Lighter },
 	String = { fg = green.Lighter },
 	Title = {},
 	Todo = { style = style.reverse },
-	Type = { fg = purple.Lighter },
+	Type = { fg = yellow.Normal },
 	Underlined = { fg = cyan.Normal, style = style.Underline },
 	helpLeadBlank = {},
 	helpNormal = {},

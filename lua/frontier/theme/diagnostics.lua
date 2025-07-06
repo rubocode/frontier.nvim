@@ -1,4 +1,4 @@
--- DIAGNOSTICS COLOR THEME
+-- DIAGNOSTICS COLOR ABSTRACTION
 -- JUL 06, 2025
 
 local red = require("frontier.theme.colors.red")

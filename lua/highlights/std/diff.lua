@@ -1,17 +1,26 @@
 -- DIFF HIGHLIGHT COLORS
 -- JUL 06, 2025
 
-local diff = require("frontier.theme.diff")
+local diff = require("scheme.empty.theme.diff")
 
 local M = {}
+local result = {}
 
-M.CHANGES = {
-	DiffAdd = diff.Add,
-	DiffChange = diff.Change,
-	DiffDelete = diff.Delete,
-	DiffText = diff.Text,
-}
+local initialize = function()
+	result.CHANGES = {
+		DiffAdd = diff.Add,
+		DiffChange = diff.Change,
+		DiffDelete = diff.Delete,
+		DiffText = diff.Text,
+	}
 
-M.LINKS = {}
+	result.LINKS = {}
+end
+
+function M.get(name)
+	diff = require("scheme." .. name .. ".theme.diff")
+	initialize()
+	return result
+end
 
 return M

@@ -1,17 +1,26 @@
 -- NORMAL HIGHLIGHTS
 -- JUL 03, 2025
 
-local grey = require("colors.rubo.grey")
+local line = require("scheme.empty.theme.statusline")
 
 local M = {}
+local result = {}
 
-M.CHANGES = {
-	StatusLineNC = { fg = grey.Lighter, bg = grey.Quieter },
-	StatusLineTerm = { fg = grey.Loud, bg = grey.AlmostBlack },
-	StatusLineTermNC = { fg = grey.Lighter, bg = grey.Darker },
-	StatusLine = { fg = grey.AlmostBlack, bg = grey.Lighter },
-}
+local initialize = function()
+	result.CHANGES = {
+		StatusLineNC = line,
+		StatusLineTerm = line,
+		StatusLineTermNC = line,
+		StatusLine = line,
+	}
 
-M.LINKS = {}
+	result.LINKS = {}
+end
+
+function M.get(name)
+	line = require("scheme." .. name .. ".theme.statusline")
+	initialize()
+	return result
+end
 
 return M

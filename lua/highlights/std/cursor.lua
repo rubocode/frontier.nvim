@@ -1,20 +1,30 @@
 -- NORMAL HIGHLIGHTS
 -- JUL 03, 2025
 
-local grey = require("colors.rubo.grey")
-local style = require("highlights.style")
+-- Define the interface so that properties can show up
+-- on the dropdown menu.
+local cursor = require("scheme.empty.theme.cursor")
 
 local M = {}
+local result = {}
 
-M.CHANGES = {
-	Cursor = { style = style.Reverse },
-	CursorColumn = { fg = grey.AlmostBlack, bg = grey.Darker },
-	CursorLine = { fg = grey.Lighter, bg = grey.Quiet },
-	CursorLineNr = { fg = grey.Lighter, bg = grey.Quiet },
-}
+local initialize = function()
+	result.CHANGES = {
+		Cursor = cursor.Cursor,
+		CursorColumn = cursor.CursorColumn,
+		CursorLine = cursor.CursorLine,
+		CursorLineNr = cursor.CursorLineNr,
+	}
 
-M.LINKS = {
-	CursorIM = { link = "Cursor" },
-}
+	result.LINKS = {
+		CursorIM = { link = "Cursor" },
+	}
+end
+
+function M.get(name)
+	cursor = require("scheme." .. name .. ".theme.cursor")
+	initialize()
+	return result
+end
 
 return M

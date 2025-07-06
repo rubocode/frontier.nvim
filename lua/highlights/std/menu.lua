@@ -1,19 +1,27 @@
 -- NORMAL COLORS
 -- JUL 03, 2025
 
-local grey = require("colors.rubo.grey")
-local yellow = require("colors.rubo.yellow")
+local menu = require("scheme.empty.theme.menu")
 
 local M = {}
+local result = {}
 
-M.CHANGES = {
-	Pmenu = { fg = grey.Lighter, bg = grey.Quiet },
-	PmenuSbar = { bg = grey.Quiet },
-	PmenuSel = { fg = grey.AlmostBlack, bg = grey.Lighter },
-	PmenuThumb = { fg = grey.Darker, bg = grey.Darker },
-	WildMenu = { fg = grey.AlmostBlack, bg = yellow.Lighter },
-}
+local initialize = function()
+	result.CHANGES = {
+		Pmenu = menu.Pmenu,
+		PmenuSbar = menu.PmenuSbar,
+		PmenuSel = menu.PmenuSel,
+		PmenuThumb = menu.PmenuThumb,
+		WildMenu = menu.WildMenu,
+	}
 
-M.LINKS = {}
+	result.LINKS = {}
+end
+
+function M.get(name)
+	menu = require("scheme." .. name .. ".theme.menu")
+	initialize()
+	return result
+end
 
 return M

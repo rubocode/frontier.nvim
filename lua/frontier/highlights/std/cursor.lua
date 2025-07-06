@@ -8,7 +8,7 @@ local M = {}
 M.CHANGES = {
 	Cursor = { fg = grey.AlmostBlack, bg = grey.Darker },
 	CursorColumn = { fg = grey.AlmostBlack, bg = grey.Darker },
-	CursorLine = { fg = grey.Lighter, bg = grey.Black },
+	CursorLine = { fg = grey.Lighter, bg = grey.Quiet },
 	CursorLineNr = { fg = grey.Lighter, bg = grey.Quiet },
 }
 

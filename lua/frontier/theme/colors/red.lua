@@ -6,7 +6,8 @@ local aux = require("frontier.palette.xterm256.auxiliary")
 local M = {
 	Darker = aux.DarkRed,
 	Normal = aux.IndianRed,
-	Lighter = aux.DarkOrange,
+	Lighter = aux.Orange3,
+	Loud = aux.DarkOrange,
 }
 
 return M

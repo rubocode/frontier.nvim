@@ -9,25 +9,20 @@ local green = require("frontier.theme.colors.green")
 local grey = require("frontier.theme.colors.grey")
 
 local M = {
-	Error = red.Normal,
-	Hint = blue.Normal,
-	Info = cyan.Normal,
-	Ok = green.Normal,
-	Warn = yellow.Normal,
+	Error = { fg = red.Normal },
+	Hint = { fg = blue.Normal },
+	Info = { fg = cyan.Normal },
+	Ok = { fg = green.Normal },
+	Warn = { fg = yellow.Normal },
 
 	-- Allow for changing background and foreground
 	-- for displaying LSP diagnostics in virtual lines.
 	--
-	LspErrorBg = red.Darker,
-	LspErrorFg = grey.Normal,
-	LspHintBg = blue.Normal,
-	LspHintFg = grey.Quieter,
-	LspInfoBg = cyan.Normal,
-	LspInfoFg = grey.Quieter,
-	LspOkBg = green.Normal,
-	LspOkFg = grey.Lighter,
-	LspWarnBg = yellow.Normal,
-	LspWarnFg = grey.Quieter,
+	LspError = { fg = grey.Normal, bg = red.Darker },
+	LspHint = { fg = grey.Quieter, bg = blue.Normal },
+	LspInfo = { fg = grey.Quieter, bg = cyan.Normal },
+	LspOk = { fg = grey.Lighter, bg = green.Normal },
+	LspWarn = { fg = grey.Quieter, bg = yellow.Normal },
 }
 
 return M

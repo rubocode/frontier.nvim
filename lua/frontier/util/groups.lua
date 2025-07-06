@@ -10,6 +10,8 @@ M.STDS = {
 	"syntax",
 	"diagnostics",
 	"menu",
+	"cursor",
+	"statusline",
 }
 
 M.LANGS = {

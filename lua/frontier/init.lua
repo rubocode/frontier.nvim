@@ -24,7 +24,7 @@ end
 function M.setup()
 	init_colorscheme("frontier")
 	load_groups("std", groups.STDS)
-	-- load_groups("lang", groups.LANGS)
+	load_groups("lang", groups.LANGS)
 	load_groups("plugins", groups.PLUGINS)
 end
 

@@ -1,6 +1,6 @@
 -- syntax highlight groups
 --
-
+local blue = require("frontier.theme.colors.blue")
 local cyan = require("frontier.theme.colors.cyan")
 local green = require("frontier.theme.colors.green")
 local grey = require("frontier.theme.colors.grey")
@@ -16,7 +16,7 @@ M.CHANGES = {
 	Conceal = { fg = grey.Normal },
 	Constant = { fg = red.Normal },
 	Error = { fg = red.Normal, style = style.Reverse },
-	Function = { fg = green.Normal },
+	Function = { fg = blue.Normal },
 	Identifier = { fg = green.Normal },
 	Ignore = {},
 	PreProc = { fg = cyan.Normal },

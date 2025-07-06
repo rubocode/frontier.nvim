@@ -22,7 +22,7 @@ M.LANGS = {
 	-- "diff",
 	-- "elixir",
 	-- "git",
-	"go",
+	-- "go",
 	-- "html",
 	-- "javascript",
 	-- "json",

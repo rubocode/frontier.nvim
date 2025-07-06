@@ -69,9 +69,9 @@ local process_links = function(links)
 	end
 end
 
-function M.process(path)
-	-- print("Processing path: " .. path)
-	local mod = require(path)
+function M.process(scheme, path)
+	print("Processing scheme: " .. scheme .. " path: " .. path)
+	local mod = require(path).get(scheme)
 	process_changes(mod.CHANGES)
 	process_links(mod.LINKS)
 end

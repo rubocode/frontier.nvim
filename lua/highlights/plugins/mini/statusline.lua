@@ -1,26 +1,35 @@
 -- MINI.STATUSLINE HIGHLIGHTS
 -- JUL 05, 2025
 
-local line = require("frontier.theme.statusline")
+local line = require("scheme.empty.theme.statusline")
 
 local M = {}
+local result = {}
 
-M.CHANGES = {
-	MiniStatuslineModeNormal = line.ModeNormal,
-	MiniStatuslineModeInsert = line.ModeInsert,
-	MiniStatuslineModeVisual = line.ModeVisual,
-	MiniStatuslineModeReplace = line.ModeReplace,
-	MiniStatuslineModeCommand = line.ModeCommand,
-	MiniStatuslineModeOther = line.ModeOther,
-	-- Highlight used in default statusline
-	MiniStatuslineDevinfo = line.Devinfo,
-	--   (|MiniStatusline.section_git| and |MiniStatusline.section_diagnostics|)
-	MiniStatuslineFilename = line.Filename,
-	MiniStatuslineFileinfo = line.Fileinfo,
-	-- Other groups,
-	MiniStatuslineInactive = line.Inactive,
-}
+local initialize = function()
+	result.CHANGES = {
+		MiniStatuslineModeNormal = line.ModeNormal,
+		MiniStatuslineModeInsert = line.ModeInsert,
+		MiniStatuslineModeVisual = line.ModeVisual,
+		MiniStatuslineModeReplace = line.ModeReplace,
+		MiniStatuslineModeCommand = line.ModeCommand,
+		MiniStatuslineModeOther = line.ModeOther,
+		-- Highlight used in default statusline
+		MiniStatuslineDevinfo = line.Devinfo,
+		--   (|MiniStatusline.section_git| and |MiniStatusline.section_diagnostics|)
+		MiniStatuslineFilename = line.Filename,
+		MiniStatuslineFileinfo = line.Fileinfo,
+		-- Other groups,
+		MiniStatuslineInactive = line.Inactive,
+	}
 
-M.LINKS = {}
+	result.LINKS = {}
+end
+
+function M.get(name)
+	line = require("scheme." .. name .. ".theme.statusline")
+	initialize()
+	return result
+end
 
 return M

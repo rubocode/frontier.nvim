@@ -20,7 +20,7 @@ local initialize = function()
 end
 
 function M.get(name)
-	normal = require(name .. ".theme.normal")
+	normal = require("scheme." .. name .. ".theme.normal")
 	initialize()
 	return result
 end

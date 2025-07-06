@@ -1,16 +1,25 @@
 -- GITSIGNS HIGHLIGHTS
 -- JUL 05, 2025
 
-local diff = require("frontier.theme.diff")
+local diff = require("scheme.empty.theme.diff")
 
 local M = {}
+local result = {}
 
-M.CHANGES = {
-	GitSignsAdd = diff.Add,
-	GitSignsChange = diff.Change,
-	GitSignsDelete = diff.Delete,
-}
+local initialize = function()
+	result.CHANGES = {
+		GitSignsAdd = diff.Add,
+		GitSignsChange = diff.Change,
+		GitSignsDelete = diff.Delete,
+	}
 
-M.LINKS = {}
+	result.LINKS = {}
+end
+
+function M.get(name)
+	diff = require("scheme." .. name .. ".theme.diff")
+	initialize()
+	return result
+end
 
 return M

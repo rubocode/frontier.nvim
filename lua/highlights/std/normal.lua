@@ -1,7 +1,7 @@
 -- NORMAL HIGHLIGHTS
 -- JUL 03, 2025
 
-local normal = require("scheme.empty.theme.normal")
+local normal = require("scheme.empty.profile.normal")
 
 local M = {}
 local result = {}
@@ -20,7 +20,7 @@ local initialize = function()
 end
 
 function M.get(name)
-	normal = require("scheme." .. name .. ".theme.normal")
+	normal = require("scheme." .. name .. ".profile.normal")
 	initialize()
 	return result
 end

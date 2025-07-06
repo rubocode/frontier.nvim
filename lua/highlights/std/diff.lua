@@ -1,7 +1,7 @@
 -- DIFF HIGHLIGHT COLORS
 -- JUL 06, 2025
 
-local diff = require("scheme.empty.theme.diff")
+local diff = require("scheme.empty.profile.diff")
 
 local M = {}
 local result = {}
@@ -18,7 +18,7 @@ local initialize = function()
 end
 
 function M.get(name)
-	diff = require("scheme." .. name .. ".theme.diff")
+	diff = require("scheme." .. name .. ".profile.diff")
 	initialize()
 	return result
 end

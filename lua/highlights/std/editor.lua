@@ -1,7 +1,7 @@
 -- EDITOR HIGHLIGHT COLORS
 -- JUL 06, 2025
 
-local editor = require("scheme.empty.theme.editor")
+local editor = require("scheme.empty.profile.editor")
 
 local M = {}
 local result = {}
@@ -39,7 +39,7 @@ local initialize = function()
 end
 
 function M.get(name)
-	editor = require("scheme." .. name .. ".theme.editor")
+	editor = require("scheme." .. name .. ".profile.editor")
 	initialize()
 	return result
 end

@@ -3,7 +3,7 @@
 
 -- Define the interface so that properties can show up
 -- on the dropdown menu.
-local cursor = require("scheme.empty.theme.cursor")
+local cursor = require("scheme.empty.profile.cursor")
 
 local M = {}
 local result = {}
@@ -22,7 +22,7 @@ local initialize = function()
 end
 
 function M.get(name)
-	cursor = require("scheme." .. name .. ".theme.cursor")
+	cursor = require("scheme." .. name .. ".profile.cursor")
 	initialize()
 	return result
 end

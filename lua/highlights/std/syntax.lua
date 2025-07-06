@@ -1,7 +1,7 @@
 -- syntax highlight groups
 --
 
-local syntax = require("scheme.empty.theme.syntax")
+local syntax = require("scheme.empty.profile.syntax")
 
 local M = {}
 local result = {}
@@ -70,7 +70,7 @@ local initialize = function()
 end
 
 function M.get(name)
-	syntax = require("scheme." .. name .. ".theme.syntax")
+	syntax = require("scheme." .. name .. ".profile.syntax")
 	initialize()
 	return result
 end

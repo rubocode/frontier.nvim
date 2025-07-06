@@ -1,7 +1,7 @@
 -- NORMAL COLORS
 -- JUL 03, 2025
 
-local menu = require("scheme.empty.theme.menu")
+local menu = require("scheme.empty.profile.menu")
 
 local M = {}
 local result = {}
@@ -19,7 +19,7 @@ local initialize = function()
 end
 
 function M.get(name)
-	menu = require("scheme." .. name .. ".theme.menu")
+	menu = require("scheme." .. name .. ".profile.menu")
 	initialize()
 	return result
 end

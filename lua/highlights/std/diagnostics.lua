@@ -1,7 +1,7 @@
 -- NORMAL COLORS
 -- JUL 03, 2025
 
-local diag = require("scheme.empty.theme.diagnostics")
+local diag = require("scheme.empty.profile.diagnostics")
 
 local M = {}
 local result = {}
@@ -44,7 +44,7 @@ local initialize = function()
 end
 
 function M.get(name)
-	diag = require("scheme." .. name .. ".theme.diagnostics")
+	diag = require("scheme." .. name .. ".profile.diagnostics")
 	initialize()
 	return result
 end

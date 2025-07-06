@@ -1,7 +1,7 @@
 -- MINI.STATUSLINE HIGHLIGHTS
 -- JUL 05, 2025
 
-local line = require("scheme.empty.theme.statusline")
+local line = require("scheme.empty.profile.statusline")
 
 local M = {}
 local result = {}
@@ -27,7 +27,7 @@ local initialize = function()
 end
 
 function M.get(name)
-	line = require("scheme." .. name .. ".theme.statusline")
+	line = require("scheme." .. name .. ".profile.statusline")
 	initialize()
 	return result
 end

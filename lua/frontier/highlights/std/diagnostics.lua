@@ -1,30 +1,25 @@
 -- NORMAL COLORS
 -- JUL 03, 2025
 
-local blue = require("frontier.theme.colors.blue")
-local cyan = require("frontier.theme.colors.cyan")
-local green = require("frontier.theme.colors.green")
-local grey = require("frontier.theme.colors.grey")
-local red = require("frontier.theme.colors.red")
-local yellow = require("frontier.theme.colors.yellow")
+local diag = require("frontier.theme.diagnostics")
 
 local M = {}
 
 M.CHANGES = {
-	ErrorMsg = { fg = red.Normal },
-	ModeMsg = { fg = grey.Lighter },
-	MoreMsg = { fg = cyan.Normal },
-	WarningMsg = { fg = yellow.Normal },
-	DiagnosticError = { fg = red.Normal },
-	DiagnosticHint = { fg = blue.Normal },
-	DiagnosticInfo = { fg = cyan.Normal },
-	DiagnosticOk = { fg = green.Normal },
-	DiagnosticWarn = { fg = yellow.Normal },
-	DiagnosticVirtualLinesError = { fg = grey.Normal, bg = red.Darker },
-	DiagnosticVirtualLinesHint = { fg = grey.Quieter, bg = blue.Normal },
-	DiagnosticVirtualLinesInfo = { fg = grey.Quieter, bg = cyan.Normal },
-	DiagnosticVirtualLinesOk = { fg = grey.Lighter, bg = green.Normal },
-	DiagnosticVirtualLinesWarn = { fg = grey.Quieter, bg = yellow.Darker },
+	ErrorMsg = { diag.Error },
+	ModeMsg = { diag.Info },
+	MoreMsg = { diag.Hint },
+	WarningMsg = { diag.Warn },
+	DiagnosticError = { diag.Error },
+	DiagnosticHint = { diag.Hint },
+	DiagnosticInfo = { diag.Info },
+	DiagnosticOk = { diag.Ok },
+	DiagnosticWarn = { diag.Warn },
+	DiagnosticVirtualLinesError = { fg = diag.LspErrorFg, bg = diag.LspErrorBg },
+	DiagnosticVirtualLinesHint = { fg = diag.LspHintFg, bg = diag.LspHintBg },
+	DiagnosticVirtualLinesInfo = { fg = diag.LspInfoFg, bg = diag.LspInfoBg },
+	DiagnosticVirtualLinesOk = { fg = diag.LspOkFg, bg = diag.LspInfoBg },
+	DiagnosticVirtualLinesWarn = { fg = diag.LspWarnFg, bg = diag.LspWarnBg },
 }
 
 M.LINKS = {

@@ -7,7 +7,7 @@ local yellow = require("frontier.theme.colors.yellow")
 local M = {}
 
 M.CHANGES = {
-	Pmenu = { fg = grey.Lighter, bg = grey.Quieter },
+	Pmenu = { fg = grey.Lighter, bg = grey.Quiet },
 	PmenuSbar = { bg = grey.Quiet },
 	PmenuSel = { fg = grey.AlmostBlack, bg = grey.Lighter },
 	PmenuThumb = { fg = grey.Darker, bg = grey.Darker },

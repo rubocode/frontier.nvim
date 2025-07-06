@@ -1,8 +1,8 @@
 -- SCHEME LOADER FOR frontier
 -- JUL 03, 2025
 
-local groups = require("frontier.util.groups")
-local loader = require("frontier.util.loader")
+local groups = require("util.groups")
+local loader = require("util.loader")
 
 local M = {}
 
@@ -16,7 +16,7 @@ end
 
 local load_groups = function(category, list)
 	for _, item in pairs(list) do
-		local path = "frontier.highlights." .. category .. "." .. item
+		local path = "highlights." .. category .. "." .. item
 		loader.process(path)
 	end
 end

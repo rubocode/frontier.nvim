@@ -5,7 +5,7 @@ local cyan = require("frontier.colors.cyan")
 local green = require("frontier.colors.green")
 local grey = require("frontier.colors.grey")
 local red = require("frontier.colors.red")
-local style = require("frontier.highlights.style")
+local style = require("highlights.style")
 local yellow = require("frontier.colors.yellow")
 
 local M = {

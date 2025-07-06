@@ -2,6 +2,7 @@
 --
 
 local M = {}
+
 local verbose = false
 
 local add_color_options = function(opts, color, xg)
@@ -70,6 +71,7 @@ local process_links = function(links)
 end
 
 function M.process(path)
+	-- print("Processing path: " .. path)
 	local mod = require(path)
 	process_changes(mod.CHANGES)
 	process_links(mod.LINKS)

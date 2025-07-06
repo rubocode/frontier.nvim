@@ -1,7 +1,7 @@
 -- GREY SPECTRUM
 -- JUL 03, 2025
 
-local aux = require("frontier.palette.xterm256.auxiliary")
+local aux = require("palette.xterm256.auxiliary")
 
 local M = {
 	Black = aux.Grey0,

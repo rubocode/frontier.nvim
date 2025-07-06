@@ -1,7 +1,7 @@
 -- GO HIGHLIGHT GROUPS
 -- JUL 06, 2025
 
-local red = require("frontier.colors.red")
+local red = require("colors.rubo.red")
 
 local M = {}
 

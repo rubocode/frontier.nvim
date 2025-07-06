@@ -1,10 +1,10 @@
 -- DIFF COLOR ABSTRACTION
 -- JUL 06, 2025
 
-local green = require("frontier.colors.green")
-local grey = require("frontier.colors.grey")
-local red = require("frontier.colors.red")
-local yellow = require("frontier.colors.yellow")
+local green = require("colors.rubo.green")
+local grey = require("colors.rubo.grey")
+local red = require("colors.rubo.red")
+local yellow = require("colors.rubo.yellow")
 
 local M = {
 	Add = { fg = green.Normal },

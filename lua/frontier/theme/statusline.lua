@@ -1,10 +1,10 @@
 -- STATUSLINE COLOR ABSTRACTION
 -- JUL 06, 2025
 
-local red = require("frontier.colors.red")
-local blue = require("frontier.colors.blue")
-local green = require("frontier.colors.green")
-local grey = require("frontier.colors.grey")
+local red = require("colors.rubo.red")
+local blue = require("colors.rubo.blue")
+local green = require("colors.rubo.green")
+local grey = require("colors.rubo.grey")
 local style = require("highlights.style")
 
 local M = {

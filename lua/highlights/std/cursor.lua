@@ -1,7 +1,7 @@
 -- NORMAL HIGHLIGHTS
 -- JUL 03, 2025
 
-local grey = require("frontier.colors.grey")
+local grey = require("colors.rubo.grey")
 local style = require("highlights.style")
 
 local M = {}

@@ -1,12 +1,12 @@
 -- SYNTAX COLOR ABSTRACTION
 -- JUL 06, 2025
 
-local cyan = require("frontier.colors.cyan")
-local green = require("frontier.colors.green")
-local grey = require("frontier.colors.grey")
-local red = require("frontier.colors.red")
+local cyan = require("colors.rubo.cyan")
+local green = require("colors.rubo.green")
+local grey = require("colors.rubo.grey")
+local red = require("colors.rubo.red")
 local style = require("highlights.style")
-local yellow = require("frontier.colors.yellow")
+local yellow = require("colors.rubo.yellow")
 
 local M = {
 	Comment = { fg = grey.Quiet },

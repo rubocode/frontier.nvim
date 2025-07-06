@@ -1,8 +1,8 @@
 -- NORMAL COLORS
 -- JUL 03, 2025
 
-local grey = require("frontier.colors.grey")
-local yellow = require("frontier.colors.yellow")
+local grey = require("colors.rubo.grey")
+local yellow = require("colors.rubo.yellow")
 
 local M = {}
 

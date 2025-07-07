@@ -5,6 +5,8 @@ local line = require("profile.plugin.mini.statusline")
 
 local M = {}
 
+M.URL = "https://github.com/echasnovski/mini.statusline"
+
 M.PROFILE = {
 	MiniStatuslineModeNormal = line.ModeNormal,
 	MiniStatuslineModeInsert = line.ModeInsert,

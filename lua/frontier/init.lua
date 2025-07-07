@@ -1,4 +1,4 @@
--- WORKER TO INSTALL THE COLORSCHEME
+-- SETUP THE COLORSCHEME
 -- JUL 07, 2025
 
 local worker = require("util.worker")

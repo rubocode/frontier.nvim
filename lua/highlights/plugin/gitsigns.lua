@@ -5,6 +5,8 @@ local diff = require("profile.std.diff")
 
 local M = {}
 
+M.URL = "https://github.com/lewis6991/gitsigns.nvim"
+
 M.PROFILE = {
 	GitSignsAdd = diff.Add,
 	GitSignsChange = diff.Change,

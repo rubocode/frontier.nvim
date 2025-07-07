@@ -1,7 +1,7 @@
 -- EDITOR HIGHLIGHT COLORS
 -- JUL 06, 2025
 
-local editor = require("frontier.profile.std.editor")
+local editor = require("profile.std.editor")
 
 local M = {}
 

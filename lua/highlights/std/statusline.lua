@@ -1,7 +1,7 @@
 -- STATUSLINE HIGHLIGHTS
 -- JUL 03, 2025
 
-local line = require("frontier.profile.std.statusline")
+local line = require("profile.std.statusline")
 
 local M = {}
 

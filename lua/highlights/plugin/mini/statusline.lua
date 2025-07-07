@@ -1,7 +1,7 @@
 -- MINI.STATUSLINE HIGHLIGHTS
 -- JUL 05, 2025
 
-local line = require("frontline.profile.statusline")
+local line = require("profile.plugin.mini.statusline")
 
 local M = {}
 

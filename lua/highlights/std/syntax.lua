@@ -1,7 +1,7 @@
 -- SYNTAX HIGHLIGHTS
 -- JUL 07, 2025
 
-local syntax = require("frontier.profile.std.syntax")
+local syntax = require("profile.std.syntax")
 
 local M = {}
 

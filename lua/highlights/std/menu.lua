@@ -1,7 +1,7 @@
 -- NORMAL COLORS
 -- JUL 03, 2025
 
-local menu = require("frontier.profile.std.menu")
+local menu = require("profile.std.menu")
 
 local M = {}
 

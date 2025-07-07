@@ -1,7 +1,7 @@
 -- NORMAL COLORS
 -- JUL 03, 2025
 
-local diag = require("frontier.profile.std.diagnostics")
+local diag = require("profile.std.diagnostics")
 
 local M = {}
 

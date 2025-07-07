@@ -1,26 +1,17 @@
--- NORMAL HIGHLIGHTS
+-- STATUSLINE HIGHLIGHTS
 -- JUL 03, 2025
 
-local line = require("scheme.empty.profile.statusline")
+local line = require("frontier.profile.statusline")
 
 local M = {}
-local result = {}
 
-local initialize = function()
-	result.CHANGES = {
-		StatusLineNC = line,
-		StatusLineTerm = line,
-		StatusLineTermNC = line,
-		StatusLine = line,
-	}
+M.PROFILE = {
+	StatusLineNC = line.StatusLineNC,
+	StatusLineTerm = line.StatusLineTerm,
+	StatusLineTermNC = line.StatusLineTerNC,
+	StatusLine = line.StatusLine,
+}
 
-	result.LINKS = {}
-end
-
-function M.get(name)
-	line = require("scheme." .. name .. ".profile.statusline")
-	initialize()
-	return result
-end
+M.LINKS = {}
 
 return M

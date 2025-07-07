@@ -1,27 +1,18 @@
 -- NORMAL COLORS
 -- JUL 03, 2025
 
-local menu = require("scheme.empty.profile.menu")
+local menu = require("frontier.profile.menu")
 
 local M = {}
-local result = {}
 
-local initialize = function()
-	result.CHANGES = {
-		Pmenu = menu.Pmenu,
-		PmenuSbar = menu.PmenuSbar,
-		PmenuSel = menu.PmenuSel,
-		PmenuThumb = menu.PmenuThumb,
-		WildMenu = menu.WildMenu,
-	}
+M.PROFILE = {
+	Pmenu = menu.Pmenu,
+	PmenuSbar = menu.PmenuSbar,
+	PmenuSel = menu.PmenuSel,
+	PmenuThumb = menu.PmenuThumb,
+	WildMenu = menu.WildMenu,
+}
 
-	result.LINKS = {}
-end
-
-function M.get(name)
-	menu = require("scheme." .. name .. ".profile.menu")
-	initialize()
-	return result
-end
+M.LINKS = {}
 
 return M

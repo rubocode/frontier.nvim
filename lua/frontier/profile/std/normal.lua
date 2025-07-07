@@ -1,8 +1,8 @@
 -- NORMAL COLOR ABSTRACTION
 -- JUL 06, 2025
 
-local red = require("colors.rubo.red")
-local grey = require("colors.rubo.grey")
+local red = require("colors.red")
+local grey = require("colors.grey")
 
 local M = {
 	ColorColumn = { bg = red.Lighter },

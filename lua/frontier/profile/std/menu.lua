@@ -1,11 +1,11 @@
 -- MENU COLORS
 -- JUL 03, 2025
 
-local yellow = require("colors.rubo.yellow")
-local grey = require("colors.rubo.grey")
-local red = require("colors.rubo.red")
-local blue = require("colors.rubo.blue")
-local purple = require("colors.rubo.purple")
+local yellow = require("colors.yellow")
+local grey = require("colors.grey")
+local red = require("colors.red")
+local blue = require("colors.blue")
+local purple = require("colors.purple")
 
 local M = {}
 

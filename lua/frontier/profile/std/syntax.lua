@@ -1,12 +1,12 @@
 -- SYNTAX COLOR ABSTRACTION
 -- JUL 06, 2025
 
-local cyan = require("colors.rubo.cyan")
-local green = require("colors.rubo.green")
-local grey = require("colors.rubo.grey")
-local red = require("colors.rubo.red")
+local cyan = require("colors.cyan")
+local green = require("colors.green")
+local grey = require("colors.grey")
+local red = require("colors.red")
 local style = require("highlights.style")
-local yellow = require("colors.rubo.yellow")
+local yellow = require("colors.yellow")
 
 local M = {
 	Comment = { fg = grey.Quiet },

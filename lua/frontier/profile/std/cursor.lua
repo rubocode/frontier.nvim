@@ -1,7 +1,7 @@
 -- CURSOR COLOR ABSTRACTION
 -- JUL 06, 2025
 
-local grey = require("colors.rubo.grey")
+local grey = require("colors.grey")
 local style = require("highlights.style")
 
 local M = {

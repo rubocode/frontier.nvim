@@ -1,20 +1,7 @@
--- HIGHLIGHT GROUPS
+-- LANG CATEGORY
 -- JUL 05, 2025
 
-local M = {}
-
-M.STDS = {
-	"normal",
-	"diff",
-	"editor",
-	"syntax",
-	"diagnostics",
-	"menu",
-	"cursor",
-	"statusline",
-}
-
-M.LANGS = {
+local M = {
 	-- "asciidoc",
 	-- "cpp",
 	-- "css",
@@ -34,11 +21,6 @@ M.LANGS = {
 	-- "vim",
 	-- "xml",
 	-- "yaml",
-}
-
-M.PLUGINS = {
-	"mini.statusline",
-	"gitsigns",
 }
 
 return M

@@ -1,12 +1,12 @@
 -- DIAGNOSTICS COLOR ABSTRACTION
 -- JUL 06, 2025
 
-local red = require("colors.rubo.red")
-local yellow = require("colors.rubo.yellow")
-local cyan = require("colors.rubo.cyan")
-local blue = require("colors.rubo.blue")
-local green = require("colors.rubo.green")
-local grey = require("colors.rubo.grey")
+local red = require("colors.red")
+local yellow = require("colors.yellow")
+local cyan = require("colors.cyan")
+local blue = require("colors.blue")
+local green = require("colors.green")
+local grey = require("colors.grey")
 
 local M = {
 	Error = { fg = red.Normal },

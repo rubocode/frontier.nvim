@@ -1,7 +1,10 @@
 -- WORKER TO INSTALL THE COLORSCHME
 -- JUL 07, 2025
 
-local groups = require("util.groups")
+local std = require("util.category.std")
+local lang = require("util.category.lang")
+local plugin = require("util.category.plugin")
+
 local loader = require("util.loader")
 
 local M = {}
@@ -14,18 +17,18 @@ local init_colorscheme = function(name)
 	vim.g.colors_name = name
 end
 
-local load_groups = function(name, category, list)
+local load_groups = function(category, list)
 	for _, item in pairs(list) do
 		local path = "highlights." .. category .. "." .. item
-		loader.process(name, path)
+		loader.process(path)
 	end
 end
 
 function M.install(name)
 	init_colorscheme(name)
-	load_groups(name, "std", groups.STDS)
-	load_groups(name, "lang", groups.LANGS)
-	load_groups(name, "plugins", groups.PLUGINS)
+	load_groups("std", std)
+	load_groups("lang", lang)
+	load_groups("plugin", plugin)
 end
 
 return M

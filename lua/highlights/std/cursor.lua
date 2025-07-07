@@ -1,7 +1,7 @@
 -- CURSOR HIGHLIGHTS
 -- JUL 03, 2025
 
-local cursor = require("frontier.profile.cursor")
+local cursor = require("frontier.profile.std.cursor")
 
 local M = {}
 

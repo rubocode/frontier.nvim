@@ -1,7 +1,7 @@
 -- NORMAL HIGHLIGHTS
 -- JUL 03, 2025
 
-local normal = require("frontier.profile.normal")
+local normal = require("frontier.profile.std.std.normal")
 
 local M = {}
 

@@ -1,7 +1,7 @@
 -- DIFF HIGHLIGHT COLORS
 -- JUL 06, 2025
 
-local diff = require("frontier.profile.diff")
+local diff = require("frontier.profile.std.diff")
 
 local M = {}
 

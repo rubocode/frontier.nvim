@@ -12,3 +12,6 @@
 * [apprentice](scheme/apprentice/README.md)
 * [firewatch](scheme/firewatch/README.md)
 
+## Color Templates
+
+* [vim](template/README.md)

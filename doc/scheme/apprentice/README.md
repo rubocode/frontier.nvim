@@ -2,7 +2,7 @@
 
 URL: [https://github.com/romainl/Apprentice](https://github.com/romainl/Apprentice)
 
-TEMPLATE: [apprentice.colortemplates](apprentice.colortemplate)
+TEMPLATE: [apprentice.colortemplate](apprentice.colortemplate)
 
 This colorscheme was created by [**Romain Lafourcade**](https://github.com/romainl).
 

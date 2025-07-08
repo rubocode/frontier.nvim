@@ -1,4 +1,5 @@
 ## COLOR TEMPLATES
+> JUL 08, 2025
 
 URL: [https://github.com/lifepillar/vim-colortemplate](https://github.com/lifepillar/vim-colortemplate)
 

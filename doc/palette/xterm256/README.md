@@ -1,4 +1,5 @@
 ## XTERM256 COLORS
+> JUL 08, 2025
 
 ### LINKS
 

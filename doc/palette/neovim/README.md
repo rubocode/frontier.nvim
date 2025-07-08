@@ -1,4 +1,5 @@
 ## NEOVIM STANDARD PALETTE
+> JUL 08, 2025
 
 This was captured from **Niklas Alexander Shern** at
 [https://github.com/nshern/neovim-default-colorscheme-extras](https://github.com/nshern/neovim-default-colorscheme-extras)

@@ -1,4 +1,5 @@
 ## APPRENTICE COLORSCHEME
+> JUL 08, 2025
 
 URL: [https://github.com/romainl/Apprentice](https://github.com/romainl/Apprentice)
 

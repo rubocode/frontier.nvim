@@ -9,6 +9,7 @@
 
 ## Color Schemes
 
+* [frontier](scheme/frontier/README.md)
 * [apprentice](scheme/apprentice/README.md)
 * [firewatch](scheme/firewatch/README.md)
 

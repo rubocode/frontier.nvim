@@ -4,8 +4,8 @@
 The initial problem I had was not having a decent colorscheme for the Terminal on macOS.
 It was limited to the 256 standard colors of xterm (xterm256-color).
 
-Eventually I found a colorscheme I liked.  That was the xterm256 scheme provided by
-[vim-two-firewatch](../two-firewatch/README.md).
+Eventually I found a colorscheme I liked.  That was the xterm256 scheme 
+[vim-two-firewatch](../scheme/two-firewatch/README.md) by **Ramzi Akremi**. 
 
 However, what they really intended to provide was its truecolor colorscheme.
 When I switched from macOS Terminal to WezTerm, the colorscheme looked veru different.
@@ -26,14 +26,14 @@ I reached the point of reproducing the original xterm256 colorscheme and guess w
 it looked the same on macOS terminal and WezTerm.
 
 Now I wanted to generalize theming abstraction from there.  Then I found
-[**Apprentice**](../apprentice/README.md) by **Romain Lafourcade**.
+[**apprentice**](../scheme/apprentice/README.md) by **Romain Lafourcade**.
 It worked the same on both the masOS Terminal and WezTerm.  The theming in
-**Apprentice** was simpler than **two-firewatch**.
+apprentice was simpler than two-firewatch.
 
 With this new found knowledge, I simplified my theming abstraction and started work
-on this colorscheme named initially named **frontier**.
+on this colorscheme named initially named [**frontier**](../scheme/frontier/README.md).
 
-I have now named the project to its original name
+I have now renamed the project to its original name
 [**uniwatch**](https://github.com/rubocode/uniwatch.nvim).
 
 The important thing in the colorscheme is not just how it looks on face value.
@@ -65,14 +65,14 @@ is a good approach in creative endeavors.
 
 I would be happy if I could create three themes:  
 
-### frontier
+### [frontier](../scheme/frontier/README.md)
 This is the one I would use on a day to day basis and will get priority treatment.
 
-### firewatch
+### [firewatch](../scheme/firewatch/README.md)
 There is a unique appeal to the simple dark color palette in two-firewatch and
 I would be able to add LSP and other goodies in common with frontier.
 
-### apprentice
+### [apprentice](../scheme/apprentice/README.md)
 This is particularly decent due to the simplicity of the color pallette
 except for that rather bright yellow.
 However, it turns out that Apprentice is getting a v3 facelift right now.

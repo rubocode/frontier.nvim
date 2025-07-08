@@ -4,10 +4,11 @@
 
 ## Color Palettes
 
-* [xterm256](xterm256/README.md)
-* [neovim](neovim/README.md)
+* [neovim](palette/neovim/README.md)
+* [xterm256](palette/xterm256/README.md)
 
 ## Color Schemes
 
-* [two-firewatch](two-firewatch/README.md)
-* [Apprentice](apprentice/README.md)
+* [apprentice](scheme/apprentice/README.md)
+* [firewatch](scheme/firewatch/README.md)
+

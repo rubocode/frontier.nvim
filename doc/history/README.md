@@ -5,7 +5,7 @@ The initial problem I had was not having a decent colorscheme for the Terminal o
 It was limited to the 256 standard colors of xterm (xterm256-color).
 
 Eventually I found a colorscheme I liked.  That was the xterm256 scheme 
-[vim-two-firewatch](../scheme/two-firewatch/README.md) by **Ramzi Akremi**. 
+[vim-two-firewatch](../scheme/firewatch/README.md) by **Ramzi Akremi**. 
 
 However, what they really intended to provide was its truecolor colorscheme.
 When I switched from macOS Terminal to WezTerm, the colorscheme looked veru different.
@@ -26,7 +26,7 @@ I reached the point of reproducing the original xterm256 colorscheme and guess w
 it looked the same on macOS terminal and WezTerm.
 
 Now I wanted to generalize theming abstraction from there.  Then I found
-[**apprentice**](../scheme/apprentice/README.md) by **Romain Lafourcade**.
+[**Apprentice**](../scheme/apprentice/README.md) by **Romain Lafourcade**.
 It worked the same on both the masOS Terminal and WezTerm.  The theming in
 apprentice was simpler than two-firewatch.
 

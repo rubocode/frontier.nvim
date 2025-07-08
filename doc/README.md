@@ -59,9 +59,9 @@ same repository.
 It turns out that the best approach is to start from the last above and move
 upwards.  I would be happy to create three themes:  
 
-| frontier | This is the one I would use on a day to day basis and will get priority treatment) |
-| firewatch | There is a unique appeal to the simple dark color palette in two-firewatch and I would be able to add LSP and other goodies in common with frontier) |
-| apprentice | This is particularly decent due to the simplicity of the color pallette (except for that rather bright yellow) |
+| frontier | This is the one I would use on a day to day basis and will get priority treatment) |  
+| firewatch | There is a unique appeal to the simple dark color palette in two-firewatch and I would be able to add LSP and other goodies in common with frontier) |  
+| apprentice | This is particularly decent due to the simplicity of the color pallette (except for that rather bright yellow) |  
 
 When I am done with these three, I would have created a colorscheme I would
 personally use and will have created a general color mapping abstraction with

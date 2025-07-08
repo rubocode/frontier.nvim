@@ -2,7 +2,9 @@
 > JUL 08, 2025
 
 The initial problem I had was not having a decent colorscheme for the Terminal on macOS.
-It was limited to the 256 standard colors of xterm (xterm256-color).
+It was limited to the 256 standard colors of xterm (xterm256-color).  Most popular
+color schemes have been designed for truecolor terminals and would not work on the masOS
+Terminal.
 
 Eventually I found a colorscheme I liked.  That was the xterm256 scheme 
 [vim-two-firewatch](../scheme/firewatch/README.md) by **Ramzi Akremi**. 
@@ -21,40 +23,39 @@ colorschme whether on macOS Terminal or any other that supports xterm256 colors 
 truecolor terminals.
 
 I was not too concerned about 16 color terminals at the time.  I handled the situation
-via **nvim.config** by checking terminal type and defaulting to the system default when
+via **nvim.config** by checking terminal type and switching to the system default when
 the terminal is not either xterm256 or truecolor.
 
 I reached the point of reproducing the original xterm256 colorscheme and guess what,
 it looked the same on macOS terminal and WezTerm.
 
-Now I wanted to generalize theming abstraction from there.  Then I found
+Now I wanted to generalize the theming abstraction from there.  Then I found
 [**Apprentice**](../scheme/apprentice/README.md) by **Romain Lafourcade**.
 It worked the same on both the masOS Terminal and WezTerm.  The theming in
 apprentice was simpler than two-firewatch.
 
 With this new found knowledge, I simplified my theming abstraction and started work
-on this colorscheme named initially named [**frontier**](../scheme/frontier/README.md).
+on this colorscheme that I initially named [**frontier**](../scheme/frontier/README.md).
 
-I have now renamed the project to its original name
+I have now renamed the project back to its original name
 [**uniwatch**](https://github.com/rubocode/uniwatch.nvim).
 
 ### PRIORITIES
 
-The important thing in the colorscheme is not just how it looks on face value.
-While that is also improtant, as a programmer's editor, it is vital that syntactic
-nuances are handled elegantly and consistently.
-
-Evolution over time rests on supporting new languages and new plugins.
+The important thing in the color scheme is not just how it looks on face value.
+While that is also important, as a programmer's editor, it is vital that syntactic
+nuances are handled elegantly and consistently.  Successful evolution and durability
+rest on supporting new languages and new plugins quickly and easily.
 So highlight groups are central.  You need to centralize the highlight
-group profiles and allows the colorscheme theme to impact it.
+group profiles and allow the color scheme theme to impact it.
 
 ### APPROACH
 
 There are three basic approaches to the design problem:  
 
 * Centralize the highlight groups in a separate project (repository)
-and use it as a dependency to the color themes (This is a bit cumbersome,
-but it is the generic treesitter like approach).
+and consider the color theme and profiles as a dependency.
+(This is a bit cumbersome, but it is the generic treesitter like approach).
 
 * Keep the highlight groups centralized in the same repository and asbtract
 it out so that multiple color themes can reside on the same repository
@@ -64,8 +65,9 @@ it out so that multiple color themes can reside on the same repository
 same repository.
 
 It turns out that the best approach is to start from the last above and move
-upwards (remember how they tried **multics** first and failed and a couple of
-guys created **unix** later!).
+upwards (remember how a whole bunch of smart guys tried to design **multics**
+first resulting in failure and a couple of guys at Bell Labs created **unix**
+sometime later!).
 [Bottom up](https://rubocode.github.io/blog/2018-08-17/top-down-and-bottom-up)
 is a good approach in creative endeavors.
 
@@ -82,11 +84,11 @@ I would be able to add LSP and other goodies in common with frontier.
 This is particularly decent due to the simplicity of the color pallette
 except for that rather bright yellow.
 However, it turns out that Apprentice is getting a v3 facelift right now.
-So, perhaps, I better leave it to them.
+So, perhaps, I better leave it alone.
 
 ### GOALS
 
-When I am done with these three, I would have created a colorscheme I would
+When I am done with these, I would have created a colorscheme I would
 personally use and will have created a general color mapping abstraction with
 up-to-date feature support.
 
@@ -94,4 +96,7 @@ up-to-date feature support.
 > making the best product, you’re screwed.  
 > **Linus Torvalds**  
 
-Let's see where we get!
+Let's just create one color scheme with all desired features and functionality
+first and see how we can generalize it later.  A modular design approach will
+certainly help.
+

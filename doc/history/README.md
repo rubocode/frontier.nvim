@@ -75,6 +75,8 @@ I would be able to add LSP and other goodies in common with frontier.
 ### apprentice
 This is particularly decent due to the simplicity of the color pallette
 except for that rather bright yellow.
+However, it turns out that Apprentice is getting a v3 facelift right now.
+So, perhaps, I better leave it to them.
 
 When I am done with these three, I would have created a colorscheme I would
 personally use and will have created a general color mapping abstraction with

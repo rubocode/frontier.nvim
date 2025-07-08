@@ -10,4 +10,4 @@
 ## Color Schemes
 
 * [two-firewatch](two-firewatch/README.md)
-* [apprentice](apprentice/README.md)
+* [Apprentice](apprentice/README.md)

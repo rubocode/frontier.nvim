@@ -1,16 +1,13 @@
--- DIFF COLOR ABSTRACTION
+-- DIFF PROFILE ABSTRACTION
 -- JUL 06, 2025
 
-local green = require("colors.green")
-local grey = require("colors.grey")
-local red = require("colors.red")
-local yellow = require("colors.yellow")
+local diff = require("theme.diff")
 
 local M = {
-	Add = { fg = green.Normal },
-	Change = { fg = yellow.Normal },
-	Delete = { fg = red.Normal },
-	Text = { fg = grey.Lighter },
+	Add = diff.Add,
+	Change = diff.Change,
+	Delete = diff.Delete,
+	Text = diff.Text,
 }
 
 return M

@@ -1,23 +1,20 @@
 -- STATUSLINE COLOR ABSTRACTION
 -- JUL 06, 2025
 
-local red = require("colors.red")
-local blue = require("colors.blue")
-local green = require("colors.green")
-local grey = require("colors.grey")
-local style = require("highlights.style")
+local display = require("theme.display")
+local mode = require("theme.mode")
 
 local M = {
-	Devinfo = { fg = grey.AlmostBlack, bg = grey.Normal },
-	Fileinfo = { fg = grey.AlmostBlack, bg = grey.Normal },
-	Filename = { fg = grey.Loud, bg = grey.Quiet },
-	Inactive = { fg = grey.Darker, bg = grey.Quieter },
-	ModeCommand = { fg = grey.Loud, bg = red.Darker, style = style.Bold },
-	ModeInsert = { fg = grey.AlmostBlack, bg = green.Normal, style = style.Bold },
-	ModeNormal = { fg = grey.Lighter, bg = grey.Black, style = style.Bold },
-	ModeOther = { fg = grey.Black, bg = grey.Darker, style = style.Bold },
-	ModeReplace = { fg = grey.Normal, bg = red.Normal, style = style.Bold },
-	ModeVisual = { fg = grey.AlmostBlack, bg = blue.Normal, style = style.Bold },
+	Devinfo = display.Standard,
+	Fileinfo = display.Standard,
+	Filename = display.Prominent,
+	Inactive = display.Inactive,
+	ModeCommand = mode.Line.Command,
+	ModeInsert = mode.Line.Insert,
+	ModeNormal = mode.Line.Normal,
+	ModeOther = mode.Line.Other,
+	ModeReplace = mode.Line.Replace,
+	ModeVisual = mode.Line.Visual,
 }
 
 return M

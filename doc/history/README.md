@@ -10,6 +10,8 @@ Eventually I found a colorscheme I liked.  That was the xterm256 scheme
 However, what they really intended to provide was its truecolor colorscheme.
 When I switched from macOS Terminal to WezTerm, the colorscheme looked veru different.
 
+### A LEARNING OPPORTUNITY
+
 So I decided to create a colorscheme that looks exactly the same on both the macOS Terminal
 and WezTerm.  I started with the color palette in **two-firewatch**.  Then I wanted to
 abstract out the theming so that it would be easy for me to customize it.
@@ -36,6 +38,8 @@ on this colorscheme named initially named [**frontier**](../scheme/frontier/READ
 I have now renamed the project to its original name
 [**uniwatch**](https://github.com/rubocode/uniwatch.nvim).
 
+### PRIORITIES
+
 The important thing in the colorscheme is not just how it looks on face value.
 While that is also improtant, as a programmer's editor, it is vital that syntactic
 nuances are handled elegantly and consistently.
@@ -43,6 +47,8 @@ nuances are handled elegantly and consistently.
 Evolution over time rests on supporting new languages and new plugins.
 So highlight groups are central.  You need to centralize the highlight
 group profiles and allows the colorscheme theme to impact it.
+
+### APPROACH
 
 There are three basic approaches to the design problem:  
 
@@ -77,6 +83,8 @@ This is particularly decent due to the simplicity of the color pallette
 except for that rather bright yellow.
 However, it turns out that Apprentice is getting a v3 facelift right now.
 So, perhaps, I better leave it to them.
+
+### GOALS
 
 When I am done with these three, I would have created a colorscheme I would
 personally use and will have created a general color mapping abstraction with

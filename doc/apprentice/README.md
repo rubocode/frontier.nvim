@@ -1,5 +1,7 @@
 ## APPRENTICE COLORSCHEME
 
+URL: [https://github.com/romainl/Apprentice](https://github.com/romainl/Apprentice)
+
 This colorscheme was created by [**Romain Lafourcade**](https://github.com/romainl).
 
 It was developed with **vimscript** with slightly different design goals.

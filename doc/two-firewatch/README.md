@@ -1,7 +1,8 @@
 ## TWO-FIREWATCH COLORSHEME
 
-This [colorscheme](https://github.com/rakr/vim-two-firewatch) was also developed in **vimscript**
-by [**Ramzi Akremi**](https://github.com/rakr).
+URL: [https://github.com/rakr/vim-two-firewatch](https://github.com/rakr/vim-two-firewatch)
+
+This color scheme was developed in **vimscript** by [**Ramzi Akremi**](https://github.com/rakr).
 
 He was primarily targeting a refined visual experience on truecolor terminals.  But when I ran it
 on the macOS Terminal, it looked excellent.  So I studied the theme.

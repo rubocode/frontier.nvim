@@ -40,9 +40,11 @@ local process_links = function(links)
 end
 
 function M.process(path)
+	-- print("Processing: " .. path)
 	local mod = require(path)
 	process_profile(mod.PROFILE)
 	process_links(mod.LINKS)
+	-- print("Done!")
 end
 
 return M

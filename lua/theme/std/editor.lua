@@ -21,7 +21,7 @@ local M = {
 	SignColumn = { fg = grey.Lighter, bg = grey.AlmostBlack },
 	SpellBad = { fg = red.Normal, style = style.Undercurl },
 	SpellCap = { fg = cyan.Lighter, style = style.Undercurl },
-	SpellLocal = { fg = green.Normal, style = style.Undercurl },
+	SpellLocal = { fg = yellow.Normal, style = style.Undercurl },
 	SpellRare = { fg = red.Normal, style = style.Undercurl },
 	TabLine = { fg = yellow.Normal, bg = grey.Grey },
 	TabLineFill = { fg = grey.Darker, bg = grey.Darker },

@@ -1,4 +1,4 @@
--- NORMAL COLOR ABSTRACTION
+-- NORMAL THEME ABSTRACTION
 -- JUL 06, 2025
 
 local red = require("colors.red")

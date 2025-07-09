@@ -1,7 +1,7 @@
 -- NORMAL HIGHLIGHTS
 -- JUL 03, 2025
 
-local normal = require("profile.std.normal")
+local normal = require("theme.std.normal")
 
 local M = {}
 

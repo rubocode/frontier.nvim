@@ -1,8 +1,8 @@
 -- MINI.STATUSLINE HIGHLIGHTS
 -- JUL 05, 2025
 
-local display = require("theme.display")
-local mode = require("theme.mode")
+local display = require("theme.std.display")
+local mode = require("theme.std.mode")
 
 local M = {}
 

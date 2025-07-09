@@ -1,7 +1,7 @@
 -- DIFF HIGHLIGHT COLORS
 -- JUL 06, 2025
 
-local diff = require("profile.std.diff")
+local diff = require("theme.std.diff")
 
 local M = {}
 

@@ -20,7 +20,21 @@ might seem like a good idea.
 
 But that requires more dynamic binding between highlight groups and the theme
 abstractions.  In the long run, even having light and dark themes in the same color
-schemes seem to be a bad idea.  Color coordination is simply harder.
+scheme seem to be a bad idea.  Color coordination is simply harder.
+You are trying to cater to two different audiences.
+It would be like having two wives, one for the day and one for the night.
+Bad idea!
+
+When you want change just one thing, you have to worry about how the multiple themes
+are affected.  Dynamic indirection - calling functions to blend the highlights and
+the themes instead of straight coupling between them - is going to require additional
+testing to make sure everything still works right.  Instead, I have link the color
+selection with the highlight groups via an intermediate theme abstraction.
+
+Then I rely on straight coupling of the highlight groups with the set of theme
+abstractions and rely on intellisense to reduce the introduction of errors.
+This allows me to evolve the colorscheme at a much rapid pace.  It is also easier
+to adapt, modify and tune it.
 
 So, I have decided to keep things simple.  I will create two separate projects
 for **frontier** and **firewatch256**.  I will bring frontier into a reasonably

@@ -23,6 +23,8 @@ M.PROFILE = {
 	Underlined = syntax.Underlined,
 	helpLeadBlank = syntax.helpLeadBlank,
 	helpNormal = syntax.helpNormal,
+	["@variable"] = syntax.Variable,
+	["@variable.parameter"] = syntax.Parameter,
 }
 
 M.LINKS = {

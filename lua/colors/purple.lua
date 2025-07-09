@@ -4,7 +4,7 @@
 local aux = require("palette.xterm256.auxiliary")
 
 local M = {
-	Normal = aux.MediumPurple4,
+	Normal = aux.MediumPurple3,
 	Lighter = aux.LightSlateGrey,
 }
 

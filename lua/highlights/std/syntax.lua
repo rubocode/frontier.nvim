@@ -1,7 +1,7 @@
 -- SYNTAX HIGHLIGHTS
 -- JUL 07, 2025
 
-local syntax = require("profile.std.syntax")
+local syntax = require("theme.std.syntax")
 
 local M = {}
 

@@ -1,7 +1,7 @@
 -- CURSOR HIGHLIGHTS
 -- JUL 03, 2025
 
-local cursor = require("profile.std.cursor")
+local cursor = require("theme.std.cursor")
 
 local M = {}
 

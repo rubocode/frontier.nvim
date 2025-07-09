@@ -1,4 +1,4 @@
--- DIFF HIGHLIGHT COLORS
+-- DIFF HIGHLIGHTS
 -- JUL 06, 2025
 
 local diff = require("theme.std.diff")

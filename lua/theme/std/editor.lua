@@ -1,12 +1,11 @@
--- vim editor highlight colors
---
+-- EDITOR THEME COLORS
+-- JUL 09, 2025
 
 local cyan = require("colors.cyan")
 local green = require("colors.green")
 local grey = require("colors.grey")
 local red = require("colors.red")
 local yellow = require("colors.yellow")
-
 local style = require("highlights.style")
 
 local M = {

@@ -1,7 +1,7 @@
--- EDITOR HIGHLIGHT COLORS
+-- EDITOR HIGHLIGHTS
 -- JUL 06, 2025
 
-local editor = require("profile.std.editor")
+local editor = require("theme.std.editor")
 
 local M = {}
 

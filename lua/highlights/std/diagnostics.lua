@@ -1,4 +1,4 @@
--- NORMAL COLORS
+-- DIAGNOSTICS HIGHLIGHTS
 -- JUL 03, 2025
 
 local diag = require("theme.std.diagnostics")

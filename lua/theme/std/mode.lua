@@ -1,4 +1,4 @@
--- MODE THEME ABSTRACTION
+-- MODE THEME COLORS
 -- JUL 08, 2025
 
 local blue = require("colors.blue")

@@ -1,4 +1,4 @@
--- SYNTAX THEME ABSTRACTION
+-- SYNTAX THEME COLORS
 -- JUL 06, 2025
 
 local cyan = require("colors.cyan")

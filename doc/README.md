@@ -1,6 +1,8 @@
 ## UNIWATCH COLORSCHEME COLLECTION
+> JUL 08, 2025
 
 * [History](history/README.md)
+* [Conclusion](conclusion/README.md)
 
 ## Color Palettes
 

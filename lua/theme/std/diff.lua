@@ -1,4 +1,4 @@
--- DIFF THEME ABSTRACTION
+-- DIFF THEME COLORS
 -- JUL 08, 2025
 
 local green = require("colors.green")

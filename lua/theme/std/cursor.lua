@@ -1,4 +1,4 @@
--- CURSOR COLOR ABSTRACTION
+-- CURSOR THEME COLORS
 -- JUL 06, 2025
 
 local grey = require("colors.grey")

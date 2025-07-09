@@ -1,4 +1,4 @@
--- DISPLAY THEME ABSTRACTION
+-- DISPLAY THEME COLORS
 -- JUN 08, 2025
 
 local grey = require("colors.grey")

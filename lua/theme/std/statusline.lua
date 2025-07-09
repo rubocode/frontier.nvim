@@ -1,4 +1,4 @@
--- STATUSLINE COLOR PROFILE
+-- STATUSLINE COLORS
 -- JUL 06, 2025
 
 local green = require("colors.green")
@@ -9,7 +9,7 @@ local yellow = require("colors.yellow")
 local M = {
 	StatusLineNC = {},
 	StatusLineTerm = {},
-	StatusLineTerNC = {},
+	StatusLineTermNC = {},
 	StatusLine = {},
 }
 

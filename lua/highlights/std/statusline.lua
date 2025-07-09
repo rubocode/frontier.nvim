@@ -8,7 +8,7 @@ local M = {}
 M.PROFILE = {
 	StatusLineNC = line.StatusLineNC,
 	StatusLineTerm = line.StatusLineTerm,
-	StatusLineTermNC = line.StatusLineTerNC,
+	StatusLineTermNC = line.StatusLineTermNC,
 	StatusLine = line.StatusLine,
 }
 

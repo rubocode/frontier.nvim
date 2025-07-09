@@ -5,8 +5,8 @@ local cyan = require("colors.cyan")
 local green = require("colors.green")
 local grey = require("colors.grey")
 local red = require("colors.red")
-local yellow = require("colors.yellow")
 local style = require("highlights.style")
+local yellow = require("colors.yellow")
 
 local M = {
 	Directory = { fg = grey.Darker },

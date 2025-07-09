@@ -11,7 +11,7 @@ local yellow = require("colors.yellow")
 local M = {
 	Comment = { fg = grey.Quiet },
 	Conceal = { fg = grey.Normal },
-	Constant = { fg = red.Normal },
+	Constant = { fg = green.Lighter },
 	Error = { fg = red.Normal, style = style.Reverse },
 	Function = { fg = yellow.Normal },
 	Identifier = { fg = green.Normal },
@@ -23,7 +23,7 @@ local M = {
 	String = { fg = green.Lighter },
 	Title = {},
 	Todo = { style = style.reverse },
-	Type = { fg = red.Lighter },
+	Type = { fg = red.Normal },
 	Underlined = { fg = cyan.Normal, style = style.Underline },
 	helpLeadBlank = { fg = cyan.Lighter },
 	helpNormal = { fg = green.Lighter },

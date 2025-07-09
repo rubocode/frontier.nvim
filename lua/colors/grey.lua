@@ -10,7 +10,7 @@ local M = {
 	Quiet = aux.Grey39,
 	Darker = aux.Grey46,
 	Normal = aux.Grey58,
-	Lighter = aux.Grey78,
+	Lighter = aux.Grey69,
 	Loud = aux.Grey84,
 }
 

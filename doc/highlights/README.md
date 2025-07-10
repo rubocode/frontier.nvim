@@ -2,6 +2,7 @@
 > JUL 10, 2025
 
 URL: [https://github.com/neovim/neovim/blob/master/runtime/colors/vim.lua](https://github.com/neovim/neovim/blob/master/runtime/colors/vim.lua)
+
 LICENSE: NEOVIM is licensed under Apache License 2.0 (Copyright Neovim contributors)
 
 The above is where all the standard highlight groups are defined.

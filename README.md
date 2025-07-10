@@ -1,5 +1,5 @@
 # uniwatch.nvim
-A collection of colorschemes look identical both on xterm256 and truecolor terminals
+A collection of colorschemes that look identical both on xterm256 and truecolor terminals
 
 > This is a work in progress!
 

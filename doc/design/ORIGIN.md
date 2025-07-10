@@ -83,8 +83,7 @@ is a good approach in creative endeavors.
 
 I would be happy if I could create this handful of colorschemes with a single
 theming abstraction that is customized to accomodate multiple palettes.  
-
-They use different palettes and different choices (colors and themes) in
+They will use different palettes and different choices (colors and themes) in
 injecting those colors into the highlight scheme which support _standard_
 neovim highlighting and _custom_ plugins.  It seemed a good idea to
 centralize and stabilize the highlight definitions in order that all themes
@@ -121,7 +120,6 @@ I found intuitive.
 
 My goal wan't to create the fastest colorscheme on the planet, but to create
 something that I can tweak and improve efficiently.
-
 This lua code is meant to be robust and resilient and to allow for flexible
 adjustment.  It was not meant to load faster.  Your mileage may vary.
 

@@ -40,7 +40,6 @@ Now I wanted to generalize the theming abstraction from there.  Then I found
 _Apprentice_ by **Romain Lafourcade**.
 It worked the same on both the masOS Terminal and WezTerm.  The theming in
 apprentice was simpler than two-firewatch.
-
 With this new found knowledge, I separated my abstraction into three concerns
 (_colors_, _theme_ and _highlights_) and pivoted my work on the intended primary
 personal colorscheme that I initially named _frontier_.

@@ -30,7 +30,6 @@ It turned out that I prefer simple yet sophisticated color usage.
 So I decided to create a colorscheme that looks exactly the same on both the macOS Terminal
 and WezTerm.  I started with the color palette in _two-firewatch_.  Then I wanted to
 abstract out the theming so that it would be easy for me to customize it.
-
 I called the project _UNIWATCH_ because I wanted the same (universal) color palette in the
 colorscheme whether on macOS Terminal or any other that supports xterm256 colors including
 truecolor terminals.
@@ -38,7 +37,6 @@ truecolor terminals.
 I was not too concerned about 16 color terminals at the time.  I handled the situation
 via _nvim.config_ by checking terminal type and switching to the system default when
 the terminal is not either xterm256 or truecolor.
-
 I reached the point of successfully achieving the same look and feel on both _xterm256_
 and _truecolor_ on macOS terminal and WezTerm.
 
@@ -57,7 +55,7 @@ The important thing in the color scheme is not just how it looks on face value.
 While that is also important, as a programmer's editor, it is vital that syntactic
 nuances are handled elegantly and consistently.  Successful evolution and durability
 rest on supporting new languages and new plugins quickly and easily.
-So highlight groups are pivotal.  You need to centralize the highlight
+Highlight groups are pivotal.  You need to centralize the highlight
 group profiles and allow the color scheme theme to impact it.
 
 ### APPROACH

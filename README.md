@@ -22,7 +22,7 @@ in _two-firewatch_ appealing.
 
 ## watchprentice
 This is intended as another example of using an existing color palette that fully
-support the chosen features (such as proper _LSP_ support) and chosen plugins
+supports the chosen features (such as proper _LSP_ support) and chosen plugins
 that I would use.
 
 ## neowatch

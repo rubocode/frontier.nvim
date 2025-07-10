@@ -105,7 +105,7 @@ in _two-firewatch_ appealing.
 
 ## watchprentice
 This is intended as another example of using an existing color palette that fully
-support the chosen features (such as proper _LSP_ support) and chosen plugins
+supports the chosen features (such as proper _LSP_ support) and chosen plugins
 that I would use.
 
 ## neowatch
@@ -114,7 +114,6 @@ that uses a standard color palette that is staandard, yet at the same time emplo
 a few more than 16 colors.  I wasn't sure how this translates into a legacy terminal
 type such as _vt100_.  But, I thought it might be interesting to design a color
 scheme by restricting myself to just those 20 colors.
-
 
 ### RATIONALE
 

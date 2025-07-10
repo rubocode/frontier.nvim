@@ -32,7 +32,7 @@ any other that supports xterm256 colors including truecolor terminals.
 
 I was not too concerned about 16 color terminals at the time.
 I handled the situation via _nvim.config_ by checking terminal type and switching
-to the system default when the terminal is not either xterm256 or truecolor.
+to the system default when the terminal is neither xterm256 nor truecolor.
 I reached the point of successfully achieving the same look and feel on both
 _xterm256_ and _truecolor_ on macOS terminal and WezTerm.
 

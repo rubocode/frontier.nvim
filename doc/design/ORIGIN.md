@@ -43,12 +43,13 @@ I reached the point of successfully achieving the same look and feel on both _xt
 and _truecolor_ on macOS terminal and WezTerm.
 
 Now I wanted to generalize the theming abstraction from there.  Then I found
-apprentice by **Romain Lafourcade**.
+_Apprentice_ by **Romain Lafourcade**.
 It worked the same on both the masOS Terminal and WezTerm.  The theming in
 apprentice was simpler than two-firewatch.
 
-With this new found knowledge, I simplified my theming abstraction and started work
-on my intended primary personal colorscheme that I initially named _frontier_.
+With this new found knowledge, I simplified my abstraction into two separate concerns
+(_colors_ and _theme_) and started work on my intended primary personal colorscheme
+that I initially named _frontier_.  I always had the goal of generalization.
 
 ### PRIORITIES
 

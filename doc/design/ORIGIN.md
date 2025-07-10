@@ -110,10 +110,9 @@ that I would use.
 
 ## neowatch
 Along the way I discovered that there is a standard colorscheme for modern neovim
-that uses a color palette that is staandard, yet at the same time employs
-a few more than 16 colors.  I wasn't sure how this translates into a legacy terminal
-type such as _vt100_.  But, I thought it might be interesting to design a color
-scheme by restricting myself to just those 20 colors.
+that uses a color palette that a few more than 16 colors.  I wasn't sure how this
+translates into a legacy terminal type.  But, I thought it might be interesting
+to design a colorcheme by restricting myself to just those 20 colors.
 
 ### RATIONALE
 

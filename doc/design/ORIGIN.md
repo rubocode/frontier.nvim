@@ -12,8 +12,8 @@ and [yugen](https://https://github.com/bettervim/yugen.nvim).
 
 Then I found [two-firewatch](https://github.com/rakr/vim-two-firewatch).  I didn't
 particularly like the _light_ and _dark_ themes on _truecolor_, but boy did I like
-the _dark_ theme on my macOS Terminal.  I wanted the same theme on truecolor as well
-for consistent experience.
+the _dark_ theme on my macOS Terminal (xterm256).  I wanted the same theme on truecolor
+as well for consistent experience.
 Much later, I discovered [Apprentice](https://github.com/romainl/Apprentice), 
 a dark low contrast colorscheme.
 
@@ -31,7 +31,7 @@ So I decided to create a colorscheme that looks exactly the same on both the mac
 and WezTerm.  I started with the color palette in _two-firewatch_.  Then I wanted to
 abstract out the theming so that it would be easy for me to customize it.
 
-I called the project UNIWATCH because I wanted the same (universal) color palette in the
+I called the project _UNIWATCH_ because I wanted the same (universal) color palette in the
 colorscheme whether on macOS Terminal or any other that supports xterm256 colors including
 truecolor terminals.
 

@@ -29,6 +29,8 @@ local infuse = function()
 		Underlined = basics.Underlined,
 		helpLeadBlank = basics.helpLeadBlank,
 		helpNormal = basics.helpNormal,
+		["@module"] = basics.Module,
+		["@type.builtin"] = basics.TypeBuiltin,
 		["@variable"] = basics.Variable,
 		["@variable.parameter"] = basics.Parameter,
 	}

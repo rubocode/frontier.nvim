@@ -18,6 +18,7 @@ local M = {
 	Title = {},
 	Todo = {},
 	Type = {},
+	TypeBuiltin = {},
 	Underlined = {},
 	Variable = {},
 	helpLeadBlank = {},

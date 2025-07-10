@@ -5,7 +5,7 @@ My initial intention was to create a reasonable stable abstraction of mapping
 colors into the highlight groups.  This would allow me to make changes and evolve
 rapidly.
 
-However, supporting more than one theme reequired dynamic binding of some sort
+However, supporting more than one theme required dynamic binding of some sort
 and one of the methods seemed to be to call a function with the theme as a
 parameter and get back color-infused highlight group definitions.
 

@@ -82,7 +82,7 @@ is a good approach in creative endeavors.
 ### GOALS
 
 I would be happy if I could create this handful of colorschemes with a single
-theming abstraction that is customized to accomodate multiple palettes.  
+theming abstraction that is customized to accomodate multiple palettes.
 They will use different palettes and different choices (colors and themes) in
 injecting those colors into the highlight scheme which support _standard_
 neovim highlighting and _custom_ plugins.  It seemed a good idea to

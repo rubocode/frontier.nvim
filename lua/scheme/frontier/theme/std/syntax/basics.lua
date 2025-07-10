@@ -12,7 +12,7 @@ local yellow = require("scheme.frontier.colors.yellow")
 local M = {
 	Comment = { fg = grey.Quiet },
 	Conceal = { fg = grey.Normal },
-	Constant = { fg = red.Lighter },
+	Constant = { fg = red.Normal },
 	Error = { fg = red.Normal, style = style.Reverse },
 	Function = { fg = yellow.Normal },
 	Identifier = { fg = green.Normal },
@@ -27,7 +27,7 @@ local M = {
 	Title = {},
 	Todo = { style = style.reverse },
 	Type = { fg = red.Normal },
-	TypeBuiltin = { fg = cyan.Lighter },
+	TypeBuiltin = { fg = yellow.Normal },
 	Underlined = { fg = cyan.Normal, style = style.Underline },
 	Variable = { fg = grey.Lighter },
 	helpLeadBlank = { fg = cyan.Lighter },

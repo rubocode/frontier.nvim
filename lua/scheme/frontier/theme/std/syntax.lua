@@ -1,13 +1,13 @@
 -- SYNTAX THEME COLORS
 -- JUL 06, 2025
 
-local cyan = require("colors.cyan")
-local green = require("colors.green")
-local grey = require("colors.grey")
-local purple = require("colors.purple")
-local red = require("colors.red")
+local cyan = require("scheme.frontier.colors.cyan")
+local green = require("scheme.frontier.colors.green")
+local grey = require("scheme.frontier.colors.grey")
+local purple = require("scheme.frontier.colors.purple")
+local red = require("scheme.frontier.colors.red")
 local style = require("highlights.style")
-local yellow = require("colors.yellow")
+local yellow = require("scheme.frontier.colors.yellow")
 
 local M = {
 	Comment = { fg = grey.Quiet },

@@ -1,10 +1,10 @@
 -- MODE THEME COLORS
 -- JUL 08, 2025
 
-local blue = require("colors.blue")
-local green = require("colors.green")
-local grey = require("colors.grey")
-local red = require("colors.red")
+local blue = require("scheme.frontier.colors.blue")
+local green = require("scheme.frontier.colors.green")
+local grey = require("scheme.frontier.colors.grey")
+local red = require("scheme.frontier.colors.red")
 local style = require("highlights.style")
 
 local M = {

@@ -1,7 +1,7 @@
 -- DISPLAY THEME COLORS
 -- JUN 08, 2025
 
-local grey = require("colors.grey")
+local grey = require("scheme.frontier.colors.grey")
 
 local M = {
 	Prominent = { fg = grey.Loud, bg = grey.Quiet },

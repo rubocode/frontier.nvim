@@ -1,71 +1,83 @@
 -- SYNTAX HIGHLIGHTS
 -- JUL 07, 2025
 
-local syntax = require("theme.std.syntax")
+local syntax = require("empty.std.syntax")
 
 local M = {}
+local infused = {}
 
-M.PROFILE = {
-	Comment = syntax.Comment,
-	Conceal = syntax.Conceal,
-	Constant = syntax.Constant,
-	Error = syntax.Error,
-	Identifier = syntax.Identifier,
-	Ignore = syntax.Ignore,
-	PreProc = syntax.PreProc,
-	Special = syntax.Special,
-	SpecialKey = syntax.SpecialKey,
-	Statement = syntax.Statement,
-	String = syntax.String,
-	Title = syntax.Title,
-	Todo = syntax.Todo,
-	Type = syntax.Type,
-	Underlined = syntax.Underlined,
-	helpLeadBlank = syntax.helpLeadBlank,
-	helpNormal = syntax.helpNormal,
-	["@variable"] = syntax.Variable,
-	["@variable.parameter"] = syntax.Parameter,
-}
+local remap = function(scheme)
+	syntax = require("scheme." .. scheme .. ".theme.std.syntax")
+end
 
-M.LINKS = {
-	Boolean = { link = "Constant" },
-	Character = { link = "Constant" },
-	Conditional = { link = "Statement" },
-	Debug = { link = "Special" },
-	Define = { link = "PreProc" },
-	Delimiter = { link = "Special" },
-	Exception = { link = "Statement" },
-	Float = { link = "Number" },
-	Function = { link = "Identifier" },
-	HelpCommand = { link = "Statement" },
-	HelpExample = { link = "Statement" },
-	Include = { link = "PreProc" },
-	Keyword = { link = "Statement" },
-	Label = { link = "Statement" },
-	Macro = { link = "PreProc" },
-	Number = { link = "Constant" },
-	Operator = { link = "Statement" },
-	PreCondit = { link = "PreProc" },
-	Repeat = { link = "Statement" },
-	SpecialChar = { link = "Special" },
-	SpecialComment = { link = "Special" },
-	StorageClass = { link = "Type" },
-	Structure = { link = "Type" },
-	Tag = { link = "Special" },
-	Typedef = { link = "Type" },
-	asciidocQuotedEmphasized = { link = "Preproc" },
-	htmlArg = { link = "htmlTagName" },
-	htmlBold = { link = "Normal" },
-	htmlEndTag = { link = "htmlTagName" },
-	htmlItalic = { link = "Normal" },
-	htmlLink = { link = "Function" },
-	htmlSpecialTagName = { link = "htmlTagName" },
-	htmlTag = { link = "htmlTagName" },
-	htmlTagName = { link = "Statement" },
-	markdownItalic = { link = "Preproc" },
-	xmlEndTag = { link = "Statement" },
-	xmlTag = { link = "Statement" },
-	xmlTagName = { link = "Statement" },
-}
+local infuse = function()
+	infused.PROFILE = {
+		Comment = syntax.Comment,
+		Conceal = syntax.Conceal,
+		Constant = syntax.Constant,
+		Error = syntax.Error,
+		Identifier = syntax.Identifier,
+		Ignore = syntax.Ignore,
+		PreProc = syntax.PreProc,
+		Special = syntax.Special,
+		SpecialKey = syntax.SpecialKey,
+		Statement = syntax.Statement,
+		String = syntax.String,
+		Title = syntax.Title,
+		Todo = syntax.Todo,
+		Type = syntax.Type,
+		Underlined = syntax.Underlined,
+		helpLeadBlank = syntax.helpLeadBlank,
+		helpNormal = syntax.helpNormal,
+		["@variable"] = syntax.Variable,
+		["@variable.parameter"] = syntax.Parameter,
+	}
+	infused.LINKS = {
+		Boolean = { link = "Constant" },
+		Character = { link = "Constant" },
+		Conditional = { link = "Statement" },
+		Debug = { link = "Special" },
+		Define = { link = "PreProc" },
+		Delimiter = { link = "Special" },
+		Exception = { link = "Statement" },
+		Float = { link = "Number" },
+		Function = { link = "Identifier" },
+		HelpCommand = { link = "Statement" },
+		HelpExample = { link = "Statement" },
+		Include = { link = "PreProc" },
+		Keyword = { link = "Statement" },
+		Label = { link = "Statement" },
+		Macro = { link = "PreProc" },
+		Number = { link = "Constant" },
+		Operator = { link = "Statement" },
+		PreCondit = { link = "PreProc" },
+		Repeat = { link = "Statement" },
+		SpecialChar = { link = "Special" },
+		SpecialComment = { link = "Special" },
+		StorageClass = { link = "Type" },
+		Structure = { link = "Type" },
+		Tag = { link = "Special" },
+		Typedef = { link = "Type" },
+		asciidocQuotedEmphasized = { link = "Preproc" },
+		htmlArg = { link = "htmlTagName" },
+		htmlBold = { link = "Normal" },
+		htmlEndTag = { link = "htmlTagName" },
+		htmlItalic = { link = "Normal" },
+		htmlLink = { link = "Function" },
+		htmlSpecialTagName = { link = "htmlTagName" },
+		htmlTag = { link = "htmlTagName" },
+		htmlTagName = { link = "Statement" },
+		markdownItalic = { link = "Preproc" },
+		xmlEndTag = { link = "Statement" },
+		xmlTag = { link = "Statement" },
+		xmlTagName = { link = "Statement" },
+	}
+end
+
+function M.get(scheme)
+	remap(scheme)
+	infuse()
+	return infused
+end
 
 return M

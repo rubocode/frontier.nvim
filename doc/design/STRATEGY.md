@@ -32,9 +32,10 @@ than not having any functions or theme swapping as these introduce sheer
 ugliness and even hard-to-find bugs due to missing elements in the concrete
 theme module definitions.
 
-We seem to be better of not passing any arguments to the function when
-we request the color-infused highlight groups and allow each highlight module
-to deal with their dependencies internally.  This allows consistent gathering
+We seem to be better of not passing any arguments or always just one argument
+to the function when we request the color-infused highlight groups and allow
+each highlight module to deal with their dependencies internally.
+The schme name can be this one argument.  This allows consistent gathering
 of highlight groups when we aggregate elements to load the colorscheme.
 
 However, since we are dealing with a case with about a dozen or so theme

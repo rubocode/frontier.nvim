@@ -1,8 +1,8 @@
 -- NORMAL THEME COLORS
 -- JUL 06, 2025
 
-local red = require("colors.red")
-local grey = require("colors.grey")
+local red = require("scheme.frontier.colors.red")
+local grey = require("scheme.frontier.colors.grey")
 
 local M = {
 	ColorColumn = { bg = red.Lighter },

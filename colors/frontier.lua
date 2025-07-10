@@ -1,1 +1,1 @@
-require("frontier").setup()
+require("scheme.frontier").setup()

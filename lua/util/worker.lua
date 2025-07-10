@@ -9,27 +9,27 @@ local loader = require("util.loader")
 
 local M = {}
 
-local init_colorscheme = function(name)
+local init_colorscheme = function(name, kind)
 	vim.cmd("highlight clear")
 	vim.cmd("syntax reset")
-	vim.o.background = "dark"
+	vim.o.background = kind
 	vim.g.colors_name = name
 end
 
-local load_groups = function(category, list)
+local load_groups = function(scheme, category, list)
 	for _, item in pairs(list) do
 		local path = "highlights." .. category .. "." .. item
 		-- print("Working on: " .. path)
-		loader.process(path)
+		loader.process(path, scheme)
 		-- print("PATH done!")
 	end
 end
 
-function M.install(name)
-	init_colorscheme(name)
-	load_groups("std", std)
-	load_groups("lang", lang)
-	load_groups("plugin", plugin)
+function M.install(scheme)
+	init_colorscheme(scheme, "dark")
+	load_groups(scheme, "std", std)
+	load_groups(scheme, "lang", lang)
+	load_groups(scheme, "plugin", plugin)
 end
 
 return M

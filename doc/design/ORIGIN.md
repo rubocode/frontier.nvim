@@ -52,8 +52,10 @@ While that is also important, as a programmer's editor, it is vital that
 syntactic nuances are handled elegantly and consistently.
 Successful evolution and durability rest on supporting new languages and
 new plugins quickly and easily.
-Highlight groups are pivotal.  You need to centralize the highlight
-group profiles and allow the colors and theme to impact it.
+Obviously, highlight groups are the key as all we are doing in the end is
+choosing colors for the different highlight groups.
+You need to centralize the highlight group profiles and allow the colors and
+themes to impact them.
 
 ### APPROACH
 

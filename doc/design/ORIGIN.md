@@ -9,7 +9,8 @@ I switched to a _WezTerm_ terminal and then was disappointed again because
 the popular colorschemes were rather bloated.  I was intrigued by the
 rather minimal and dark [khold](https://github.com/metalelf0/black-metal-theme-neovim)
 and [yugen](https://https://github.com/bettervim/yugen.nvim).
-Then I found [two-firewatch](https://github.com/rakr/vim-two-firewatch).
+Then I found [two-firewatch](https://github.com/rakr/vim-two-firewatch)
+created by **Ramzi Akremi**.
 I didn't particularly like the _light_ and _dark_ themes on _truecolor_,
 but boy did I like the _dark_ theme on my macOS Terminal (xterm256).
 I wanted the same colors on a truecolor terminal as well for consistent experience.
@@ -37,7 +38,7 @@ I reached the point of successfully achieving the same look and feel on both
 _xterm256_ and _truecolor_ on macOS terminal and WezTerm.
 
 Now I wanted to generalize the theming abstraction from there.  Then I found
-_Apprentice_ by **Romain Lafourcade**.
+[Apprentice](https://github.com/romainl/Apprentice) by **Romain Lafourcade**.
 It worked the same on both the masOS Terminal and WezTerm.  The theming in
 apprentice was simpler than two-firewatch.
 With this new found knowledge, I separated my abstraction into three concerns

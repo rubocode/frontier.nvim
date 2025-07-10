@@ -9,7 +9,6 @@ I switched to a _WezTerm_ terminal and then was disappointed again because
 the popular colorschemes were rather bloated.  I was intrigued by the
 rather minimal and dark [khold](https://github.com/metalelf0/black-metal-theme-neovim)
 and [yugen](https://https://github.com/bettervim/yugen.nvim).
-
 Then I found [two-firewatch](https://github.com/rakr/vim-two-firewatch).
 I didn't particularly like the _light_ and _dark_ themes on _truecolor_,
 but boy did I like the _dark_ theme on my macOS Terminal (xterm256).
@@ -19,9 +18,8 @@ The colorschemes that worked the same on _xterm256_ and _truecolor_ were often
 implemented using _vimscript_.  The customization bug that is common to all neovim
 users had bit me.  I wanted to create my own personal colorscheme.
 It was an excellent opportunity learn _lua_ (the builtin customization language
-for modern neovim).
-
-It turned out that I prefer simple yet sophisticated color usage.  
+for modern neovim).  It turned out that I prefer simple yet sophisticated
+color usage.  
 
 ### A LEARNING OPPORTUNITY
 

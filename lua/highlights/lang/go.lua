@@ -1,7 +1,7 @@
 -- GO HIGHLIGHT GROUPS
 -- JUL 06, 2025
 
-local red = require("colors.rubo.red")
+local red = require("colors.red")
 
 local M = {}
 

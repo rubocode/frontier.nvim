@@ -1,22 +1,39 @@
-# frontier.nvim
-A personal color customization that works both on xterm256 and truecolor terminals
+# uniwatch.nvim
+A collection of colorschemes look identical both on xterm256 and truecolor terminals
 
 > This is a work in progress!
 
-This lua code is meant to be robust and resilient and to allow for flexible
-adjustment.  It was not meant to load faster.  Your mileage may vary.
+There are a handful of colorscheme designs here.  They use different palettes
+and different choices (theming abstractions) in injecting those colors into
+the highlight scheme which support _standard_ neovim highlighting and _custom_
+plugin support.  It seemed a good idea to centralize and stabilize the highlight
+definitions in order that all themes (colorschemes) benefited when a new plugin
+was added to the ones that were chosen to be included.
 
-> Data dominates. If you’ve chosen the right data structures and organized
-> things well, the algorithms will almost always be self-evident.
-> Data structures, not algorithms, are central to programming.  
-> **Rob Pike**
+## frontline
+This is where I allow myself more freedom to experiment with a fancier color palette.
+Whatever I learn here gets translated into the minimal fixed palettes of the other
+colorschemes.
 
-Things don't have to get more complicated than they need to be.
-Personal discretion is of the essence.
+## nightwatch
+This is intended to satify my earlier need to bring _two-firewatch_ onto _truecolor_
+terminal.  I still find the rather simple color palette and the design choices
+in _two-firewatch_ appealing.
 
-> The unavoidable price of reliability is simplicity.  
-> **C.A.R. Hoare**
+## watchprentice
+This is intended as another example of using an existing color palette that fully
+support the chosen features (such as proper _LSP_ support) and chosen plugins
+that I would use.
 
-User experience is the key! and I am the primary user of this
-colorscheme.  There may be better ways of doing this.
-But I am merely being pragmatic here.
+## neowatch
+Along the way I discovered that there is a standard colorscheme for modern neovim
+that uses a standard color palette that is staandard, yet at the same time employs
+a few more than 16 colors.  I wasn't sure how this translates into a legacy terminal
+type such as _vt100_.  But, I thought it might be interesting to design a color
+scheme by restricting myself to just those 20 colors.
+
+I hope you will enjoy the different flavors and also the internal organization.
+Perhaps you would like to use this project as the basis for experimentation with
+your own preferred color palette.
+
+Knock yourself out!

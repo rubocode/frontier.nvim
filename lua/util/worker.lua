@@ -1,4 +1,4 @@
--- WORKER TO INSTALL THE COLORSCHME
+-- WORKER TO INSTALL THE COLORSCHEME
 -- JUL 07, 2025
 
 local std = require("util.category.std")

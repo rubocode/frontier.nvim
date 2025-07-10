@@ -1,36 +1,36 @@
 -- SYNTAX HIGHLIGHTS
 -- JUL 07, 2025
 
-local syntax = require("empty.std.syntax")
+local basics = require("empty.std.syntax.basics")
 
 local M = {}
 local infused = {}
 
 local remap = function(scheme)
-	syntax = require("scheme." .. scheme .. ".theme.std.syntax")
+	basics = require("scheme." .. scheme .. ".theme.std.syntax.basics")
 end
 
 local infuse = function()
 	infused.PROFILE = {
-		Comment = syntax.Comment,
-		Conceal = syntax.Conceal,
-		Constant = syntax.Constant,
-		Error = syntax.Error,
-		Identifier = syntax.Identifier,
-		Ignore = syntax.Ignore,
-		PreProc = syntax.PreProc,
-		Special = syntax.Special,
-		SpecialKey = syntax.SpecialKey,
-		Statement = syntax.Statement,
-		String = syntax.String,
-		Title = syntax.Title,
-		Todo = syntax.Todo,
-		Type = syntax.Type,
-		Underlined = syntax.Underlined,
-		helpLeadBlank = syntax.helpLeadBlank,
-		helpNormal = syntax.helpNormal,
-		["@variable"] = syntax.Variable,
-		["@variable.parameter"] = syntax.Parameter,
+		Comment = basics.Comment,
+		Conceal = basics.Conceal,
+		Constant = basics.Constant,
+		Error = basics.Error,
+		Identifier = basics.Identifier,
+		Ignore = basics.Ignore,
+		PreProc = basics.PreProc,
+		Special = basics.Special,
+		SpecialKey = basics.SpecialKey,
+		Statement = basics.Statement,
+		String = basics.String,
+		Title = basics.Title,
+		Todo = basics.Todo,
+		Type = basics.Type,
+		Underlined = basics.Underlined,
+		helpLeadBlank = basics.helpLeadBlank,
+		helpNormal = basics.helpNormal,
+		["@variable"] = basics.Variable,
+		["@variable.parameter"] = basics.Parameter,
 	}
 	infused.LINKS = {
 		Boolean = { link = "Constant" },

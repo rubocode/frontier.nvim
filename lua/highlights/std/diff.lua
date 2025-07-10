@@ -16,6 +16,9 @@ local infuse = function()
 		DiffChange = diff.Change,
 		DiffDelete = diff.Delete,
 		DiffText = diff.Text,
+		Added = diff.Add,
+		Changed = diff.Change,
+		Removed = diff.Delete,
 	}
 	infused.LINKS = {}
 end

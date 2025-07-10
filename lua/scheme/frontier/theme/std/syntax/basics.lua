@@ -1,4 +1,4 @@
--- SYNTAX THEME COLORS
+-- SYNTAX BASICS THEME COLORS
 -- JUL 06, 2025
 
 local cyan = require("scheme.frontier.colors.cyan")
@@ -12,7 +12,7 @@ local yellow = require("scheme.frontier.colors.yellow")
 local M = {
 	Comment = { fg = grey.Quiet },
 	Conceal = { fg = grey.Normal },
-	Constant = { fg = green.Lighter },
+	Constant = { fg = red.Lighter },
 	Error = { fg = red.Normal, style = style.Reverse },
 	Function = { fg = yellow.Normal },
 	Identifier = { fg = green.Normal },

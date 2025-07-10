@@ -21,7 +21,7 @@ local M = {
 		Insert = { fg = grey.AlmostBlack, bg = green.Normal, style = style.Bold },
 		Normal = { fg = grey.Lighter, bg = grey.Black, style = style.Bold },
 		Other = { fg = grey.Black, bg = grey.Darker, style = style.Bold },
-		Replace = { fg = grey.Normal, bg = red.Normal, style = style.Bold },
+		Replace = { fg = grey.Loud, bg = red.Normal, style = style.Bold },
 		Visual = { fg = grey.AlmostBlack, bg = blue.Normal, style = style.Bold },
 	},
 }

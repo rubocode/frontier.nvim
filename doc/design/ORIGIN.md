@@ -57,7 +57,7 @@ The important thing in the color scheme is not just how it looks on face value.
 While that is also important, as a programmer's editor, it is vital that syntactic
 nuances are handled elegantly and consistently.  Successful evolution and durability
 rest on supporting new languages and new plugins quickly and easily.
-So highlight groups are central.  You need to centralize the highlight
+So highlight groups are pivotal.  You need to centralize the highlight
 group profiles and allow the color scheme theme to impact it.
 
 ### APPROACH

@@ -7,7 +7,7 @@ rapidly.
 
 However, supporting more than one theme reequired dynamic binding of some sort
 and one of the methods seemed to be to call a function with the theme as a
-parameter and get back color-infused highlight group definition.
+parameter and get back color-infused highlight group definitions.
 
 The trouble was that I inherently hated placing all parts of my abstraction
 in one file.  I wanted to deal with the problem in a more intuitive modular
@@ -26,13 +26,13 @@ the empty interface so that the different themes can follow the same standard
 for interfacing with the highlight group modules.
 
 When we are finally gathering the highlight groups, we simply swap the
-empty interface defition with the concrete module in the relevant theme.
+empty interface definition with the concrete module in the relevant theme.
 This is simply indirection via an interface.  However, it isn't prettier
 than not having any functions or theme swapping as these introduce sheer
 ugliness and even hard-to-find bugs due to missing elements in the concrete
-theme module defitions.
+theme module definitions.
 
-However, since we are dealing with a case with mostly a dozen or so theme
+However, since we are dealing with a case with about a dozen or so theme
 modules, this might be tolerable given that you can isolate the highlight
 definitions and reuse them - (SRP and DRY principles apply).
 
@@ -41,7 +41,7 @@ definitions and reuse them - (SRP and DRY principles apply).
 
 I initially preferred having a separate project for each theme.  But then,
 I wanted to see how _lua_ allows me to deal with the problem of generalization
-in the simplest and most elegant way possible in the light of not being able
+in the simplest and most elegant way possible in light of not being able
 to define fixed interface definitions checked statically.
 
 Let's see where we get!

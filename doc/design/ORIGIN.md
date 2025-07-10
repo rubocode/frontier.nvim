@@ -10,12 +10,10 @@ the popular colorschemes were rather bloated.  I was intrigued by the
 rather minimal and dark [khold](https://github.com/metalelf0/black-metal-theme-neovim)
 and [yugen](https://https://github.com/bettervim/yugen.nvim).
 
-Then I found [two-firewatch](https://github.com/rakr/vim-two-firewatch).  I didn't
-particularly like the _light_ and _dark_ themes on _truecolor_, but boy did I like
-the _dark_ theme on my macOS Terminal (xterm256).  I wanted the same theme on truecolor
-as well for consistent experience.
-Much later, I discovered [Apprentice](https://github.com/romainl/Apprentice), 
-a dark low contrast colorscheme.
+Then I found [two-firewatch](https://github.com/rakr/vim-two-firewatch).
+I didn't particularly like the _light_ and _dark_ themes on _truecolor_,
+but boy did I like the _dark_ theme on my macOS Terminal (xterm256).
+I wanted the same colors on a truecolor terminal as well for consistent experience.
 
 The colorschemes that worked the same on _xterm256_ and _truecolor_ were often
 implemented using _vimscript_.  The customization bug that is common to all neovim
@@ -27,47 +25,49 @@ It turned out that I prefer simple yet sophisticated color usage.
 
 ### A LEARNING OPPORTUNITY
 
-So I decided to create a colorscheme that looks exactly the same on both the macOS Terminal
-and WezTerm.  I started with the color palette in _two-firewatch_.  Then I wanted to
-abstract out the theming so that it would be easy for me to customize it.
-I called the project _UNIWATCH_ because I wanted the same (universal) color palette in the
-colorscheme whether on macOS Terminal or any other that supports xterm256 colors including
-truecolor terminals.
+So I decided to create a colorscheme that looks exactly the same on both the
+macOS Terminal and WezTerm.  I started with the color palette in _two-firewatch_.
+Then I wanted to abstract out the theming so that it would be easy for me to
+customize it.  I called the project _UNIWATCH_ because I wanted the same
+(universal) color palette in the colorscheme whether on macOS Terminal or
+any other that supports xterm256 colors including truecolor terminals.
 
-I was not too concerned about 16 color terminals at the time.  I handled the situation
-via _nvim.config_ by checking terminal type and switching to the system default when
-the terminal is not either xterm256 or truecolor.
-I reached the point of successfully achieving the same look and feel on both _xterm256_
-and _truecolor_ on macOS terminal and WezTerm.
+I was not too concerned about 16 color terminals at the time.
+I handled the situation via _nvim.config_ by checking terminal type and switching
+to the system default when the terminal is not either xterm256 or truecolor.
+I reached the point of successfully achieving the same look and feel on both
+_xterm256_ and _truecolor_ on macOS terminal and WezTerm.
 
 Now I wanted to generalize the theming abstraction from there.  Then I found
 _Apprentice_ by **Romain Lafourcade**.
 It worked the same on both the masOS Terminal and WezTerm.  The theming in
 apprentice was simpler than two-firewatch.
 
-With this new found knowledge, I simplified my abstraction into two separate concerns
-(_colors_ and _theme_) and started work on my intended primary personal colorscheme
-that I initially named _frontier_.  I always had the goal of generalization.
+With this new found knowledge, I separated my abstraction into three concerns
+(_colors_, _theme_ and _highlights_) and pivoted my work on the intended primary
+personal colorscheme that I initially named _frontier_.
+I always had the goal of generalization.
 
 ### PRIORITIES
 
 The important thing in the color scheme is not just how it looks on face value.
-While that is also important, as a programmer's editor, it is vital that syntactic
-nuances are handled elegantly and consistently.  Successful evolution and durability
-rest on supporting new languages and new plugins quickly and easily.
+While that is also important, as a programmer's editor, it is vital that
+syntactic nuances are handled elegantly and consistently.
+Successful evolution and durability rest on supporting new languages and
+new plugins quickly and easily.
 Highlight groups are pivotal.  You need to centralize the highlight
-group profiles and allow the color scheme theme to impact it.
+group profiles and allow the colors and theme to impact it.
 
 ### APPROACH
 
 There are three basic approaches to the design problem:  
 
 * Centralize the highlight groups in a separate project (repository)
-and consider the color theme and profiles as a dependency.
+and consider the colors and theme as separate mutually dependent concerns.
 (This is a bit cumbersome, but it is the generic treesitter like approach).
 
 * Keep the highlight groups centralized in the same repository and asbtract
-it out so that multiple color themes can reside on the same repository
+it out so that multiple colors and themes can reside on the same repository
 (This is the middle ground).
 
 * Just define one colorscheme coupled to the highlight groups in the
@@ -85,9 +85,9 @@ is a good approach in creative endeavors.
 I would be happy if I could create this handful of colorschemes with a single
 theming abstraction that is customized to accomodate multiple palettes.  
 
-They use different palettes and different choices (theming abstractions) in
+They use different palettes and different choices (colors and themes) in
 injecting those colors into the highlight scheme which support _standard_
-neovim highlighting and _custom_ plugin support.  It seemed a good idea to
+neovim highlighting and _custom_ plugins.  It seemed a good idea to
 centralize and stabilize the highlight definitions in order that all themes
 (colorschemes) benefited when a new plugin was added to the ones that were
 chosen to be included.
@@ -98,9 +98,9 @@ Whatever I learn here gets translated into the minimal fixed palettes of the oth
 colorschemes.
 
 ## nightwatch
-This is intended to satify my earlier need to bring _two-firewatch_ onto _truecolor_
-terminal.  I still find the rather simple color palette and the design choices
-in _two-firewatch_ appealing.
+This is intended to satify my earlier need to bring _two-firewatch (dark xterm256)_
+onto _truecolor_ terminals.  I still find the rather simple color palette and
+the design choices in _two-firewatch_ appealing.
 
 ## watchprentice
 This is intended as another example of using an existing color palette that fully
@@ -115,9 +115,10 @@ to design a colorcheme by restricting myself to just those 20 colors.
 
 ### RATIONALE
 
-I hope you will enjoy the different falvors and also the internal design and
-structure.  This isn't a colorschene that is done all in one file.
-The different abstractions and semantics employ a folder structure that I found intuitive.
+I hope you will enjoy the different falvors and also the internal design
+and structure.  This isn't a colorschene that is done all in one file.
+The different abstractions and semantics employ a folder structure that
+I found intuitive.
 
 My goal wan't to create the fastest colorscheme on the planet, but to create
 something that I can tweak and improve efficiently.

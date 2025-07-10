@@ -16,9 +16,9 @@ Whatever I learn here gets translated into the minimal fixed palettes of the oth
 colorschemes.
 
 ## nightwatch
-This is intended to satify my earlier need to bring _two-firewatch_ onto _truecolor_
-terminal.  I still find the rather simple color palette and the design choices
-in _two-firewatch_ appealing.
+This is intended to satify my earlier need to bring _two-firewatch (dark xterm256)_
+onto _truecolor_ terminals.  I still find the rather simple color palette and
+the design choices in _two-firewatch_ appealing.
 
 ## watchprentice
 This is intended as another example of using an existing color palette that fully

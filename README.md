@@ -3,7 +3,7 @@ A collection of colorschemes look identical both on xterm256 and truecolor termi
 
 > This is a work in progress!
 
-There are a handful of colorscheme designs here.  They use different palettes
+There is a handful of colorscheme designs here.  They use different palettes
 and different choices (theming abstractions) in injecting those colors into
 the highlight scheme which support _standard_ neovim highlighting and _custom_
 plugin support.  It seemed a good idea to centralize and stabilize the highlight

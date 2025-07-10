@@ -7,7 +7,7 @@ all the popular ones were for _truecolor_ terminals.
 
 I switched to a _WezTerm_ terminal and then was disappointed again because
 the popular colorschemes were rather bloated.  I was intrigued by the
-rather minimal and dark [khold](https://github.com/metalelf0/black-metal-theme-neovim]
+rather minimal and dark [khold](https://github.com/metalelf0/black-metal-theme-neovim)
 and [yugen](https://https://github.com/bettervim/yugen.nvim).
 
 Then I found [two-firewatch](https://github.com/rakr/vim-two-firewatch).  I didn't

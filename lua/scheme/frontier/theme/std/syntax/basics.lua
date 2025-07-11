@@ -9,11 +9,9 @@ local red = require("scheme.frontier.colors.red")
 local style = require("highlights.style")
 local yellow = require("scheme.frontier.colors.yellow")
 
-local fg = require("scheme.frontier.theme.meta.foreground")
-
 local M = {
-	Comment = { fg = fg.Comment },
-	Conceal = { fg = fg.Normal },
+	Comment = { fg = grey.Quiet },
+	Conceal = { fg = grey.Normal },
 	Constant = { fg = red.Normal },
 	Error = { fg = red.Normal, style = style.Reverse },
 	Function = { fg = green.Normal },

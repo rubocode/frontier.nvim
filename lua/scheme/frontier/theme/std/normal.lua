@@ -2,12 +2,12 @@
 -- JUL 06, 2025
 
 local grey = require("scheme.frontier.colors.grey")
-local bg = require("scheme.frontier.theme.meta.background")
+local black = require("scheme.frontier.colors.black")
 
 local M = {
-	LineNr = { fg = grey.Quiet, bg = bg.LineNr },
-	Normal = { fg = grey.Normal, bg = bg.Normal },
-	NormalFloat = { bg = bg.NormalFloat },
+	LineNr = { fg = grey.Darker, bg = grey.Darkest },
+	Normal = { fg = grey.Normal, bg = black.Almost },
+	NormalFloat = { bg = black.Absolute },
 }
 
 return M

@@ -10,7 +10,7 @@ local M = {
 	Add = { fg = green.Normal },
 	Change = { fg = yellow.Normal },
 	Delete = { fg = red.Normal },
-	Text = { fg = grey.Light },
+	Text = { fg = grey.Lighter },
 }
 
 return M

@@ -4,14 +4,11 @@
 local grey = require("scheme.frontier.colors.grey")
 local style = require("highlights.style")
 
-local bg = require("scheme.frontier.theme.meta.background")
-local fg = require("scheme.frontier.theme.meta.foreground")
-
 local M = {
 	Cursor = { style = style.Reverse },
-	CursorColumn = { fg = bg.Normal, bg = fg.Normal },
-	CursorLine = { fg = grey.Light, bg = bg.CursorLine },
-	CursorLineNr = { fg = grey.Light, bg = grey.Darker },
+	CursorColumn = { fg = grey.Darkest, bg = grey.Normal },
+	CursorLine = { fg = grey.Lighter, bg = grey.Darkest },
+	CursorLineNr = { fg = grey.Lighter, bg = grey.Darker },
 }
 
 return M

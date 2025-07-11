@@ -28,7 +28,7 @@ local M = {
 	Todo = { style = style.reverse },
 	Type = { fg = red.Normal },
 	Underlined = { fg = cyan.Normal, style = style.Underline },
-	atFunctionBuiltin = { fg = green.Normal },
+	atFunctionBuiltin = { fg = red.Normal },
 	atModule = { fg = yellow.Normal },
 	atTypeBuiltin = { fg = yellow.Normal },
 	atVariable = { fg = grey.Light },

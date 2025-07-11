@@ -3,10 +3,12 @@
 
 local black = require("scheme.frontier.colors.black")
 local grey = require("scheme.frontier.colors.grey")
+local yellow = require("scheme.frontier.colors.yellow")
+local style = require("highlights.style")
 
 local M = {
-	Prominent = { fg = grey.Lighter, bg = grey.Darkest },
-	Standard = { fg = black.Almost, bg = grey.Darker },
+	Prominent = { fg = black.Almost, bg = grey.Darker, style = style.Bold },
+	Standard = { fg = black.Almost, bg = grey.Quiet },
 	Inactive = { fg = grey.Darker, bg = grey.Darkest },
 }
 

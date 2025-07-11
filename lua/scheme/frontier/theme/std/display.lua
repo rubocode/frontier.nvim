@@ -4,7 +4,7 @@
 local grey = require("scheme.frontier.colors.grey")
 
 local M = {
-	Prominent = { fg = grey.Loud, bg = grey.Darker },
+	Prominent = { fg = grey.Loud, bg = grey.Darkest },
 	Standard = { fg = grey.Lighter, bg = grey.Quiet },
 	Inactive = { fg = grey.Darker, bg = grey.Darkest },
 }

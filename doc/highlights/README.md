@@ -15,3 +15,4 @@ of many different highlight groups.
 ### References
 
 * [Semantic Highlighting in Neovim](https://gist.github.com/swarn/fb37d9eefe1bc616c2a7e476c0bc0316)
+* [Linking LSP Semantic Token Groups to Treesitter Groups](https://github.com/neovim/neovim/pull/22981)

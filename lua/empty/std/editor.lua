@@ -2,7 +2,7 @@
 -- JUL 09, 2025
 
 local M = {
-	-- editor auxiliaries
+	ColorColumn = {},
 	Directory = {},
 	EndOfBuffer = {},
 	FoldColumn = {},

@@ -4,11 +4,11 @@
 local grey = require("scheme.frontier.colors.grey")
 
 local M = {
-	Pmenu = { fg = grey.Quieter, bg = grey.Normal },
-	PmenuSbar = { fg = grey.Normal, bg = grey.Quiet },
-	PmenuSel = { fg = grey.Loud, bg = grey.Quieter },
-	PmenuThumb = { fg = grey.Normal, bg = grey.Quiet },
-	WildMenu = { fg = grey.Loud, bg = grey.Quieter },
+	Pmenu = { fg = grey.Darkest, bg = grey.Normal },
+	PmenuSbar = { fg = grey.Normal, bg = grey.Darker },
+	PmenuSel = { fg = grey.Lighter, bg = grey.Darkest },
+	PmenuThumb = { fg = grey.Normal, bg = grey.Darker },
+	WildMenu = { fg = grey.Lighter, bg = grey.Darkest },
 }
 
 return M

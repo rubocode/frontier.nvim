@@ -9,27 +9,30 @@ local red = require("scheme.frontier.colors.red")
 local style = require("highlights.style")
 local yellow = require("scheme.frontier.colors.yellow")
 
+local fg = require("scheme.frontier.theme.meta.foreground")
+
 local M = {
-	Comment = { fg = grey.Quiet },
-	Conceal = { fg = grey.Normal },
+	Comment = { fg = fg.Comment },
+	Conceal = { fg = fg.Normal },
 	Constant = { fg = red.Normal },
 	Error = { fg = red.Normal, style = style.Reverse },
-	Function = { fg = yellow.Normal },
+	Function = { fg = green.Normal },
 	Identifier = { fg = green.Normal },
 	Ignore = {},
-	Module = { fg = yellow.Normal },
-	Parameter = { fg = purple.Normal },
 	PreProc = { fg = cyan.Normal },
 	Special = { fg = green.Normal },
-	SpecialKey = { fg = grey.Quiet },
+	SpecialKey = { fg = grey.Darker },
 	Statement = { fg = yellow.Normal },
 	String = { fg = green.Lighter },
 	Title = {},
 	Todo = { style = style.reverse },
 	Type = { fg = red.Normal },
-	TypeBuiltin = { fg = yellow.Normal },
 	Underlined = { fg = cyan.Normal, style = style.Underline },
-	Variable = { fg = grey.Lighter },
+	atFunctionBuiltin = { fg = green.Normal },
+	atModule = { fg = yellow.Normal },
+	atTypeBuiltin = { fg = yellow.Normal },
+	atVariable = { fg = grey.Light },
+	atVariableParameter = { fg = purple.Normal },
 	helpLeadBlank = { fg = cyan.Lighter },
 	helpNormal = { fg = green.Lighter },
 }

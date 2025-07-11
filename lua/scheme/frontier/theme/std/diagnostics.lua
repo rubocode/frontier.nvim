@@ -18,10 +18,10 @@ local M = {
 	},
 	Line = {
 		Error = { fg = grey.Normal, bg = red.Darker },
-		Hint = { fg = grey.Quieter, bg = blue.Normal },
-		Info = { fg = grey.Quieter, bg = cyan.Normal },
-		Ok = { fg = grey.Lighter, bg = green.Normal },
-		Warn = { fg = grey.Quieter, bg = yellow.Normal },
+		Hint = { fg = grey.Darkest, bg = blue.Normal },
+		Info = { fg = grey.Darkest, bg = cyan.Normal },
+		Ok = { fg = grey.Light, bg = green.Normal },
+		Warn = { fg = grey.Darkest, bg = yellow.Normal },
 	},
 }
 

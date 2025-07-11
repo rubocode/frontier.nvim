@@ -3,10 +3,13 @@
 
 local grey = require("scheme.frontier.colors.grey")
 
+local bg = require("scheme.frontier.theme.meta.background")
+local fg = require("scheme.frontier.theme.meta.foreground")
+
 local M = {
-	Prominent = { fg = grey.Loud, bg = grey.Quiet },
-	Standard = { fg = grey.AlmostBlack, bg = grey.Normal },
-	Inactive = { fg = grey.Darker, bg = grey.Quieter },
+	Prominent = { fg = grey.Lighter, bg = grey.Darker },
+	Standard = { fg = bg.Normal, bg = fg.Normal },
+	Inactive = { fg = grey.Darker, bg = grey.Darkest },
 }
 
 return M

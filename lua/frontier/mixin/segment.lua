@@ -1,8 +1,8 @@
 -- SEGMENT THEME COLORS
 -- JUN 08, 2025
 
-local black = require("frontier.colors.black")
-local grey = require("frontier.colors.grey")
+local black = require("frontier.palette.black")
+local grey = require("frontier.palette.grey")
 local style = require("highlights.style")
 
 local M = {

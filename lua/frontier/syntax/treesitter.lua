@@ -1,8 +1,8 @@
 -- SYNTAX BASIC THEME COLORS
 -- JUL 06, 2025
 
-local grey = require("frontier.colors.grey")
-local yellow = require("frontier.colors.yellow")
+local grey = require("frontier.palette.grey")
+local yellow = require("frontier.palette.yellow")
 
 local M = {
 	FunctionBuiltin = { fg = yellow.Normal },

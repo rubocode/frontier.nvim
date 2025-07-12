@@ -1,12 +1,12 @@
 -- EDITOR THEME COLORS
 -- JUL 09, 2025
 
-local cyan = require("frontier.colors.cyan")
-local green = require("frontier.colors.green")
-local grey = require("frontier.colors.grey")
-local red = require("frontier.colors.red")
+local cyan = require("frontier.palette.cyan")
+local green = require("frontier.palette.green")
+local grey = require("frontier.palette.grey")
+local red = require("frontier.palette.red")
 local style = require("highlights.style")
-local yellow = require("frontier.colors.yellow")
+local yellow = require("frontier.palette.yellow")
 
 local M = {
 	ColorColumn = { bg = red.Normal },

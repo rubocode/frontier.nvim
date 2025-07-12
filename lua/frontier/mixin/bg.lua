@@ -1,7 +1,7 @@
 -- BACKGROUND MIXIN COLORS
 -- JUL 12, 2025
 
-local black = require("frontier.colors.black")
+local black = require("frontier.palette.black")
 
 local M = {
 	Float = black.Absolute,

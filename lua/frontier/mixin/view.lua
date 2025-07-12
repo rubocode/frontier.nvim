@@ -1,12 +1,12 @@
 -- LINE COLOR SELECTION
 -- JUL 12, 2025
 
-local black = require("frontier.colors.black")
-local grey = require("frontier.colors.grey")
-local cyan = require("frontier.colors.cyan")
-local red = require("frontier.colors.red")
-local green = require("frontier.colors.green")
-local yellow = require("frontier.colors.yellow")
+local black = require("frontier.palette.black")
+local grey = require("frontier.palette.grey")
+local cyan = require("frontier.palette.cyan")
+local red = require("frontier.palette.red")
+local green = require("frontier.palette.green")
+local yellow = require("frontier.palette.yellow")
 local style = require("highlights.style")
 
 local M = {

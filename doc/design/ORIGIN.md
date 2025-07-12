@@ -91,22 +91,22 @@ centralize and stabilize the highlight definitions in order that all themes
 (colorschemes) benefited when a new plugin was added to the ones that were
 chosen to be included.
 
-## uw-frontier
+## uniwatch-frontier
 This is where I allow myself more freedom to experiment with a fancier color palette.
 Whatever I learn here gets translated into the minimal fixed palettes of the other
 colorschemes.
 
-## uw-firewatch
+## uniwatch-firewatch
 This is intended to satify my earlier need to bring _two-firewatch (dark xterm256)_
 onto _truecolor_ terminals.  I still find the rather simple color palette and
 the design choices in _two-firewatch_ appealing.
 
-## uw-apprentice
+## uniwatch-apprentice
 This is intended as another example of using an existing color palette that fully
 supports the chosen features (such as proper _LSP_ support) and chosen plugins
 that I would use.
 
-## uw-neoterm
+## uniwatch-neoterm
 Along the way I discovered that there is a standard colorscheme for modern neovim
 that uses a color palette with a few more than 16 colors.  I wasn't sure how this
 translates into a legacy terminal type.  But, I thought it might be interesting

@@ -12,6 +12,7 @@ end
 
 local infuse = function()
 	infused.PROFILE = {
+		ColorColumn = editor.ColorColumn,
 		Directory = editor.Directory,
 		EndOfBuffer = editor.EndOfBuffer,
 		FoldColumn = editor.FoldColumn,

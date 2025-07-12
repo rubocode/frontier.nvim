@@ -2,12 +2,12 @@
 -- JUL 12, 2025
 
 local black = require("scheme.frontier.colors.black")
+local grey = require("scheme.frontier.colors.grey")
 
 local M = {
-	Float = black.Absolute,
-	LineNr = black.Absolute,
-	Normal = black.Almost,
-	NormalFloat = black.Absolute,
+	Comment = grey.Darker,
+	LineNr = grey.Darker,
+	Normal = grey.Normal,
 }
 
 return M

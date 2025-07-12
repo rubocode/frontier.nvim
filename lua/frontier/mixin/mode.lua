@@ -1,13 +1,13 @@
 -- MODE THEME COLORS
 -- JUL 08, 2025
 
-local black = require("scheme.frontier.colors.black")
-local blue = require("scheme.frontier.colors.blue")
-local green = require("scheme.frontier.colors.green")
-local grey = require("scheme.frontier.colors.grey")
-local red = require("scheme.frontier.colors.red")
+local black = require("frontier.colors.black")
+local blue = require("frontier.colors.blue")
+local green = require("frontier.colors.green")
+local grey = require("frontier.colors.grey")
+local red = require("frontier.colors.red")
 local style = require("highlights.style")
-local yellow = require("scheme.frontier.colors.yellow")
+local yellow = require("frontier.colors.yellow")
 
 local M = {
 	Text = {

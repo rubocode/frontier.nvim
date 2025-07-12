@@ -6,8 +6,8 @@ local editor = require("empty.std.editor")
 local M = {}
 local infused = {}
 
-local remap = function(scheme)
-	editor = require("scheme." .. scheme .. ".std.editor")
+local remap = function(theme)
+	editor = require(theme .. ".std.editor")
 end
 
 local infuse = function()
@@ -42,8 +42,8 @@ local infuse = function()
 	}
 end
 
-function M.get(scheme)
-	remap(scheme)
+function M.get(theme)
+	remap(theme)
 	infuse()
 	return infused
 end

@@ -6,8 +6,8 @@ local menu = require("empty.std.menu")
 local M = {}
 local infused = {}
 
-local remap = function(scheme)
-	menu = require("scheme." .. scheme .. ".std.menu")
+local remap = function(theme)
+	menu = require(theme .. ".std.menu")
 end
 
 local infuse = function()
@@ -21,8 +21,8 @@ local infuse = function()
 	infused.LINKS = {}
 end
 
-function M.get(scheme)
-	remap(scheme)
+function M.get(theme)
+	remap(theme)
 	infuse()
 	return infused
 end

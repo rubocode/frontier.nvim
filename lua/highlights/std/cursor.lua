@@ -6,8 +6,8 @@ local cursor = require("empty.std.cursor")
 local M = {}
 local infused = {}
 
-local remap = function(scheme)
-	cursor = require("scheme." .. scheme .. ".std.menu")
+local remap = function(theme)
+	cursor = require(theme .. ".std.menu")
 end
 
 local infuse = function()
@@ -22,8 +22,8 @@ local infuse = function()
 	}
 end
 
-function M.get(scheme)
-	remap(scheme)
+function M.get(theme)
+	remap(theme)
 	infuse()
 	return infused
 end

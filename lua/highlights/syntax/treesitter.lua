@@ -6,8 +6,8 @@ local ts = require("empty.syntax.treesitter")
 local M = {}
 local infused = {}
 
-local remap = function(scheme)
-	ts = require("scheme." .. scheme .. ".syntax.treesitter")
+local remap = function(theme)
+	ts = require(theme .. ".syntax.treesitter")
 end
 
 local infuse = function()
@@ -21,8 +21,8 @@ local infuse = function()
 	infused.LINKS = {}
 end
 
-function M.get(scheme)
-	remap(scheme)
+function M.get(theme)
+	remap(theme)
 	infuse()
 	return infused
 end

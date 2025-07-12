@@ -1,7 +1,7 @@
 -- MENU THEME COLORS
 -- JUL 03, 2025
 
-local grey = require("scheme.frontier.colors.grey")
+local grey = require("frontier.colors.grey")
 
 local M = {
 	Pmenu = { fg = grey.Darkest, bg = grey.Normal },

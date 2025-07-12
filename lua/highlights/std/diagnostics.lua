@@ -6,8 +6,8 @@ local diag = require("empty.mixin.diagnostics")
 local M = {}
 local infused = {}
 
-local remap = function(scheme)
-	diag = require("scheme." .. scheme .. ".mixin.diagnostics")
+local remap = function(theme)
+	diag = require(theme .. ".mixin.diagnostics")
 end
 
 local infuse = function()
@@ -46,8 +46,8 @@ local infuse = function()
 	}
 end
 
-function M.get(scheme)
-	remap(scheme)
+function M.get(theme)
+	remap(theme)
 	infuse()
 	return infused
 end

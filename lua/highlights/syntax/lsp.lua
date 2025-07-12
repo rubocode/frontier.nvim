@@ -28,8 +28,8 @@ local infuse = function()
 	}
 end
 
-function M.get(scheme)
-	remap(scheme)
+function M.get(theme)
+	remap(theme)
 	infuse()
 	return infused
 end

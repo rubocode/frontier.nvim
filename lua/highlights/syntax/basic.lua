@@ -6,8 +6,8 @@ local basic = require("empty.syntax.basic")
 local M = {}
 local infused = {}
 
-local remap = function(scheme)
-	basic = require("scheme." .. scheme .. ".syntax.basic")
+local remap = function(theme)
+	basic = require(theme .. ".syntax.basic")
 end
 
 local infuse = function()
@@ -73,8 +73,8 @@ local infuse = function()
 	}
 end
 
-function M.get(scheme)
-	remap(scheme)
+function M.get(theme)
+	remap(theme)
 	infuse()
 	return infused
 end

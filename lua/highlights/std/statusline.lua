@@ -6,8 +6,8 @@ local line = require("empty.std.statusline")
 local M = {}
 local infused = {}
 
-local remap = function(scheme)
-	line = require("scheme." .. scheme .. ".std.statusline")
+local remap = function(theme)
+	line = require(theme .. ".std.statusline")
 end
 
 local infuse = function()
@@ -20,8 +20,8 @@ local infuse = function()
 	infused.LINKS = {}
 end
 
-function M.get(scheme)
-	remap(scheme)
+function M.get(theme)
+	remap(theme)
 	infuse()
 	return infused
 end

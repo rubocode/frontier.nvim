@@ -1,12 +1,12 @@
 -- DIAGNOSTICS THEME COLORS
 -- JUL 08, 2025
 
-local blue = require("scheme.frontier.colors.blue")
-local cyan = require("scheme.frontier.colors.cyan")
-local green = require("scheme.frontier.colors.green")
-local grey = require("scheme.frontier.colors.grey")
-local red = require("scheme.frontier.colors.red")
-local yellow = require("scheme.frontier.colors.yellow")
+local blue = require("frontier.colors.blue")
+local cyan = require("frontier.colors.cyan")
+local green = require("frontier.colors.green")
+local grey = require("frontier.colors.grey")
+local red = require("frontier.colors.red")
+local yellow = require("frontier.colors.yellow")
 
 local M = {
 	Text = {

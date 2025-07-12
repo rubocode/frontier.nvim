@@ -39,9 +39,9 @@ local process_links = function(links)
 	end
 end
 
-function M.process(path, scheme)
+function M.process(path, theme)
 	-- print("Processing: " .. path)
-	local mod = require(path).get(scheme)
+	local mod = require(path).get(theme)
 	process_profile(mod.PROFILE)
 	process_links(mod.LINKS)
 	-- print("Done!")

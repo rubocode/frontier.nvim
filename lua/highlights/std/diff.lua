@@ -6,8 +6,8 @@ local diff = require("empty.mixin.diff")
 local M = {}
 local infused = {}
 
-local remap = function(scheme)
-	diff = require("scheme." .. scheme .. ".mixin.diff")
+local remap = function(theme)
+	diff = require(theme .. ".mixin.diff")
 end
 
 local infuse = function()
@@ -23,8 +23,8 @@ local infuse = function()
 	infused.LINKS = {}
 end
 
-function M.get(scheme)
-	remap(scheme)
+function M.get(theme)
+	remap(theme)
 	infuse()
 	return infused
 end

@@ -7,9 +7,9 @@ local fg = require("empty.mixin.fg")
 local M = {}
 local infused = {}
 
-local remap = function(scheme)
-	bg = require("scheme." .. scheme .. ".mixin.bg")
-	fg = require("scheme." .. scheme .. ".mixin.fg")
+local remap = function(theme)
+	bg = require(theme .. ".mixin.bg")
+	fg = require(theme .. ".mixin.fg")
 end
 
 local infuse = function()
@@ -23,8 +23,8 @@ local infuse = function()
 	}
 end
 
-function M.get(scheme)
-	remap(scheme)
+function M.get(theme)
+	remap(theme)
 	infuse()
 	return infused
 end

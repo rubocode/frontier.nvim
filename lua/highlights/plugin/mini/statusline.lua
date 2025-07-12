@@ -16,10 +16,10 @@ end
 
 local infuse = function()
 	infused.PROFILE = {
-		MiniStatuslineDevinfo = status.Standard,
-		MiniStatuslineFileinfo = status.Standard,
-		MiniStatuslineFilename = status.Prominent,
-		MiniStatuslineInactive = status.Inactive,
+		MiniStatuslineDevinfo = status.Normal,
+		MiniStatuslineFileinfo = status.Normal,
+		MiniStatuslineFilename = status.Loud,
+		MiniStatuslineInactive = status.Quiet,
 		MiniStatuslineModeCommand = mode.Line.Command,
 		MiniStatuslineModeInsert = mode.Line.Insert,
 		MiniStatuslineModeNormal = mode.Line.Normal,

@@ -1,12 +1,12 @@
 -- SHARED BACKGROUND COLORS
 -- JUL 12, 2025
 
-local black = require("frontier.palette.black")
+local syntax = require("firewatch.palette.syntax")
 
 local M = {
-	LineNr = black.Absolute,
-	Normal = black.Almost,
-	NormalFloat = black.Absolute,
+	LineNr = syntax.Bg,
+	Normal = syntax.Bg,
+	NormalFloat = syntax.Bg,
 }
 
 return M

@@ -3,6 +3,7 @@
 
 local M = {
 	ColorColumn = {},
+	Conceal = {},
 	Directory = {},
 	EndOfBuffer = {},
 	FoldColumn = {},
@@ -13,6 +14,7 @@ local M = {
 	Question = {},
 	Search = {},
 	SignColumn = {},
+	SpecialKey = {},
 	SpellBad = {},
 	SpellCap = {},
 	SpellLocal = {},
@@ -20,11 +22,15 @@ local M = {
 	TabLine = {},
 	TabLineFill = {},
 	TabLineSel = {},
+	Title = {},
 	ToolbarButton = {},
 	ToolbarLine = {},
 	VertSplit = {},
 	Visual = {},
 	VisualNOS = {},
+	bold = {},
+	helpLeadBlank = {},
+	helpNormal = {},
 }
 
 return M

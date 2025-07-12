@@ -1,37 +1,39 @@
 -- EDITOR THEME COLORS
 -- JUL 09, 2025
 
-local cyan = require("frontier.palette.cyan")
-local green = require("frontier.palette.green")
-local grey = require("frontier.palette.grey")
-local red = require("frontier.palette.red")
 local style = require("highlights.style")
-local yellow = require("frontier.palette.yellow")
+local syntax = require("firewatch.palette.syntax")
+local uno = require("firewatch.palette.uno")
+local duo = require("firewatch.palette.duo")
 
 local M = {
-	ColorColumn = { bg = red.Normal },
-	Directory = { fg = grey.Darker },
-	EndOfBuffer = { fg = grey.Normal },
-	FoldColumn = { fg = grey.Darker, bg = grey.Darkest },
-	Folded = { fg = grey.Lighter, bg = grey.Darkest },
-	IncSearch = { fg = grey.Lighter, bg = red.Normal },
-	MatchParen = { fg = yellow.Normal, bg = grey.Darkest },
-	NonText = { fg = grey.Lighter },
-	Question = { fg = green.Lighter },
-	Search = { fg = grey.Normal, bg = yellow.Normal },
-	SignColumn = { fg = grey.Light, bg = grey.Darkest },
-	SpellBad = { fg = red.Normal, style = style.Undercurl },
-	SpellCap = { fg = cyan.Lighter, style = style.Undercurl },
-	SpellLocal = { fg = yellow.Normal, style = style.Undercurl },
-	SpellRare = { fg = red.Normal, style = style.Undercurl },
-	TabLine = { fg = yellow.Normal, bg = grey.Darker },
-	TabLineFill = { fg = grey.Darker, bg = grey.Darkest },
-	TabLineSel = { fg = grey.Darker, bg = yellow.Normal },
-	ToolbarButton = { fg = grey.Lighter, bg = grey.Lighter },
-	ToolbarLine = { bg = grey.Darkest },
-	VertSplit = { fg = grey.Darker, bg = grey.Darker },
-	Visual = { fg = grey.Lighter, bg = grey.Darkest, style = style.Reverse },
-	VisualNOS = { style = style.Underline },
+	ColorColumn = { bg = syntax.CursorLine },
+	Conceal = {},
+	Directory = { fg = uno.Uno1 },
+	EndOfBuffer = {},
+	FoldColumn = { fg = uno.Uno3, bg = syntax.CursorLine },
+	Folded = { fg = syntax.Bg, bg = syntax.FoldBg },
+	IncSearch = { fg = syntax.Bg, bg = uno.Uno4 },
+	MatchParen = { fg = syntax.Bg, bg = syntax.Accent },
+	NonText = { fg = uno.Uno4 },
+	Question = { fg = syntax.Accent },
+	Search = { fg = syntax.Bg, bg = uno.Uno4 },
+	SignColumn = { bg = uno.Uno4 },
+	SpecialKey = { fg = syntax.FoldBg },
+	SpellBad = {},
+	SpellCap = {},
+	SpellLocal = {},
+	SpellRare = {},
+	TabLine = { fg = uno.Uno4 },
+	TabLineFill = {},
+	TabLineSel = { fg = syntax.Fg },
+	Title = { fg = duo.Duo2 },
+	ToolbarButton = {},
+	ToolbarLine = {},
+	VertSplit = { fg = syntax.FoldBg },
+	Visual = { bg = syntax.Selection },
+	VisualNOS = { bg = syntax.Selection },
+	bold = { style = style.Bold },
 }
 
 return M

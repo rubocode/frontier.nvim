@@ -4,7 +4,6 @@
 local grey = require("frontier.palette.grey")
 
 local M = {
-	Comment = grey.Darker,
 	LineNr = grey.Darker,
 	Normal = grey.Normal,
 }

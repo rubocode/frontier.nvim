@@ -35,6 +35,7 @@ local infuse = function()
 		VertSplit = editor.VertSplit,
 		Visual = editor.Visual,
 		VisualNOS = editor.VisualNOS,
+		bold = editor.bold,
 	}
 	infused.LINKS = {
 		QuickFixLine = { link = "Search" },

@@ -1,27 +1,23 @@
 -- SHARED DIAGNOSTICS COLORS
 -- JUL 08, 2025
 
-local blue = require("frontier.palette.blue")
-local cyan = require("frontier.palette.cyan")
-local green = require("frontier.palette.green")
-local grey = require("frontier.palette.grey")
-local red = require("frontier.palette.red")
-local yellow = require("frontier.palette.yellow")
+local style = require("highlights.style")
+local syntax = require("firewatch.palette.syntax")
 
 local M = {
 	Text = {
-		Error = { fg = red.Normal },
-		Hint = { fg = blue.Normal },
-		Info = { fg = cyan.Normal },
-		Ok = { fg = green.Normal },
-		Warn = { fg = yellow.Normal },
+		Error = { fg = syntax.Removed },
+		Hint = {},
+		Info = {},
+		Ok = {},
+		Warn = {},
 	},
 	Line = {
-		Error = { fg = grey.Normal, bg = red.Darker },
-		Hint = { fg = grey.Darkest, bg = blue.Normal },
-		Info = { fg = grey.Darkest, bg = cyan.Normal },
-		Ok = { fg = grey.Light, bg = green.Normal },
-		Warn = { fg = grey.Darkest, bg = yellow.Normal },
+		Error = { fg = syntax.Removed, bg = syntax.Bg, style = style.Bold },
+		Hint = {},
+		Info = {},
+		Ok = {},
+		Warn = {},
 	},
 }
 

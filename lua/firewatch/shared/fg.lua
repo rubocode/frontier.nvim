@@ -1,12 +1,12 @@
 -- SHARED FOREGROUND COLORS
 -- JUL 12, 2025
 
-local grey = require("frontier.palette.grey")
+local syntax = require("firewatch.palette.syntax")
+local uno = require("firewatch.palette.uno")
 
 local M = {
-	Comment = grey.Darker,
-	LineNr = grey.Darker,
-	Normal = grey.Normal,
+	LineNr = uno.Uno4,
+	Normal = syntax.Fg,
 }
 
 return M

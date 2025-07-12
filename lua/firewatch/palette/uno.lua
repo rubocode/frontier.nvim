@@ -5,10 +5,10 @@
 local aux = require("palette.xterm256.auxiliary")
 
 local M = {
-	DarkerBlue = aux.SteelBlue,
-	DarkerGrey = aux.Grey37,
-	LightBlue = aux.LightSteelBlue1,
-	LightGrey = aux.Grey69,
+	Uno1 = aux.LightSteelBlue1,
+	Uno2 = aux.Grey69,
+	Uno3 = aux.SteelBlue,
+	Uno4 = aux.Grey37,
 }
 
 return M

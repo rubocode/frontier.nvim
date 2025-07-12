@@ -9,23 +9,21 @@ local style = require("highlights.style")
 
 local M = {
 	Comment = { fg = grey.Quiet },
-	Conceal = { fg = grey.Normal },
 	Constant = { fg = red.Normal },
+	Delimiter = { fg = grey.Lighter },
 	Error = { fg = red.Normal, style = style.Reverse },
 	Function = { fg = green.Normal },
 	Identifier = { fg = green.Normal },
 	Ignore = {},
+	Keyword = { fg = grey.Lighter },
+	Operator = { fg = grey.Lighter },
 	PreProc = { fg = grey.Darker },
 	Special = { fg = cyan.Normal },
-	SpecialKey = { fg = grey.Darker },
 	Statement = { fg = grey.Lighter },
 	String = { fg = green.Lighter },
-	Title = {},
 	Todo = { style = style.reverse },
 	Type = { fg = red.Normal },
 	Underlined = { style = style.Underline },
-	helpLeadBlank = { fg = cyan.Lighter },
-	helpNormal = { fg = green.Lighter },
 }
 
 return M

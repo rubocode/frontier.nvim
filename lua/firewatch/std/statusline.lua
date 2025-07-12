@@ -1,18 +1,18 @@
 -- STATUSLINE COLORS
 -- JUL 06, 2025
 
--- Leave the standard status line settings alone
--- at least for the moment
---
+local syntax = require("firewatch.palette.syntax")
+local uno = require("firewatch.palette.uno")
+
 local M = {
 	-- status line of not-current windows
-	StatusLineNC = {},
+	StatusLineNC = { fg = uno.DarkerGrey },
 	-- status line for terminal window
 	StatusLineTerm = {},
 	-- status line for not-current terminal window
 	StatusLineTermNC = {},
 	-- status lines
-	StatusLine = {},
+	StatusLine = { fg = syntax.Fg, bg = syntax.CursorLine },
 }
 
 return M

@@ -14,7 +14,7 @@ local init_colorscheme = function(name, kind)
 	vim.cmd("highlight clear")
 	vim.cmd("syntax reset")
 	vim.o.background = kind
-	vim.g.colors_name = name
+	vim.g.colors_name = "uw-" .. name
 end
 
 local load_groups = function(scheme, category, list)

@@ -1,15 +1,15 @@
 -- NORMAL HIGHLIGHTS
 -- JUL 03, 2025
 
-local bg = require("empty.mixin.bg")
-local fg = require("empty.mixin.fg")
+local bg = require("empty.shared.bg")
+local fg = require("empty.shared.fg")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	bg = require(theme .. ".mixin.bg")
-	fg = require(theme .. ".mixin.fg")
+	bg = require(theme .. ".shared.bg")
+	fg = require(theme .. ".shared.fg")
 end
 
 local infuse = function()

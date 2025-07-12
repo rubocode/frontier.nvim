@@ -1,13 +1,13 @@
 -- TELESCOPE COLORS
 -- JUL 11, 2025
 
-local view = require("empty.mixin.view")
+local view = require("empty.shared.view")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	view = require(theme .. ".mixin.view")
+	view = require(theme .. ".shared.view")
 end
 
 local infuse = function()

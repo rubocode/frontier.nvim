@@ -1,8 +1,8 @@
 -- MINI.STATUSLINE HIGHLIGHTS
 -- JUL 05, 2025
 
-local mode = require("empty.mixin.mode")
-local segment = require("empty.mixin.segment")
+local mode = require("empty.shared.mode")
+local segment = require("empty.shared.segment")
 
 local M = {}
 local infused = {}
@@ -10,8 +10,8 @@ local infused = {}
 M.URL = "https://github.com/echasnovski/mini.statusline"
 
 local remap = function(theme)
-	mode = require(theme .. ".mixin.mode")
-	segment = require(theme .. ".mixin.segment")
+	mode = require(theme .. ".shared.mode")
+	segment = require(theme .. ".shared.segment")
 end
 
 local infuse = function()

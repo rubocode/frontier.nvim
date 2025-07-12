@@ -1,13 +1,13 @@
 -- DIFF HIGHLIGHTS
 -- JUL 06, 2025
 
-local diff = require("empty.mixin.diff")
+local diff = require("empty.shared.diff")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	diff = require(theme .. ".mixin.diff")
+	diff = require(theme .. ".shared.diff")
 end
 
 local infuse = function()

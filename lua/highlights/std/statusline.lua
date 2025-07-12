@@ -7,7 +7,7 @@ local M = {}
 local infused = {}
 
 local remap = function(scheme)
-	line = require("scheme." .. scheme .. ".theme.std.statusline")
+	line = require("scheme." .. scheme .. ".std.statusline")
 end
 
 local infuse = function()

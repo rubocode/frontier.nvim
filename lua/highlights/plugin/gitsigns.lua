@@ -9,7 +9,7 @@ local infused = {}
 M.URL = "https://github.com/lewis6991/gitsigns.nvim"
 
 local remap = function(scheme)
-	diff = require("scheme." .. scheme .. ".theme.mixin.diff")
+	diff = require("scheme." .. scheme .. ".mixin.diff")
 end
 
 local infuse = function()

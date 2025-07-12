@@ -7,7 +7,7 @@ local M = {}
 local infused = {}
 
 local remap = function(scheme)
-	cursor = require("scheme." .. scheme .. ".theme.std.menu")
+	cursor = require("scheme." .. scheme .. ".std.menu")
 end
 
 local infuse = function()

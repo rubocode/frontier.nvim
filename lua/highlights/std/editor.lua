@@ -7,7 +7,7 @@ local M = {}
 local infused = {}
 
 local remap = function(scheme)
-	editor = require("scheme." .. scheme .. ".theme.std.editor")
+	editor = require("scheme." .. scheme .. ".std.editor")
 end
 
 local infuse = function()

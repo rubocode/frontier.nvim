@@ -7,7 +7,7 @@ local M = {}
 local infused = {}
 
 local remap = function(scheme)
-	view = require("scheme." .. scheme .. ".theme.mixin.view")
+	view = require("scheme." .. scheme .. ".mixin.view")
 end
 
 local infuse = function()

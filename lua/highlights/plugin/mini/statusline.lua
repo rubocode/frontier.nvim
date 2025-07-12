@@ -10,8 +10,8 @@ local infused = {}
 M.URL = "https://github.com/echasnovski/mini.statusline"
 
 local remap = function(scheme)
-	mode = require("scheme." .. scheme .. ".theme.mixin.mode")
-	segment = require("scheme." .. scheme .. ".theme.mixin.segment")
+	mode = require("scheme." .. scheme .. ".mixin.mode")
+	segment = require("scheme." .. scheme .. ".mixin.segment")
 end
 
 local infuse = function()

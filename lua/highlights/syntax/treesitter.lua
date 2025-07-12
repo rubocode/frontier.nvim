@@ -7,7 +7,7 @@ local M = {}
 local infused = {}
 
 local remap = function(scheme)
-	ts = require("scheme." .. scheme .. ".theme.syntax.treesitter")
+	ts = require("scheme." .. scheme .. ".syntax.treesitter")
 end
 
 local infuse = function()

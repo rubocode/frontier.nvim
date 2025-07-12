@@ -8,8 +8,8 @@ local M = {}
 local infused = {}
 
 local remap = function(scheme)
-	bg = require("scheme." .. scheme .. ".theme.mixin.bg")
-	fg = require("scheme." .. scheme .. ".theme.mixin.fg")
+	bg = require("scheme." .. scheme .. ".mixin.bg")
+	fg = require("scheme." .. scheme .. ".mixin.fg")
 end
 
 local infuse = function()

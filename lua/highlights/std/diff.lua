@@ -7,7 +7,7 @@ local M = {}
 local infused = {}
 
 local remap = function(scheme)
-	diff = require("scheme." .. scheme .. ".theme.mixin.diff")
+	diff = require("scheme." .. scheme .. ".mixin.diff")
 end
 
 local infuse = function()

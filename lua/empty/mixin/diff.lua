@@ -4,10 +4,10 @@
 local M = {
 	-- these colors get used everywhere
 	-- including git related coloring
-	Add = {},
-	Change = {},
-	Delete = {},
-	Text = {},
+	Add = nil,
+	Change = nil,
+	Delete = nil,
+	Text = nil,
 }
 
 return M

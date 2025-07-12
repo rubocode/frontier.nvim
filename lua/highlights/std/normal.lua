@@ -1,8 +1,8 @@
 -- NORMAL HIGHLIGHTS
 -- JUL 03, 2025
 
-local bg = require("scheme.frontier.theme.mixin.bg")
-local fg = require("scheme.frontier.theme.mixin.fg")
+local bg = require("empty.mixin.bg")
+local fg = require("empty.mixin.fg")
 
 local M = {}
 local infused = {}

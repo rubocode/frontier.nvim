@@ -1,7 +1,6 @@
--- BACKGROUND MIXIN COLORS
+-- FOREGROUND MIXIN COLORS
 -- JUL 12, 2025
 
-local black = require("scheme.frontier.colors.black")
 local grey = require("scheme.frontier.colors.grey")
 
 local M = {

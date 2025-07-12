@@ -2,8 +2,10 @@
 -- JUL 12, 2025
 
 local M = {
-	Normal = {},
 	Float = {},
+	LineNr = {},
+	Normal = {},
+	NormalFloat = {},
 }
 
 return M

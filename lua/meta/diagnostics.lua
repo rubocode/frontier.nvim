@@ -11,7 +11,7 @@ local grey = require("palette.shared.grey")
 local M = {
 	Text = {
 		Error = { fg = red.Normal },
-		Hint = { fg = cyan.Normal },
+		Hint = { fg = blue.Normal },
 		Info = { fg = cyan.Normal },
 		Ok = { fg = green.Normal },
 		Warn = { fg = yellow.Normal },

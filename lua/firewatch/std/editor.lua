@@ -18,7 +18,7 @@ local M = {
 	NonText = { fg = uno.Uno4 },
 	Question = { fg = syntax.Accent },
 	Search = { fg = syntax.Bg, bg = uno.Uno4 },
-	SignColumn = { bg = uno.Uno4 },
+	SignColumn = { bg = syntax.FoldBg },
 	SpecialKey = { fg = syntax.FoldBg },
 	SpellBad = {},
 	SpellCap = {},

@@ -18,11 +18,6 @@ local M = {
 	Todo = {},
 	Type = {},
 	Underlined = {},
-	atFunctionBuiltin = {},
-	atModule = {},
-	atTypeBuiltin = {},
-	atVariable = {},
-	atVariableParameter = {},
 	helpLeadBlank = {},
 	helpNormal = {},
 }

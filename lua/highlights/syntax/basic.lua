@@ -28,11 +28,6 @@ local infuse = function()
 		Todo = basic.Todo,
 		Type = basic.Type,
 		Underlined = basic.Underlined,
-		["@function.builtin"] = basic.atFunctionBuiltin,
-		["@module"] = basic.atModule,
-		["@type.builtin"] = basic.atTypeBuiltin,
-		["@variable"] = basic.atVariable,
-		["@variable.parameter"] = basic.atVariableParameter,
 		helpLeadBlank = basic.helpLeadBlank,
 		helpNormal = basic.helpNormal,
 	}

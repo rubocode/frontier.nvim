@@ -3,7 +3,7 @@
 
 local M = {
 	"basic",
-	-- "treesitter",
+	"treesitter",
 	-- "lsp",
 }
 

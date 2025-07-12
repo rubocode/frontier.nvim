@@ -1,9 +1,10 @@
 -- WORKER TO INSTALL THE COLORSCHEME
 -- JUL 07, 2025
 
-local std = require("util.category.std")
 local lang = require("util.category.lang")
 local plugin = require("util.category.plugin")
+local std = require("util.category.std")
+local syntax = require("util.category.syntax")
 
 local loader = require("util.loader")
 
@@ -28,6 +29,7 @@ end
 function M.install(scheme)
 	init_colorscheme(scheme, "dark")
 	load_groups(scheme, "std", std)
+	load_groups(scheme, "syntax", syntax)
 	load_groups(scheme, "lang", lang)
 	load_groups(scheme, "plugin", plugin)
 end

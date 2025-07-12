@@ -5,8 +5,6 @@ local M = {
 	"normal",
 	"diff",
 	"editor",
-	"syntax.basics",
-	"syntax.lsp",
 	"diagnostics",
 	"menu",
 	"cursor",

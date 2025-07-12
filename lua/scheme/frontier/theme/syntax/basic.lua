@@ -1,4 +1,4 @@
--- SYNTAX BASICS THEME COLORS
+-- SYNTAX BASIC THEME COLORS
 -- JUL 06, 2025
 
 local cyan = require("scheme.frontier.colors.cyan")

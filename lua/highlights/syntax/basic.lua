@@ -1,40 +1,40 @@
 -- SYNTAX HIGHLIGHTS
 -- JUL 07, 2025
 
-local basics = require("empty.std.syntax.basics")
+local basic = require("empty.syntax.basic")
 
 local M = {}
 local infused = {}
 
 local remap = function(scheme)
-	basics = require("scheme." .. scheme .. ".theme.std.syntax.basics")
+	basic = require("scheme." .. scheme .. ".theme.syntax.basic")
 end
 
 local infuse = function()
 	infused.PROFILE = {
-		Comment = basics.Comment,
-		Conceal = basics.Conceal,
-		Constant = basics.Constant,
-		Error = basics.Error,
-		Function = basics.Function,
-		Identifier = basics.Identifier,
-		Ignore = basics.Ignore,
-		PreProc = basics.PreProc,
-		Special = basics.Special,
-		SpecialKey = basics.SpecialKey,
-		Statement = basics.Statement,
-		String = basics.String,
-		Title = basics.Title,
-		Todo = basics.Todo,
-		Type = basics.Type,
-		Underlined = basics.Underlined,
-		["@function.builtin"] = basics.atFunctionBuiltin,
-		["@module"] = basics.atModule,
-		["@type.builtin"] = basics.atTypeBuiltin,
-		["@variable"] = basics.atVariable,
-		["@variable.parameter"] = basics.atVariableParameter,
-		helpLeadBlank = basics.helpLeadBlank,
-		helpNormal = basics.helpNormal,
+		Comment = basic.Comment,
+		Conceal = basic.Conceal,
+		Constant = basic.Constant,
+		Error = basic.Error,
+		Function = basic.Function,
+		Identifier = basic.Identifier,
+		Ignore = basic.Ignore,
+		PreProc = basic.PreProc,
+		Special = basic.Special,
+		SpecialKey = basic.SpecialKey,
+		Statement = basic.Statement,
+		String = basic.String,
+		Title = basic.Title,
+		Todo = basic.Todo,
+		Type = basic.Type,
+		Underlined = basic.Underlined,
+		["@function.builtin"] = basic.atFunctionBuiltin,
+		["@module"] = basic.atModule,
+		["@type.builtin"] = basic.atTypeBuiltin,
+		["@variable"] = basic.atVariable,
+		["@variable.parameter"] = basic.atVariableParameter,
+		helpLeadBlank = basic.helpLeadBlank,
+		helpNormal = basic.helpNormal,
 	}
 	infused.LINKS = {
 		Boolean = { link = "Constant" },

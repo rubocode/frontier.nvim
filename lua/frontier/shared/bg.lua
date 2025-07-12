@@ -4,7 +4,6 @@
 local black = require("frontier.palette.black")
 
 local M = {
-	Float = black.Absolute,
 	LineNr = black.Absolute,
 	Normal = black.Almost,
 	NormalFloat = black.Absolute,

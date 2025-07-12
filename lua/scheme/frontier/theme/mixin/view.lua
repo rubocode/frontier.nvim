@@ -1,0 +1,21 @@
+-- LINE COLOR SELECTION
+-- JUL 12, 2025
+
+local black = require("scheme.frontier.colors.black")
+local grey = require("scheme.frontier.colors.grey")
+local cyan = require("scheme.frontier.colors.cyan")
+local red = require("scheme.frontier.colors.red")
+local green = require("scheme.frontier.colors.green")
+local yellow = require("scheme.frontier.colors.yellow")
+local style = require("highlights.style")
+
+local M = {
+	Border = { fg = cyan.Normal },
+	Prompt = { fg = green.Normal },
+	Selection = { fg = black.Almost, bg = grey.Lighter },
+	SelectionCaret = { fg = green.Darker },
+	Special = { fg = red.Normal, style = style.Bold },
+	Title = { fg = yellow.Normal },
+}
+
+return M

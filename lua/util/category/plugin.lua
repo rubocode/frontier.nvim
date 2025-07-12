@@ -4,6 +4,7 @@
 local M = {
 	"mini.statusline",
 	"gitsigns",
+	"telescope",
 }
 
 return M

@@ -1,4 +1,4 @@
--- DIFF EMPTY THEME
+-- DIFF MIXIN EMPTY THEME
 -- JUL 08, 2025
 
 local M = {

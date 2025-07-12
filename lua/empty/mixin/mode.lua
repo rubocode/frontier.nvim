@@ -1,4 +1,4 @@
--- MODE THEME COLORS
+-- MODE MIXIN EMPTY THEME
 -- JUL 08, 2025
 
 local M = {

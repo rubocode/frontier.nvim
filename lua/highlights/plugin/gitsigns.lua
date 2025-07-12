@@ -1,7 +1,7 @@
 -- GITSIGNS HIGHLIGHTS
 -- JUL 05, 2025
 
-local diff = require("empty.std.diff")
+local diff = require("empty.mixin.diff")
 
 local M = {}
 local infused = {}
@@ -9,7 +9,7 @@ local infused = {}
 M.URL = "https://github.com/lewis6991/gitsigns.nvim"
 
 local remap = function(scheme)
-	diff = require("scheme." .. scheme .. ".theme.std.diff")
+	diff = require("scheme." .. scheme .. ".theme.mixin.diff")
 end
 
 local infuse = function()

@@ -1,8 +1,8 @@
 -- MINI.STATUSLINE HIGHLIGHTS
 -- JUL 05, 2025
 
-local display = require("empty.std.display")
-local mode = require("empty.std.mode")
+local mode = require("empty.mixin.mode")
+local segment = require("empty.mixin.segment")
 
 local M = {}
 local infused = {}
@@ -10,16 +10,16 @@ local infused = {}
 M.URL = "https://github.com/echasnovski/mini.statusline"
 
 local remap = function(scheme)
-	display = require("scheme." .. scheme .. ".theme.std.display")
-	mode = require("scheme." .. scheme .. ".theme.std.mode")
+	mode = require("scheme." .. scheme .. ".theme.mixin.mode")
+	segment = require("scheme." .. scheme .. ".theme.mixin.segment")
 end
 
 local infuse = function()
 	infused.PROFILE = {
-		MiniStatuslineDevinfo = display.Standard,
-		MiniStatuslineFileinfo = display.Standard,
-		MiniStatuslineFilename = display.Prominent,
-		MiniStatuslineInactive = display.Inactive,
+		MiniStatuslineDevinfo = segment.Standard,
+		MiniStatuslineFileinfo = segment.Standard,
+		MiniStatuslineFilename = segment.Prominent,
+		MiniStatuslineInactive = segment.Inactive,
 		MiniStatuslineModeCommand = mode.Line.Command,
 		MiniStatuslineModeInsert = mode.Line.Insert,
 		MiniStatuslineModeNormal = mode.Line.Normal,

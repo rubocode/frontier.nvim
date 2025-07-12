@@ -20,7 +20,7 @@ local M = {
 	PreProc = { fg = grey.Darker },
 	Special = { fg = cyan.Normal },
 	SpecialKey = { fg = grey.Darker },
-	Statement = { fg = yellow.Normal },
+	Statement = { fg = grey.Lighter },
 	String = { fg = green.Lighter },
 	Title = {},
 	Todo = { style = style.reverse },

@@ -1,9 +1,8 @@
--- DISPLAY THEME COLORS
+-- SEGMENT THEME COLORS
 -- JUN 08, 2025
 
 local black = require("scheme.frontier.colors.black")
 local grey = require("scheme.frontier.colors.grey")
-local yellow = require("scheme.frontier.colors.yellow")
 local style = require("highlights.style")
 
 local M = {

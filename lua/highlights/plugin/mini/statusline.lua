@@ -1,8 +1,8 @@
 -- MINI.STATUSLINE HIGHLIGHTS
 -- JUL 05, 2025
 
-local mode = require("empty.shared.mode")
-local segment = require("empty.shared.segment")
+local mode = require("meta.mode")
+local status = require("meta.status")
 
 local M = {}
 local infused = {}
@@ -10,16 +10,16 @@ local infused = {}
 M.URL = "https://github.com/echasnovski/mini.statusline"
 
 local remap = function(theme)
-	mode = require(theme .. ".shared.mode")
-	segment = require(theme .. ".shared.segment")
+	mode = require(theme .. ".meta.mode")
+	status = require(theme .. ".meta.status")
 end
 
 local infuse = function()
 	infused.PROFILE = {
-		MiniStatuslineDevinfo = segment.Standard,
-		MiniStatuslineFileinfo = segment.Standard,
-		MiniStatuslineFilename = segment.Prominent,
-		MiniStatuslineInactive = segment.Inactive,
+		MiniStatuslineDevinfo = status.Standard,
+		MiniStatuslineFileinfo = status.Standard,
+		MiniStatuslineFilename = status.Prominent,
+		MiniStatuslineInactive = status.Inactive,
 		MiniStatuslineModeCommand = mode.Line.Command,
 		MiniStatuslineModeInsert = mode.Line.Insert,
 		MiniStatuslineModeNormal = mode.Line.Normal,

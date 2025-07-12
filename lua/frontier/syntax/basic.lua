@@ -1,10 +1,10 @@
 -- SYNTAX BASIC THEME COLORS
 -- JUL 06, 2025
 
-local cyan = require("frontier.palette.cyan")
-local green = require("frontier.palette.green")
-local grey = require("frontier.palette.grey")
-local red = require("frontier.palette.red")
+local cyan = require("palette.shared.cyan")
+local green = require("palette.shared.green")
+local grey = require("palette.shared.grey")
+local red = require("palette.shared.red")
 local style = require("highlights.style")
 
 local M = {

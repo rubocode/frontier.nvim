@@ -2,14 +2,13 @@
 -- JUL 03, 2025
 
 local syntax = require("firewatch.palette.syntax")
-local uno = require("firewatch.palette.uno")
 
 local M = {
-	Pmenu = { bg = syntax.Selection },
-	PmenuSbar = { bg = syntax.Bg },
-	PmenuSel = { bg = syntax.Bg },
-	PmenuThumb = { bg = uno.LighterBlue },
-	WildMenu = { fg = syntax.Fg, bg = uno.DarkerGrey },
+	Pmenu = { fg = syntax.Bg, bg = syntax.Fg },
+	PmenuSbar = { fg = syntax.Fg, bg = syntax.Selection },
+	PmenuSel = { fg = syntax.Selection, bg = syntax.Bg },
+	PmenuThumb = { fg = syntax.Fg, bg = syntax.Bg },
+	WildMenu = { fg = syntax.Selection, bg = syntax.Bg },
 }
 
 return M

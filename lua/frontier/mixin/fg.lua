@@ -1,7 +1,7 @@
 -- SHARED FOREGROUND COLORS
 -- JUL 12, 2025
 
-local grey = require("frontier.palette.grey")
+local grey = require("palette.shared.grey")
 
 local M = {
 	LineNr = grey.Darker,

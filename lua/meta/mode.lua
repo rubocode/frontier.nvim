@@ -1,13 +1,13 @@
--- SHARED MODE COLORS
+-- MODE
 -- JUL 08, 2025
 
-local black = require("frontier.palette.black")
-local blue = require("frontier.palette.blue")
-local green = require("frontier.palette.green")
-local grey = require("frontier.palette.grey")
-local red = require("frontier.palette.red")
+local black = require("palette.shared.black")
+local blue = require("palette.shared.blue")
+local green = require("palette.shared.green")
+local grey = require("palette.shared.grey")
+local red = require("palette.shared.red")
 local style = require("highlights.style")
-local yellow = require("frontier.palette.yellow")
+local yellow = require("palette.shared.yellow")
 
 local M = {
 	Text = {

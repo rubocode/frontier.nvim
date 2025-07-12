@@ -1,12 +1,12 @@
--- SHARED VIEW COLORS
+-- VIEW
 -- JUL 12, 2025
 
-local black = require("frontier.palette.black")
-local grey = require("frontier.palette.grey")
-local cyan = require("frontier.palette.cyan")
-local red = require("frontier.palette.red")
-local green = require("frontier.palette.green")
-local yellow = require("frontier.palette.yellow")
+local black = require("palette.shared.black")
+local grey = require("palette.shared.grey")
+local cyan = require("palette.shared.cyan")
+local red = require("palette.shared.red")
+local green = require("palette.shared.green")
+local yellow = require("palette.shared.yellow")
 local style = require("highlights.style")
 
 local M = {

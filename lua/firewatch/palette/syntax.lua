@@ -14,7 +14,7 @@ local M = {
 	Accent = aux.CadetBlue,
 	FoldBg = aux.Grey37,
 	Modified = aux.Tan,
-	Fg = uno.LightGrey,
+	Fg = uno.Uno2,
 	Selection = aux.Grey82,
 	Gutter = aux.MediumPurple4,
 }

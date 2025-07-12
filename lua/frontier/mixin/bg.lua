@@ -1,7 +1,7 @@
 -- SHARED BACKGROUND COLORS
 -- JUL 12, 2025
 
-local black = require("frontier.palette.black")
+local black = require("palette.shared.black")
 
 local M = {
 	LineNr = black.Absolute,

@@ -1,7 +1,7 @@
--- CURSOR THEME COLORS
+-- CURSOR
 -- JUL 06, 2025
 
-local grey = require("frontier.palette.grey")
+local grey = require("palette.shared.grey")
 local style = require("highlights.style")
 
 local M = {

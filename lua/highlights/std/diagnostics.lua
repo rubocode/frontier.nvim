@@ -1,13 +1,13 @@
 -- DIAGNOSTICS HIGHLIGHTS
 -- JUL 03, 2025
 
-local diag = require("empty.std.diagnostics")
+local diag = require("empty.mixin.diagnostics")
 
 local M = {}
 local infused = {}
 
 local remap = function(scheme)
-	diag = require("scheme." .. scheme .. ".theme.std.diagnostics")
+	diag = require("scheme." .. scheme .. ".theme.mixin.diagnostics")
 end
 
 local infuse = function()

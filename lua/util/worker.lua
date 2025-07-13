@@ -32,6 +32,12 @@ function M.install(theme)
 	load_groups(theme, "syntax", syntax)
 	load_groups(theme, "lang", lang)
 	load_groups(theme, "plugin", plugin)
+	-- To avoid weird syntactic and semantic collisions
+	-- DAWNFOX had these two variables clear and "M" remained "RED"
+	-- Not clear why it works!
+	-- JUL 14, 2025
+	vim.cmd("highlight clear @variable")
+	vim.cmd("highlight clear @lsp.type.variable")
 end
 
 return M

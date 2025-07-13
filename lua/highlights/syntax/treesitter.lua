@@ -12,7 +12,10 @@ end
 
 local infuse = function()
 	infused.PROFILE = {
-		-- ["@variable"] = ts.Variable,
+		-- Having a defined @variable creates all kinds of havoc
+		-- We clear it at the end of loading all the highlight groups
+		-- ["@variable"] = nil,
+		["@variable.builtin"] = ts.VariableBuiltin,
 		["@variable.member"] = ts.VariableMember,
 		["@variable.parameter"] = ts.VariableParameter,
 	}
@@ -24,6 +27,7 @@ local infuse = function()
 		["@attribute"] = { link = "Macro" },
 		["@comment"] = { link = "Comment" },
 		["@constant.macro"] = { link = "Macro" },
+		["@constant.builtin"] = { link = "Constant" },
 		["@function"] = { link = "Function" },
 		["@function.builtin"] = { link = "Special" },
 		["@function.method"] = { link = "Function" },
@@ -41,6 +45,7 @@ local infuse = function()
 		["@type.builtin"] = { link = "Special" },
 		["@type.definition"] = { link = "TypeDef" },
 		["@type.qualifier"] = { link = "Type" },
+		["@variable.parameter.builtin"] = { link = "Special" },
 	}
 end
 

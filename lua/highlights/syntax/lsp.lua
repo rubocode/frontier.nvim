@@ -11,6 +11,7 @@ local infuse = function()
 	infused.LINKS = {
 		["@lsp.type.class"] = { link = "@type" },
 		["@lsp.type.comment"] = { link = "@comment" },
+		["@lsp.type.builtinConstant"] = { link = "@constant.builtin" },
 		["@lsp.type.decorator"] = { link = "@attribute" },
 		["@lsp.type.enum"] = { link = "@type" },
 		["@lsp.type.enumMember"] = { link = "@constant" },
@@ -31,7 +32,7 @@ local infuse = function()
 		["@lsp.type.struct"] = { link = "@type" },
 		["@lsp.type.type"] = { link = "@type" },
 		["@lsp.type.typeParameter"] = { link = "@type.definition" },
-		--		["@lsp.type.variable"] = { link = "@variable" },
+		["@lsp.type.variable"] = { link = "@variable" },
 	}
 end
 

@@ -3,6 +3,7 @@
 
 local M = {
 	Variable = {},
+	VariableBuiltin = {},
 	VariableMember = {},
 	VariableParameter = {},
 }

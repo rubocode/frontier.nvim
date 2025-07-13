@@ -1,31 +1,31 @@
 -- DIAGNOSTICS HIGHLIGHTS
 -- JUL 03, 2025
 
-local profile = require("meta.diagnostics.profile")
+local diag = require("meta.diagnostics.profile")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	profile = require(theme .. ".meta.diagnostics.profile")
+	diag = require(theme .. ".meta.diagnostics")
 end
 
 local infuse = function()
 	infused.PROFILE = {
-		ErrorMsg = profile.ErrorMsg,
-		ModeMsg = profile.ModeMsg,
-		MoreMsg = profile.MoreMsg,
-		WarningMsg = profile.WarningMessage,
-		DiagnosticError = profile.DiagnosticError,
-		DiagnosticHint = profile.DiagnosticHint,
-		DiagnosticInfo = profile.DiagnosticInfo,
-		DiagnosticOk = profile.DiagnosticOk,
-		DiagnosticWarn = profile.DiagnosticWarn,
-		DiagnosticVirtualLinesError = profile.DiagnosticVirtualLinesError,
-		DiagnosticVirtualLinesHint = profile.DiagnosticVirtualLinesHint,
-		DiagnosticVirtualLinesInfo = profile.DiagnosticVirtualLinesInfo,
-		DiagnosticVirtualLinesOk = profile.DiagnosticVirtualLinesOk,
-		DiagnosticVirtualLinesWarn = profile.DiagnosticVirtualLinesWarn,
+		ErrorMsg = diag.ErrorMsg,
+		ModeMsg = diag.ModeMsg,
+		MoreMsg = diag.MoreMsg,
+		WarningMsg = diag.WarningMessage,
+		DiagnosticError = diag.DiagnosticError,
+		DiagnosticHint = diag.DiagnosticHint,
+		DiagnosticInfo = diag.DiagnosticInfo,
+		DiagnosticOk = diag.DiagnosticOk,
+		DiagnosticWarn = diag.DiagnosticWarn,
+		DiagnosticVirtualLinesError = diag.DiagnosticVirtualLinesError,
+		DiagnosticVirtualLinesHint = diag.DiagnosticVirtualLinesHint,
+		DiagnosticVirtualLinesInfo = diag.DiagnosticVirtualLinesInfo,
+		DiagnosticVirtualLinesOk = diag.DiagnosticVirtualLinesOk,
+		DiagnosticVirtualLinesWarn = diag.DiagnosticVirtualLinesWarn,
 	}
 	infused.LINKS = {
 		DiagnosticFloatingError = { link = "DiagnosticError" },

@@ -10,7 +10,7 @@ local grey = require("palette.shared.grey")
 
 local M = {
 	Error = { fg = grey.Lighter, bg = red.Darker },
-	Hint = { fg = grey.Loud, bg = blue.Normal },
+	Hint = { fg = grey.Lighter, bg = blue.Normal },
 	Info = { fg = grey.Darkest, bg = cyan.Normal },
 	Ok = { fg = grey.Lighter, bg = green.Normal },
 	Warn = { fg = grey.Darkest, bg = yellow.Normal },

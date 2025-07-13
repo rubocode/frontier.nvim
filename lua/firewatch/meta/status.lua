@@ -1,6 +1,13 @@
 -- STATUS
 -- JUN 13, 2025
 
-local status = require("meta.status")
+local uno = require("firewatch.palette.uno")
+local syntax = require("firewatch.palette.syntax")
 
-return status
+local M = {
+	Loud = { fg = syntax.Bg, bg = syntax.Selection },
+	Normal = { fg = syntax.Bg, bg = uno.Uno3 },
+	Quiet = { fg = uno.Uno2, bg = uno.Uno4 },
+}
+
+return M

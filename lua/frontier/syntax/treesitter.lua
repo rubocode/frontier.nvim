@@ -5,11 +5,8 @@ local grey = require("palette.shared.grey")
 local yellow = require("palette.shared.yellow")
 
 local M = {
-	FunctionBuiltin = { fg = yellow.Normal },
-	Module = { fg = yellow.Normal },
-	TypeBuiltin = { fg = yellow.Normal },
-	Variable = { fg = grey.Normal },
-	VariableParameter = { fg = grey.Normal },
+	VariableMember = { fg = grey.Lighter },
+	VariableParameter = { fg = yellow.Normal },
 }
 
 return M

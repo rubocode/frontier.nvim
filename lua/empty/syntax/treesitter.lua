@@ -6,6 +6,7 @@ local M = {
 	Module = {},
 	TypeBuiltin = {},
 	Variable = {},
+	VariableMember = {},
 	VariableParameter = {},
 }
 

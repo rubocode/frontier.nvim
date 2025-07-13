@@ -1,5 +1,5 @@
--- SYNTAX HIGHLIGHTS
--- JUL 07, 2025
+-- LSP TYPES
+-- JUL 13, 2025
 
 local M = {}
 local infused = {}
@@ -9,22 +9,29 @@ local remap = function(_) end
 local infuse = function()
 	infused.PROFILE = {}
 	infused.LINKS = {
-		["@lsp.type.class"] = { link = "Structure" },
-		["@lsp.type.comment"] = { link = "Comment" },
-		["@lsp.type.decorator"] = { link = "Function" },
-		["@lsp.type.enum"] = { link = "Structure" },
-		["@lsp.type.enumMember"] = { link = "Constant" },
-		["@lsp.type.function"] = { link = "Function" },
-		["@lsp.type.interface"] = { link = "Structure" },
-		["@lsp.type.macro"] = { link = "Macro" },
-		["@lsp.type.method"] = { link = "Function" },
-		["@lsp.type.namespace"] = { link = "Structure" },
+		["@lsp.type.class"] = { link = "@type" },
+		["@lsp.type.comment"] = { link = "@comment" },
+		["@lsp.type.decorator"] = { link = "@attribute" },
+		["@lsp.type.enum"] = { link = "@type" },
+		["@lsp.type.enumMember"] = { link = "@constant" },
+		["@lsp.type.event"] = { link = "@type" },
+		["@lsp.type.function"] = { link = "@function" },
+		["@lsp.type.interface"] = { link = "@type" },
+		["@lsp.type.keyword"] = { link = "@keyword" },
+		["@lsp.type.macro"] = { link = "@constant.macro" },
+		["@lsp.type.method"] = { link = "@function.method" },
+		["@lsp.type.modifier"] = { link = "@type.qualifier" },
+		["@lsp.type.namespace"] = { link = "@module" },
+		["@lsp.type.number"] = { link = "@number" },
+		["@lsp.type.operator"] = { link = "@operator" },
 		["@lsp.type.parameter"] = { link = "@variable.parameter" },
-		["@lsp.type.property"] = { link = "Identifier" },
-		["@lsp.type.struct"] = { link = "Structure" },
-		["@lsp.type.type"] = { link = "Type" },
-		["@lsp.type.typeParameter"] = { link = "TypeDef" },
-		["@lsp.type.variable"] = { link = "@variable" },
+		["@lsp.type.property"] = { link = "@property" },
+		["@lsp.type.regexp"] = { link = "@string.regexp" },
+		["@lsp.type.string"] = { link = "@string" },
+		["@lsp.type.struct"] = { link = "@type" },
+		["@lsp.type.type"] = { link = "@type" },
+		["@lsp.type.typeParameter"] = { link = "@type.definition" },
+		--		["@lsp.type.variable"] = { link = "@variable" },
 	}
 end
 

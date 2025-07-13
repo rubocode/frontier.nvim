@@ -4,7 +4,7 @@
 local M = {
 	"basic",
 	"treesitter",
-	-- "lsp",
+	--	"lsp",
 }
 
 return M

@@ -1,4 +1,4 @@
--- EDITOR EMPTY THEME
+-- EDITOR EMPTY
 -- JUL 09, 2025
 
 local M = {
@@ -6,8 +6,10 @@ local M = {
 	Conceal = {},
 	Directory = {},
 	EndOfBuffer = {},
+	Error = {},
 	FoldColumn = {},
 	Folded = {},
+	Ignore = {},
 	IncSearch = {},
 	MatchParen = {},
 	NonText = {},
@@ -22,8 +24,10 @@ local M = {
 	TabLineFill = {},
 	TabLineSel = {},
 	Title = {},
+	Todo = {},
 	ToolbarButton = {},
 	ToolbarLine = {},
+	Underlined = {},
 	VertSplit = {},
 	Visual = {},
 	VisualNOS = {},

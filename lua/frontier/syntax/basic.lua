@@ -5,6 +5,7 @@ local cyan = require("palette.shared.cyan")
 local green = require("palette.shared.green")
 local grey = require("palette.shared.grey")
 local red = require("palette.shared.red")
+local orange = require("palette.shared.orange")
 
 local M = {
 	Comment = { fg = grey.Quiet },
@@ -19,7 +20,7 @@ local M = {
 	Statement = { fg = grey.Lighter },
 	StorageClass = { fg = grey.Lighter },
 	String = { fg = green.Lighter },
-	Type = { fg = red.Lighter },
+	Type = { fg = orange.Normal },
 }
 
 return M

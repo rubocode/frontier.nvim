@@ -12,6 +12,7 @@ end
 
 local infuse = function()
 	infused.PROFILE = {
+		-- ["@variable"] = ts.Variable,
 		["@variable.member"] = ts.VariableMember,
 		["@variable.parameter"] = ts.VariableParameter,
 	}

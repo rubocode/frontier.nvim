@@ -1,5 +1,5 @@
--- WORKER TO INSTALL THE COLORSCHEME
--- JUL 07, 2025
+-- SAMPLE LUA CODE
+-- JUL 14, 2025
 
 local lang = require("util.category.lang")
 local plugin = require("util.category.plugin")

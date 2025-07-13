@@ -19,6 +19,7 @@ local infuse = function()
 		Identifier = basic.Identifier,
 		Keyword = basic.Keyword,
 		Macro = basic.Macro,
+		Operator = basic.Operator,
 		Special = basic.Special,
 		Statement = basic.Statement,
 		StorageClass = basic.StorageClass,

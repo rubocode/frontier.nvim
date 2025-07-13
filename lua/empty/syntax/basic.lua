@@ -9,6 +9,7 @@ local M = {
 	Identifier = {},
 	Keyword = {},
 	Macro = {},
+	Operator = {},
 	Special = {},
 	Statement = {},
 	StorageClass = {},

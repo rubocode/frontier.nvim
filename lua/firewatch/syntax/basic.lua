@@ -13,6 +13,7 @@ local M = {
 	Identifier = { fg = uno.Uno3 },
 	Keyword = { fg = uno.Uno1 },
 	Macro = { fg = uno.Uno1 },
+	Operator = { fg = syntax.Accent },
 	Special = { fg = uno.Uno3 },
 	Statement = { fg = duo.Duo1 },
 	StorageClass = { fg = syntax.Selection },

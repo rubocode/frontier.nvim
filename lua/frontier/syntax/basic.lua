@@ -14,6 +14,7 @@ local M = {
 	Identifier = { fg = green.Normal },
 	Keyword = { fg = grey.Lighter },
 	Macro = { fg = grey.Darker },
+	Operator = { fg = grey.Lighter },
 	Special = { fg = cyan.Normal },
 	Statement = { fg = grey.Lighter },
 	StorageClass = { fg = grey.Lighter },

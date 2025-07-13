@@ -31,7 +31,7 @@ local infuse = function()
 		["@module.builtin"] = { link = "Special" },
 		["@number"] = { link = "Number" },
 		["@number.float"] = { link = "Number" },
-		["@operator"] = { link = "Keyword" },
+		["@operator"] = { link = "Operator" },
 		["@property"] = { link = "Identifier" },
 		["@string"] = { link = "String" },
 		["@string.regexp"] = { link = "@string.special" },

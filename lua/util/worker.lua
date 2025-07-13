@@ -37,7 +37,8 @@ function M.install(theme)
 	-- Not clear why it works!
 	-- JUL 14, 2025
 	vim.cmd("highlight clear @variable")
-	vim.cmd("highlight clear @lsp.type.variable")
+	vim.cmd("highlight clear @lsp")
+	-- vim.cmd("highlight clear @lsp.type.variable")
 end
 
 return M

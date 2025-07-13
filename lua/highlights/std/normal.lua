@@ -1,22 +1,23 @@
 -- NORMAL HIGHLIGHTS
 -- JUL 03, 2025
 
-local bg = require("empty.mixin.bg")
-local fg = require("empty.mixin.fg")
+local bg = require("meta.bg")
+local fg = require("meta.fg")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	bg = require(theme .. ".mixin.bg")
-	fg = require(theme .. ".mixin.fg")
+	bg = require(theme .. ".meta.bg")
+	fg = require(theme .. ".meta.fg")
 end
 
 local infuse = function()
 	infused.PROFILE = {
-		LineNr = { fg = fg.LineNr, bg = bg.LineNr },
+		LineNr = { fg = fg.Lighter, bg = bg.Darker },
 		Normal = { fg = fg.Normal, bg = bg.Normal },
-		NormalFloat = { bg = bg.NormalFloat },
+		NormalFloat = { bg = bg.Darker },
+		SignColumn = { fg = fg.Lighter, bg = bg.Normal },
 	}
 	infused.LINKS = {
 		Terminal = { link = "Normal" },

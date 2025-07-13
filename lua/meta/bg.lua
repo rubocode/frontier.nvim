@@ -1,12 +1,11 @@
--- SHARED BACKGROUND COLORS
+-- BACKGROUND
 -- JUL 12, 2025
 
 local black = require("palette.shared.black")
 
 local M = {
-	LineNr = black.Absolute,
+	Darker = black.Absolute,
 	Normal = black.Almost,
-	NormalFloat = black.Absolute,
 }
 
 return M

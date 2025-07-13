@@ -13,7 +13,6 @@ local M = {
 	NonText = {},
 	Question = {},
 	Search = {},
-	SignColumn = {},
 	SpecialKey = {},
 	SpellBad = {},
 	SpellCap = {},

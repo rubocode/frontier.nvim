@@ -7,7 +7,6 @@ local syntax = require("firewatch.palette.syntax")
 local uno = require("firewatch.palette.uno")
 
 local M = {
-	Boolean = { fg = duo.Duo2 },
 	Character = { fg = duo.Duo2 },
 	Comment = { fg = uno.Uno4 },
 	Conditional = { fg = syntax.Accent },
@@ -16,13 +15,11 @@ local M = {
 	Delimiter = { fg = uno.Uno4 },
 	Error = { fg = syntax.Removed, bg = syntax.Bg, style = style.Bold },
 	Exception = { fg = uno.Uno1 },
-	Float = { fg = duo.Duo2 },
 	Function = { fg = uno.Uno2 },
 	Identifier = { fg = uno.Uno3 },
 	Ignore = {},
 	Keyword = { fg = uno.Uno1 },
 	Label = { fg = uno.Uno1 },
-	Number = { fg = duo.Duo2 },
 	Operator = { fg = syntax.Accent },
 	PreProc = { fg = uno.Uno1 },
 	Repeat = { fg = duo.Duo2 },

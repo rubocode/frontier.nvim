@@ -9,7 +9,7 @@ local style = require("highlights.style")
 
 local M = {
 	Comment = { fg = grey.Quiet },
-	Constant = { fg = red.Normal },
+	Constant = { fg = red.Lighter },
 	Delimiter = { fg = grey.Lighter },
 	Error = { fg = red.Normal, style = style.Reverse },
 	Function = { fg = green.Normal },

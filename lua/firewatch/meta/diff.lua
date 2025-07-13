@@ -1,5 +1,5 @@
 -- DIFF
--- JUL13, 2025
+-- JUL 13, 2025
 
 local diff = require("meta.diff")
 

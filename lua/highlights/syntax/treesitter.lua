@@ -18,7 +18,9 @@ local infuse = function()
 		["@variable"] = ts.Variable,
 		["@variable.parameter"] = ts.VariableParameter,
 	}
-	infused.LINKS = {}
+	infused.LINKS = {
+		["@constant"] = { link = "Constant" },
+	}
 end
 
 function M.get(theme)

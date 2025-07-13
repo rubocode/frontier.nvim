@@ -2,7 +2,6 @@
 -- JUL 06, 2025
 
 local M = {
-	Boolean = {},
 	Character = {},
 	Comment = {},
 	Conditional = {},
@@ -11,13 +10,11 @@ local M = {
 	Delimiter = {},
 	Error = {},
 	Exception = {},
-	Float = {},
 	Function = {},
 	Identifier = {},
 	Ignore = {},
 	Keyword = {},
 	Label = {},
-	Number = {},
 	Operator = {},
 	PreProc = {},
 	Repeat = {},

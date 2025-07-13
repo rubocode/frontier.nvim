@@ -4,8 +4,9 @@
 local grey = require("palette.shared.grey")
 
 local M = {
-	LineNr = grey.Darker,
+	Darker = grey.Darker,
 	Normal = grey.Normal,
+	Lighter = grey.Lighter,
 }
 
 return M

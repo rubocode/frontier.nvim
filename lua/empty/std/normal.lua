@@ -5,6 +5,7 @@ local M = {
 	LineNr = {},
 	Normal = {},
 	NormalFloat = {},
+	SignColumn = {},
 }
 
 return M

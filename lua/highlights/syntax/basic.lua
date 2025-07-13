@@ -2,7 +2,6 @@
 -- JUL 07, 2025
 
 local basic = require("empty.syntax.basic")
-local red = require("palette.shared.red")
 
 local M = {}
 local infused = {}
@@ -18,20 +17,19 @@ local infuse = function()
 		Delimiter = basic.Delimiter,
 		Function = basic.Function,
 		Identifier = basic.Identifier,
+		Keyword = basic.Keyword,
 		Macro = basic.Macro,
 		Special = basic.Special,
-		Statement = basic.Stvtement,
-		StorageClass = { fg = red.Normal },
+		Statement = basic.Statement,
+		StorageClass = basic.StorageClass,
 		String = basic.String,
 		Type = basic.Type,
 	}
 	infused.LINKS = {
 		Boolean = { link = "Constant" },
 		Character = { link = "Constant" },
-		Keyword = { link = "Statement" },
 		Number = { link = "Constant" },
 		SpecialChar = { link = "Special" },
-		-- StorageClass = { link = "Type" },
 		Structure = { link = "Type" },
 		Typedef = { link = "Type" },
 	}

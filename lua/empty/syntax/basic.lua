@@ -7,9 +7,11 @@ local M = {
 	Delimiter = {},
 	Function = {},
 	Identifier = {},
+	Keyword = {},
 	Macro = {},
 	Special = {},
 	Statement = {},
+	StorageClass = {},
 	String = {},
 	Type = {},
 }

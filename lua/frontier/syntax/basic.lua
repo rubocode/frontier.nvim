@@ -12,9 +12,11 @@ local M = {
 	Delimiter = { fg = grey.Darker },
 	Function = { fg = green.Normal },
 	Identifier = { fg = green.Normal },
+	Keyword = { fg = grey.Lighter },
 	Macro = { fg = grey.Darker },
 	Special = { fg = cyan.Normal },
 	Statement = { fg = grey.Lighter },
+	StorageClass = { fg = grey.Lighter },
 	String = { fg = green.Lighter },
 	Type = { fg = red.Lighter },
 }

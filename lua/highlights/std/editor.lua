@@ -22,7 +22,6 @@ local infuse = function()
 		NonText = editor.NonText,
 		Question = editor.Question,
 		Search = editor.Search,
-		SignColumn = editor.SignColumn,
 		SpellBad = editor.SpellBad,
 		SpellCap = editor.SpellCap,
 		SpellLocal = editor.SpellLocal,

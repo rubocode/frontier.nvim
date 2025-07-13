@@ -6,6 +6,7 @@ local black = require("palette.shared.black")
 local M = {
 	Darker = black.Absolute,
 	Normal = black.Almost,
+	Lighter = black.Almost,
 }
 
 return M

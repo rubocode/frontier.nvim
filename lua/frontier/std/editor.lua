@@ -21,7 +21,6 @@ local M = {
 	Question = { fg = green.Lighter },
 	Search = { fg = grey.Normal, bg = yellow.Normal },
 	SpecialKey = { fg = grey.Darker },
-	SignColumn = { fg = grey.Light, bg = grey.Darkest },
 	SpellBad = { fg = red.Normal, style = style.Undercurl },
 	SpellCap = { fg = cyan.Lighter, style = style.Undercurl },
 	SpellLocal = { fg = yellow.Normal, style = style.Undercurl },

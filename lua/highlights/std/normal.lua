@@ -14,10 +14,10 @@ end
 
 local infuse = function()
 	infused.PROFILE = {
-		LineNr = { fg = fg.Lighter, bg = bg.Darker },
+		LineNr = { fg = fg.Darker, bg = bg.Darker },
 		Normal = { fg = fg.Normal, bg = bg.Normal },
 		NormalFloat = { bg = bg.Darker },
-		SignColumn = { fg = fg.Lighter, bg = bg.Normal },
+		SignColumn = { bg = bg.Lighter },
 	}
 	infused.LINKS = {
 		Terminal = { link = "Normal" },

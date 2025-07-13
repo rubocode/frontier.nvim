@@ -1,6 +1,12 @@
 -- BACKGROUND
 -- JUL 13, 2025
 
-local bg = require("meta.bg")
+local syntax = require("firewatch.palette.syntax")
 
-return bg
+local M = {
+	Darker = syntax.CursorLine,
+	Normal = syntax.Bg,
+	Lighter = syntax.Bg,
+}
+
+return M

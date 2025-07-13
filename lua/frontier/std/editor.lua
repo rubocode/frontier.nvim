@@ -22,7 +22,7 @@ local M = {
 	NonText = { fg = grey.Quiet },
 	Question = { fg = green.Lighter },
 	Search = { fg = grey.Normal, bg = yellow.Normal },
-	SpecialKey = { fg = grey.Darker },
+	SpecialKey = { fg = grey.Quiet },
 	SpellBad = { fg = red.Normal, style = style.Undercurl },
 	SpellCap = { fg = cyan.Lighter, style = style.Undercurl },
 	SpellLocal = { fg = yellow.Normal, style = style.Undercurl },

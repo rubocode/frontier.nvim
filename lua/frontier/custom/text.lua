@@ -1,6 +1,6 @@
--- TEXT
+--  TEXT
 -- JUL 13, 2025
 
-local text = require("std.text")
+local fg = require("std.text")
 
-return text
+return fg

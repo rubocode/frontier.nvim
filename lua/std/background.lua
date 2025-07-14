@@ -4,7 +4,7 @@
 local black = require("palette.shared.black")
 
 local M = {
-	Darker = black.Absolute,
+	Darkest = black.Absolute,
 	Normal = black.Almost,
 	Lighter = black.Almost,
 }

@@ -13,7 +13,7 @@ local M = {
 	Dark = {
 		Loud = black.Almost,
 		Normal = grey.Darkest,
-		Quiet = grey.Quiet,
+		Quiet = grey.Darker,
 	},
 }
 

@@ -1,6 +1,20 @@
 -- TEXT
 -- JUL 13, 2025
 
-local text = require("std.text")
+local syntax = require("firewatch.palette.syntax")
+local uno = require("firewatch.palette.uno")
 
-return text
+local M = {
+	Light = {
+		Loud = uno.Uno1,
+		Normal = syntax.Fg,
+		Quiet = uno.Uno4,
+	},
+	Dark = {
+		Loud = syntax.Bg,
+		Normal = uno.Uno4,
+		Quiet = uno.Uno4,
+	},
+}
+
+return M

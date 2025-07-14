@@ -21,7 +21,7 @@ local infuse = function()
 		Macro = { fg = syntax.Darker },
 		Operator = { fg = syntax.Accent },
 		Special = { fg = syntax.Special },
-		Statement = { fg = syntax.Lighter },
+		Statement = { fg = syntax.String },
 		StorageClass = { fg = syntax.Lighter },
 		String = { fg = syntax.String },
 		Type = { fg = syntax.Type },

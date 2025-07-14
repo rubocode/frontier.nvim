@@ -1,9 +1,9 @@
 -- WORKER TO INSTALL THE COLORSCHEME
 -- JUL 07, 2025
 
+local editor = require("util.category.editor")
 local lang = require("util.category.lang")
 local plugin = require("util.category.plugin")
-local std = require("util.category.std")
 local syntax = require("util.category.syntax")
 
 local loader = require("util.loader")
@@ -20,15 +20,15 @@ end
 local load_groups = function(theme, category, list)
 	for _, item in pairs(list) do
 		local path = "highlights." .. category .. "." .. item
-		-- print("Working on: " .. path)
+		print("Working on: " .. path)
 		loader.process(path, theme)
-		-- print("PATH done!")
+		print("PATH done!")
 	end
 end
 
 function M.install(theme)
 	init_colorscheme(theme, "dark")
-	load_groups(theme, "std", std)
+	load_groups(theme, "editor", editor)
 	load_groups(theme, "syntax", syntax)
 	load_groups(theme, "lang", lang)
 	load_groups(theme, "plugin", plugin)

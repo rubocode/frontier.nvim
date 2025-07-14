@@ -1,8 +1,8 @@
 -- MINI.STATUSLINE HIGHLIGHTS
 -- JUL 05, 2025
 
-local mode = require("meta.mode")
-local status = require("meta.status")
+local mode = require("std.mode")
+local status = require("std.status")
 
 local M = {}
 local infused = {}
@@ -10,8 +10,8 @@ local infused = {}
 M.URL = "https://github.com/echasnovski/mini.statusline"
 
 local remap = function(theme)
-	mode = require(theme .. ".meta.mode")
-	status = require(theme .. ".meta.status")
+	mode = require(theme .. ".custom.mode")
+	status = require(theme .. ".custom.status")
 end
 
 local infuse = function()

@@ -2,20 +2,20 @@
 -- JUL 03, 2025
 
 local bg = require("std.background")
-local text = require("std.text")
+local light = require("std.text.light")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
 	bg = require(theme .. ".custom.background")
-	text = require(theme .. ".custom.text")
+	light = require(theme .. ".custom.text.light")
 end
 
 local infuse = function()
 	infused.PROFILE = {
-		LineNr = { fg = text.Light.Quiet, bg = bg.Darker },
-		Normal = { fg = text.Normal, bg = bg.Normal },
+		LineNr = { fg = light.Quiet, bg = bg.Darker },
+		Normal = { fg = light.Normal, bg = bg.Normal },
 		NormalFloat = { bg = bg.Darker },
 		SignColumn = { bg = bg.Lighter },
 	}

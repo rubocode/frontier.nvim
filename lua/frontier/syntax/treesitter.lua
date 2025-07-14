@@ -1,15 +1,12 @@
 -- SYNTAX BASIC THEME COLORS
 -- JUL 06, 2025
 
-local grey = require("palette.shared.grey")
-local yellow = require("palette.shared.yellow")
-local red = require("palette.shared.red")
+local syntax = require("frontier.model.syntax")
 
 local M = {
-	Variable = { fg = grey.Lighter },
-	VariableBuiltin = { fg = red.Normal },
-	VariableMember = { fg = grey.Lighter },
-	VariableParameter = { fg = yellow.Normal },
+	VariableBuiltin = { fg = syntax.Special },
+	VariableMember = { fg = syntax.Lighter },
+	VariableParameter = { fg = syntax.Peculiar },
 }
 
 return M

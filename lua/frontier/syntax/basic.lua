@@ -1,26 +1,22 @@
 -- SYNTAX BASIC THEME COLORS
 -- JUL 06, 2025
 
-local cyan = require("palette.shared.cyan")
-local green = require("palette.shared.green")
-local grey = require("palette.shared.grey")
-local red = require("palette.shared.red")
-local orange = require("palette.shared.orange")
+local syntax = require("frontier.model.syntax")
 
 local M = {
-	Comment = { fg = grey.Quiet },
-	Constant = { fg = red.Normal },
-	Delimiter = { fg = grey.Darker },
-	Function = { fg = green.Normal },
-	Identifier = { fg = green.Normal },
-	Keyword = { fg = grey.Lighter },
-	Macro = { fg = grey.Darker },
-	Operator = { fg = grey.Lighter },
-	Special = { fg = cyan.Normal },
-	Statement = { fg = grey.Lighter },
-	StorageClass = { fg = grey.Lighter },
-	String = { fg = orange.Normal },
-	Type = { fg = orange.Normal },
+	Comment = { fg = syntax.Quiet },
+	Constant = { fg = syntax.Constant },
+	Delimiter = { fg = syntax.Darker },
+	Function = { fg = syntax.Function },
+	Identifier = { fg = syntax.Identifier },
+	Keyword = { fg = syntax.Loud },
+	Macro = { fg = syntax.Darker },
+	Operator = { fg = syntax.Accent },
+	Special = { fg = syntax.Special },
+	Statement = { fg = syntax.Lighter },
+	StorageClass = { fg = syntax.Lighter },
+	String = { fg = syntax.String },
+	Type = { fg = syntax.Type },
 }
 
 return M

@@ -8,7 +8,7 @@ local syntax = require("firewatch.palette.syntax")
 local M = {
 	Comment = { fg = uno.Uno4 },
 	Constant = { fg = duo.Duo2 },
-	Delimiter = { fg = uno.Uno4 },
+	Delimiter = { fg = uno.Uno3 },
 	Function = { fg = uno.Uno2 },
 	Identifier = { fg = uno.Uno3 },
 	Keyword = { fg = uno.Uno1 },

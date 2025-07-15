@@ -1,4 +1,4 @@
--- FRONIER EDITOR DIFF PROFILE
+-- FRONTIER EDITOR DIFF PROFILE
 -- JUL 15, 2025
 
 local diff = require("frontier.map.diff")

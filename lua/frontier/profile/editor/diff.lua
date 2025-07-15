@@ -4,13 +4,13 @@
 local diff = require("frontier.map.diff")
 
 local M = {
-	DiffAdd = diff.Add,
-	DiffChange = diff.Change,
-	DiffDelete = diff.Delete,
-	DiffText = diff.Text,
-	Added = diff.Add,
-	Changed = diff.Change,
-	Removed = diff.Delete,
+	DiffAdd = { fg = diff.Add },
+	DiffChange = { fg = diff.Change },
+	DiffDelete = { fg = diff.Delete },
+	DiffText = { fg = diff.Text },
+	Added = { fg = diff.Add },
+	Changed = { fg = diff.Change },
+	Removed = { fg = diff.Delete },
 }
 
 return M

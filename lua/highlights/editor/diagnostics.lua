@@ -1,13 +1,13 @@
--- DIAGNOSTICS HIGHLIGHTS
+-- EDITOR DIAGNOSTICS HIGHLIGHTS
 -- JUL 03, 2025
 
-local diag = require("std.diagnostics.profile")
+local diag = require("profile.editor.diagnostics")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	diag = require(theme .. ".custom.diagnostics.profile")
+	diag = require(theme .. ".profile.editor.diagnostics")
 end
 
 local infuse = function()

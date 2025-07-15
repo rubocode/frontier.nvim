@@ -1,30 +1,30 @@
--- SYNTAX HIGHLIGHTS
+-- SYNTAX BASIC HIGHLIGHTS
 -- JUL 07, 2025
 
-local syntax = require("model.syntax")
+local basics = require("profile.syntax.basics")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	syntax = require(theme .. ".model.syntax")
+	basics = require(theme .. ".profile.syntax.basics")
 end
 
 local infuse = function()
 	infused.PROFILE = {
-		Comment = { fg = syntax.Quiet },
-		Constant = { fg = syntax.Constant },
-		Delimiter = { fg = syntax.Quiet },
-		Function = { fg = syntax.Function },
-		Identifier = { fg = syntax.Identifier },
-		Keyword = { fg = syntax.Keyword },
-		Macro = { fg = syntax.Darker },
-		Operator = { fg = syntax.Accent },
-		Special = { fg = syntax.Special },
-		Statement = { fg = syntax.String },
-		StorageClass = { fg = syntax.Lighter },
-		String = { fg = syntax.String },
-		Type = { fg = syntax.Type },
+		Comment = basics.Quiet,
+		Constant = basics.Constant,
+		Delimiter = basics.Quiet,
+		Function = basics.Function,
+		Identifier = basics.Identifier,
+		Keyword = basics.Keyword,
+		Macro = basics.Darker,
+		Operator = basics.Accent,
+		Special = basics.Special,
+		Statement = basics.String,
+		StorageClass = basics.Lighter,
+		String = basics.String,
+		Type = basics.Type,
 	}
 	infused.LINKS = {
 		Boolean = { link = "Constant" },

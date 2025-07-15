@@ -1,13 +1,13 @@
--- NORMAL COLORS
+-- EDITOR MENU HIGHLIGHTS
 -- JUL 03, 2025
 
-local menu = require("empty.editor.menu")
+local menu = require("profile.editor.menu")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	menu = require(theme .. ".editor.menu")
+	menu = require(theme .. ".profile.editor.menu")
 end
 
 local infuse = function()

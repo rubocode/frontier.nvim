@@ -1,23 +1,22 @@
--- NORMAL HIGHLIGHTS
+-- EDITOR NORMAL HIGHLIGHTS
 -- JUL 03, 2025
 
-local bg = require("std.background")
-local light = require("std.text.light")
+local normal = require("profile.editor.normal")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	bg = require(theme .. ".custom.background")
-	light = require(theme .. ".custom.text.light")
+	normal = require(theme .. ".profile.editor.normal")
 end
 
 local infuse = function()
 	infused.PROFILE = {
-		LineNr = { fg = light.Quiet, bg = bg.Darker },
-		Normal = { fg = light.Normal, bg = bg.Normal },
-		NormalFloat = { bg = bg.Darker },
-		SignColumn = { bg = bg.Lighter },
+		EndOfBuffer = normal.EndOfBuffer,
+		LineNr = normal.LineNr,
+		Normal = normal.Normal,
+		NormalFloat = normal.NormalFloat,
+		SignColumn = normal.SignColumn,
 	}
 	infused.LINKS = {
 		Terminal = { link = "Normal" },

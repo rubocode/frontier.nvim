@@ -1,11 +1,10 @@
--- EDITOR EMPTY
+-- EDITOR GENERAL PROFILE
 -- JUL 09, 2025
 
 local M = {
 	ColorColumn = {},
 	Conceal = {},
 	Directory = {},
-	EndOfBuffer = {},
 	Error = {},
 	FoldColumn = {},
 	Folded = {},
@@ -16,10 +15,6 @@ local M = {
 	Question = {},
 	Search = {},
 	SpecialKey = {},
-	SpellBad = {},
-	SpellCap = {},
-	SpellLocal = {},
-	SpellRare = {},
 	TabLine = {},
 	TabLineFill = {},
 	TabLineSel = {},

@@ -1,24 +1,24 @@
--- DIFF HIGHLIGHTS
+-- EDITOR DIFF HIGHLIGHTS
 -- JUL 06, 2025
 
-local diff = require("std.diff")
+local diff = require("profile.editor.diff")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	diff = require(theme .. ".custom.diff")
+	diff = require(theme .. ".profile.editor.diff")
 end
 
 local infuse = function()
 	infused.PROFILE = {
-		DiffAdd = diff.Add,
-		DiffChange = diff.Change,
-		DiffDelete = diff.Delete,
-		DiffText = diff.Text,
-		Added = diff.Add,
-		Changed = diff.Change,
-		Removed = diff.Delete,
+		DiffAdd = diff.DiffAdd,
+		DiffChange = diff.DiffChange,
+		DiffDelete = diff.DiffDelete,
+		DiffText = diff.DiffText,
+		Added = diff.Added,
+		Changed = diff.Changed,
+		Removed = diff.Removed,
 	}
 	infused.LINKS = {}
 end

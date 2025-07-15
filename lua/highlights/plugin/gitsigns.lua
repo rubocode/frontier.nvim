@@ -1,4 +1,4 @@
--- GITSIGNS HIGHLIGHTS
+-- GITSIGNS PLUGIN HIGHLIGHTS
 -- JUL 05, 2025
 
 local diff = require("std.diff")

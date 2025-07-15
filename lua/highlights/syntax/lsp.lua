@@ -1,4 +1,4 @@
--- LSP TYPES
+-- SYNTAX LSP HIGHLIGHTS
 -- JUL 13, 2025
 
 local M = {}

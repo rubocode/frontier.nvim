@@ -1,13 +1,13 @@
--- TREESITTER TYPES
+-- SYTNAX TREESITTER HIGHLIGHTS
 -- JUL 13, 2025
 
-local syntax = require("model.syntax")
+local ts = require("profile.syntax.treesitter")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	syntax = require(theme .. ".model.syntax")
+	ts = require(theme .. ".profile.syntax.treesitter")
 end
 
 local infuse = function()
@@ -15,9 +15,9 @@ local infuse = function()
 		-- Having a defined @variable creates all kinds of havoc
 		-- We clear it at the end of loading all the highlight groups
 		-- ["@variable"] = nil,
-		["@variable.builtin"] = syntax.Special,
-		["@variable.member"] = syntax.Lighter,
-		["@variable.parameter"] = syntax.Peculiar,
+		["@variable.builtin"] = ts.atVariableBuiltin,
+		["@variable.member"] = ts.atVariableMember,
+		["@variable.parameter"] = ts.atVariableParameter,
 	}
 	infused.LINKS = {
 		["@boolean"] = { link = "Boolean" },

@@ -1,13 +1,13 @@
--- CURSOR HIGHLIGHTS
+-- EDITOR CURSOR HIGHLIGHTS
 -- JUL 03, 2025
 
-local cursor = require("empty.editor.cursor")
+local cursor = require("profile.editor.cursor")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	cursor = require(theme .. ".editor.cursor")
+	cursor = require(theme .. ".profile.editor.cursor")
 end
 
 local infuse = function()

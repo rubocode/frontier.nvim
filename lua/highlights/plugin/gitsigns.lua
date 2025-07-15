@@ -1,7 +1,7 @@
 -- GITSIGNS PLUGIN HIGHLIGHTS
 -- JUL 05, 2025
 
-local diff = require("std.diff")
+local diff = require("std.map.diff")
 
 local M = {}
 local infused = {}
@@ -9,14 +9,14 @@ local infused = {}
 M.URL = "https://github.com/lewis6991/gitsigns.nvim"
 
 local remap = function(theme)
-	diff = require(theme .. ".custom.diff")
+	diff = require(theme .. ".map.diff")
 end
 
 local infuse = function()
 	infused.PROFILE = {
-		GitSignsAdd = diff.Add,
-		GitSignsChange = diff.Change,
-		GitSignsDelete = diff.Delete,
+		GitSignsAdd = { fg = diff.Add },
+		GitSignsChange = { fg = diff.Change },
+		GitSignsDelete = { fg = diff.Delete },
 	}
 	infused.LINKS = {}
 end

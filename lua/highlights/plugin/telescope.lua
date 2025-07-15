@@ -1,13 +1,13 @@
 -- TELESCOPE COLORS
 -- JUL 11, 2025
 
-local view = require("std.view")
+local view = require("std.support.view")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	view = require(theme .. ".custom.view")
+	view = require(theme .. ".support.view")
 end
 
 local infuse = function()

@@ -1,24 +1,24 @@
 -- EDITOR DIFF HIGHLIGHTS
 -- JUL 06, 2025
 
-local diff = require("std.diff")
+local diff = require("std.map.diff")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	diff = require(theme .. ".custom.diff")
+	diff = require(theme .. ".map.diff")
 end
 
 local infuse = function()
 	infused.PROFILE = {
-		DiffAdd = diff.DiffAdd,
-		DiffChange = diff.DiffChange,
-		DiffDelete = diff.DiffDelete,
-		DiffText = diff.DiffText,
-		Added = diff.Added,
-		Changed = diff.Changed,
-		Removed = diff.Removed,
+		DiffAdd = { fg = diff.DiffAdd },
+		DiffChange = { fg = diff.DiffChange },
+		DiffDelete = { fg = diff.DiffDelete },
+		DiffText = { fg = diff.DiffText },
+		Added = { fg = diff.Added },
+		Changed = { fg = diff.Changed },
+		Removed = { fg = diff.Removed },
 	}
 	infused.LINKS = {}
 end

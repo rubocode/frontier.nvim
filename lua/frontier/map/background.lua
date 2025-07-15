@@ -1,5 +1,5 @@
--- BACKGROUND
--- JUL 12, 2025
+-- FRONTIER BACKGROUND MAP
+-- JUL 13, 2025
 
 local black = require("palette.shared.black")
 

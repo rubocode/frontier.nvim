@@ -1,4 +1,4 @@
--- VIEW
+-- STD VIEW
 -- JUL 12, 2025
 
 local black = require("palette.shared.black")

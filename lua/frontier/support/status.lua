@@ -1,5 +1,5 @@
--- STATUS
--- JUL 12, 2025
+-- FRONTIER STATUS MAP
+-- JUN 13, 2025
 
 local grey = require("palette.shared.grey")
 local black = require("palette.shared.black")

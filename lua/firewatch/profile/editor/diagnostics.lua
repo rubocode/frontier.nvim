@@ -6,8 +6,8 @@
 -- a very dark theme and the usual diagndstics messages
 -- do not have enough contrast against the backdrop.
 --
-local line = require("std.diagnostics.line")
-local text = require("std.diagnostics.text")
+local line = require("firewatch.support.diagnostics.line")
+local text = require("firewatch.support.diagnostics.text")
 
 local M = {
 	ErrorMsg = text.Error,

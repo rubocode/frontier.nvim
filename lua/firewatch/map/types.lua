@@ -10,7 +10,6 @@ local M = {
 	Identifier = uno.Uno3,
 	Keyword = uno.Uno1,
 	Number = duo.Duo1,
-	Special = uno.Uno3,
 	String = duo.Duo1,
 	Type = duo.Duo1,
 }

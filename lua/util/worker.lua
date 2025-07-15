@@ -20,9 +20,9 @@ end
 local load_groups = function(theme, category, list)
 	for _, item in pairs(list) do
 		local path = "highlights." .. category .. "." .. item
-		print("Working on: " .. path)
+		-- print("Working on: " .. path)
 		loader.process(path, theme)
-		print("PATH done!")
+		-- print("PATH done!")
 	end
 end
 

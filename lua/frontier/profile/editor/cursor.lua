@@ -1,5 +1,5 @@
--- CURSOR
--- JUL 06, 2025
+-- FRONTIER EDITOR CURSOR PROFILE
+-- JUL 15, 2025
 
 local grey = require("palette.shared.grey")
 local style = require("highlights.style")

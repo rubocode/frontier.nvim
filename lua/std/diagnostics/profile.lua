@@ -1,4 +1,4 @@
--- META DISGNOSTICS PROFILE
+-- STD DIAGNOSTICS PROFILE
 -- JUL 13, 2025
 
 local line = require("std.diagnostics.line")
@@ -9,11 +9,11 @@ local M = {
 	ModeMsg = text.Info,
 	MoreMsg = text.Hint,
 	WarningMsg = text.Warn,
-	DiagnosticError = line.Error,
-	DiagnosticHint = line.Hint,
-	DiagnosticInfo = line.Info,
-	DiagnosticOk = line.Ok,
-	DiagnosticWarn = line.Warn,
+	DiagnosticError = text.Error,
+	DiagnosticHint = text.Hint,
+	DiagnosticInfo = text.Info,
+	DiagnosticOk = text.Ok,
+	DiagnosticWarn = text.Warn,
 	DiagnosticVirtualLinesError = line.Error,
 	DiagnosticVirtualLinesHint = line.Hint,
 	DiagnosticVirtualLinesInfo = line.Info,

@@ -1,4 +1,4 @@
--- EDITOR GENERAL
+-- FRONTIER EDITOR GENERAL PROFILE
 -- JUL 09, 2025
 
 local cyan = require("palette.shared.cyan")

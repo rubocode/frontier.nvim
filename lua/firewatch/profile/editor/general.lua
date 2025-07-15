@@ -1,4 +1,4 @@
--- EDITOR THEME COLORS
+-- FIREWATCH EDITOR GENERAL PROFILE
 -- JUL 09, 2025
 
 local style = require("highlights.style")

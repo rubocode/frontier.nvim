@@ -1,14 +1,14 @@
 -- FRONTIER EDITIR MENU PROFILE
 -- JUL 03, 2025
 
-local grey = require("palette.shared.grey")
+local fg = require("frontier.map.foreground")
 
 local M = {
-	Pmenu = { fg = grey.Darkest, bg = grey.Normal },
-	PmenuSbar = { fg = grey.Normal, bg = grey.Darker },
-	PmenuSel = { fg = grey.Lighter, bg = grey.Darkest },
-	PmenuThumb = { fg = grey.Normal, bg = grey.Darker },
-	WildMenu = { fg = grey.Lighter, bg = grey.Darkest },
+	Pmenu = { fg = fg.Darkest, bg = fg.Normal },
+	PmenuSbar = { fg = fg.Normal, bg = fg.Darkest },
+	PmenuSel = { fg = fg.Lighter, bg = fg.Darkest },
+	PmenuThumb = { fg = fg.Normal, bg = fg.Darker },
+	WildMenu = { fg = fg.Lighter, bg = fg.Darkest },
 }
 
 return M

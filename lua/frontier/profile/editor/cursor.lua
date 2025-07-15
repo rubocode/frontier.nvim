@@ -1,14 +1,14 @@
 -- FRONTIER EDITOR CURSOR PROFILE
 -- JUL 15, 2025
 
-local grey = require("palette.shared.grey")
-local style = require("highlights.style")
+local bg = require("frontier.map.background")
+local fg = require("frontier.map.foreground")
 
 local M = {
-	Cursor = { style = style.Reverse },
-	CursorColumn = { fg = grey.Darkest, bg = grey.Normal },
-	CursorLine = { fg = grey.Lighter, bg = grey.Darkest },
-	CursorLineNr = { fg = grey.Lighter, bg = grey.Darker },
+	Cursor = { fg = bg.Normal, bg = fg.Normal },
+	CursorColumn = { bg = bg.Normal },
+	CursorLine = { bg = bg.Lighter },
+	CursorLineNr = { fg = fg.Lighter },
 }
 
 return M

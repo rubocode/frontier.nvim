@@ -9,6 +9,7 @@ local green = require("palette.shared.green")
 local M = {
 	Accent = green.Lighter,
 	Darker = grey.Darker,
+	Darkest = grey.Darkest,
 	Lighter = grey.Lighter,
 	Loud = grey.Loud,
 	Normal = grey.Normal,

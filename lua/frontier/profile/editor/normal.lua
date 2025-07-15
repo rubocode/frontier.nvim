@@ -1,15 +1,15 @@
 -- FRONTIER EDITOR NORMAL PROFILE
 -- JUL 15, 2025
 
-local black = require("palette.shared.black")
-local grey = require("palette.shared.grey")
+local bg = require("frontier.map.background")
+local fg = require("frontier.map.foreground")
 
 local M = {
-	EndOfBuffer = { fg = grey.Quiet },
-	LineNr = { fg = grey.Quiet, bg = black.Almost },
-	Normal = { fg = grey.Normal, bg = black.Almost },
-	NormalFloat = { bg = black.Almost },
-	SignColumn = { bg = black.Almost },
+	EndOfBuffer = { fg = fg.Quiet },
+	LineNr = { fg = fg.Quiet, bg = bg.Normal },
+	Normal = { fg = fg.Normal, bg = bg.Normal },
+	NormalFloat = { bg = bg.Normal },
+	SignColumn = { bg = bg.Normal },
 }
 
 return M

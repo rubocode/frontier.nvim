@@ -1,4 +1,4 @@
--- MENU THEME COLORS
+-- FIREWATCH EDITOR MENU PROFILE
 -- JUL 03, 2025
 
 local syntax = require("firewatch.palette.syntax")

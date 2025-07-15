@@ -1,4 +1,4 @@
--- CURSOR THEME COLORS
+-- FIREWATCH EDITOR CURSOR PROFILE
 -- JUL 06, 2025
 
 local syntax = require("firewatch.palette.syntax")

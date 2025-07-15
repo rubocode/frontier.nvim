@@ -1,4 +1,4 @@
--- STATUSLINE COLORS
+-- FIREWATCH EDITOR STATUSLINE PROFILE
 -- JUL 06, 2025
 
 local syntax = require("firewatch.palette.syntax")

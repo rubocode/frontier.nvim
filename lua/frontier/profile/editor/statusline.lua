@@ -1,4 +1,4 @@
--- STATUSLINE COLORS
+-- FRONTIER EDITOR STATUSLINE PROFILE
 -- JUL 06, 2025
 
 -- Leave the standard status line settings alone

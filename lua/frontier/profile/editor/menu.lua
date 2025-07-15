@@ -1,4 +1,4 @@
--- MENU THEME COLORS
+-- FRONTIER EDITIR MENU PROFILE
 -- JUL 03, 2025
 
 local grey = require("palette.shared.grey")

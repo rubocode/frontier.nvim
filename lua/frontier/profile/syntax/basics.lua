@@ -19,7 +19,7 @@ local M = {
 	Special = { fg = cyan.Normal },
 	Statement = { fg = grey.Lighter },
 	StorageClass = { fg = grey.Lighter },
-	String = { fg = green.Lighter },
+	String = { fg = orange.Normal },
 	Type = { fg = orange.Normal },
 }
 

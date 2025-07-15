@@ -2,9 +2,9 @@
 -- JUL 12, 2025
 
 local M = {
-	"basic",
+	"basics",
 	"treesitter",
-	--	"lsp",
+	"lsp",
 }
 
 return M

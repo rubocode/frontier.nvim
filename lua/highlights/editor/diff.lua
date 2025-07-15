@@ -1,13 +1,13 @@
 -- EDITOR DIFF HIGHLIGHTS
 -- JUL 06, 2025
 
-local diff = require("profile.editor.diff")
+local diff = require("std.diff")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	diff = require(theme .. ".profile.editor.diff")
+	diff = require(theme .. ".custom.diff")
 end
 
 local infuse = function()

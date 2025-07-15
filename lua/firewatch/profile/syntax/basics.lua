@@ -12,7 +12,7 @@ local M = {
 	Function = { fg = uno.Uno2 },
 	Identifier = { fg = uno.Uno3 },
 	Keyword = { fg = uno.Uno1 },
-	Macro = {},
+	Macro = { fg = uno.Uno2 },
 	Operator = { fg = syntax.Accent },
 	Special = { fg = uno.Uno3 },
 	Statement = { fg = duo.Duo1 },

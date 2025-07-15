@@ -1,4 +1,4 @@
--- SYNTAX BASIC HIGHLIGHTS
+-- SYNTAX BASICS HIGHLIGHTS
 -- JUL 07, 2025
 
 local basics = require("profile.syntax.basics")

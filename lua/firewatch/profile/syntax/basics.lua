@@ -16,7 +16,7 @@ local M = {
 	Operator = { fg = syntax.Accent },
 	Special = { fg = uno.Uno3 },
 	Statement = { fg = duo.Duo1 },
-	StorageClass = { fg = duo.Duo2 },
+	StorageClass = { fg = uno.Uno1 },
 	String = { fg = duo.Duo1 },
 	Type = { fg = duo.Duo1 },
 }

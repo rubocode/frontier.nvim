@@ -18,9 +18,9 @@ local M = {
 	Operator = { fg = grey.Lighter },
 	Special = { fg = cyan.Normal },
 	Statement = { fg = grey.Lighter },
-	StorageClass = { fg = orange.Normal },
+	StorageClass = { fg = grey.Lighter },
 	String = { fg = green.Lighter },
-	Type = { fg = red.Lighter },
+	Type = { fg = orange.Normal },
 }
 
 return M

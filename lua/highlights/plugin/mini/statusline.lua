@@ -1,8 +1,8 @@
 -- MINI.STATUSLINE HIGHLIGHTS
 -- JUL 05, 2025
 
-local line = require("std.support.mode.line")
-local status = require("std.support.status")
+local line = require("support.mode.line")
+local status = require("support.status")
 
 local M = {}
 local infused = {}

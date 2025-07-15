@@ -12,17 +12,17 @@ end
 
 local infuse = function()
 	infused.PROFILE = {
-		Comment = basics.Quiet,
+		Comment = basics.Comment,
 		Constant = basics.Constant,
-		Delimiter = basics.Quiet,
+		Delimiter = basics.Delimiter,
 		Function = basics.Function,
 		Identifier = basics.Identifier,
 		Keyword = basics.Keyword,
-		Macro = basics.Darker,
-		Operator = basics.Accent,
+		Macro = basics.Macro,
+		Operator = basics.Operator,
 		Special = basics.Special,
-		Statement = basics.String,
-		StorageClass = basics.Lighter,
+		Statement = basics.Statement,
+		StorageClass = basics.StorageClass,
 		String = basics.String,
 		Type = basics.Type,
 	}

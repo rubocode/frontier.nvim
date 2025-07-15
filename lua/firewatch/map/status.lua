@@ -1,4 +1,4 @@
--- STATUS
+-- FIREWATCH STATUS MAP
 -- JUN 13, 2025
 
 local uno = require("firewatch.palette.uno")

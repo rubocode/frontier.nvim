@@ -1,7 +1,7 @@
 -- EDITOR DIAGNOSTICS HIGHLIGHTS
 -- JUL 03, 2025
 
-local diag = require("profile.editor.diagnostics")
+local diag = require("empty.profile.editor.diagnostics")
 
 local M = {}
 local infused = {}

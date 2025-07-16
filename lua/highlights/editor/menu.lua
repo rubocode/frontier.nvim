@@ -1,7 +1,7 @@
 -- EDITOR MENU HIGHLIGHTS
 -- JUL 03, 2025
 
-local menu = require("profile.editor.menu")
+local menu = require("empty.profile.editor.menu")
 
 local M = {}
 local infused = {}

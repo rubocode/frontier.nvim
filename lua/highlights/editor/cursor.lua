@@ -1,7 +1,7 @@
 -- EDITOR CURSOR HIGHLIGHTS
 -- JUL 03, 2025
 
-local cursor = require("profile.editor.cursor")
+local cursor = require("empty.profile.editor.cursor")
 
 local M = {}
 local infused = {}

@@ -1,7 +1,7 @@
 -- EDITOR STATUSLINE HIGHLIGHTS
 -- JUL 03, 2025
 
-local line = require("profile.editor.statusline")
+local line = require("empty.profile.editor.statusline")
 
 local M = {}
 local infused = {}

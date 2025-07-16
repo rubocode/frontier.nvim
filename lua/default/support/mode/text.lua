@@ -1,4 +1,4 @@
--- STD MODE TEXT
+-- DEFAULT MODE TEXT
 -- JUL 08, 2025
 
 local blue = require("palette.shared.blue")

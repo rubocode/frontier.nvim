@@ -1,13 +1,6 @@
--- FRONTIER STATUS MAP
+-- FRONTIER STATUS
 -- JUN 13, 2025
 
-local grey = require("palette.shared.grey")
-local black = require("palette.shared.black")
-
-local M = {
-	Loud = { fg = grey.Loud, bg = grey.Quiet },
-	Normal = { fg = black.Almost, bg = grey.Darker },
-	Quiet = { fg = grey.Darker, bg = grey.Darkest },
-}
+local M = require("default.support.status")
 
 return M

@@ -1,7 +1,7 @@
 -- EDITOR SPELLING HIGHLIGHTS
 -- JUL 03, 2025
 
-local spelling = require("profile.editor.spelling")
+local spelling = require("empty.profile.editor.spelling")
 
 local M = {}
 local infused = {}

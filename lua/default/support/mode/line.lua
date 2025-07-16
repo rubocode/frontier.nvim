@@ -1,4 +1,4 @@
--- STD MODE LINE
+-- DEFAULT MODE LINE
 -- JUL 15, 2025
 
 local black = require("palette.shared.black")

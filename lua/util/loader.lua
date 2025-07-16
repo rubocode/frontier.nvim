@@ -1,15 +1,15 @@
 -- Perform the work of updating CHANGES and LINKS
 --
 
+local verbose = require("util.verbose")
+
 local M = {}
 
-local verbose = false
+local debug = true
 
 local add_color_options = function(opts, color, xg)
 	if color then
-		if verbose then
-			print("COLOR> " .. xg .. " " .. color.i .. " " .. color.hex)
-		end
+		verbose.notify(true, "\t\tCOLOR> " .. xg .. " " .. color.i .. " " .. color.hex)
 		opts[xg] = color.hex
 		opts["cterm" .. xg] = color.i
 	end
@@ -26,6 +26,7 @@ end
 local process_profile = function(profile)
 	for group, v in pairs(profile) do
 		local opts = {}
+		verbose.notify(true, "\t" .. group)
 		opts = add_color_options(opts, v.fg, "fg")
 		opts = add_color_options(opts, v.bg, "bg")
 		opts = add_style_options(opts, v.style)
@@ -39,12 +40,12 @@ local process_links = function(links)
 	end
 end
 
-function M.process(path, theme)
-	-- print("Processing: " .. path)
-	local mod = require(path).get(theme)
+function M.process(theme, group)
+	verbose.notify(debug, "Processing: [" .. theme .. "] " .. group)
+	local mod = require(group).get(theme)
 	process_profile(mod.PROFILE)
 	process_links(mod.LINKS)
-	-- print("Done!")
+	verbose.notify(debug, "Processed!")
 end
 
 return M

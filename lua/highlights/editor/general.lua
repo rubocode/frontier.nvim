@@ -1,7 +1,7 @@
 -- EDITOR GENERAL HIGHLIGHTS
 -- JUL 06, 2025
 
-local general = require("profile.editor.general")
+local general = require("empty.profile.editor.general")
 
 local M = {}
 local infused = {}

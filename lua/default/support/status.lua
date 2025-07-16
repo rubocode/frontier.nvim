@@ -1,4 +1,4 @@
--- STD STATUS
+-- DEFAULT STATUS
 -- JUL 12, 2025
 
 local grey = require("palette.shared.grey")

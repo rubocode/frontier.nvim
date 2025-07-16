@@ -1,7 +1,7 @@
 -- SYTNAX TREESITTER HIGHLIGHTS
 -- JUL 13, 2025
 
-local ts = require("profile.syntax.treesitter")
+local ts = require("empty.profile.syntax.treesitter")
 
 local M = {}
 local infused = {}

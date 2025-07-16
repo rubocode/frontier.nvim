@@ -1,7 +1,7 @@
 -- EDITOR DIFF HIGHLIGHTS
 -- JUL 06, 2025
 
-local diff = require("profile.editor.diff")
+local diff = require("empty.profile.editor.diff")
 
 local M = {}
 local infused = {}

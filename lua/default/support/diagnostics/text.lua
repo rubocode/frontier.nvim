@@ -1,4 +1,4 @@
--- DIAGNOSTICS TEXT
+-- DEFAULT DIAGNOSTICS TEXT
 -- JUL 13, 2025
 
 local yellow = require("palette.shared.yellow")

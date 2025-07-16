@@ -1,7 +1,7 @@
 -- SYNTAX BASICS HIGHLIGHTS
 -- JUL 07, 2025
 
-local basics = require("profile.syntax.basics")
+local basics = require("empty.profile.syntax.basics")
 
 local M = {}
 local infused = {}

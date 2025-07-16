@@ -1,6 +1,6 @@
 -- FRONTIER MODE LINE
 -- JUL 13, 2025
 
-local line = require("support.mode.line")
+local M = require("default.support.mode.line")
 
-return line
+return M

@@ -1,7 +1,7 @@
 -- GITSIGNS PLUGIN HIGHLIGHTS
 -- JUL 05, 2025
 
-local diff = require("std.map.diff")
+local diff = require("empty.map.diff")
 
 local M = {}
 local infused = {}

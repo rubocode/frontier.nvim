@@ -19,19 +19,16 @@ end
 
 local load_groups = function(theme, category, list)
 	for _, item in pairs(list) do
-		local path = "highlights." .. category .. "." .. item
+		local group = "highlights." .. category .. "." .. item
 		-- print("Working on: " .. path)
-		loader.process(path, theme)
+		loader.process(theme, group)
 		-- print("PATH done!")
 	end
 end
 
 function M.install(theme)
 	init_colorscheme(theme, "dark")
-	load_groups(theme, "editor", editor)
-	load_groups(theme, "syntax", syntax)
-	load_groups(theme, "lang", lang)
-	load_groups(theme, "plugin", plugin)
+
 	-- To avoid weird syntactic and semantic collisions
 	-- DAWNFOX had these two variables clear and "M" remained "RED"
 	-- Not clear why it works!
@@ -39,6 +36,11 @@ function M.install(theme)
 	vim.cmd("highlight clear @variable")
 	vim.cmd("highlight clear @lsp")
 	-- vim.cmd("highlight clear @lsp.type.variable")
+
+	load_groups(theme, "editor", editor)
+	load_groups(theme, "syntax", syntax)
+	load_groups(theme, "lang", lang)
+	load_groups(theme, "plugin", plugin)
 end
 
 return M

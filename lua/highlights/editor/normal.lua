@@ -1,7 +1,7 @@
 -- EDITOR NORMAL HIGHLIGHTS
 -- JUL 03, 2025
 
-local normal = require("profile.editor.normal")
+local normal = require("empty.profile.editor.normal")
 
 local M = {}
 local infused = {}

@@ -1,7 +1,7 @@
 -- TELESCOPE COLORS
 -- JUL 11, 2025
 
-local view = require("std.support.view")
+local view = require("empty.support.view")
 
 local M = {}
 local infused = {}

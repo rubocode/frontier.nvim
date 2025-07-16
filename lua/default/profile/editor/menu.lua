@@ -15,11 +15,11 @@ end
 
 local infuse = function()
 	profile = {
-		Pmenu = { fg = fg.Quiet, bg = bg.Normal },
-		PmenuSbar = { fg = fg.Normal, bg = bg.Normal },
-		PmenuSel = { fg = bg.Normal, bg = fg.Normal },
-		PmenuThumb = { fg = bg.Normal, bg = fg.Normal },
-		WildMenu = { fg = fg.Lighter, bg = bg.Normal },
+		Pmenu = { fg = fg.Quiet, bg = bg.Lighter },
+		PmenuSbar = { fg = fg.Normal, bg = bg.Lighter },
+		PmenuSel = { fg = bg.Lighter, bg = fg.Normal },
+		PmenuThumb = { fg = bg.Lighter, bg = fg.Normal },
+		WildMenu = { fg = fg.Lighter, bg = bg.Lighter },
 	}
 end
 

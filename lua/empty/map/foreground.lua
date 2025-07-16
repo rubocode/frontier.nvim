@@ -3,8 +3,6 @@
 
 local M = {
 	Accent = {},
-	Darker = {},
-	Darkest = {},
 	Lighter = {},
 	Loud = {},
 	Normal = {},

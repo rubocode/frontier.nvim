@@ -10,16 +10,11 @@ local verbose = true
 -- Loads a file if ity exists
 --
 function M.load(theme, config)
-	local path = theme .. "." .. config
 	notify.display(verbose, "Loading: [" .. theme .. "] " .. config)
 
-	local result = nil
-	local ok, _ = pcall(require, path)
-	if ok then
-		result = require(path)
+	local found, result = pcall(require, theme .. "." .. config)
+	if found then
 		notify.display(verbose, "Loaded!")
-	else
-		notify.display(verbose, "NOT FOUND!")
 	end
 	return result
 end
@@ -28,15 +23,20 @@ end
 -- look for an available default
 --
 function M.pick(theme, config)
-	if verbose then
-		print("Picking: [" .. theme .. "] " .. config)
-	end
+	notify.display(verbose, "Picking: [" .. theme .. "] " .. config)
 
-	local result = M.load(theme, config)
-	if not result then
-		result = M.load("default", config)
+	local found, result = pcall(require, theme .. "." .. config)
+	if not found then
+		notify.display(verbose, "Looking for default...")
+		local ok, default = pcall(require, "default" .. "." .. config)
+		if not ok then
+			notify.display(verbose, "NOT FOUND!")
+		else
+			result = default.get(theme)
+			notify.display(verbose, "Picked Default!")
+		end
 	else
-		notify.display(verbose, "Picked!")
+		notify.display(verbose, "Found!")
 	end
 
 	return result

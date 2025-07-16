@@ -3,11 +3,13 @@
 
 local cursor = require("empty.profile.editor.cursor")
 
+local mapper = require("util.mapper")
+
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	cursor = require(theme .. ".profile.editor.cursor")
+	cursor = mapper.pick(theme, "profile.editor.cursor")
 end
 
 local infuse = function()

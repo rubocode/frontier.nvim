@@ -8,7 +8,7 @@ local M = {}
 local profile = {}
 
 local remap = function(theme)
-	diff = mapper.pick(theme, "map.diff")
+	diff = mapper.load(theme, "map.diff")
 end
 
 local infuse = function()

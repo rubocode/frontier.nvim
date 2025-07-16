@@ -3,7 +3,7 @@
 
 local M = {}
 
-function M.notify(verbose, message)
+function M.display(verbose, message)
 	if verbose then
 		print(message)
 	end

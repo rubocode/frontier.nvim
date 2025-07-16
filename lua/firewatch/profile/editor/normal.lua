@@ -1,15 +1,8 @@
 -- FIREWATCH EDITOR NORMAL PROFILE
--- JUL 15, 2025
+-- JUL 16, 2025
 
-local uno = require("firewatch.palette.uno")
-local syntax = require("firewatch.palette.syntax")
+local normal = require("default.profile.editor.normal")
 
-local M = {
-	EndOfBuffer = { fg = uno.Uno4 },
-	LineNr = { fg = uno.Uno4, bg = syntax.Bg },
-	Normal = { fg = syntax.Fg, syntax.Bg },
-	NormalFloat = { bg = syntax.Bg },
-	SignColumn = { bg = syntax.CursorLine },
-}
+local M = normal.get("firewatch")
 
 return M

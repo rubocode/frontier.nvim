@@ -7,6 +7,7 @@ local syntax = require("firewatch.palette.syntax")
 
 local M = {
 	Accent = syntax.Accent,
+	Darker = uno.Uno4,
 	Lighter = syntax.Selection,
 	Loud = uno.Uno1,
 	Normal = syntax.Fg,

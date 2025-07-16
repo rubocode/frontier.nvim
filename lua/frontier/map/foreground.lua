@@ -8,6 +8,7 @@ local green = require("palette.default.green")
 
 local M = {
 	Accent = green.Lighter,
+	Darker = grey.Darker,
 	Lighter = grey.Lighter,
 	Loud = grey.Loud,
 	Normal = grey.Normal,

@@ -1,4 +1,4 @@
--- xterm256.system color palette
+-- XTERM256 SYSTEM COLOR PALETTE
 --
 
 local M = {

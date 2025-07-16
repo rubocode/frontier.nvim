@@ -1,4 +1,4 @@
--- xterm.auxiliary color palette
+-- XTERM256 AUXILIARY COLOR PALETTE
 --
 
 local M = {

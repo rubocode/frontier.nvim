@@ -3,6 +3,6 @@
 
 local diff = require("default.profile.editor.diff")
 
-local R = diff.get("frontier")
+local M = diff.get("frontier")
 
-return R
+return M

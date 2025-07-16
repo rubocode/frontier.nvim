@@ -5,20 +5,24 @@ local duo = require("firewatch.palette.duo")
 local syntax = require("firewatch.palette.syntax")
 local uno = require("firewatch.palette.uno")
 
+local fg = require("firewatch.map.foreground")
+local type = require("firewatch.map.type")
+local odd = require("firewatch.map.odd")
+
 local M = {
-	Comment = { fg = uno.Uno4 },
-	Constant = { fg = duo.Duo2 },
+	Comment = { fg = fg.Quiet },
+	Constant = { fg = type.Constant },
 	Delimiter = { fg = uno.Uno4 },
-	Function = { fg = uno.Uno2 },
-	Identifier = { fg = uno.Uno3 },
-	Keyword = { fg = uno.Uno1 },
-	Macro = { fg = uno.Uno2 },
-	Operator = { fg = syntax.Accent },
-	Special = { fg = uno.Uno3 },
-	Statement = { fg = duo.Duo1 },
-	StorageClass = { fg = uno.Uno1 },
-	String = { fg = duo.Duo1 },
-	Type = { fg = duo.Duo1 },
+	Function = { fg = type.Function },
+	Identifier = { fg = type.Identifier },
+	Keyword = { fg = type.Keyword },
+	Macro = { fg = fg.Lighter },
+	Operator = { fg = fg.Accent },
+	Special = { fg = fg.Special },
+	Statement = { fg = odd.Lighter },
+	StorageClass = { fg = type.StorageClass },
+	String = { fg = type.String },
+	Type = { fg = type.Type },
 }
 
 return M

@@ -4,9 +4,9 @@
 local syntax = require("firewatch.palette.syntax")
 
 local M = {
-	Darkest = syntax.Bg,
+	Darkest = syntax.CursorLine,
 	Normal = syntax.Bg,
-	Lighter = syntax.CursorLine,
+	Lighter = syntax.Bg,
 }
 
 return M

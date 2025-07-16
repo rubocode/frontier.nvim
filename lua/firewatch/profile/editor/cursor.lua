@@ -8,7 +8,7 @@ local M = {
 	Cursor = { fg = syntax.Bg, bg = syntax.Accent },
 	CursorColumn = { bg = syntax.CursorLine },
 	CursorLine = { bg = syntax.CursorLine },
-	CursorLineNr = { fg = uno.Uno2 },
+	CursorLineNr = { fg = syntax.CursorLine },
 }
 
 return M

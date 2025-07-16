@@ -12,9 +12,10 @@ local style = require("highlights.style")
 local M = {
 	Border = { fg = cyan.Normal },
 	Prompt = { fg = green.Normal },
-	Selection = { fg = black.Almost, bg = grey.Lighter },
-	SelectionCaret = { fg = green.Darker },
-	Special = { fg = red.Normal, style = style.Bold },
+	Selection = { fg = grey.Lighter, bg = black.Absolute, style = style.Reverse },
+	SelectionCaret = { fg = grey.Lighter, bg = black.Almost },
+	Special = { fg = black.Almost, bg = red.Normal, style = style.Reverse },
+
 	Title = { fg = yellow.Normal },
 }
 

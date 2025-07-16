@@ -2,12 +2,13 @@
 -- JUL 13, 2025
 
 local ts = require("empty.profile.syntax.treesitter")
+local mapper = require("util.mapper")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	ts = require(theme .. ".profile.syntax.treesitter")
+	ts = mapper.pick(theme, "profile.syntax.treesitter")
 end
 
 local infuse = function()

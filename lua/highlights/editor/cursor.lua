@@ -2,7 +2,6 @@
 -- JUL 03, 2025
 
 local cursor = require("empty.profile.editor.cursor")
-
 local mapper = require("util.mapper")
 
 local M = {}

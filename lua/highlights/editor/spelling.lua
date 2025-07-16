@@ -2,12 +2,13 @@
 -- JUL 03, 2025
 
 local spelling = require("empty.profile.editor.spelling")
+local mapper = require("util.mapper")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	spelling = require(theme .. ".profile.editor.spelling")
+	spelling = mapper.pick(theme, "profile.editor.spelling")
 end
 
 local infuse = function()

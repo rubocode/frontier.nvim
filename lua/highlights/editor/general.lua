@@ -2,12 +2,13 @@
 -- JUL 06, 2025
 
 local general = require("empty.profile.editor.general")
+local mapper = require("util.mapper")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	general = require(theme .. ".profile.editor.general")
+	general = mapper.pick(theme, "profile.editor.general")
 end
 
 local infuse = function()

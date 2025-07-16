@@ -2,12 +2,13 @@
 -- JUL 07, 2025
 
 local basics = require("empty.profile.syntax.basics")
+local mapper = require("util.mapper")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	basics = require(theme .. ".profile.syntax.basics")
+	basics = mapper.pick(theme, "profile.syntax.basics")
 end
 
 local infuse = function()

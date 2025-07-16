@@ -2,12 +2,13 @@
 -- JUL 06, 2025
 
 local diff = require("empty.profile.editor.diff")
+local mapper = require("util.mapper")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	diff = require(theme .. ".profile.editor.diff")
+	diff = mapper.pick(theme, "profile.editor.diff")
 end
 
 local infuse = function()

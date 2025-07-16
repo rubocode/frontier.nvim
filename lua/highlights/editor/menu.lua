@@ -2,12 +2,13 @@
 -- JUL 03, 2025
 
 local menu = require("empty.profile.editor.menu")
+local mapper = require("util.mapper")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	menu = require(theme .. ".profile.editor.menu")
+	menu = mapper.pick(theme, "profile.editor.menu")
 end
 
 local infuse = function()

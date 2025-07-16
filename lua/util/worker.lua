@@ -3,12 +3,14 @@
 
 local editor = require("util.category.editor")
 local lang = require("util.category.lang")
+local loader = require("util.loader")
+local notify = require("util.notify")
 local plugin = require("util.category.plugin")
 local syntax = require("util.category.syntax")
 
-local loader = require("util.loader")
-
 local M = {}
+
+local verbose = true
 
 local init_colorscheme = function(theme, background)
 	vim.cmd("highlight clear")
@@ -20,9 +22,9 @@ end
 local load_groups = function(theme, category, list)
 	for _, item in pairs(list) do
 		local group = "highlights." .. category .. "." .. item
-		-- print("Working on: " .. path)
+		notify.display(verbose, "Working on: " .. group)
 		loader.process(theme, group)
-		-- print("PATH done!")
+		notify.display(verbose, "PATH done!")
 	end
 end
 

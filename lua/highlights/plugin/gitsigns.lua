@@ -2,6 +2,7 @@
 -- JUL 05, 2025
 
 local diff = require("empty.map.diff")
+local mapper = require("util.mapper")
 
 local M = {}
 local infused = {}
@@ -9,7 +10,7 @@ local infused = {}
 M.URL = "https://github.com/lewis6991/gitsigns.nvim"
 
 local remap = function(theme)
-	diff = require(theme .. ".map.diff")
+	diff = mapper.pick(theme, "map.diff")
 end
 
 local infuse = function()

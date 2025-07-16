@@ -2,12 +2,13 @@
 -- JUL 03, 2025
 
 local line = require("empty.profile.editor.statusline")
+local mapper = require("util.mapper")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	line = require(theme .. ".profile.editor.statusline")
+	line = mapper.pick(theme, "profile.editor.statusline")
 end
 
 local infuse = function()

@@ -3,6 +3,7 @@
 
 local line = require("empty.support.mode.line")
 local status = require("empty.support.status")
+local mapper = require("util.mapper")
 
 local M = {}
 local infused = {}
@@ -10,8 +11,8 @@ local infused = {}
 M.URL = "https://github.com/echasnovski/mini.statusline"
 
 local remap = function(theme)
-	line = require(theme .. ".support.mode.line")
-	status = require(theme .. ".support.status")
+	line = mapper.pick(theme, "support.mode.line")
+	status = mapper.pick(theme, "support.status")
 end
 
 local infuse = function()

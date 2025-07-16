@@ -2,12 +2,13 @@
 -- JUL 11, 2025
 
 local view = require("empty.support.view")
+local mapper = require("util.mapper")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	view = require(theme .. ".support.view")
+	view = mapper.pick(theme, "support.view")
 end
 
 local infuse = function()

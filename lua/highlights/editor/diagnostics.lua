@@ -2,12 +2,13 @@
 -- JUL 03, 2025
 
 local diag = require("empty.profile.editor.diagnostics")
+local mapper = require("util.mapper")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	diag = require(theme .. ".profile.editor.diagnostics")
+	diag = mapper.pick(theme, "profile.editor.diagnostics")
 end
 
 local infuse = function()

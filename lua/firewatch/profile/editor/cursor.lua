@@ -1,10 +1,14 @@
 -- FIREWATCH EDITOR CURSOR PROFILE
--- JUL 15, 2025
+-- JUL 06, 2025
 
-local cursor = require("default.profile.editor.cursor")
+local syntax = require("firewatch.palette.syntax")
+local uno = require("firewatch.palette.uno")
 
-local M = cursor.get("firewatch")
-
-vim.print(M)
+local M = {
+	Cursor = { fg = syntax.Bg, bg = syntax.Accent },
+	CursorColumn = { bg = syntax.CursorLine },
+	CursorLine = { bg = syntax.CursorLine },
+	CursorLineNr = { fg = uno.Uno2 },
+}
 
 return M

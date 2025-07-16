@@ -15,10 +15,10 @@ end
 
 local infuse = function()
 	profile = {
-		Cursor = { fg = bg.Normal, bg = fg.Accent },
+		Cursor = { fg = bg.Darkest, bg = fg.Accent },
 		CursorColumn = { bg = bg.Lighter },
-		CursorLine = { bg = bg.Lighter },
-		CursorLineNr = { fg = fg.Normal },
+		CursorLine = { bg = bg.Peculiar },
+		CursorLineNr = { fg = fg.Peculiar },
 	}
 end
 

@@ -16,7 +16,6 @@ local infuse = function()
 		ColorColumn = general.ColorColumn,
 		Conceal = general.Conceal,
 		Directory = general.Directory,
-		EndOfBuffer = general.EndOfBuffer,
 		Error = general.Error,
 		FoldColumn = general.FoldColumn,
 		Folded = general.Folded,

@@ -1,6 +1,8 @@
 -- MAPPER UTILITY
 -- JUL 16, 2025
 
+local notify = require("util.notify")
+
 local M = {}
 
 local verbose = true
@@ -9,12 +11,15 @@ local verbose = true
 --
 function M.load(theme, config)
 	local path = theme .. "." .. config
-	if verbose then
-		print("Loading: [" .. theme .. "] " .. config)
-	end
-	local result = require(path)
-	if verbose then
-		print("Loaded!")
+	notify.display(verbose, "Loading: [" .. theme .. "] " .. config)
+
+	local result = nil
+	local ok, _ = pcall(require, path)
+	if ok then
+		result = require(path)
+		notify.display(verbose, "Loaded!")
+	else
+		notify.display(verbose, "NOT FOUND!")
 	end
 	return result
 end
@@ -23,14 +28,17 @@ end
 -- look for an available default
 --
 function M.pick(theme, config)
-	local path = theme .. "." .. config
 	if verbose then
 		print("Picking: [" .. theme .. "] " .. config)
 	end
-	local result = require(path)
-	if verbose then
-		print("Picked!")
+
+	local result = M.load(theme, config)
+	if not result then
+		result = M.load("default", config)
+	else
+		notify.display(verbose, "Picked!")
 	end
+
 	return result
 end
 

@@ -1,4 +1,4 @@
--- FOREGROUND MAP
+-- EMPTY FOREGROUND MAP
 -- JUL15, 2025
 
 local M = {

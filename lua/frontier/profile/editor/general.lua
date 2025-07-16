@@ -1,12 +1,12 @@
 -- FRONTIER EDITOR GENERAL PROFILE
 -- JUL 09, 2025
 
-local cyan = require("palette.shared.cyan")
-local green = require("palette.shared.green")
-local grey = require("palette.shared.grey")
-local red = require("palette.shared.red")
+local cyan = require("palette.default.cyan")
+local green = require("palette.default.green")
+local grey = require("palette.default.grey")
+local red = require("palette.default.red")
 local style = require("highlights.style")
-local yellow = require("palette.shared.yellow")
+local yellow = require("palette.default.yellow")
 
 local M = {
 	ColorColumn = { bg = red.Normal },

@@ -1,11 +1,11 @@
 -- FRONTIER SYNTAX BASICS PROFILE
 -- JUL 06, 2025
 
-local cyan = require("palette.shared.cyan")
-local green = require("palette.shared.green")
-local grey = require("palette.shared.grey")
-local red = require("palette.shared.red")
-local orange = require("palette.shared.orange")
+local cyan = require("palette.default.cyan")
+local green = require("palette.default.green")
+local grey = require("palette.default.grey")
+local red = require("palette.default.red")
+local orange = require("palette.default.orange")
 
 local M = {
 	Comment = { fg = grey.Quiet },

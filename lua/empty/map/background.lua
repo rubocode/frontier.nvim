@@ -1,12 +1,10 @@
--- STD BACKGROUND COLORS
+-- EMPTY BACKGROUND MAP
 -- JUL 12, 2025
 
-local black = require("palette.shared.black")
-
 local M = {
-	Darkest = black.Absolute,
-	Normal = black.Almost,
-	Lighter = black.Almost,
+	Darkest = nil,
+	Normal = nil,
+	Lighter = nil,
 }
 
 return M

@@ -1,8 +1,8 @@
 -- DEFAULT STATUS
 -- JUL 12, 2025
 
-local grey = require("palette.shared.grey")
-local black = require("palette.shared.black")
+local grey = require("palette.default.grey")
+local black = require("palette.default.black")
 
 local M = {
 	Loud = { fg = grey.Loud, bg = grey.Quiet },

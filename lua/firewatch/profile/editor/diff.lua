@@ -1,7 +1,7 @@
 -- FIREWATCH EDITOR DIFF PROFILE
 -- JUL 15, 2025
 
-local diff = require("firewatch.custom.diff")
+local diff = require("firewatch.map.diff")
 
 local M = {
 	DiffAdd = diff.Add,

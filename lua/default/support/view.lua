@@ -1,12 +1,12 @@
 -- DEFAULT VIEW
 -- JUL 12, 2025
 
-local black = require("palette.shared.black")
-local grey = require("palette.shared.grey")
-local cyan = require("palette.shared.cyan")
-local red = require("palette.shared.red")
-local green = require("palette.shared.green")
-local yellow = require("palette.shared.yellow")
+local black = require("palette.default.black")
+local grey = require("palette.default.grey")
+local cyan = require("palette.default.cyan")
+local red = require("palette.default.red")
+local green = require("palette.default.green")
+local yellow = require("palette.default.yellow")
 local style = require("highlights.style")
 
 local M = {

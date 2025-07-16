@@ -1,12 +1,12 @@
 -- DEFAULT MODE LINE
 -- JUL 15, 2025
 
-local black = require("palette.shared.black")
-local blue = require("palette.shared.blue")
-local green = require("palette.shared.green")
-local grey = require("palette.shared.grey")
-local purple = require("palette.shared.purple")
-local red = require("palette.shared.red")
+local black = require("palette.default.black")
+local blue = require("palette.default.blue")
+local green = require("palette.default.green")
+local grey = require("palette.default.grey")
+local purple = require("palette.default.purple")
+local red = require("palette.default.red")
 local style = require("highlights.style")
 
 local M = {

@@ -1,8 +1,8 @@
 -- FRONTIER SYNTAX TREESITTER PROFILE
 -- JUL 15, 2025
 
-local grey = require("palette.shared.grey")
-local yellow = require("palette.shared.yellow")
+local grey = require("palette.default.grey")
+local yellow = require("palette.default.yellow")
 
 local M = {
 	atVariableBuiltin = { fg = grey.Lighter },

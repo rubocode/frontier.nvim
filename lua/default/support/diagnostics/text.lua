@@ -1,11 +1,11 @@
 -- DEFAULT DIAGNOSTICS TEXT
 -- JUL 13, 2025
 
-local yellow = require("palette.shared.yellow")
-local cyan = require("palette.shared.cyan")
-local blue = require("palette.shared.blue")
-local green = require("palette.shared.green")
-local red = require("palette.shared.red")
+local yellow = require("palette.default.yellow")
+local cyan = require("palette.default.cyan")
+local blue = require("palette.default.blue")
+local green = require("palette.default.green")
+local red = require("palette.default.red")
 
 local M = {
 	Error = { fg = red.Normal },

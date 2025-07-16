@@ -1,10 +1,10 @@
 -- FRONTIER FOREGROUND MAP
 -- JUL 14, 2025
 
-local cyan = require("palette.shared.cyan")
-local yellow = require("palette.shared.yellow")
-local grey = require("palette.shared.grey")
-local green = require("palette.shared.green")
+local cyan = require("palette.default.cyan")
+local yellow = require("palette.default.yellow")
+local grey = require("palette.default.grey")
+local green = require("palette.default.green")
 
 local M = {
 	Accent = green.Lighter,

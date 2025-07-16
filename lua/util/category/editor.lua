@@ -8,7 +8,7 @@ local M = {
 	"general",
 	"menu",
 	"normal",
-	"spelling",
+	"spell",
 	"statusline",
 }
 

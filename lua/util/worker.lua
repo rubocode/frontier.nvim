@@ -37,6 +37,7 @@ function M.install(theme)
 	-- JUL 14, 2025
 	vim.cmd("highlight clear @variable")
 	vim.cmd("highlight clear @lsp")
+	vim.cmd("highlight clear @function")
 	-- vim.cmd("highlight clear @lsp.type.variable")
 
 	load_groups(theme, "editor", editor)

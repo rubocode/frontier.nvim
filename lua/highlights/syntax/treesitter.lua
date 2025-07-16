@@ -15,7 +15,7 @@ local infuse = function()
 	infused.PROFILE = {
 		-- Having a defined @variable creates all kinds of havoc
 		-- We clear it at the end of loading all the highlight groups
-		-- ["@variable"] = nil,
+		["@variable"] = ts.Variable,
 		["@variable.builtin"] = ts.atVariableBuiltin,
 		["@variable.member"] = ts.atVariableMember,
 		["@variable.parameter"] = ts.atVariableParameter,

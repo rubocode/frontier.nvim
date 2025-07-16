@@ -10,7 +10,7 @@ local syntax = require("util.category.syntax")
 
 local M = {}
 
-local verbose = true
+local verbose = false
 
 local init_colorscheme = function(theme, background)
 	vim.cmd("highlight clear")

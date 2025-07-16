@@ -5,7 +5,7 @@ local notify = require("util.notify")
 
 local M = {}
 
-local verbose = true
+local verbose = false
 
 -- Loads a file if ity exists
 --
@@ -27,10 +27,10 @@ function M.pick(theme, config)
 
 	local found, result = pcall(require, theme .. "." .. config)
 	if not found then
-		notify.display(verbose, "Looking for default...")
+		notify.display(verbose, "Looking for default: " .. config)
 		local ok, default = pcall(require, "default" .. "." .. config)
 		if not ok then
-			notify.display(verbose, "NOT FOUND!")
+			notify.display(true, "NOT FOUND: " .. "default." .. config)
 		else
 			result = default.get(theme)
 			notify.display(verbose, "Picked Default!")

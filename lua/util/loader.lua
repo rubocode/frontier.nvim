@@ -39,11 +39,11 @@ local process_links = function(links)
 end
 
 function M.process(theme, group)
-	notify.debug("Processing: [" .. theme .. "] " .. group)
+	notify.warning("Processing: [" .. theme .. "] " .. group)
 	local mod = require(group).get(theme)
 	process_profile(mod.PROFILE)
 	process_links(mod.LINKS)
-	notify.debug("Processed!")
+	notify.warning("Processed!")
 end
 
 return M

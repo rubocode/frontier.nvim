@@ -27,16 +27,12 @@ function M.silent()
 	DEBUG = false
 end
 
-function M.debug(message)
-	notify(DEBUG, message)
-end
-
 function M.info(message)
 	notify(VERBOSE, message)
 end
 
 function M.warning(message)
-	M.debug(message)
+	notify(DEBUG, message)
 end
 
 function M.error(message)

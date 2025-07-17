@@ -11,7 +11,7 @@ local syntax = require("util.category.syntax")
 local M = {}
 
 local init_dev_settings = function()
-	-- notify.quiet()
+	notify.quiet()
 end
 
 local init_colorscheme = function(theme, background)
@@ -24,9 +24,9 @@ end
 local load_groups = function(theme, category, list)
 	for _, item in pairs(list) do
 		local group = "highlights." .. category .. "." .. item
-		notify.debug("Working on: " .. group)
+		notify.warning("Working on: " .. group)
 		loader.process(theme, group)
-		notify.debug("PATH done!")
+		notify.warning("PATH done!")
 	end
 end
 

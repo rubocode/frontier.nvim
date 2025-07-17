@@ -20,14 +20,12 @@ end
 function M.load(theme, config)
 	local display = config_display(theme, config)
 	local mod = config_module(theme, config)
-	local result = nil
 
 	notify.info("Looking for: " .. display)
 
-	local found, loaded = pcall(require, mod)
+	local found, result = pcall(require, mod)
 	if found then
 		notify.info("Loaded! " .. display)
-		result = loaded
 	else
 		notify.warning("NOT FOUND! " .. display)
 	end
@@ -42,17 +40,23 @@ function M.pick(theme, config)
 	local display = config_display(theme, config)
 	notify.info("PICKING: " .. display)
 
+	local result = nil
+
 	local loaded = M.load(theme, config)
-	if not loaded then
+	if loaded then
+		result = loaded
+	else
 		loaded = M.load("default", config)
 		if loaded then
-			notify.info("Picked Default!")
+			result = loaded.get(theme)
+			local default = config_display("default", config)
+			notify.info("Picked: " .. default)
 		else
 			notify.error("NO CUSTOM OR DEFAULT: " .. display)
 		end
 	end
 
-	return loaded
+	return result
 end
 
 return M

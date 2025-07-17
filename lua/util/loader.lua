@@ -6,11 +6,10 @@ local notify = require("util.notify")
 local M = {}
 
 local verbose = false
-local detail = false
 
 local add_color_options = function(opts, color, xg)
 	if color then
-		notify.display(detail, "\t\tCOLOR> " .. xg .. " " .. color.i .. " " .. color.hex)
+		notify.display(verbose, "\t\tCOLOR> " .. xg .. " " .. color.i .. " " .. color.hex)
 		opts[xg] = color.hex
 		opts["cterm" .. xg] = color.i
 	end
@@ -27,7 +26,7 @@ end
 local process_profile = function(profile)
 	for group, v in pairs(profile) do
 		local opts = {}
-		notify.display(detail, "\t" .. group)
+		notify.display(verbose, "\t" .. group)
 		opts = add_color_options(opts, v.fg, "fg")
 		opts = add_color_options(opts, v.bg, "bg")
 		opts = add_style_options(opts, v.style)
@@ -42,11 +41,11 @@ local process_links = function(links)
 end
 
 function M.process(theme, group)
-	notify.display(verbose, "Processing: [" .. theme .. "] " .. group)
+	notify.info("Processing: [" .. theme .. "] " .. group)
 	local mod = require(group).get(theme)
 	process_profile(mod.PROFILE)
 	process_links(mod.LINKS)
-	notify.display(verbose, "Processed!")
+	notify.info("Processed!")
 end
 
 return M

@@ -10,8 +10,6 @@ local syntax = require("util.category.syntax")
 
 local M = {}
 
-local verbose = false
-
 local init_colorscheme = function(theme, background)
 	vim.cmd("highlight clear")
 	vim.cmd("syntax reset")
@@ -22,9 +20,9 @@ end
 local load_groups = function(theme, category, list)
 	for _, item in pairs(list) do
 		local group = "highlights." .. category .. "." .. item
-		notify.display(verbose, "Working on: " .. group)
+		notify.info("Working on: " .. group)
 		loader.process(theme, group)
-		notify.display(verbose, "PATH done!")
+		notify.info("PATH done!")
 	end
 end
 

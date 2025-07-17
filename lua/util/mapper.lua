@@ -5,8 +5,6 @@ local notify = require("util.notify")
 
 local M = {}
 
-local verbose = true
-
 local config_module = function(theme, config)
 	local mod = theme .. "." .. config
 	return mod
@@ -24,14 +22,14 @@ function M.load(theme, config)
 	local mod = config_module(theme, config)
 	local result = nil
 
-	notify.display(verbose, "Looking for: " .. display)
+	notify.info("Looking for: " .. display)
 
 	local found, loaded = pcall(require, mod)
 	if found then
-		notify.display(verbose, "Loaded! " .. display)
+		notify.info("Loaded! " .. display)
 		result = loaded
 	else
-		notify.display(verbose, "NOT FOUND! " .. display)
+		notify.warning("NOT FOUND! " .. display)
 	end
 
 	return result
@@ -42,15 +40,15 @@ end
 --
 function M.pick(theme, config)
 	local display = config_display(theme, config)
-	notify.display(verbose, "PICKING: " .. display)
+	notify.info("PICKING: " .. display)
 
 	local loaded = M.load(theme, config)
 	if not loaded then
 		loaded = M.load("default", config)
 		if loaded then
-			notify.display(verbose, "Picked Default!")
+			notify.info("Picked Default!")
 		else
-			notify.display(true, "NO CUSTOM OR DEFAULT: " .. display)
+			notify.error("NO CUSTOM OR DEFAULT: " .. display)
 		end
 	end
 

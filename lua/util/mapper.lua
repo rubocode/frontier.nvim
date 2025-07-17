@@ -2,24 +2,15 @@
 -- JUL 16, 2025
 
 local notify = require("util.notify")
+local cfg = require("util.config")
 
 local M = {}
-
-local config_module = function(theme, config)
-	local mod = theme .. "." .. config
-	return mod
-end
-
-local config_display = function(theme, config)
-	local display = "[" .. theme .. "] " .. config
-	return display
-end
 
 -- Loads a file if it exists
 --
 function M.load(theme, config)
-	local display = config_display(theme, config)
-	local mod = config_module(theme, config)
+	local display = cfg.notice(theme, config)
+	local mod = cfg.module(theme, config)
 	notify.warning("Looking for: " .. display)
 
 	local result = nil
@@ -39,7 +30,7 @@ end
 -- look for an available default
 --
 function M.pick(theme, config)
-	local display = config_display(theme, config)
+	local display = cfg.notice(theme, config)
 	notify.warning("PICKING: " .. display)
 
 	local result = nil
@@ -52,7 +43,7 @@ function M.pick(theme, config)
 		loaded = M.load("default", config)
 		if loaded then
 			result = loaded.get(theme)
-			notify.warning("DEFAULT: " .. config_display("default", config))
+			notify.warning("DEFAULT: " .. cfg.notice("default", config))
 		else
 			notify.error("NO CUSTOM OR DEFAULT: " .. display)
 		end

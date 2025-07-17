@@ -5,17 +5,35 @@ local notify = require("util.notify")
 
 local M = {}
 
-local verbose = false
+local verbose = true
 
--- Loads a file if ity exists
+local config_module = function(theme, config)
+	local mod = theme .. "." .. config
+	return mod
+end
+
+local config_display = function(theme, config)
+	local display = "[" .. theme .. "] " .. config
+	return display
+end
+
+-- Loads a file if it exists
 --
 function M.load(theme, config)
-	notify.display(verbose, "Loading: [" .. theme .. "] " .. config)
+	local display = config_display(theme, config)
+	local mod = config_module(theme, config)
+	local result = nil
 
-	local found, result = pcall(require, theme .. "." .. config)
+	notify.display(verbose, "Looking for: " .. display)
+
+	local found, loaded = pcall(require, mod)
 	if found then
-		notify.display(verbose, "Loaded!")
+		notify.display(verbose, "Loaded! " .. display)
+		result = loaded
+	else
+		notify.display(verbose, "NOT FOUND! " .. display)
 	end
+
 	return result
 end
 
@@ -23,23 +41,20 @@ end
 -- look for an available default
 --
 function M.pick(theme, config)
-	notify.display(verbose, "Picking: [" .. theme .. "] " .. config)
+	local display = config_display(theme, config)
+	notify.display(verbose, "PICKING: " .. display)
 
-	local found, result = pcall(require, theme .. "." .. config)
-	if not found then
-		notify.display(verbose, "Looking for default: " .. config)
-		local ok, default = pcall(require, "default" .. "." .. config)
-		if not ok then
-			notify.display(true, "NOT FOUND: " .. "default." .. config)
-		else
-			result = default.get(theme)
+	local loaded = M.load(theme, config)
+	if not loaded then
+		loaded = M.load("default", config)
+		if loaded then
 			notify.display(verbose, "Picked Default!")
+		else
+			notify.display(true, "NO CUSTOM OR DEFAULT: " .. display)
 		end
-	else
-		notify.display(verbose, "Found!")
 	end
 
-	return result
+	return loaded
 end
 
 return M

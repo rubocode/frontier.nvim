@@ -6,34 +6,30 @@ local M = {}
 local VERBOSE = false
 local DEBUG = false
 
-local display = function(verbose, message)
+local notify = function(verbose, message)
 	if verbose then
-		vim.print(message)
+		vim.notify(message)
 	end
 end
 
-function M.display(condition, message)
-	if condition then
-		print(message)
-	end
+function M.notify(condition, message)
+	notify(condition, message)
 end
 
 function M.debug(message)
-	if DEBUG then
-		display(true, message)
-	end
+	notify(DEBUG, message)
 end
 
 function M.info(message)
-	display(VERBOSE, message)
+	notify(VERBOSE, message)
 end
 
 function M.warning(message)
-	display(VERBOSE, message)
+	notify(VERBOSE, message)
 end
 
 function M.error(message)
-	display(true, message)
+	notify(true, message)
 end
 
 return M

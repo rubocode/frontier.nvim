@@ -12,8 +12,19 @@ local notify = function(verbose, message)
 	end
 end
 
-function M.notify(condition, message)
-	notify(condition, message)
+function M.verbose()
+	VERBOSE = true
+	DEBUG = true
+end
+
+function M.quiet()
+	VERBOSE = false
+	DEBUG = true
+end
+
+function M.silent()
+	VERBOSE = false
+	DEBUG = false
 end
 
 function M.debug(message)
@@ -25,7 +36,7 @@ function M.info(message)
 end
 
 function M.warning(message)
-	notify(VERBOSE, message)
+	M.debug(message)
 end
 
 function M.error(message)

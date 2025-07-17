@@ -10,6 +10,10 @@ local syntax = require("util.category.syntax")
 
 local M = {}
 
+local init_dev_settings = function()
+	-- notify.quiet()
+end
+
 local init_colorscheme = function(theme, background)
 	vim.cmd("highlight clear")
 	vim.cmd("syntax reset")
@@ -20,13 +24,14 @@ end
 local load_groups = function(theme, category, list)
 	for _, item in pairs(list) do
 		local group = "highlights." .. category .. "." .. item
-		notify.info("Working on: " .. group)
+		notify.debug("Working on: " .. group)
 		loader.process(theme, group)
-		notify.info("PATH done!")
+		notify.debug("PATH done!")
 	end
 end
 
 function M.install(theme)
+	init_dev_settings()
 	init_colorscheme(theme, "dark")
 
 	-- To avoid weird syntactic and semantic collisions

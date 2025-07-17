@@ -6,7 +6,7 @@ local aux = require("palette.xterm256.auxiliary")
 local uno = require("firewatch.palette.uno")
 
 local M = {
-	Bg = aux.Grey3,
+	Bg = aux.Grey0, -- aux.Grey3
 	CursorLine = aux.Grey0,
 	Renamed = aux.DeepSkyBlue1,
 	Added = aux.SpringGreen2,

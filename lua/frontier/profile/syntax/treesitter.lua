@@ -8,7 +8,7 @@ local M = {
 	atVariable = { fg = grey.Lighter },
 	atVariableBuiltin = { fg = grey.Lighter },
 	atVariableMember = { fg = grey.Lighter },
-	atVariableParameter = { fg = grey.Lighter },
+	atVariableParameter = { fg = yellow.Normal },
 }
 
 return M

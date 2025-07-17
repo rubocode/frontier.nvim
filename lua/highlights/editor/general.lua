@@ -20,11 +20,9 @@ local infuse = function()
 		FoldColumn = general.FoldColumn,
 		Folded = general.Folded,
 		Ignore = general.Ignore,
-		IncSearch = general.IncSearch,
 		MatchParen = general.MatchParen,
 		NonText = general.NonText,
 		Question = general.Question,
-		Search = general.Search,
 		SpecialKey = general.SpecialKey,
 		TabLine = general.TabLine,
 		TabLineFill = general.TabLineFill,
@@ -41,10 +39,7 @@ local infuse = function()
 		helpLeadBlank = general.helpLeadBlank,
 		helpNormal = general.helpNormal,
 	}
-	infused.LINKS = {
-		QuickFixLine = { link = "Search" },
-		CurSearch = { link = "IncSearch" },
-	}
+	infused.LINKS = {}
 end
 
 function M.get(theme)

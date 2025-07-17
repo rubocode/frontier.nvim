@@ -3,7 +3,7 @@
 
 local M = {}
 
-local VERBOSE = true
+local VERBOSE = false
 local DEBUG = false
 
 local display = function(verbose, message)

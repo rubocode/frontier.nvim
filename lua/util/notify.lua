@@ -8,7 +8,7 @@ local DEBUG = false
 
 local display = function(verbose, message)
 	if verbose then
-		print(message)
+		vim.print(message)
 	end
 end
 
@@ -20,7 +20,7 @@ end
 
 function M.debug(message)
 	if DEBUG then
-		print(message)
+		display(true, message)
 	end
 end
 

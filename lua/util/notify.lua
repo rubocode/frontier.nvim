@@ -4,6 +4,7 @@
 local M = {}
 
 local VERBOSE = true
+local DEBUG = false
 
 local display = function(verbose, message)
 	if verbose then
@@ -13,6 +14,12 @@ end
 
 function M.display(condition, message)
 	if condition then
+		print(message)
+	end
+end
+
+function M.debug(message)
+	if DEBUG then
 		print(message)
 	end
 end

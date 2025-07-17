@@ -5,11 +5,9 @@ local notify = require("util.notify")
 
 local M = {}
 
-local verbose = false
-
 local add_color_options = function(opts, color, xg)
 	if color then
-		notify.display(verbose, "\t\tCOLOR> " .. xg .. " " .. color.i .. " " .. color.hex)
+		notify.info("\t\tCOLOR> " .. xg .. " " .. color.i .. " " .. color.hex)
 		opts[xg] = color.hex
 		opts["cterm" .. xg] = color.i
 	end
@@ -26,7 +24,7 @@ end
 local process_profile = function(profile)
 	for group, v in pairs(profile) do
 		local opts = {}
-		notify.display(verbose, "\t" .. group)
+		notify.info("\t" .. group)
 		opts = add_color_options(opts, v.fg, "fg")
 		opts = add_color_options(opts, v.bg, "bg")
 		opts = add_style_options(opts, v.style)

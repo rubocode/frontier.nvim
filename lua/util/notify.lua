@@ -3,7 +3,7 @@
 
 local M = {}
 
-local VERBOSE = false
+local VERBOSE = true
 
 local display = function(verbose, message)
 	if verbose then
@@ -11,8 +11,8 @@ local display = function(verbose, message)
 	end
 end
 
-function M.display(verbose, message)
-	if verbose then
+function M.display(condition, message)
+	if condition then
 		print(message)
 	end
 end

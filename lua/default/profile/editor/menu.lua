@@ -4,6 +4,7 @@
 local bg = require("empty.map.background")
 local fg = require("empty.map.foreground")
 local mapper = require("util.mapper")
+local style = require("highlights.style")
 
 local M = {}
 local profile = {}
@@ -17,7 +18,7 @@ local infuse = function()
 	profile = {
 		Pmenu = { fg = fg.Normal, bg = bg.Normal },
 		PmenuSbar = { fg = fg.Normal, bg = bg.Lighter },
-		PmenuSel = { fg = bg.Lighter, bg = fg.Normal },
+		PmenuSel = { fg = bg.Lighter, bg = fg.Normal, style = style.Bold },
 		PmenuThumb = { fg = bg.Lighter, bg = fg.Normal },
 		WildMenu = { fg = fg.Lighter, bg = bg.Lighter },
 	}

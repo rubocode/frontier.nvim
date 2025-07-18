@@ -5,10 +5,6 @@ My initial intention was to create a reasonable stable abstraction of mapping
 colors into the highlight groups.  This would allow me to make changes and evolve
 rapidly.
 
-> Design is not just what it looks like and feels like.  
-> Design is how it works.  
-> **Steve Jobs**
-
 However, supporting more than one theme required dynamic binding of some sort
 and one of the methods seemed to be to call a function with the theme as a
 parameter and get back color-infused highlight group definitions.
@@ -17,6 +13,10 @@ The trouble was that I inherently hated placing all parts of my abstraction
 in one file.  I wanted to deal with the problem in a more intuitive modular
 style.  I ended up creating a handful of folders and less than a dozen files
 inside each folder.
+
+> Design is not just what it looks like and feels like.  
+> Design is how it works.  
+> **Steve Jobs**
 
 When you want to supply the definition of a module in the theme into a highlight
 group and get back a color-infused highlight group, you can supply that module

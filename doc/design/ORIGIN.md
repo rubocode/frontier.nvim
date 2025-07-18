@@ -1,4 +1,4 @@
-## THE ORIGIN OF THE UNIWATCH COLORSCHEME
+## THE ORIGIN OF THE FRONTIER COLORSCHEMES
 > JUL 08, 2025
 
 When I first started using _neovim_, it was on a macOS Terminal that was limited
@@ -91,22 +91,24 @@ centralize and stabilize the highlight definitions in order that all themes
 (colorschemes) benefited when a new plugin was added to the ones that were
 chosen to be included.
 
-## uniwatch-frontier
+At this point I switched from _UNIWATCH_ to _FRONTIER_ as the name of the project.
+
+## frontier
 This is where I allow myself more freedom to experiment with a fancier color palette.
 Whatever I learn here gets translated into the minimal fixed palettes of the other
 colorschemes.
 
-## uniwatch-firewatch
+## frontier-firewatch
 This is intended to satify my earlier need to bring _two-firewatch (dark xterm256)_
 onto _truecolor_ terminals.  I still find the rather simple color palette and
 the design choices in _two-firewatch_ appealing.
 
-## uniwatch-apprentice
+## frontier-apprentice
 This is intended as another example of using an existing color palette that fully
 supports the chosen features (such as proper _LSP_ support) and chosen plugins
 that I would use.
 
-## uniwatch-neoterm
+## frontier-neoterm
 Along the way I discovered that there is a standard colorscheme for modern neovim
 that uses a color palette with a few more than 16 colors.  I wasn't sure how this
 translates into a legacy terminal type.  But, I thought it might be interesting

@@ -18,7 +18,13 @@ local init_colorscheme = function(theme, background)
 	vim.cmd("highlight clear")
 	vim.cmd("syntax reset")
 	vim.o.background = background
-	vim.g.colors_name = "uniwatch-" .. theme
+
+	local name = theme
+
+	if not name == "frontier" then
+		name = "frontier-" .. name
+	end
+	vim.g.colors_name = name
 end
 
 local load_groups = function(theme, category, list)

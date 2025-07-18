@@ -3,6 +3,7 @@
 
 local diag = require("empty.profile.editor.diagnostics")
 local mapper = require("util.mapper")
+local notify = require("util.notify")
 
 local M = {}
 local infused = {}

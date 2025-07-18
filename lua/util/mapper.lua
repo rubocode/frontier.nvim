@@ -33,13 +33,18 @@ function M.pick(theme, config)
 	local result = nil
 
 	local loaded = M.load(theme, config)
+
 	if loaded then
 		result = loaded
 		notify.warning("CUSTOM: " .. cfg.notice(theme, config))
 	else
 		loaded = M.load("default", config)
 		if loaded then
-			result = loaded.get(theme)
+			if string.find(config, "profile.") == 1 then
+				result = loaded.get(theme)
+			else
+				result = loaded
+			end
 			notify.warning("DEFAULT: " .. cfg.notice("default", config))
 		else
 			notify.error("NO CUSTOM OR DEFAULT: " .. cfg.notice(theme, config))

@@ -1,4 +1,4 @@
--- VERBOSE UTILITY
+-- NOTIFY UTILITY
 -- JUL 16, 2025
 
 local M = {}

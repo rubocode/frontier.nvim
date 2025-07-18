@@ -35,4 +35,7 @@ I hope you will enjoy the different flavors and also the internal organization.
 Perhaps you would like to use this project as the basis for experimentation with
 your own preferred color palette.
 
+> Premature optimization is the root of all evil.  
+> **Donald Knuth**
+
 Knock yourself out!

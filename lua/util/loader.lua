@@ -2,6 +2,7 @@
 --
 
 local notify = require("util.notify")
+local cfg = require("util.config")
 
 local M = {}
 
@@ -39,7 +40,7 @@ local process_links = function(links)
 end
 
 function M.process(theme, group)
-	notify.warning("Processing: [" .. theme .. "] " .. group)
+	notify.warning("Processing: " .. cfg.notice(theme, group))
 	local mod = require(group).get(theme)
 	process_profile(mod.PROFILE)
 	process_links(mod.LINKS)

@@ -1,8 +1,8 @@
 -- FRONTIER EDITOR DIAGNOSTICS PROFILE
 -- JUL 15, 2025
 
-local line = require("frontier.support.diagnostics.line")
-local text = require("frontier.support.diagnostics.text")
+local line = require("theme.frontier.support.diagnostics.line")
+local text = require("theme.frontier.support.diagnostics.text")
 
 local M = {
 	ErrorMsg = text.Error,

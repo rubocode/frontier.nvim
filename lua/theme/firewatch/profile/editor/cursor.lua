@@ -1,7 +1,7 @@
 -- FIREWATCH EDITOR CURSOR PROFILE
 -- JUL 06, 2025
 
-local syntax = require("firewatch.palette.syntax")
+local syntax = require("theme.firewatch.palette.syntax")
 
 local M = {
 	Cursor = { fg = syntax.Bg, bg = syntax.Accent },

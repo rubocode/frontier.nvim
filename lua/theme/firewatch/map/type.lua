@@ -1,8 +1,8 @@
 -- FIREWATCH TYPE MAP
 -- JUL 15, 2025
 
-local duo = require("firewatch.palette.duo")
-local uno = require("firewatch.palette.uno")
+local duo = require("theme.firewatch.palette.duo")
+local uno = require("theme.firewatch.palette.uno")
 
 local M = {
 	Constant = duo.Duo2,

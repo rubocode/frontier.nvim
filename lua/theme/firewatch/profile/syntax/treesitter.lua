@@ -1,7 +1,7 @@
 -- FIREWATCH SYNTAX TREESITTER PROFILE
 -- JUL 15, 2025
 
-local uno = require("firewatch.palette.uno")
+local uno = require("theme.firewatch.palette.uno")
 
 local M = {
 	atVariableBuiltin = { fg = uno.Uno2 },

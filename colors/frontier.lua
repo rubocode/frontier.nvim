@@ -1,1 +1,1 @@
-require("frontier").setup()
+require("theme.frontier").setup()

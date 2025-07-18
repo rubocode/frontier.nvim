@@ -2,9 +2,9 @@
 -- JUL 09, 2025
 
 local style = require("highlights.style")
-local syntax = require("firewatch.palette.syntax")
-local uno = require("firewatch.palette.uno")
-local duo = require("firewatch.palette.duo")
+local syntax = require("theme.firewatch.palette.syntax")
+local uno = require("theme.firewatch.palette.uno")
+local duo = require("theme.firewatch.palette.duo")
 
 local M = {
 	ColorColumn = { bg = syntax.CursorLine },

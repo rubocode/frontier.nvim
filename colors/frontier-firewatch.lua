@@ -1,1 +1,1 @@
-require("firewatch").setup()
+require("theme.firewatch").setup()

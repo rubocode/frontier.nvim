@@ -1,9 +1,9 @@
 -- FIREWATCH SYNTAX BASICS PROFILE
 -- JUL 15, 2025
 
-local fg = require("firewatch.map.foreground")
-local type = require("firewatch.map.type")
-local odd = require("firewatch.map.odd")
+local fg = require("theme.firewatch.map.foreground")
+local type = require("theme.firewatch.map.type")
+local odd = require("theme.firewatch.map.odd")
 
 local M = {
 	Comment = { fg = fg.Quiet },

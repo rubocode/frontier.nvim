@@ -4,7 +4,12 @@
 local M = {}
 
 function M.module(theme, config)
-	local module = theme .. "." .. config
+	local module = nil
+	if theme == "default" then
+		module = "default." .. config
+	else
+		module = "theme." .. theme .. "." .. config
+	end
 	return module
 end
 

@@ -3,7 +3,7 @@
 -- JUL 12, 2025
 
 local aux = require("palette.xterm256.auxiliary")
-local uno = require("firewatch.palette.uno")
+local uno = require("theme.firewatch.palette.uno")
 
 local M = {
 	Bg = aux.Grey0, -- aux.Grey3

@@ -1,9 +1,9 @@
 -- FIREWATCH FOREGROUND MAP
 -- JUL 15, 2025
 
-local duo = require("firewatch.palette.duo")
-local uno = require("firewatch.palette.uno")
-local syntax = require("firewatch.palette.syntax")
+local duo = require("theme.firewatch.palette.duo")
+local uno = require("theme.firewatch.palette.uno")
+local syntax = require("theme.firewatch.palette.syntax")
 
 local M = {
 	Accent = syntax.Accent,

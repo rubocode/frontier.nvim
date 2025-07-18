@@ -1,7 +1,7 @@
 -- FIREWATCH ODD MAP
 -- JUL 16, 2025
 
-local duo = require("firewatch.palette.duo")
+local duo = require("theme.firewatch.palette.duo")
 
 local M = {
 	Darker = duo.Duo3,

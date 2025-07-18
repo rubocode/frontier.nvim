@@ -11,9 +11,9 @@ local M = {}
 local profile = {}
 
 local remap = function(theme)
-	bg = mapper.load(theme, "map.background")
-	fg = mapper.load(theme, "map.foreground")
-	odd = mapper.load(theme, "map.odd")
+	bg = mapper.pick(theme, "map.background")
+	fg = mapper.pick(theme, "map.foreground")
+	odd = mapper.pick(theme, "map.odd")
 end
 
 local infuse = function()

@@ -11,7 +11,7 @@ local syntax = require("util.category.syntax")
 local M = {}
 
 local init_dev_settings = function()
-	notify.quiet()
+	-- notify.quiet()
 end
 
 local init_colorscheme = function(theme, background)

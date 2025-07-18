@@ -9,8 +9,8 @@ local M = {}
 local profile = {}
 
 local remap = function(theme)
-	bg = mapper.load(theme, "map.background")
-	fg = mapper.load(theme, "map.foreground")
+	bg = mapper.pick(theme, "map.background")
+	fg = mapper.pick(theme, "map.foreground")
 end
 
 local infuse = function()

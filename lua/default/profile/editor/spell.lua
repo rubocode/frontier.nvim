@@ -13,7 +13,7 @@ local profile = {}
 --
 
 local remap = function(theme)
-	odd = mapper.load(theme, "map.odd")
+	odd = mapper.pick(theme, "map.odd")
 end
 
 local infuse = function()

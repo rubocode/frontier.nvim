@@ -2,14 +2,14 @@
 -- JUL15, 2025
 
 local M = {
-	Accent = {},
-	Darker = {},
-	Lighter = {},
-	Loud = {},
-	Normal = {},
-	Peculiar = {},
-	Quiet = {},
-	Special = {},
+	Accent = nil,
+	Darker = nil,
+	Lighter = nil,
+	Loud = nil,
+	Normal = nil,
+	Peculiar = nil,
+	Quiet = nil,
+	Special = nil,
 }
 
 return M

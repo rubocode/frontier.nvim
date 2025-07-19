@@ -3,6 +3,7 @@
 
 local notify = require("util.notify")
 local cfg = require("util.config")
+local hl = require("util.highlight")
 
 local M = {}
 
@@ -22,20 +23,24 @@ local add_style_options = function(opts, style)
 	return opts
 end
 
+local process_group = function(group, spec)
+	local opts = {}
+	notify.info("\t" .. group)
+	opts = add_color_options(opts, spec.fg, "fg")
+	opts = add_color_options(opts, spec.bg, "bg")
+	opts = add_style_options(opts, spec.style)
+	vim.api.nvim_set_hl(0, group, opts)
+end
+
 local process_profile = function(profile)
-	for group, v in pairs(profile) do
-		local opts = {}
-		notify.info("\t" .. group)
-		opts = add_color_options(opts, v.fg, "fg")
-		opts = add_color_options(opts, v.bg, "bg")
-		opts = add_style_options(opts, v.style)
-		vim.api.nvim_set_hl(0, group, opts)
+	for group, spec in pairs(profile) do
+		hl.apply(group, spec)
 	end
 end
 
 local process_links = function(links)
-	for group, opts in pairs(links) do
-		vim.api.nvim_set_hl(0, group, opts)
+	for group, spec in pairs(links) do
+		vim.api.nvim_set_hl(0, group, spec)
 	end
 end
 

@@ -85,7 +85,13 @@ who created ChatGPT can each all the Nova Lox Bagels they want with
 Philadelphia Cream Cheese and make TOMAHAWK missiles, while I become
 a starving **prompt engineer**.
 
+Apparently, they are making the world a better place through
+technological innovation.
+Build Gates: oops, did I spell that wrong?
+
 > If they don't have bread, let them eat cake.  
 > **Marie Antoinette**
 
-So there!
+What would you rather eat? bagels, bread or cake?
+Is that the right question to ask?
+More importantly: are you getting laid or are you getting screwed?

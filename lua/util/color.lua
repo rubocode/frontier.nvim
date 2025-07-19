@@ -14,4 +14,8 @@ function M.translate(opts, color, xg)
 	return opts
 end
 
+function M.display(color)
+	vim.print(color)
+end
+
 return M

@@ -13,9 +13,9 @@ function M.module(theme, config)
 	return module
 end
 
-function M.notice(theme, config)
-	local notice = "[" .. theme .. "] " .. config
-	return notice
+function M.display(theme, config)
+	local display = "[" .. theme .. "] " .. config
+	return display
 end
 
 return M

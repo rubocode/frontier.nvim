@@ -9,16 +9,16 @@ local M = {}
 -- Loads a file if it exists
 --
 function M.load(theme, config)
-	notify.warning("Looking for: " .. cfg.notice(theme, config))
+	notify.warning("Looking for: " .. cfg.display(theme, config))
 
 	local result = nil
 
 	local found, loaded = pcall(require, cfg.module(theme, config))
 	if found then
 		result = loaded
-		notify.warning("Loaded! " .. cfg.notice(theme, config))
+		notify.warning("Loaded! " .. cfg.display(theme, config))
 	else
-		notify.warning("MISSING: " .. cfg.notice(theme, config))
+		notify.warning("MISSING: " .. cfg.display(theme, config))
 	end
 
 	return result
@@ -28,7 +28,7 @@ end
 -- look for an available default
 --
 function M.pick(theme, config)
-	notify.warning("PICKING: " .. cfg.notice(theme, config))
+	notify.warning("PICKING: " .. cfg.display(theme, config))
 
 	local result = nil
 
@@ -36,7 +36,7 @@ function M.pick(theme, config)
 
 	if loaded then
 		result = loaded
-		notify.warning("CUSTOM: " .. cfg.notice(theme, config))
+		notify.warning("CUSTOM: " .. cfg.display(theme, config))
 	else
 		loaded = M.load("default", config)
 		if loaded then
@@ -45,9 +45,9 @@ function M.pick(theme, config)
 			else
 				result = loaded
 			end
-			notify.warning("DEFAULT: " .. cfg.notice("default", config))
+			notify.warning("DEFAULT: " .. cfg.display("default", config))
 		else
-			notify.error("NO CUSTOM OR DEFAULT: " .. cfg.notice(theme, config))
+			notify.error("NO CUSTOM OR DEFAULT: " .. cfg.display(theme, config))
 		end
 	end
 

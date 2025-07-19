@@ -20,7 +20,7 @@ local process_links = function(links)
 end
 
 function M.process(theme, group)
-	notify.warning("Processing: " .. cfg.notice(theme, group))
+	notify.warning("Processing: " .. cfg.display(theme, group))
 	local mod = require(group).get(theme)
 	process_profile(mod.PROFILE)
 	process_links(mod.LINKS)

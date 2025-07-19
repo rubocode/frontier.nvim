@@ -43,7 +43,8 @@ combinations.  The ultimate abstraction will do the whole thing
 with just a definition of the palette.
 The creative aspect involves specifying the mapping between
 the chosen custom color palette and the editor color abstraction
-in the editor given by a flat list of properties named highlights.
+that need to be translated into the flat list of properties named
+highlights.
 
 So, what you really need to do is to map the palette to
 an intermediate abstraction that has achived an elegant one-to-one

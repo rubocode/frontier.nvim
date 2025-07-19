@@ -62,4 +62,4 @@ are squeezed togther.
 
 Since the reason I use **neovim** is to edit code and not to enjoy good looking
 frames of floating windows, I prefer using the **Mac Terminal**.
-And I don't like cats all that much, and winters are also kind of meh!. ;)
+I don't like cats all that much, and winters are also kind of meh!. ;)

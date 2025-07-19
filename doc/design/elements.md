@@ -16,7 +16,7 @@ you have to set the foreground color, background color and the style
 We call one of these elements a highlight.  Now things are not too simple.
 We can link one highlight group to another one so that the second one
 can automatically switch along with the first.  In this case, you need
-only supply and modify the first and simple keep the link stable.
+only supply and modify the first and simply keep the link stable.
 So, in a particular colorscheme, you supply some color definition and
 often some links.
 
@@ -51,12 +51,28 @@ relationship with the flat list of properties.  Now you pick a palette
 and map it to the internal abstraction and voila, you have a working
 colorscheme.
 
-Now, it would be a shame if you had to map the palette into each highlight.
+It would be a shame if you had to map the palette into each highlight.
 That is just a tedious job.  We have now expressed the editor display
-properties in semantic terms.  So if your background color is some colors,
+properties in semantic terms.  So if your background color is some color,
 you can just pick that up and use it in your menus.  We now have the
 capabilty for default links inside the abstraction.  You only need to
-provide a customization when the default is not acceptable.
+provide a customization when the default is not acceptable or not
+pleasing enough for your sophisticated intuition.
+
+Ultimately, it would be a waste of your life to spend it designing
+elegant aesthetics for code monkeys.  So, you take the high road.
+You try to do something that delights you, all the way.
+Anyone who likes it can enjoy it for free thanks to open source.
+If no one else does, I still made one for myself!
+
+> When you’re a carpenter making a beautiful chest of drawers,
+> you’re not going to use a piece of plywood on the back,
+> even though it faces the wall and nobody will ever see it.
+> You’ll know it’s there, so you’re going to use a beautiful
+> piece of wood on the back.
+> For you to sleep well at night, the aesthetic, the quality,
+> has to be carried all the way through."  
+> **Steve Jobs**
 
 The design challenge now becomes one of creating an accurate internal
 asbtraction that is congruent with the problem at hand to eliminate

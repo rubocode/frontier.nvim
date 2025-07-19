@@ -98,7 +98,7 @@ You have just increased your productivity via intelligent automation.
 Now, your tastes may differ.  You might prefer to ask **ChatGPT** to
 do this for you.  But I didn't go to school for 13 years, university
 for 4 years and spent a bunch of years coding just so that the people
-who created ChatGPT can each all the Nova Lox Bagels they want with
+who created ChatGPT can eat all the Nova Lox Bagels they want with
 Philadelphia Cream Cheese and make TOMAHAWK missiles, while I become
 a starving **prompt engineer**.
 

@@ -53,13 +53,13 @@ If you prefer a faster loading colorscheme, you can use **catppuccin**
 or **miniwinter**.  They just look crappy on my Mac Terminal (xterm256).
 The colors are either too limited or the editor goes into the mode of
 a broken CRT television set.
-The Mac Terminal provides better line spacing (easier to read and general
-healthier for the eyes) at the cost of not having the frames of your
-**telescope** float windows interrupted by small spaces.
+The Mac Terminal provides better line spacing (easier to read and
+generally healthier for the eyes) at the cost of not having the frames
+of your **telescope** float windows interrupted by tiny spaces.
 The other **truecolor** terminals including **iTerm** abd **WezTerm**
 terminals have the frames look really good but code lines
 are squeezed togther.
 
 Since the reason I use **neovim** is to edit code and not to enjoy good looking
 frames of floating windows, I prefer using the **Mac Terminal**.
-And I don't like cats all that much, and winters not are also kind of meh!. ;)
+And I don't like cats all that much, and winters are also kind of meh!. ;)

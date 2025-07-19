@@ -34,6 +34,9 @@ definitions.  Now you can support multiple customizations for
 a particular aspect of the editor's display (it could be the little
 menus or the statusline).
 
+> All problems in computer science can be solved by another level of indirection.  
+> **David Wheeler**
+
 When you are in the process of creating multiple customizations,
 it is helpful to generalize the abstractions to support the color
 combinations.  The ultimate abstraction will do the whole thing

@@ -12,7 +12,7 @@ organized.  So, what I had infront of me was an **experiment** where I would wor
 in [bottom up](https://rubocode.github.io/blog/2018-08-17/top-down-and-bottom-up)
 fashion from prototype to finished product.
 
-* [Elements](elements):
+* [Elements](elements)
 * [Origin](origin)
 * [Strategy](strategy)
 

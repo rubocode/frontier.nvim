@@ -3,7 +3,7 @@
 
 local M = {}
 
-function M.translate(opts, style)
+function M.inject(opts, style)
 	if style then
 		opts[style.text] = true
 	end

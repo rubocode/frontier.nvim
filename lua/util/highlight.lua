@@ -9,9 +9,9 @@ local M = {}
 
 function M.translate(spec)
 	local opts = {}
-	opts = color.translate(opts, spec.fg, "fg")
-	opts = color.translate(opts, spec.bg, "bg")
-	opts = style.translate(opts, spec.style)
+	opts = color.inject(opts, spec.fg, "fg")
+	opts = color.inject(opts, spec.bg, "bg")
+	opts = style.inject(opts, spec.style)
 	return opts
 end
 

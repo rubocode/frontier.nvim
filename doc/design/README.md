@@ -65,7 +65,7 @@ have the frames look really good but code lines are squeezed togther.
 > is a DSL.  Some of them are more abstract and general than others.
 > If humans ever reach a stage where no one really knows what
 > the computer is doing, it should not be called artificial intelligence,
-> but genuine stupidity on the part of the humans. 
+> but genuine stupidity on the part of the humans.  
 > **Ruchira Bomiriya**
 
 Since the reason I use **neovim** is to edit code and not to enjoy good looking

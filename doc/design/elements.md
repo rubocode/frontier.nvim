@@ -94,4 +94,4 @@ Build Gates: oops, did I spell that wrong?
 
 What would you rather eat? bagels, bread or cake?
 Is that the right question to ask?
-More importantly: are you getting laid or are you getting screwed?
+More importantly, are you getting laid or are you getting screwed?

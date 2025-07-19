@@ -27,6 +27,15 @@ You supply the profile (a partical specification for an aspect
 in the theme that you are working on) and the links do some
 legwork for you.  You just have to set things up right once.
 
+> The multitude of programming languages were created by humans so that
+> the other humans can better understand what you were trying to get the
+> computer to do in that particular context.  Thus each programming
+> language is a DSL.  Some of them are more abstract and general than others.
+> If humans ever reach a stage where no one really knows what
+> the computer is doing, it should not be called artificial intelligence,
+> but genuine stupidity on the part of the humans.  
+> **Ruchira Bomiriya**
+
 When you want to support multiple themes, you need to be able
 to supply different colors and styling for each specific custom theme.
 You simply supply the same profile with different color and style

@@ -71,6 +71,12 @@ expression and creative color choices.  All of a sudden, you can quickly
 experiment with colors and have that instantly show you how the the
 technicalities are impacted.
 
+> Ultimately, it comes down to taste.
+> It comes down to trying to expose yourself to the best things
+> that humans have done and then trying to bring those things
+> into what you’re doing.  
+> **Steve Jobs**
+
 You have just increased your productivity via intelligent automation.
 Now, your tastes may differ.  You might prefer to ask **ChatGPT** to
 do this for you.  But I didn't go to school for 13 years, university

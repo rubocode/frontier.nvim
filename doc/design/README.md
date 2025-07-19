@@ -12,9 +12,9 @@ organized.  So, what I had infront of me was an **experiment** where I would wor
 in [bottom up](https://rubocode.github.io/blog/2018-08-17/top-down-and-bottom-up)
 fashion from prototype to finished product.
 
-* [Elements](elements)
-* [Origin](origin)
-* [Strategy](strategy)
+* [Elements](elements.md)
+* [Origin](origin.md)
+* [Strategy](strategy.md)
 
 I had to explore, test, design, implement and debug the work.
 I would automate certain parts of the design and instrument the code

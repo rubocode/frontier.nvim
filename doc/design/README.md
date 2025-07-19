@@ -57,8 +57,16 @@ The Mac Terminal provides better line spacing (easier to read and
 generally healthier for the eyes) at the cost of not having the frames
 of your **telescope** float windows interrupted by tiny spaces.
 The other **truecolor** terminals including **iTerm** abd **WezTerm**
-terminals have the frames look really good but code lines
-are squeezed togther.
+have the frames look really good but code lines are squeezed togther.
+
+> The multitude of programming languages were created by humans so that
+> the other humans can better understand what you were trying to get the
+> computer to do in that particular context.  Thus each programming
+> is a DSL.  Some of them are more abstract and general than others.
+> If humans ever reach a stage where no one really knows what
+> the computer is doing, it should not be called artifical intelligence,
+> but genuine stupidity on the part of the humans. 
+> **Ruchira Bomiriya**
 
 Since the reason I use **neovim** is to edit code and not to enjoy good looking
 frames of floating windows, I prefer using the **Mac Terminal**.

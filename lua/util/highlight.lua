@@ -21,4 +21,8 @@ function M.apply(group, spec)
 	vim.api.nvim_set_hl(0, group, opts)
 end
 
+function M.link(group, link)
+	vim.api.nvim_set_hl(0, group, link)
+end
+
 return M

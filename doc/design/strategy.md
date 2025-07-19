@@ -43,6 +43,9 @@ leaving dependency intelligence where it belongs.
 The scheme name can be this one argument.  This allows consistent gathering
 of highlight groups when we aggregate elements to load the colorscheme.
 
+> Always go too far, because that’s where you will find the truth.    
+> **Albert Camus**
+
 However, since we are dealing with a case with about a dozen or so theme
 modules, this might be tolerable given that you can isolate the highlight
 definitions and reuse them - (SRP and DRY principles apply).

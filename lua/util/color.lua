@@ -7,7 +7,7 @@ local M = {}
 
 function M.inject(opts, color, xg)
 	if color then
-		notify.info("\t\tCOLOR> " .. xg .. " " .. color.i .. " " .. color.hex)
+		notify.info("\t\tCOLOR: <" .. xg .. "> " .. M.display(color))
 		opts[xg] = color.hex
 		opts["cterm" .. xg] = color.i
 	end
@@ -15,7 +15,15 @@ function M.inject(opts, color, xg)
 end
 
 function M.display(color)
-	vim.print(color)
+	local text = ""
+	if color then
+		text = "[" .. color.name .. "]" .. " type = " .. color.type
+		if color.type == "xterm256" then
+			text = text .. "  index = " .. color.index
+		end
+		text = text .. " hex = '" .. color.hex .. "'"
+	end
+	return text
 end
 
 return M

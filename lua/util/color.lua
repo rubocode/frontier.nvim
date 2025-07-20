@@ -9,7 +9,7 @@ function M.inject(opts, color, xg)
 	if color then
 		notify.info("\t\tCOLOR: <" .. xg .. "> " .. M.display(color))
 		opts[xg] = color.hex
-		opts["cterm" .. xg] = color.i
+		opts["cterm" .. xg] = color.index
 	end
 	return opts
 end

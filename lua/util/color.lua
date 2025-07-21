@@ -28,6 +28,20 @@ function M.inject(opts, color, xg)
 
 			notify.error("Unexpected use of a NEOVIM color: " .. M.display(color))
 			-- opts[xg] = color.name
+
+			-- JUL 21, 2025
+			-- It would have been really cool if you could just set
+			-- guifg=NvimLightGrey3 and guibg=nvimDarkGrey2
+			-- and it would just work.
+			-- I tried quite a bit to figure out why it doesn't work that way.
+			-- It seems the most beneficial way of figuring it out would
+			-- be to understand the neovim code base.
+			-- At this time it seems like a rabbit hole that would be
+			-- too expensive a diversion just to demonstrate a theme made
+			-- of only the 20 standard colors.
+			-- But there is great merit in understanding the neovim code base
+			-- and perhaps even becoming a contributor.
+			-- Let's leave that in God's hands.
 		end
 	end
 	return opts

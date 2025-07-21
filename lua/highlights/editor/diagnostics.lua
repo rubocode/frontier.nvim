@@ -3,13 +3,11 @@
 
 local diag = require("empty.profile.editor.diagnostics")
 local mapper = require("util.mapper")
-local notify = require("util.notify")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	notify.verbose()
 	diag = mapper.pick(theme, "profile.editor.diagnostics")
 end
 

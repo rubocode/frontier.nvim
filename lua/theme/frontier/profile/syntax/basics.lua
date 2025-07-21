@@ -6,9 +6,10 @@ local green = require("palette.default.green")
 local grey = require("palette.default.grey")
 local red = require("palette.default.red")
 local orange = require("palette.default.orange")
+local style = require("highlights.style")
 
 local M = {
-	Comment = { fg = grey.Quiet },
+	Comment = { fg = grey.Quiet, style = { style.Italic, style.Underline } },
 	Constant = { fg = red.Normal },
 	Delimiter = { fg = grey.Darker },
 	Function = { fg = green.Normal },

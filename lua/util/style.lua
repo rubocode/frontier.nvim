@@ -8,16 +8,14 @@ local M = {}
 function M.inject(opts, style)
 	if style then
 		if style.text then
-			-- single value
+			-- single style
 			opts[style.text] = true
 			notify.info("\t\tSTYLE: " .. style.text)
 		else
-			local text = nil
-			for _, v in pairs(style) do
-				text = table.concat({ text, v }, ",")
+			for _, s in pairs(style) do
+				opts[s.text] = true
+				notify.info("\t\tSTYLE: " .. s.text)
 			end
-			opts["style"] = text
-			notify.info("\t\tSTYLE: " .. text)
 		end
 	end
 	return opts

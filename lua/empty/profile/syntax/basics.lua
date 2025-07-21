@@ -1,20 +1,26 @@
--- SYNTAX BASIC EMPTY THEME
+-- SYNTAX BASICS EMPTY THEME
 -- JUL 06, 2025
 
 local M = {
 	Comment = {},
 	Constant = {},
+	Debug = {},
 	Delimiter = {},
 	Function = {},
 	Identifier = {},
 	Keyword = {},
-	Macro = {},
+	Label = {},
 	Operator = {},
+	PreProc = {},
 	Special = {},
 	Statement = {},
 	StorageClass = {},
 	String = {},
+	Tag = {},
+	Title = {},
+	Todo = {},
 	Type = {},
+	Underlined = {},
 }
 
 return M

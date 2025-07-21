@@ -8,6 +8,7 @@ local M = {
 	"treesitter.keyword",
 	"treesitter.data",
 	"treesitter.function",
+	"treesitter.general",
 	"treesitter.structure",
 	"treesitter.text",
 }

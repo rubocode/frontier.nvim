@@ -4,7 +4,6 @@
 local style = require("highlights.style")
 local syntax = require("theme.firewatch.palette.syntax")
 local uno = require("theme.firewatch.palette.uno")
-local duo = require("theme.firewatch.palette.duo")
 
 local M = {
 	ColorColumn = { bg = syntax.CursorLine },
@@ -14,20 +13,15 @@ local M = {
 	FoldColumn = { fg = uno.Uno3, bg = syntax.CursorLine },
 	Folded = { fg = syntax.Bg, bg = syntax.FoldBg },
 	Ignore = {},
-	IncSearch = { fg = syntax.Bg, bg = uno.Uno4 },
 	MatchParen = { fg = syntax.Bg, bg = syntax.Accent },
 	NonText = { fg = uno.Uno4 },
 	Question = { fg = syntax.Accent },
-	Search = { fg = syntax.Bg, bg = uno.Uno4 },
 	SpecialKey = { fg = syntax.FoldBg },
 	TabLine = { fg = uno.Uno4 },
 	TabLineFill = {},
 	TabLineSel = { fg = syntax.Fg },
-	Title = { fg = duo.Duo2 },
-	Todo = {},
 	ToolbarButton = {},
 	ToolbarLine = {},
-	Underlined = {},
 	VertSplit = { fg = syntax.FoldBg },
 	Visual = { fg = syntax.Bg, bg = syntax.Selection },
 	VisualNOS = { bg = syntax.Selection },

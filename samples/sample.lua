@@ -7,6 +7,7 @@ local std = require("util.category.std")
 local syntax = require("util.category.syntax")
 
 local loader = require("util.loader")
+local notify = require("util.notify")
 
 local M = {}
 
@@ -20,9 +21,9 @@ end
 local load_groups = function(theme, category, list)
 	for _, item in pairs(list) do
 		local path = "highlights." .. category .. "." .. item
-		-- print("Working on: " .. path)
+		notify.warning("Working on: " .. path)
 		loader.process(path, theme)
-		-- print("PATH done!")
+		notify.warning("PATH done!")
 	end
 end
 

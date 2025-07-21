@@ -12,6 +12,7 @@ local M = {}
 
 local init_dev_settings = function()
 	-- notify.verbose()
+	-- notify.quiet()
 end
 
 local init_colorscheme = function(theme, background)

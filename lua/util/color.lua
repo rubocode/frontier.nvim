@@ -30,7 +30,7 @@ function M.inject(opts, color, xg)
 
 			-- JUL 21, 2025
 			-- It would have been really cool if you could just set
-			-- guifg=NvimLightGrey3 and guibg=nvimDarkGrey2
+			-- guifg=NvimLightGrey3 and guibg=NvimDarkGrey2
 			-- and it would just work.
 			-- I tried quite a bit to figure out why it doesn't work that way.
 			-- It seems the most beneficial way of figuring it out would

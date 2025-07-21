@@ -9,6 +9,7 @@ local M = {}
 local infused = {}
 
 local remap = function(theme)
+	notify.verbose()
 	diag = mapper.pick(theme, "profile.editor.diagnostics")
 end
 
@@ -17,7 +18,7 @@ local infuse = function()
 		ErrorMsg = diag.ErrorMsg,
 		ModeMsg = diag.ModeMsg,
 		MoreMsg = diag.MoreMsg,
-		WarningMsg = diag.WarningMessage,
+		WarningMsg = diag.WarningMsg,
 		DiagnosticError = diag.DiagnosticError,
 		DiagnosticHint = diag.DiagnosticHint,
 		DiagnosticInfo = diag.DiagnosticInfo,

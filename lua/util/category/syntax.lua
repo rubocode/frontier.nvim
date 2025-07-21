@@ -3,8 +3,13 @@
 
 local M = {
 	"basics",
-	"treesitter",
 	"lsp",
+	"treesitter.constant",
+	"treesitter.keyword",
+	"treesitter.data",
+	"treesitter.function",
+	"treesitter.structure",
+	"treesitter.text",
 }
 
 return M

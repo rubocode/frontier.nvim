@@ -19,8 +19,6 @@ local infuse = function()
 		["@type.builtin"] = { link = "Special" },
 		["@type.definition"] = { link = "TypeDef" },
 		["@type.qualifier"] = { link = "Type" },
-		["@tag"] = { link = "Tag" },
-		["@tag.builtin"] = { link = "Special" },
 	}
 end
 

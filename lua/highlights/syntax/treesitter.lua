@@ -13,8 +13,12 @@ end
 
 local infuse = function()
 	infused.PROFILE = {
-		-- Having a defined @variable creates all kinds of havoc
-		-- We clear it at the end of loading all the highlight groups
+		-- JUL 21, 2025
+		-- Having a defined @variable seems to create all kinds
+		-- of havoc with LSP overrides.
+		-- Clearing @variable before applying highlights seems
+		-- to remedy the situation.
+		-- Very strange!
 		["@variable"] = ts.Variable,
 		["@variable.builtin"] = ts.atVariableBuiltin,
 		["@variable.member"] = ts.atVariableMember,

@@ -20,7 +20,6 @@ local infuse = function()
 		["@markup.link.url"] = { link = "Underlined" },
 		["@markup.raw"] = { link = "Comment" },
 		["@markup.underline"] = { link = "Underlined" },
-		["@punctuation"] = { link = "Delimiter" },
 	}
 end
 

@@ -18,7 +18,6 @@ local infuse = function()
 		["@function.builtin"] = { link = "Special" },
 		["@function.macro"] = { link = "Macro" },
 		["@function.method"] = { link = "Function" },
-		["@operator"] = { link = "Operator" },
 	}
 end
 

@@ -20,11 +20,13 @@ local infuse = function()
 		["@variable.parameter"] = { fg = fg.Peculiar },
 	}
 	infused.LINKS = {
+		["@attribute"] = { link = "Macro" },
+		["@operator"] = { link = "Operator" },
+		["@property"] = { link = "Identifier" },
+		["@punctuation"] = { link = "Delimiter" },
 		["@variable"] = {},
 		["@variable.builtin"] = { link = "Special" },
 		["@variable.member"] = { link = "Identifier" },
-		["@attribute"] = { link = "Macro" },
-		["@property"] = { link = "Identifier" },
 		["@variable.parameter.builtin"] = { link = "Special" },
 	}
 end

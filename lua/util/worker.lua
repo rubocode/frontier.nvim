@@ -3,10 +3,11 @@
 
 local editor = require("util.category.editor")
 local lang = require("util.category.lang")
-local loader = require("util.loader")
-local notify = require("util.notify")
 local plugin = require("util.category.plugin")
 local syntax = require("util.category.syntax")
+
+local loader = require("util.loader")
+local notify = require("util.notify")
 
 local M = {}
 

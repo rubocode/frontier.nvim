@@ -1,7 +1,7 @@
 ## DESIGN STRATEGY
 > JUL 10, 2025
 
-My initial intention was to create a reasonable stable abstraction of mapping
+My initial intention was to create a reasonable stable abstraction for mapping
 colors into the highlight groups.  This would allow me to make changes and evolve
 rapidly.
 However, supporting more than one theme required dynamic binding of some sort

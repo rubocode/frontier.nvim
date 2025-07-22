@@ -52,8 +52,8 @@ are the highlights.
 So, what you really need to do is to map the palette to
 an intermediate abstraction that has achived an elegant one-to-one
 relationship with the flat list of properties (highlights).
-Now you pick a palette and map it to the internal abstraction and voila,
-you have a working colorscheme.
+Now you pick a palette and map it to the internal abstraction
+and voila, you have a working colorscheme.
 
 It would be a shame if you had to map the palette into each highlight.
 That is just a tedious job.  We have now expressed the display

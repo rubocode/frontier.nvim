@@ -19,13 +19,39 @@ functions and interfaces) instead of bloated monoliths
 (huge long functions dealing with too many shared variables
 inside in one scope).
 
+Even _Bjarne Stroustrup_ gave up on writing his monolithic tomes on
+_The C++ Programming Language_ after four editions.
+His second edition and the Annotated Reference Manual (ARM) were just
+the right size in the early nineties.
+Then there was the quite excellent _The Design of the C++ Programming
+Language_ which was also just the right size.
+Standardization invited him to cater to everyone's whims and demands.
+C++ became a _Design by Committee_ project and lost focus.
+It simply got out of hand.  Bjarne was aided by _Herb Sutter_
+of Microsoft lineage.
+
+> If you think it's simple, you have misunderstood the problem.  
+> **Bjarne Stroustrup**
+
+Google began as primarily a _linux/c++_ shop due to the initial choices
+of _Larry Page_ and _Sergey Brin_ during the startup stage.
+They were suffering the consequences of accidental complexity and
+the instability of the C++ standard.
+They hired _Ken Thompson_ of the original designer of the _unix_
+operating system to come up with a solution.
+The problem space was even more complicated by more recent
+multi-core hardware.  But _Ken_ didn't shoot for an even more complex
+language.  He trodded in the other direction.
+The result was _golang_, a simpler and more stable language with
+an ingrained modular architecture.
+Ken was aided by _Rob Pike_ who was also a former _Bell Labs_
+colleague.
+
 This is the difference between a nuanced and elegant approach versus
 a brute force approach.
 You are in such a hurry and have no time to contemplate the fitting
 abstractions and their relationships to enable you to dissect
 the problem down into focused components.
-I started by creating a handful of folders and less than a dozen files
-inside each folder.
 
 > So everybody is in a hurry, and many of our clients want to do
 > things in less time.
@@ -83,4 +109,5 @@ in the simplest and most elegant way possible in light of not being able
 to define fixed interface definitions that are checked by the language
 itself statically.
 
-Let's see where we get!
+I started by creating a handful of folders and less than a dozen files
+inside each folder.  Let's see where we get!

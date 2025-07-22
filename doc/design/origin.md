@@ -123,11 +123,12 @@ This, however, is for a second stage.
 I hope you will enjoy the different falvors and also the internal design
 and structure.  This isn't a colorscheme that is done all in one file.
 The different abstractions and semantics employ a folder structure that
-I found intuitive.  This structure heavily relies on the design decision
-in _Lua_ that the _require_ function guarantees that any lua file is loaded
+I found intuitive.  To maintain acceptable loading performance,
+this structure heavily relies on the design decision in _Lua_ that
+the _require_ function guarantees that any lua file is loaded
 just once.
 
-My goal wan't to create the fastest colorscheme on the planet, but to create
+My goal wans't to create the fastest colorscheme on the planet, but to create
 something that I can tweak and improve efficiently.
 This lua code is meant to be robust and resilient and to allow for flexible
 adjustment.  It was not meant to load faster, even though it does that as well.

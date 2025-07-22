@@ -39,6 +39,12 @@ than not having any functions or theme swapping as these introduce sheer
 ugliness and even hard-to-find bugs due to missing elements in the concrete
 theme module definitions, especially in dynamic language such as _Lua_.
 
+> So everybody is in a hurry, and many of our clients want to do
+> things in less time.
+> This means they choose speed over depth.
+> To me that is an enormous loss.  
+> **Peter Block**
+
 We seem to be better off without passing any arguments or always pass
 just one argument to the function when we request the color-infused highlight
 groups and allow each highlight module to deal with its dependencies internally

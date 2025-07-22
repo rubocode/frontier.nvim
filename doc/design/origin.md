@@ -152,7 +152,7 @@ User experience is the key! and I am the primary user of this
 colorscheme.  There may be better ways of doing this.
 But I am merely being pragmatic here.
 
-### CONCLUSION
+### ASPIRATION 
 
 When I am done with these, I would have created a colorscheme I would
 personally use and will have created a general color mapping abstraction with

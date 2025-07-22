@@ -9,9 +9,14 @@ However, supporting more than one theme required dynamic binding of some sort
 and one of the methods seemed to be to call a function with the theme as a
 parameter and get back color-infused highlight group definitions.
 
-The trouble was that I inherently hated placing all parts of my abstraction
-in one file.  I wanted to deal with the problem in a more intuitive modular
-style.  I ended up creating a handful of folders and less than a dozen files
+The trouble was that I inherently hated placing all parts of
+my abstraction in one file.
+I wanted to deal with the problem in a more intuitive modular style.
+We are _unix_ programmers after all.
+We use focused tools and piping instead of creating bloated monoliths.
+We prefer specialized distributed intelligence over complex and unwieldy
+centralized intelligence.
+I started by creating a handful of folders and less than a dozen files
 inside each folder.
 
 > Design is not just what it looks like and feels like.  

@@ -68,7 +68,8 @@ Ultimately, it would be a waste of your life to spend it attempting
 to design elegant aesthetics for the multitude.
 Tastes vary and you can't make everyone happy.
 So, you pick the simpler and the more pragmatic approach.
-You try to do something that delights you, all the way.
+You try to do something that delights you, all the way
+under carefully chosen design constraints.
 Anyone who likes it can enjoy it for free, thanks to open source.
 If no one else does, you still made one that you would gladly use!
 

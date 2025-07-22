@@ -60,7 +60,7 @@ the problem down into focused components.
 > To me that is an enormous loss.  
 > **Peter Block**
 
-When you want to apply the theme definition of a module in the theme into
+When you want to apply the definition of a module in the theme into
 a highlight group and get back a color-infused highlight group, you can supply
 that module as a parameter to a function inside the highlight module.
 In general, you need to allow passing multiple theme modules as parameters.
@@ -84,7 +84,7 @@ This is simply indirection via an interface.  However, it isn't prettier
 than not having any functions or theme swapping as these introduce sheer
 ugliness and even hard-to-find bugs due to missing elements in the custom
 module definitions in the themes, especially in a dynamic language such
-as _Lua_.  You will also have to struggle with unnecessary duplication.
+as _lua_.  You will also have to struggle with unnecessary duplication.
 
 We seem to be better off without passing any arguments or always pass
 just one argument to the function when we request the color-infused highlight
@@ -131,7 +131,7 @@ durability and adaptability.
 * Don't Repeat Yourself (DRY)
 
 I initially preferred having a separate project for each theme.
-But then, I wanted to see how _Lua_ allows me to deal with the problem
+But then, I wanted to see how _lua_ allows me to deal with the problem
 of generalization in the simplest and most elegant way possible in light
 of not being able to define fixed interface definitions that are checked
 by the language itself statically.

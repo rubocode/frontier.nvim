@@ -79,7 +79,7 @@ If no one else does, you still made one that you would gladly use!
 > You’ll know it’s there, so you’re going to use a beautiful
 > piece of wood on the back.
 > For you to sleep well at night, the aesthetic, the quality,
-> has to be carried all the way through."  
+> has to be carried all the way through.  
 > **Steve Jobs**
 
 The design challenge now becomes one of creating an accurate internal

@@ -62,6 +62,6 @@ The other **truecolor** terminals including **iTerm** abd **WezTerm**
 have the frames look really good but code lines are squeezed togther.
 
 Since the reason I use **neovim** is to edit code and not to enjoy good
-looking frames of floating windows, I preferred using the **Mac Terminal**.
+looking frames of floating windows, I preferred using the **macOS Terminal**.
 At the same time, I wanted the color palette and feature support to be
 portable across platforms.

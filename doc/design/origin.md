@@ -96,13 +96,15 @@ it out so that multiple colors and themes can reside on the same repository
 same repository.
 
 It turns out that the best approach is to start from the last above and move
-upwards (remember how a whole bunch of smart guys tried to design **multics**
-first, resulting in failure.  Later, a couple of guys at Bell Labs created **unix**!
-[Bottom up](https://rubocode.github.io/blog/2018-08-17/top-down-and-bottom-up)
-is a good approach in creative endeavors.
+upwards.  Remember how a whole bunch of smart guys tried to design
+_multics_, resulting in failure.
+Later, a couple of guys at Bell Labs created _unix_!
 
 > I am a very bottom-up thinker.  
 > **Ken Thompson**
+
+[Bottom up](https://rubocode.github.io/blog/2018-08-17/top-down-and-bottom-up)
+is a good approach in creative endeavors.
 
 ### GOALS
 

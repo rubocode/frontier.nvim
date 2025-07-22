@@ -21,19 +21,26 @@ inside in one scope).
 This is the differece between a nuanced and balanced approach versus
 a brute force approach.
 You are in such a hurry and have no time to contemplate the fitting
-abstractions.
+abstractions and their relationships to enable you to dissect
+the problem down into focused components.
+
+> So everybody is in a hurry, and many of our clients want to do
+> things in less time.
+> This means they choose speed over depth.
+> To me that is an enormous loss.  
+> **Peter Block**
 
 I started by creating a handful of folders and less than a dozen files
 inside each folder.
-
-> Design is not just what it looks like and feels like.  
-> Design is how it works.  
-> **Steve Jobs**
 
 When you want to apply the theme definition of a module in the theme into
 a highlight group and get back a color-infused highlight group, you can supply
 that module as a parameter to a function inside the highlight module.
 In general, you need to allow passing multiple theme modules as parameters.
+
+> Design is not just what it looks like and feels like.  
+> Design is how it works.  
+> **Steve Jobs**
 
 Inside the function in the highlight group, you don't get proper code completion
 support because the require path is computed as a variable instead of using
@@ -50,12 +57,6 @@ This is simply indirection via an interface.  However, it isn't prettier
 than not having any functions or theme swapping as these introduce sheer
 ugliness and even hard-to-find bugs due to missing elements in the concrete
 theme module definitions, especially in a dynamic language such as _Lua_.
-
-> So everybody is in a hurry, and many of our clients want to do
-> things in less time.
-> This means they choose speed over depth.
-> To me that is an enormous loss.  
-> **Peter Block**
 
 We seem to be better off without passing any arguments or always pass
 just one argument to the function when we request the color-infused highlight

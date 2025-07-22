@@ -72,7 +72,7 @@ analog spaces.  How many colors do you need to highlight code anyway?
 Now you can use the variety of the rather limited spectrum of grey and other
 colors provided by the xterm256 palette.  You can experiment with different
 ones and pick what gives you the best aesthetics.
-One level of indirection (the custom palette abstraction) will keep
+One level of indirection (the custom palette abstraction) will keep you
 on good footing.
 The mapping from the custom palette to the internal abstraction keeps
 the semantics congruent and aligned.

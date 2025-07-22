@@ -37,7 +37,7 @@ empty interface definition with the concrete module in the relevant theme.
 This is simply indirection via an interface.  However, it isn't prettier
 than not having any functions or theme swapping as these introduce sheer
 ugliness and even hard-to-find bugs due to missing elements in the concrete
-theme module definitions, especially in dynamic language su=ch as _Lua_.
+theme module definitions, especially in dynamic language such as _Lua_.
 
 We seem to be better off without passing any arguments or always pass
 just one argument to the function when we request the color-infused highlight

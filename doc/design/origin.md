@@ -19,8 +19,7 @@ The colorschemes that worked the same on _xterm256_ and _truecolor_ were often
 implemented using _vimscript_.  The customization bug that is common to all neovim
 users had bit me.  I wanted to create my own personal colorscheme.
 It was an excellent opportunity learn _lua_ (the builtin customization language
-for modern neovim).  It turned out that I prefer simple yet sophisticated
-color usage.  
+for modern neovim).
 
 ### A LEARNING OPPORTUNITY
 
@@ -45,6 +44,10 @@ With this new found knowledge, I separated my abstraction into three concerns
 (_palette_, _theme_ and _highlights_) and pivoted my work on the intended
 primary personal colorscheme that I initially named _frontier_.
 I always had the goal of generalization.
+
+It turned out that I prefer simple yet sophisticated color usage.
+It was also clear that I preferred _dark_ themes over _light_ themes.
+This has influenced the semantics of the color mapping.
 
 ### PRIORITIES
 

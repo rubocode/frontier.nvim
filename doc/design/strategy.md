@@ -37,7 +37,7 @@ empty interface definition with the concrete module in the relevant theme.
 This is simply indirection via an interface.  However, it isn't prettier
 than not having any functions or theme swapping as these introduce sheer
 ugliness and even hard-to-find bugs due to missing elements in the concrete
-theme module definitions, especially in dynamic language such as _Lua_.
+theme module definitions, especially in a dynamic language such as _Lua_.
 
 > So everybody is in a hurry, and many of our clients want to do
 > things in less time.

@@ -148,7 +148,7 @@ I hope you will appreciate the different flavors and also the internal design
 and structure.  This isn't a colorscheme that is done all in one file.
 The different abstractions and semantics employ a folder structure that
 I found intuitive.  To maintain acceptable loading performance,
-this structure heavily relies on the design decision in _Lua_ that
+this structure heavily relies on the design decision in _lua_ that
 the _require_ function guarantees that any lua file is loaded
 just once.
 

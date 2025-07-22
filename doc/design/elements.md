@@ -13,12 +13,14 @@ syntactic and semantic elements of the display in the editor and
 you have to set the foreground color, background color and the style
 (bold, italic, underscore etc.).
 
-We call one of these elements a highlight.  Now things are not too simple.
+We call one of these elements a highlight.
+Now, things are not too simple and that turns out to be a good thing.
 We can link one highlight group to another one so that the second one
-can automatically switch along with the first.  In this case, you need
-only supply and modify the first and simply keep the link stable.
-So, in a particular colorscheme, you supply some color definitions and
-often some links.
+can automatically switch along with the first.
+In this case, you need only supply and modify the first and simply
+keep the link stable.
+So, in a particular colorscheme, you supply some color definitions
+and often some links.
 
 The color definitions you supply, I have decided to call profiles.
 So, highlights correspond to a PROFILE (one or more highlight groups)

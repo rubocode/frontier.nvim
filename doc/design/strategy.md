@@ -65,7 +65,7 @@ a highlight group and get back a color-infused highlight group, you can supply
 that module as a parameter to a function inside the highlight module.
 In general, you need to allow passing multiple theme modules as parameters.
 
-> Design is not just what it looks like and feels like.  
+> Design is not just what it looks like and feels like.
 > Design is how it works.  
 > **Steve Jobs**
 

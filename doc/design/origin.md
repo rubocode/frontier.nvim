@@ -97,10 +97,12 @@ same repository.
 
 It turns out that the best approach is to start from the last above and move
 upwards (remember how a whole bunch of smart guys tried to design **multics**
-first resulting in failure and a couple of guys at Bell Labs created **unix**
-sometime later!).
+first, resulting in failure.  Later, a couple of guys at Bell Labs created **unix**!
 [Bottom up](https://rubocode.github.io/blog/2018-08-17/top-down-and-bottom-up)
 is a good approach in creative endeavors.
+
+> I am a very bottom-up thinker.  
+> **Ken Thompson**
 
 ### GOALS
 

@@ -123,7 +123,7 @@ This, however, is for a second stage.
 
 ### RATIONALE
 
-I hope you will enjoy the different falvors and also the internal design
+I hope you will appreciate the different flavors and also the internal design
 and structure.  This isn't a colorscheme that is done all in one file.
 The different abstractions and semantics employ a folder structure that
 I found intuitive.  To maintain acceptable loading performance,

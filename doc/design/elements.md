@@ -89,12 +89,13 @@ design and classification, the better you can factor the internal
 abstraction.  The better your internal abstraction, the better your
 representation of aesthetics in the problem domain.
 
-The better the defaults, the less you need to customize.
-The less you need to customize, the better your internal abstraction.
-The better your internal technical abstraction the better
-the infrastructure for aesthetic expression and creative color choices.
+The the better your internal abstraction, the better the semantics.
+The better the semantics, the better the defaults.
+The better the defaults, the lesser you need to customize.
+The lesser you need to customize, the lesser the number of outer variables.
 All of a sudden, you can quickly experiment with colors and have that
 instantly show you how the the technicalities are impacted.
+This facilitates rapid infusion of the creative and the aesthetic aspects.
 
 > Ultimately, it comes down to taste.
 > It comes down to trying to expose yourself to the best things

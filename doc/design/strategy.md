@@ -37,8 +37,8 @@ Google began as primarily a _linux/c++_ shop due to the initial choices
 of _Larry Page_ and _Sergey Brin_ during the startup stage.
 They were suffering the consequences of accidental complexity and
 the instability of the C++ standard.
-They hired _Ken Thompson_ of the original designer of the _unix_
-operating system to come up with a solution.
+They hired _Ken Thompson_ — original designer of the _unix_
+operating system — to come up with a solution.
 The problem space was even more complicated by more recent
 multi-core hardware.  But _Ken_ didn't shoot for an even more complex
 language.  He trodded in the other direction.

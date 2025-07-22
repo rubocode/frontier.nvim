@@ -19,7 +19,7 @@ functions and interfaces) instead of bloated monoliths
 (huge long functions dealing with too many shared variables
 inside in one scope).
 
-This is the differece between a nuanced and elegant approach versus
+This is the difference between a nuanced and elegant approach versus
 a brute force approach.
 You are in such a hurry and have no time to contemplate the fitting
 abstractions and their relationships to enable you to dissect

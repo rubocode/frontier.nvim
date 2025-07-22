@@ -152,10 +152,11 @@ this structure heavily relies on the design decision in _Lua_ that
 the _require_ function guarantees that any lua file is loaded
 just once.
 
-My goal wans't to create the fastest colorscheme on the planet, but to create
-something that I can tweak and improve efficiently.
-This lua code is meant to be robust and resilient and to allow for flexible
-adjustment.  It was not meant to load faster, even though it does that as well.
+My goal wasn't to create the fastest colorscheme on the planet,
+but to create something that I can tweak and improve efficiently.
+This lua code is meant to be robust and resilient and to allow
+for flexible adjustment.  It was not meant to load faster,
+even though it does that as well.
 Your mileage may vary.
 
 > Data dominates. If you’ve chosen the right data structures and organized

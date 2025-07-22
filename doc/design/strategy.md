@@ -12,9 +12,17 @@ The trouble was that I inherently hated placing all parts of
 my abstraction in one file.
 I wanted to deal with the problem in a more intuitive modular style.
 We are _unix_ programmers after all.
-We use focused tools and piping instead of creating bloated monoliths.
 We prefer specialized distributed intelligence over complex and unwieldy
 centralized intelligence.
+We use focused tools and piping (in essence, specialized smaller
+functions and interfaces) instead of bloated monoliths
+(huge long functions dealing with too many shared variables
+inside in one scope).
+This is the differece between a nuanced and balanced approach versus
+a brute force approach.
+You are in such a hurry and have no time to contemplate the fitting
+abstractions.
+
 I started by creating a handful of folders and less than a dozen files
 inside each folder.
 

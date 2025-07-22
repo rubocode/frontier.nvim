@@ -17,14 +17,14 @@ We call one of these elements a highlight.  Now things are not too simple.
 We can link one highlight group to another one so that the second one
 can automatically switch along with the first.  In this case, you need
 only supply and modify the first and simply keep the link stable.
-So, in a particular colorscheme, you supply some color definition and
+So, in a particular colorscheme, you supply some color definitions and
 often some links.
 
 The color definitions you supply, I have decided to call profiles.
-So, highlights correspond to a PROFILE and and set of LINKS.
-(you can see these semantics captured directly in the code).
-You supply the profile (a partical specification for an aspect
-in the theme that you are working on) and the links do some
+So, highlights correspond to a PROFILE (one or more highlight groups)
+and and set of LINKS (you can see these semantics captured directly
+in the code).  You supply the profile (a partical specification for
+an aspect in the theme that you are working on) and the links do some
 legwork for you.  You just have to set things up right once.
 
 When you want to support multiple themes, you need to be able
@@ -44,17 +44,17 @@ combinations.  The ultimate abstraction will do the whole thing
 with just a definition of the palette.
 The creative aspect involves specifying the mapping between
 the chosen custom color palette and the editor color abstraction
-that need to be translated into the flat list of properties named
-highlights.
+that needs to be translated into the flat list of properties that
+are the highlights.
 
 So, what you really need to do is to map the palette to
 an intermediate abstraction that has achived an elegant one-to-one
-relationship with the flat list of properties.  Now you pick a palette
-and map it to the internal abstraction and voila, you have a working
-colorscheme.
+relationship with the flat list of properties (highlights).
+Now you pick a palette and map it to the internal abstraction and voila,
+you have a working colorscheme.
 
 It would be a shame if you had to map the palette into each highlight.
-That is just a tedious job.  We have now expressed the editor display
+That is just a tedious job.  We have now expressed the display
 properties in semantic terms.  So if your background color is some color,
 you can just pick that up and use it in your menus.  We now have the
 capabilty for default links inside the abstraction.  You only need to
@@ -62,10 +62,11 @@ provide a customization when the default is not acceptable or not
 pleasing enough for your sophisticated intuition.
 
 Ultimately, it would be a waste of your life to spend it designing
-elegant aesthetics for code monkeys.  So, you take the high road.
+elegant aesthetics for the multitude.
+You can't make everyone happy.  So, you take the high road.
 You try to do something that delights you, all the way.
 Anyone who likes it can enjoy it for free thanks to open source.
-If no one else does, I still made one for myself!
+If no one else does, you still made one that you would gladly use!
 
 > When you’re a carpenter making a beautiful chest of drawers,
 > you’re not going to use a piece of plywood on the back,
@@ -83,11 +84,11 @@ design and classification, the better you can factor the internal
 abstraction.  The better your internal abstraction, the better your
 representation of aesthetics in the problem domain.
 
-The better the defaults, the less you need to customize.  The less you
-need to customize, the better you infrastructure for aesthetic
-expression and creative color choices.  All of a sudden, you can quickly
-experiment with colors and have that instantly show you how the the
-technicalities are impacted.
+The better the defaults, the less you need to customize.
+The less you need to customize, the better your infrastructure for
+aesthetic expression and creative color choices.
+All of a sudden, you can quickly experiment with colors and have that
+instantly show you how the the technicalities are impacted.
 
 > Ultimately, it comes down to taste.
 > It comes down to trying to expose yourself to the best things
@@ -97,19 +98,6 @@ technicalities are impacted.
 
 You have just increased your productivity via intelligent automation.
 Now, your tastes may differ.  You might prefer to ask **ChatGPT** to
-do this for you.  But I didn't go to school for 13 years, university
-for 4 years and spent a bunch of years coding just so that the people
-who created ChatGPT can eat all the Nova Lox Bagels they want with
-Philadelphia Cream Cheese and make TOMAHAWK missiles, while I become
-a starving **prompt engineer**.
-
-Apparently, they are making the world a better place through
-technological innovation.
-Build Gates: oops, did I spell that wrong?
-
-> If they don't have bread, let them eat cake.  
-> **Marie Antoinette**
-
-What would you rather eat? bagels, bread or cake?
-Is that the right question to ask?
-More importantly, are you getting laid or are you getting screwed?
+do this for you.  Then again, you just might enjoy creating a design
+that pleases you.  That gives you a better feeling than the one you
+get by becoming a _prompt engineer_.

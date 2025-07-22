@@ -11,31 +11,29 @@ definitions in order that all themes (colorschemes) benefited when a new plugin
 was added to the ones that were chosen to be included.
 
 ## frontier
-This is where I allow myself more freedom to experiment with a fancier color palette.
-Whatever I learn here gets translated into the minimal fixed palettes of the other
-colorschemes.
+This is the theme I wanted to create for my regular personal use.
+The color palette was not fixed upfront as along as each color was
+one of the standard xterm256 colors.  This flexibility was kept so that
+any nuances in syntax and user interface elements could be accommodated
+when discovered.  This was the reason it was named _frontier_.
 
 ## frontier-firewatch
-This is intended to satify my earlier need to bring _two-firewatch (dark xterm256)_
-onto _truecolor_ terminals.  I still find the rather simple color palette and
-the design choices in _two-firewatch_ appealing.
+This is intended to satify my initial need to bring _two-firewatch (dark)_
+onto _truecolor_ terminals for a consistent portable experience.
+I still find the rather simple color palette and the design choices
+in _two-firewatch_ appealing although of a different taste.
 
 ## frontier-apprentice
-This is intended as another example of using an existing color palette that fully
-supports the chosen features (such as proper _LSP_ support) and chosen plugins
-that I would use.
+This is intended as an example of using an existing color palette that turned
+out to meet aesthetic considerations but were either based on _vimscript_ or
+did not fully support the desired features (such as proper _LSP_ support) or
+the desired plugins.  This also helps validate the internal abstraction.
 
-## frontier-neoterm
-Along the way I discovered that there is a standard colorscheme for modern neovim
-that uses a color palette with a few more than 16 colors.  I wasn't sure how this
-translates into a legacy terminal type.  But, I thought it might be interesting
-to design a colorcheme by restricting myself to just those 20 colors.
-
-I hope you will enjoy the different flavors and also the internal organization.
-Perhaps you would like to use this project as the basis for experimentation with
-your own preferred color palette.
+You may appreciate the different flavors and even the internal organization.
+It uses a different approach.  Perhaps you would like to use this project
+as the basis for experimenting with your own preferred color selection.
 
 > Premature optimization is the root of all evil.  
 > **Donald Knuth**
 
-Knock yourself out!
+Enjoy!

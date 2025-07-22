@@ -1,4 +1,4 @@
-## APPRENTICE COLORSCHEME
+## APPRENTICE THEME 
 > JUL 08, 2025
 
 URL: [https://github.com/romainl/Apprentice](https://github.com/romainl/Apprentice)
@@ -11,5 +11,5 @@ It was developed with **vimscript** with slightly different design goals.
 
 I loved the colorscheme except for the very bright yellow for keywords.
 
-So I still needed top be able to fully customize my colorscheme and have it look
-the same on macOS Terminal and WezTerm.
+So I still needed to be able to fully customize my colorscheme and have it look
+the same on macOS Terminal and truecolor terminals.

@@ -32,18 +32,18 @@ customize it.  I called the project _UNIWATCH_ because I wanted the same
 any other that supports xterm256 colors including truecolor terminals.
 
 I was not too concerned about 16 color terminals at the time.
-I handled the situation via _nvim.config_ by checking terminal type and switching
-to the system default when the terminal is neither xterm256 nor truecolor.
-I reached the point of successfully achieving the same look and feel on both
-_xterm256_ and _truecolor_ on macOS terminal and WezTerm.
+I handled the situation via _nvim.config_ by checking the terminal type
+and switching to the system default when the terminal is neither xterm256
+nor truecolor.  I reached the point of successfully achieving the same look
+and feel on both _xterm256_ and _truecolor_ on macOS terminal and WezTerm.
 
 Now I wanted to generalize the theming abstraction from there.  Then I found
 [Apprentice](https://github.com/romainl/Apprentice) by **Romain Lafourcade**.
 It worked the same on both the masOS Terminal and WezTerm.  The theming in
-apprentice was simpler than two-firewatch.
+apprentice was also simpler than two-firewatch.
 With this new found knowledge, I separated my abstraction into three concerns
-(_colors_, _theme_ and _highlights_) and pivoted my work on the intended primary
-personal colorscheme that I initially named _frontier_.
+(_palette_, _theme_ and _highlights_) and pivoted my work on the intended
+primary personal colorscheme that I initially named _frontier_.
 I always had the goal of generalization.
 
 ### PRIORITIES
@@ -55,16 +55,18 @@ Successful evolution and durability rest on supporting new languages and
 new plugins quickly and easily.
 Obviously, highlight groups are the key as all we are doing in the end is
 choosing colors for the different highlight groups.
-You need to centralize the highlight group profiles and allow the colors and
-themes to impact them.
+You need to centralize the highlight group profiles and allow the colors
+and themes to impact them.
 
 ### APPROACH
 
 There are three basic approaches to the design problem:  
 
 * Centralize the highlight groups in a separate project (repository)
-and consider the colors and theme as separate mutually dependent concerns.
-(This is a bit cumbersome, but it is the generic treesitter like approach).
+and consider the color choices and the feature support as separate mutually
+dependent concerns. (This is a bit cumbersome, but it is the generic treesitter
+or LSP like approach where a certain kind of intelligence is isolated in a
+single location along the lines of the DRY principle).
 
 * Keep the highlight groups centralized in the same repository and asbtract
 it out so that multiple colors and themes can reside on the same repository
@@ -82,13 +84,14 @@ is a good approach in creative endeavors.
 
 ### GOALS
 
-I would be happy if I could create this handful of colorschemes with a single
-theming abstraction that is customized to accomodate multiple palettes.
-They will use different palettes and different choices (colors and themes) in
-injecting those colors into the highlight scheme which support _standard_
+I would be happy if I could create this handful of colorschemes with
+a single theming abstraction that is customized to accomodate multiple palettes.
+They will use different palettes and different choices (colors and themes)
+in injecting those colors into the highlight scheme which support _standard_
 neovim highlighting and _custom_ plugins.  It seemed a good idea to
-centralize and stabilize the highlight definitions in order that all themes
-(colorschemes) benefited when a new plugin was added to the ones that were
+centralize and stabilize the highlight definitions link them via a dynamic
+internal abstraction in order that all themes (colorschemes) benefited when
+a new plugin or a new neovim feature was added to the ones that were
 chosen to be included.
 
 At this point I switched from _UNIWATCH_ to _FRONTIER_ as the name of the project.
@@ -113,18 +116,22 @@ Along the way I discovered that there is a standard colorscheme for modern neovi
 that uses a color palette with a few more than 16 colors.  I wasn't sure how this
 translates into a legacy terminal type.  But, I thought it might be interesting
 to design a colorcheme by restricting myself to just those 20 colors.
+This, however, is for a second stage.
 
 ### RATIONALE
 
 I hope you will enjoy the different falvors and also the internal design
-and structure.  This isn't a colorschene that is done all in one file.
+and structure.  This isn't a colorscheme that is done all in one file.
 The different abstractions and semantics employ a folder structure that
-I found intuitive.
+I found intuitive.  This structure heavily relies on the design decision
+in _Lua_ that the _require_ function guarantees that any lua file is loaded
+just once.
 
 My goal wan't to create the fastest colorscheme on the planet, but to create
 something that I can tweak and improve efficiently.
 This lua code is meant to be robust and resilient and to allow for flexible
-adjustment.  It was not meant to load faster.  Your mileage may vary.
+adjustment.  It was not meant to load faster, even though it does that as well.
+Your mileage may vary.
 
 > Data dominates. If you’ve chosen the right data structures and organized
 > things well, the algorithms will almost always be self-evident.
@@ -151,7 +158,6 @@ up-to-date feature support.
 > making the best product, you’re screwed.  
 > **Linus Torvalds**  
 
-Let's just start with one colorscheme with the designesired features and functionality
-first and see how we can generalize it later.  A modular design approach will
-certainly help.
-
+Let's just start with one colorscheme with the desired features and
+functionality first and see how we can generalize and optimize it later.
+A modular design approach will certainly help.

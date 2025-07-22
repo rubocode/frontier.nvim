@@ -10,7 +10,7 @@ Not only was I learning lua but I was also trying to figure out how to integrate
 a colorscheme into **neovim**.  I also didn't know how colorschemes for neovim were
 organized.  So, what I had infront of me was an **experiment** where I would work
 in [bottom up](https://rubocode.github.io/blog/2018-08-17/top-down-and-bottom-up)
-fashion from prototype to finished product.
+fashion from a prototype to a finished product.
 
 * [Elements](elements.md)
 * [Origin](origin.md)
@@ -33,7 +33,7 @@ instead of technology.
 > **Frederick P. Brooks, Jr.**
 
 So my goal was not to invent the fastest loading colorscheme, but to design the
-most intuitive abstraction that captures the sematics of the problem domain
+most intuitive abstraction that captures the semantics of the problem domain
 faithfully.
 
 > Premature optimization is the root of all evil.  
@@ -46,19 +46,22 @@ design the accurate machinery to solve the problem and not to sell the fastest
 loading colorscheme.  Thus, I will not generate the highlight files for the
 colorschemes just yet.
 
-> There is nothing so useless as doing efficiently that which should not be done at all.  
+> There is nothing so useless as doing efficiently that
+> which should not be done at all.  
 > **Peter Drucker**
 
 If you prefer a faster loading colorscheme, you can use **catppuccin**
-or **miniwinter**.  They just look crappy on my Mac Terminal (xterm256).
-The colors are either too limited or the editor goes into the mode of
-a broken CRT television set.
-The Mac Terminal provides better line spacing (easier to read and
+or **miniwinter**.  They just didn't work out for me on the macOS Terminal
+(xterm256).  The colors were either too limited or the editor went into
+the mode of a broken CRT television set.
+
+The Mac Terminal provided better line spacing (easier to read and
 generally healthier for the eyes) at the cost of not having the frames
 of your **telescope** float windows interrupted by tiny spaces.
 The other **truecolor** terminals including **iTerm** abd **WezTerm**
 have the frames look really good but code lines are squeezed togther.
 
-Since the reason I use **neovim** is to edit code and not to enjoy good looking
-frames of floating windows, I prefer using the **Mac Terminal**.
-I don't like cats all that much, and winters are also kind of meh!. ;)
+Since the reason I use **neovim** is to edit code and not to enjoy good
+looking frames of floating windows, I preferred using the **Mac Terminal**.
+At the same time, I wanted the color palette and feature support to be
+portable across platforms.

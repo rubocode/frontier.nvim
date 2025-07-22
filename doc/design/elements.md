@@ -34,7 +34,8 @@ to supply different colors and styling for each specific custom theme.
 You simply supply the same profile with different color and style
 definitions.  Now you can support multiple customizations for
 a particular aspect of the editor's display (it could be the smaller
-menus or the statusline).
+menus or the statusline).  You can also provide a default arrangement
+that is in harmony with the overall look and feel.
 
 > All problems in computer science can be solved by another
 > level of indirection.  

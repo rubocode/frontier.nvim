@@ -120,20 +120,21 @@ a colorscheme.
 > Always go too far, because that’s where you will find the truth.    
 > **Albert Camus**
 
-However, since we are dealing with a case with about a dozen or so theme
-modules, this might be tolerable given that you can isolate the highlight
-definitions and reuse them - (SRP and DRY principles apply).  Ultimately,
-it is a design trade-off that balances flexibility, durability and
-adaptability.
+Since we are dealing with a case with about a dozen or so theme
+modules, breaking up the highlight groups and reusing them
+will be justified by the coherence of the elements inside each
+component (SRP and DRY principles also apply).
+Ultimately, it is a design trade-off that balances flexibility,
+durability and adaptability.
 
 * Single Responsibilty Principle (SRP)
 * Don't Repeat Yourself (DRY)
 
-I initially preferred having a separate project for each theme.  But then,
-I wanted to see how _Lua_ allows me to deal with the problem of generalization
-in the simplest and most elegant way possible in light of not being able
-to define fixed interface definitions that are checked by the language
-itself statically.
+I initially preferred having a separate project for each theme.
+But then, I wanted to see how _Lua_ allows me to deal with the problem
+of generalization in the simplest and most elegant way possible in light
+of not being able to define fixed interface definitions that are checked
+by the language itself statically.
 
 I started by creating a handful of folders and less than a dozen files
 inside each folder.  Let's see where we get!

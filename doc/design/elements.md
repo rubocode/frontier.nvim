@@ -90,8 +90,9 @@ abstraction.  The better your internal abstraction, the better your
 representation of aesthetics in the problem domain.
 
 The better the defaults, the less you need to customize.
-The less you need to customize, the better your infrastructure for
-aesthetic expression and creative color choices.
+The less you need to customize, the better your internal abstraction.
+The better your internal technical abstraction the better
+the infrastructure for aesthetic expression and creative color choices.
 All of a sudden, you can quickly experiment with colors and have that
 instantly show you how the the technicalities are impacted.
 

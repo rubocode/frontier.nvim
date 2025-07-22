@@ -17,7 +17,7 @@ centralized intelligence.
 We use focused tools and piping (in essence, specialized small
 functions and interfaces) instead of bloated monoliths
 (huge long functions dealing with too many shared variables
-inside in one scope).
+inside one scope).
 
 Even _Bjarne Stroustrup_ gave up on writing his monolithic tomes on
 _The C++ Programming Language_ after four editions.

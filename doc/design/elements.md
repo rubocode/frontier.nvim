@@ -24,7 +24,7 @@ and often some links.
 
 The color definitions you supply, I have decided to call profiles.
 So, highlights correspond to a PROFILE (one or more highlight groups)
-and and set of LINKS (you can see these semantics captured directly
+and a set of LINKS (you can see these semantics captured directly
 in the code).  You supply the profile (a partical specification for
 an aspect in the theme that you are working on) and the links do some
 legwork for you.  You just have to set things up right once.

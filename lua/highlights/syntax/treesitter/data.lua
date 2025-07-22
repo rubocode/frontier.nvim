@@ -5,19 +5,20 @@
 -- https://github.com/neovim/neovim/blob/master/runtime/colors/vim.lua
 --
 
-local fg = require("empty.map.foreground")
+local uniq = require("empty.map.unique")
+
 local mapper = require("util.mapper")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	fg = mapper.pick(theme, "map.foreground")
+	uniq = mapper.pick(theme, "map.unique")
 end
 
 local infuse = function()
 	infused.PROFILE = {
-		["@variable.parameter"] = { fg = fg.Peculiar },
+		["@variable.parameter"] = { fg = uniq.Peculiar },
 	}
 	infused.LINKS = {
 		["@attribute"] = { link = "Macro" },

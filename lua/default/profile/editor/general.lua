@@ -1,9 +1,9 @@
 -- DEFAULT EDITOR GENERAL PROFILE
 -- JUL 09, 2025
 
-local bg = require("empty.map.background")
-local diag = require("empty.support.diagnostics.text")
-local fg = require("empty.map.foreground")
+local canvas = require("empty.map.canvas")
+local diag = require("empty.map.diagnostics")
+local text = require("empty.map.text")
 local odd = require("empty.map.odd")
 
 local mapper = require("util.mapper")
@@ -13,32 +13,32 @@ local M = {}
 local profile = {}
 
 local remap = function(theme)
-	bg = mapper.pick(theme, "map.background")
-	diag = mapper.pick(theme, "support.diagnostics.text")
-	fg = mapper.pick(theme, "map.foreground")
+	canvas = mapper.pick(theme, "map.canvas")
+	diag = mapper.pick(theme, "map.diagnostics")
+	text = mapper.pick(theme, "map.text")
 	odd = mapper.pick(theme, "map.odd")
 end
 
 local infuse = function()
 	profile = {
 		ColorColumn = { bg = odd.Normal },
-		Conceal = { fg = fg.Normal },
-		Directory = { fg = fg.Darker },
-		Error = diag.Error,
-		FoldColumn = { fg = fg.Darker, bg = bg.Lighter },
-		Folded = { fg = fg.Lighter, bg = bg.Lighter },
+		Conceal = { fg = text.Normal },
+		Directory = { fg = text.Darker },
+		Error = { fg = diag.Text.Error },
+		FoldColumn = { fg = text.Darker, bg = canvas.Lighter },
+		Folded = { fg = text.Lighter, bg = canvas.Lighter },
 		Ignore = {},
-		MatchParen = { fg = fg.Lighter, bg = bg.Darkest },
-		NonText = { fg = fg.Quiet },
+		MatchParen = { fg = text.Lighter, bg = canvas.Darker },
+		NonText = { fg = text.Quiet },
 		Question = { fg = odd.Normal },
-		SpecialKey = { fg = fg.Quiet },
-		TabLine = { fg = fg.Lighter, bg = bg.Lighter },
-		TabLineFill = { fg = fg.Darker, bg = bg.Darkest },
-		TabLineSel = { fg = fg.Darker, bg = odd.Normal },
-		ToolbarButton = { fg = fg.Lighter, bg = fg.Lighter },
-		ToolbarLine = { bg = bg.Darkest },
-		VertSplit = { fg = fg.Darker, bg = bg.Lighter },
-		Visual = { fg = bg.Normal, bg = fg.Normal },
+		SpecialKey = { fg = text.Quiet },
+		TabLine = { fg = text.Lighter, bg = canvas.Lighter },
+		TabLineFill = { fg = text.Darker, bg = canvas.Darker },
+		TabLineSel = { fg = text.Darker, bg = odd.Normal },
+		ToolbarButton = { fg = text.Lighter, bg = text.Lighter },
+		ToolbarLine = { bg = canvas.Darker },
+		VertSplit = { fg = text.Darker, bg = canvas.Lighter },
+		Visual = { fg = text.Normal, bg = text.Normal },
 		VisualNOS = { style = style.Underline },
 		bold = { style = style.Bold },
 		helpLeadBlank = { fg = odd.Normal },

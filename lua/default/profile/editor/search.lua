@@ -1,9 +1,8 @@
 -- DEFAULT EDITOR GENERAL PROFILE
 -- JUL 09, 2025
 
-local bg = require("empty.map.background")
-local fg = require("empty.map.foreground")
-local odd = require("empty.map.odd")
+local canvas = require("empty.map.canvas")
+local text = require("empty.map.text")
 
 local mapper = require("util.mapper")
 
@@ -11,15 +10,14 @@ local M = {}
 local profile = {}
 
 local remap = function(theme)
-	bg = mapper.pick(theme, "map.background")
-	fg = mapper.pick(theme, "map.foreground")
-	odd = mapper.pick(theme, "map.odd")
+	canvas = mapper.pick(theme, "map.canvas")
+	text = mapper.pick(theme, "map.text")
 end
 
 local infuse = function()
 	profile = {
-		IncSearch = { fg = bg.Darkest, bg = fg.Lighter },
-		Search = { fg = bg.Darkest, bg = fg.Lighter },
+		IncSearch = { fg = canvas.Darker, bg = text.Lighter },
+		Search = { fg = canvas.Darker, bg = text.Lighter },
 	}
 end
 

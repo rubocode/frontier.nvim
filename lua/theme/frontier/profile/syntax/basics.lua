@@ -1,34 +1,28 @@
 -- FRONTIER SYNTAX BASICS PROFILE
 -- JUL 06, 2025
 
-local cyan = require("palette.default.cyan")
-local green = require("palette.default.green")
-local grey = require("palette.default.grey")
-local red = require("palette.default.red")
-local orange = require("palette.default.orange")
-
 local text = require("theme.frontier.map.text")
 local uniq = require("theme.frontier.map.unique")
 
 local M = {
-	Comment = { fg = grey.Quiet },
-	Constant = { fg = red.Normal },
+	Comment = { fg = text.Quiet },
+	Constant = { fg = uniq.Fixed },
 	Debug = {},
-	Delimiter = { fg = grey.Darker },
-	Function = { fg = grey.Lighter },
-	Identifier = { fg = green.Normal },
-	Keyword = { fg = grey.Lighter },
+	Delimiter = { fg = text.Darker },
+	Function = { fg = uniq.Dynamic },
+	Identifier = { fg = text.Lighter },
+	Keyword = { fg = text.Lighter },
 	Label = {},
-	Operator = { fg = grey.Lighter },
-	PreProc = { fg = grey.Darker },
-	Special = { fg = fg.Special },
-	Statement = { fg = grey.Lighter },
-	StorageClass = { fg = grey.Lighter },
-	String = { fg = orange.Normal },
+	Operator = { fg = text.Lighter },
+	PreProc = { fg = uniq.Peculiar },
+	Special = { fg = uniq.Special },
+	Statement = { fg = text.Lighter },
+	StorageClass = { fg = text.Lighter },
+	String = { fg = uniq.Prominent },
 	Tag = {},
 	Title = {},
 	Todo = {},
-	Type = { fg = orange.Normal },
+	Type = { fg = uniq.Prominent },
 	Underlined = {},
 }
 

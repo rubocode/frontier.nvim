@@ -1,5 +1,5 @@
--- BLACK (FOR DARK BACKGROUND SELECTION)
--- JUL 11, 2025
+-- FRONTIER CANVAS MAP
+-- JUL 13, 2025
 
 local aux = require("palette.xterm256.auxiliary")
 

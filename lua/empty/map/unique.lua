@@ -3,9 +3,10 @@
 
 local M = {
 	Accent = nil,
+	Dynamic = nil,
+	Fixed = nil,
 	Peculiar = nil,
 	Prominent = nil,
-	Fixed = nil,
 	Special = nil,
 }
 

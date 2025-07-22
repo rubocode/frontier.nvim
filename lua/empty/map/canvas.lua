@@ -1,8 +1,8 @@
--- EMPTY BACKGROUND MAP
+-- EMPTY CANVAS MAP
 -- JUL 12, 2025
 
 local M = {
-	Darkest = nil,
+	Darker = nil,
 	Normal = nil,
 	Lighter = nil,
 }

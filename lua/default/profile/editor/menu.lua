@@ -1,8 +1,9 @@
 -- DEFAULT EDITOR MENU PROFILE
 -- JUL 15, 2025
 
-local bg = require("empty.map.background")
-local fg = require("empty.map.foreground")
+local canvas = require("empty.map.canvas")
+local text = require("empty.map.text")
+
 local mapper = require("util.mapper")
 local style = require("highlights.style")
 
@@ -10,17 +11,17 @@ local M = {}
 local profile = {}
 
 local remap = function(theme)
-	bg = mapper.pick(theme, "map.background")
-	fg = mapper.pick(theme, "map.foreground")
+	canvas = mapper.pick(theme, "map.canvas")
+	text = mapper.pick(theme, "map.text")
 end
 
 local infuse = function()
 	profile = {
-		Pmenu = { fg = fg.Normal, bg = bg.Normal },
-		PmenuSbar = { fg = fg.Normal, bg = bg.Lighter },
-		PmenuSel = { fg = bg.Lighter, bg = fg.Normal, style = style.Bold },
-		PmenuThumb = { fg = bg.Lighter, bg = fg.Normal },
-		WildMenu = { fg = fg.Lighter, bg = bg.Lighter },
+		Pmenu = { fg = text.Normal, bg = canvas.Normal },
+		PmenuSbar = { fg = text.Normal, bg = canvas.Lighter },
+		PmenuSel = { fg = canvas.Lighter, bg = text.Normal, style = style.Bold },
+		PmenuThumb = { fg = canvas.Lighter, bg = text.Normal },
+		WildMenu = { fg = text.Lighter, bg = canvas.Lighter },
 	}
 end
 

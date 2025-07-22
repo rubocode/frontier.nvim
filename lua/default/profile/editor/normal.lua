@@ -19,8 +19,8 @@ local infuse = function()
 		EndOfBuffer = { fg = text.Quiet },
 		LineNr = { fg = text.Quiet, bg = canvas.Normal },
 		Normal = { fg = text.Normal, bg = canvas.Normal },
-		NormalFloat = { bg = canvas.Normal },
-		SignColumn = { bg = canvas.Normal },
+		NormalFloat = { bg = canvas.Darker },
+		SignColumn = { bg = canvas.Darker },
 	}
 end
 

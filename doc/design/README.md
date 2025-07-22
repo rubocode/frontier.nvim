@@ -55,7 +55,7 @@ or **miniwinter**.  They just didn't work out for me on the macOS Terminal
 (xterm256).  The colors were either too limited or the editor went into
 the mode of a broken CRT television set.
 
-The Mac Terminal provided better line spacing (easier to read and
+The macOS Terminal provided better line spacing (easier to read and
 generally healthier for the eyes) at the cost of not having the frames
 of your **telescope** float windows interrupted by tiny spaces.
 The other **truecolor** terminals including **iTerm** abd **WezTerm**

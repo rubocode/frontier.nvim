@@ -76,7 +76,7 @@ One level of indirection (the custom palette abstraction) will keep you
 on good footing.
 The mapping from the custom palette to the internal abstraction keeps
 the semantics congruent and aligned.
-The limited choices allow rapid selection and evolution.
+The limited choices enable rapid selection and evolution.
 
 ### APPROACH
 

@@ -106,13 +106,16 @@ duplication elegantly.  It lifted up the semantic relationships
 into harmonious and consistent color mactching choices resulting
 in further simplification.
 
-If you don't suppy a customization inside the theme, a default
-implementation using your color map — placed in the _map_ folder
-of the theme — will do the necessary mapping into the highlight groups.
+If you don't supply a customization inside the theme, a default
+implementation using your standardized (internal abstraction) color map
+— placed in the _map_ folder of the theme — will do the necessary mapping
+into the highlight groups.
 In fact, it is better to allow the default to do the work except
 in very special cases.
 This turned out to be a blessing that enabled better consistency
-and at the same time minimized redundancy and complexity.
+and at the same time minimized redundancy and lowered complexity.
+It made it easier to move from start to finish in creating
+a colorscheme.
 
 > Always go too far, because that’s where you will find the truth.    
 > **Albert Camus**

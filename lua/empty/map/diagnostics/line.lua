@@ -2,11 +2,11 @@
 -- JUL 16, 2025
 
 local M = {
-	Error = { fg = nil, bg = nil },
-	Hint = { fg = nil, bg = nil },
-	Info = { fg = nil, bg = nil },
-	Ok = { fg = nil, bg = nil },
-	Warning = { fg = nil, bg = nil },
+	Error = { Fg = nil, Bg = nil },
+	Hint = { Fg = nil, Bg = nil },
+	Info = { Fg = nil, Bg = nil },
+	Ok = { Fg = nil, Bg = nil },
+	Warning = { Fg = nil, Bg = nil },
 }
 
 return M

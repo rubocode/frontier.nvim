@@ -33,6 +33,8 @@ local infuse = function()
 		["@lsp.type.type"] = { link = "@type" },
 		["@lsp.type.typeParameter"] = { link = "@type.definition" },
 		["@lsp.type.variable"] = { link = "@variable" },
+		["@lsp.mod.defaultLibrary"] = { link = "Special" },
+		["@lsp.typemod.function.defaultLibrary"] = { link = "Special" },
 	}
 end
 

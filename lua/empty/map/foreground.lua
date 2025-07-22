@@ -1,15 +1,12 @@
 -- EMPTY FOREGROUND MAP
--- JUL15, 2025
+-- JUL 22, 2025
 
 local M = {
-	Accent = nil,
+	Quiet = nil,
 	Darker = nil,
+	Normal = nil,
 	Lighter = nil,
 	Loud = nil,
-	Normal = nil,
-	Peculiar = nil,
-	Quiet = nil,
-	Special = nil,
 }
 
 return M

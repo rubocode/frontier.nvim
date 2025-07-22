@@ -14,7 +14,7 @@ I wanted to deal with the problem in a more intuitive modular style.
 We are _unix_ programmers after all.
 We prefer specialized distributed intelligence over complex and unwieldy
 centralized intelligence.
-We use focused tools and piping (in essence, specialized smaller
+We use focused tools and piping (in essence, specialized small
 functions and interfaces) instead of bloated monoliths
 (huge long functions dealing with too many shared variables
 inside in one scope).

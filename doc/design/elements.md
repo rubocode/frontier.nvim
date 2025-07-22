@@ -33,7 +33,7 @@ When you want to support multiple themes, you need to be able
 to supply different colors and styling for each specific custom theme.
 You simply supply the same profile with different color and style
 definitions.  Now you can support multiple customizations for
-a particular aspect of the editor's display (it could be the little
+a particular aspect of the editor's display (it could be the smaller
 menus or the statusline).
 
 > All problems in computer science can be solved by another

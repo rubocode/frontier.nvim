@@ -24,15 +24,14 @@ a brute force approach.
 You are in such a hurry and have no time to contemplate the fitting
 abstractions and their relationships to enable you to dissect
 the problem down into focused components.
+I started by creating a handful of folders and less than a dozen files
+inside each folder.
 
 > So everybody is in a hurry, and many of our clients want to do
 > things in less time.
 > This means they choose speed over depth.
 > To me that is an enormous loss.  
 > **Peter Block**
-
-I started by creating a handful of folders and less than a dozen files
-inside each folder.
 
 When you want to apply the theme definition of a module in the theme into
 a highlight group and get back a color-infused highlight group, you can supply

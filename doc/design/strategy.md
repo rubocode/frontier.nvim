@@ -39,9 +39,10 @@ They were suffering the consequences of accidental complexity and
 the instability of the C++ standard.
 They hired _Ken Thompson_ — the original designer of the _unix_
 operating system — to come up with a solution.
-The problem space was even more complicated by more recent
-multi-core hardware.  But _Ken_ didn't shoot for an even more complex
-language.  He trodded in the other direction.
+The problem space was even more complicated by the more recent
+multi-core hardware including GPUs.
+But _Ken_ didn't shoot for an even more complex language.
+He trodded in the opposite direction.
 The result was _golang_, a simpler and more stable language with
 an ingrained modular architecture.
 Ken was aided by _Rob Pike_ who was also a former _Bell Labs_
@@ -78,18 +79,40 @@ different themes can follow the same standard for interfacing with
 the highlight group modules.
 
 When we are finally gathering the highlight groups, we simply swap the
-empty interface definition with the concrete module in the relevant theme.
+empty interface definition with the custom module in the relevant theme.
 This is simply indirection via an interface.  However, it isn't prettier
 than not having any functions or theme swapping as these introduce sheer
-ugliness and even hard-to-find bugs due to missing elements in the concrete
-theme module definitions, especially in a dynamic language such as _Lua_.
+ugliness and even hard-to-find bugs due to missing elements in the custom
+module definitions in the themes, especially in a dynamic language such
+as _Lua_.  You will also have to struggle with unnecessary duplication.
 
 We seem to be better off without passing any arguments or always pass
 just one argument to the function when we request the color-infused highlight
-groups and allow each highlight module to deal with its dependencies internally
+groups and allow each highlight module to deal with its dependencies internally,
 leaving dependency intelligence delegated where it belongs.
 The theme name can be this one argument.  This allows consistent gathering
 of highlight groups when we aggregate elements to load the theme.
+
+> An ugly system is one in which there are special interfaces for
+> everything you want to do.
+> Unix is the opposite. It gives you the building blocks that are
+> suﬃcient for doing everything.
+> That's what having a clean design is all about.  
+> **Linus Torvalds**
+
+A practical way to supply default mappings emerged as the
+design and the implementation evolved and tackled redundancy and
+duplication elegantly.  It lifted up the semantic relationships
+into harmonious and consistent color mactching choices resulting
+in further simplification.
+
+If you don't suppy a customization inside the theme, a default
+implementation using your color map — placed in the _map_ folder
+of the theme — will do the necessary mapping into the highlight groups.
+In fact, it is better to allow the default to do the work except
+in very special cases.
+This turned out to be a blessing that enabled better consistency
+and at the same time minimized redundancy and complexity.
 
 > Always go too far, because that’s where you will find the truth.    
 > **Albert Camus**

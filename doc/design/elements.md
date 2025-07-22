@@ -104,7 +104,8 @@ This facilitates rapid infusion of the creative and the aesthetic aspects.
 > **Steve Jobs**
 
 You have just increased your productivity via intelligent automation.
-Now, your tastes may differ.  You might prefer to ask _ChatGPT_ to
-do this for you.  Then again, you just might enjoy creating a design
-that pleases you.  That gives you a better feeling than the one you
-get by becoming a _prompt engineer_.
+Now, your outlook on life might differ.
+You could very well prefer to ask _ChatGPT_ to do this for you.
+Then again, you just might enjoy creating a design that pleases you.
+That gives you a better feeling than the one you get by becoming
+a _prompt engineer_.

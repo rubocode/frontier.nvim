@@ -1,8 +1,9 @@
 -- MINI.STATUSLINE HIGHLIGHTS
 -- JUL 05, 2025
 
-local line = require("empty.support.mode.line")
-local status = require("empty.support.status")
+local mode = require("empty.map.mode")
+local status = require("empty.map.status")
+
 local mapper = require("util.mapper")
 
 local M = {}
@@ -11,8 +12,8 @@ local infused = {}
 M.URL = "https://github.com/echasnovski/mini.statusline"
 
 local remap = function(theme)
-	line = mapper.pick(theme, "support.mode.line")
-	status = mapper.pick(theme, "support.status")
+	mode = mapper.pick(theme, "map.mode")
+	status = mapper.pick(theme, "map.status")
 end
 
 local infuse = function()
@@ -21,12 +22,12 @@ local infuse = function()
 		MiniStatuslineFileinfo = status.Normal,
 		MiniStatuslineFilename = status.Loud,
 		MiniStatuslineInactive = status.Quiet,
-		MiniStatuslineModeCommand = line.Command,
-		MiniStatuslineModeInsert = line.Insert,
-		MiniStatuslineModeNormal = line.Normal,
-		MiniStatuslineModeOther = line.Other,
-		MiniStatuslineModeReplace = line.Replace,
-		MiniStatuslineModeVisual = line.Visual,
+		MiniStatuslineModeCommand = mode.Command,
+		MiniStatuslineModeInsert = mode.Insert,
+		MiniStatuslineModeNormal = mode.Normal,
+		MiniStatuslineModeOther = mode.Other,
+		MiniStatuslineModeReplace = mode.Replace,
+		MiniStatuslineModeVisual = mode.Visual,
 	}
 	infused.LINKS = {}
 end

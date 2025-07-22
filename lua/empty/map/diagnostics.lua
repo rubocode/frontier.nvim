@@ -3,11 +3,11 @@
 
 local M = {
 	Text = {
-		Error = nil,
-		Hint = nil,
-		Info = nil,
-		Ok = nil,
-		Warn = nil,
+		Error = { fg = nil },
+		Hint = { fg = nil },
+		Info = { fg = nil },
+		Ok = { fg = nil },
+		Warn = { fg = nil },
 	},
 	Line = {
 		Error = { fg = nil, bg = nil },

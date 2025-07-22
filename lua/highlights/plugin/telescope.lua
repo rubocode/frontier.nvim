@@ -1,19 +1,20 @@
--- TELESCOPE COLORS
+-- TELESCOPE PROFILE
 -- JUL 11, 2025
 
-local view = require("empty.support.view")
+local view = require("empty.profile.plugin.telescope.view")
+
 local mapper = require("util.mapper")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	view = mapper.pick(theme, "support.view")
+	view = mapper.pick(theme, "profile.plugin.telescope.view")
 end
 
 local infuse = function()
 	infused.PROFILE = {
-		TelescopeBorder = view.Title,
+		TelescopeBorder = view.Border,
 		TelescopePromptBorder = view.Border,
 		TelescopeResultsBorder = view.Border,
 		TelescopePreviewBorder = view.Border,

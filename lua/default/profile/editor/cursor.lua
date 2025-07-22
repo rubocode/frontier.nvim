@@ -3,6 +3,7 @@
 
 local canvas = require("empty.map.canvas")
 local uniq = require("empty.map.unique")
+
 local mapper = require("util.mapper")
 
 local M = {}
@@ -17,7 +18,7 @@ local infuse = function()
 	profile = {
 		Cursor = { fg = canvas.Darker, bg = uniq.Accent },
 		CursorColumn = { bg = canvas.Lighter },
-		CursorLine = { bg = uniq.Peculiar },
+		CursorLine = { bg = canvas.Darker },
 		CursorLineNr = { fg = uniq.Peculiar },
 	}
 end

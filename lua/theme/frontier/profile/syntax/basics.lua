@@ -10,7 +10,7 @@ local M = {
 	Debug = {},
 	Delimiter = { fg = text.Darker },
 	Function = { fg = uniq.Dynamic },
-	Identifier = { fg = text.Lighter },
+	Identifier = { fg = uniq.Dynamic },
 	Keyword = { fg = text.Lighter },
 	Label = {},
 	Operator = { fg = text.Lighter },

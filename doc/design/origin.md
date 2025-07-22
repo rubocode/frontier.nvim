@@ -61,6 +61,19 @@ choosing colors for the different highlight groups.
 You need to centralize the highlight group profiles and allow the colors
 and themes to impact them.
 
+There is accidental adavantage spurred by certain imperative design constraints.
+The pertinent one here is the decision to limit the design to the discrete
+xterm256 color palette.  The gluttonous approach would have beeen to work
+with the almost unlimited choice and options provided bythe truecolor palette.
+This is tantamount to the difference in working with the digital versus the
+analog spaces.  How many colors do you need to highlight code anyway?
+
+Now you can use the variety of the rather limited spectrum of grey and other
+colors provided by the xterm256.  You can experiment with different ones and
+pick what gives you the best aesthetics.  One level of indirection
+(the custom palette abstraction) will keep on good footing.
+The limited choices allow rapid selection and evolution.
+
 ### APPROACH
 
 There are three basic approaches to the design problem:  

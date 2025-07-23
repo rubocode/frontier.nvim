@@ -96,7 +96,7 @@ of highlight groups when we aggregate elements to load the theme.
 > An ugly system is one in which there are special interfaces for
 > everything you want to do.
 > Unix is the opposite. It gives you the building blocks that are
-> suﬃcient for doing everything.
+> sufficient for doing everything.
 > That's what having a clean design is all about.  
 > **Linus Torvalds**
 

@@ -1,23 +1,18 @@
 ## DESIGN STRATEGY
 > JUL 10, 2025
 
-My initial intention was to create a reasonable stable abstraction for mapping
-colors into the highlight groups.  This would allow me to make changes and evolve
-rapidly.
-However, supporting more than one theme required dynamic binding of some sort
-and one of the methods seemed to be to call a function with the theme as a
-parameter and get back color-infused highlight group definitions.
+Supporting more than one theme requires dynamic binding of some sort
+and one of the methods seemed to be to call a function with the theme
+as a parameter and get back color-infused highlight group definitions.
 
 The trouble was that I inherently hated placing all parts of
-my abstraction in one file.
-I wanted to deal with the problem in a more intuitive modular style.
-We are _unix_ programmers after all.
-We prefer specialized distributed intelligence over complex and unwieldy
-centralized intelligence.
-We use focused tools and piping (in essence, specialized small
-functions and interfaces) instead of bloated monoliths
-(huge long functions dealing with too many shared variables
-inside one scope).
+my abstraction in one file.  I wanted to deal with the problem
+in a more intuitive modular style.  We are _unix_ programmers after
+all.  We prefer specialized distributed intelligence over complex
+and unwieldy centralized intelligence.  We use focused tools and piping
+(in essence, specialized small functions and interfaces) instead of
+bloated monoliths (huge long functions dealing with too many
+unrelated shared variables inside one scope).
 
 Even _Bjarne Stroustrup_ gave up on writing his monolithic tomes on
 _The C++ Programming Language_ after four editions.

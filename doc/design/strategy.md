@@ -55,9 +55,9 @@ the language.  Instead of the language orchestrating focused
 localized specialization, now programmers have to specialize
 in subsets of the language.  Compatibility with multiple legacy
 editions (like 2011, 2014, 2017, 2020 and 2023) is now the burden
-of the novice and the seasoned programmer.
+of the the novice and the seasoned programmer.
 It is kind of sad.
-Bjarne was aided by _Herb Sutter_ of Microsoft lineage.
+_Bjarne_ was aided by _Herb Sutter_ of Microsoft lineage.
 
 Perhaps, this is all a result of the fact that — despite
 working at _Bell Labs_ — _Bjarne_ used a _Windows_ laptop
@@ -86,7 +86,7 @@ But _Ken_ didn't shoot for an even more complex language.
 He trodded in the opposite direction.
 The result was _golang_, a simpler and more stable language with
 an ingrained modular architecture.
-Ken was aided by _Rob Pike_ who was also a former _Bell Labs_
+_Ken_ was aided by _Rob Pike_ who was also a former _Bell Labs_
 colleague.
 
 This is the difference between a nuanced and elegant approach

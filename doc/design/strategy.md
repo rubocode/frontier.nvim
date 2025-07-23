@@ -101,26 +101,29 @@ multiple themes.
 > Design is how it works.  
 > **Steve Jobs**
 
-When we are finally gathering the highlight groups, we simply swap the
-empty interface definition with the custom module in the relevant theme.
+When we are finally gathering the highlight groups, we simply
+swap the empty interface definition with the custom module
+in the relevant theme.
 This is simply indirection via an interface.
 However, it requires the highlight module to include functions
 around the previously rather simple table of data.
 Now, things are uglier and more complicated than it could be
-and increased the possibility of hard-to-find bugs due to missing
-elements in the custom module definitions in the themes, especially
-in a dynamic language such as _lua_.  You would also have to struggle
-with unnecessary duplication.  However, we have chosen to support
-multiple themes already.  Elegance will have to compensate for
-simplicity here to enable capability.
+and we have increased the possibility of hard-to-find bugs due
+to missing elements in the custom module definitions in the themes,
+especially in a dynamic language such as _lua_.
+You would also have to struggle with unnecessary duplication.
+However, we have chosen to support multiple themes already.
+Elegance will have to compensate for simplicity here to enable
+capability.
 
-We seem to be better off without passing any arguments or always pass
-just one argument to the function when we request the color-infused
-highlight groups and allow each highlight module to deal with its
-dependencies internally, leaving dependency intelligence delegated
-where it belongs — with the dependent.  The theme name can be this
-one argument.  The _require_ paths will be interpolated using
-the theme _name_ to locate specific customs modules.
+We seem to be better off without passing any arguments or always
+pass just one argument to the function when we request the
+color-infused highlight groups and allow each highlight module
+to deal with its dependencies internally, leaving dependency
+intelligence delegated where it belongs — with the dependent.
+The theme name can be this one argument.
+The _require_ paths will be interpolated using the theme _name_
+to locate specific customs modules.
 This allows consistent gathering of highlight groups
 when we aggregate elements to load the theme — you define
 a _get(theme)_ function inside each highlight module.
@@ -135,14 +138,16 @@ Default profiles also need to have the same magic in them.
 
 If you don't supply a customization inside the theme, a default
 implementation using your standardized (internal abstraction)
-color map — placed in the _map_ folder of the theme — will do the
-necessary mapping into the highlight groups.
+color map — placed in the _map_ folder of the theme —
+will facilitate the necessary mapping into the highlight groups.
 In fact, it is better to allow the default to do the work except
 in very special cases.
 This turned out to be a blessing that enabled better consistency
 and at the same time minimized redundancy and lowered complexity.
 It made it easier to move from start to finish in creating
 a colorscheme.
+This facility emerged after multiple cycles with the custom
+profiles and maps had been accomplished.
 
 > Always go too far, because that’s where you will find the truth.    
 > **Albert Camus**

@@ -4,9 +4,9 @@
 I had the fortune of working with AOS/VS running on a Data General
 minicomputer when I was 19 (last century, in 1989).
 It had an editor called _sed (stream editor)_ which was similar to _vi_.
-I had also used _vt100_ terminals on VAX/VMS.
+I was working with _vt100_ terminals on VAX/VMS in my college days.
 I also used _ULTRIX_, _SunOS_ and _Solaris_ in the nineties and
-a bit later, _Linux_.
+_Linux_, a bit later.
 
 When I first started using _neovim_ recently, it was on a macOS Terminal
 that was limited to 256 colors (_xterm256_).

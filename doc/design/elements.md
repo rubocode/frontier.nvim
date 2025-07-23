@@ -55,8 +55,8 @@ the bottom infrastructure layer of stability in the design.
 
 When you are in the process of creating multiple customizations,
 it is helpful to generalize the abstractions to support the color
-combinations.  The ultimate abstraction will do the whole thing
-with just a definition of the palette.
+combinations.  Once the color palette is chosen, you need to map
+that into the highlights.
 
 The creative aspect involves specifying the mapping between
 the chosen custom color palette and the editor color abstraction
@@ -74,13 +74,14 @@ and voila, you have a working colorscheme.
 ### DEFAULT
 
 Since we are aiming to create a general internal abstraction,
-it will need to become rather stable at some point.
+it can be expected to become rather stable at some point.
 This should mean that the semantics have been captured successfully
 and the relationships between color aesthetics and technical
 elements demonstrate high fidelity.
 
-That would allow us to use the _map_ elements to expand into _profile_
-elements reliably and consistently across the themes.
-This allows us to split the uniqueness of the theme to be achieved
-through intelligent aesthetically harmonious defaults and customization
-in exceptional cases.
+That would allow us to use the _map_ elements to expand into
+_profile_ elements reliably and consistently across the themes.
+This allows us to express the uniqueness of the theme to be
+achieved through a combination of intelligent aesthetically
+harmonious defaults and allowance of full granular customization
+of profiles in exceptional cases.

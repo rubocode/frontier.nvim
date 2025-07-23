@@ -27,7 +27,7 @@ I wouldn't exactly have made the same color choices myself.
 
 The colorschemes that worked the same on _xterm256_ and _truecolor_
 were often implemented using _vimscript_.
-There were only a few good ones and were also hard to find.
+There were only a few good ones and they were hard to find.
 Once discovered, the LSP diagnostics and git colors were either
 not anticipated or defaulted.  The experience was a bit awkward.
 

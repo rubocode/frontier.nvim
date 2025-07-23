@@ -171,8 +171,8 @@ But then, I wanted to see how _lua_ allows me to deal with the
 problem of generalization in the simplest and most elegant way
 possible.  I wanted to discover a decent way of reusing the
 highlight definitions.  There was a minor handicap.
-The language _lua_ didn't support fixed interfaces
-(or _structs_).  This resulted in ghosted variables thus
+The language _lua_ didn't support fixed data interfaces
+(_enums_ or _structs_).  This resulted in ghosted variables thus
 allowing bugs due to missed data fields.
 
 What would success be without the possibility of failure!

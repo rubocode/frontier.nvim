@@ -1,4 +1,4 @@
-## FRONTIER COLOR SCHEME
+## FRONTIER THEME
 > JUL 08, 2025
 
 I am creating this one for my own personal use.

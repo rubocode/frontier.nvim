@@ -34,7 +34,7 @@ in the code).  You supply the profile (a partical specification for
 an aspect in the theme that you are working on) and the links do the
 remaining legwork for you.  You just have to set things up right once.
 We use a stable catalog of profiles organized primarily to isolate
-cohrent groups of highlights.
+coherent groups of highlights.
 
 When you want to support multiple themes, you need to be able
 to supply different colors and styling for each specific custom theme.

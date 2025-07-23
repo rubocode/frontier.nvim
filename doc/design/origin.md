@@ -17,8 +17,8 @@ because the popular colorschemes were rather bloated.
 I was intrigued by the rather minimal and dark
 [khold](https://github.com/metalelf0/black-metal-theme-neovim)
 and [yugen](https://github.com/bettervim/yugen.nvim).
-Then I found [two-firewatch](../theme/firewatch/README.md)
 
+Then I found [two-firewatch](../theme/firewatch/README.md)
 I didn't particularly like the _light_ and _dark_ themes on _truecolor_,
 but boy did I like the _dark_ theme on my macOS Terminal (xterm256).
 I wanted the same colors on a truecolor terminal as well for consistent

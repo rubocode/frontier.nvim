@@ -49,11 +49,15 @@ any other that supports xterm256 colors including truecolor terminals.
 I was not too concerned about 16 color terminals at the time.
 I handled the situation via _nvim.config_ by checking the terminal type
 and switching to the system default when the terminal is neither xterm256
-nor truecolor.  I reached the point of successfully achieving the same look
-and feel on both _xterm256_ and _truecolor_ on macOS terminal and WezTerm.
+nor truecolor.  A _vt100_ like situation is not a daily experience and
+if you find yourself logging into an external server and using some
+version of _vi_, you are not usually _coding_ but doing some
+_sysadmin_ work.
 
-Now I wanted to generalize the theming abstraction from there.  Then I found
-[apprentice](../theme/apprentice/README.md).
+I reached the point of successfully achieving the same look
+and feel on both _xterm256_ and _truecolor_ on macOS terminal and WezTerm.
+Then I wanted to generalize the theming abstraction from there.
+On a lucky coincidence, I found [apprentice](../theme/apprentice/README.md).
 It worked the same on both the masOS Terminal and WezTerm.
 The theming was also simpler than two-firewatch.
 With this new found knowledge, I separated my abstraction into three concerns
@@ -96,4 +100,4 @@ The limited choices enable rapid selection and evolution.
 
 ### OUTCOME
 
-I decided to create a new colorscheme.
+I decided to create a new colorscheme.  Let's see where we get!

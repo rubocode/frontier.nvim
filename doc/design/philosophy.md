@@ -32,7 +32,7 @@ The better the defaults, the lesser you need to customize.
 The lesser you need to customize, the lesser the number of outer variables.
 All of a sudden, you can quickly experiment with colors and have that
 instantly show you how the the technicalities are impacted.
-This facilitates rapid infusion of the technical, creative and
+This facilitates rapid fusion of the technical, creative and
 the aesthetic aspects.
 
 > Ultimately, it comes down to taste.

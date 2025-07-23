@@ -69,18 +69,19 @@ the problem down into focused components.
 > To me that is an enormous loss.  
 > **Peter Block**
 
-When you want to apply the definition of a module in the theme into
-a highlight group and get back a color-infused highlight group, you can
-supply that module as a parameter to a function inside the highlight module.
-In general, you need to allow passing multiple theme modules as parameters.
+When you want to apply the a properly customized profile definition
+in the theme into a highlight group and get back a color-infused highlight
+group, you can supply that profile as a parameter to a function inside
+the highlight module. In general, you need to allow passing multiple theme
+modules — profiles and maps — as parameters.
 
 > Design is not just what it looks like and feels like.
 > Design is how it works.  
 > **Steve Jobs**
 
 Inside the function in the highlight group, you don't get proper code
-completion support when the require path is computed as a variable
-instead of using a simple string literal.
+completion support when the _require_ path is computed as a variable
+instead of a simple string literal.
 You can have an empty definition (a shared interface) for all aspects
 of the program to use and get code completion support everywhere.
 It will also be a good thing to have the empty interface so that the
@@ -96,11 +97,14 @@ module definitions in the themes, especially in a dynamic language such
 as _lua_.  You will also have to struggle with unnecessary duplication.
 
 We seem to be better off without passing any arguments or always pass
-just one argument to the function when we request the color-infused highlight
-groups and allow each highlight module to deal with its dependencies internally,
-leaving dependency intelligence delegated where it belongs.
-The theme name can be this one argument.  This allows consistent gathering
-of highlight groups when we aggregate elements to load the theme.
+just one argument to the function when we request the color-infused
+highlight groups and allow each highlight module to deal with its
+dependencies internally, leaving dependency intelligence delegated
+where it belongs — with the dependent.  The theme name can be this
+one argument.  This allows consistent gathering of highlight groups
+when we aggregate elements to load the theme (you define a
+_get(theme)_ function inside each highlight module).
+Default profiles also need to have the same magic in them.
 
 > An ugly system is one in which there are special interfaces for
 > everything you want to do.

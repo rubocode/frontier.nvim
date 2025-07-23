@@ -112,6 +112,8 @@ I decided to create a new colorscheme that supports multiple theming
 abstractions.  This means the underlying internal abstraction must
 be general enough and be quite a bit discerning.
 The granularity of distinctions would require much consideration.
-I will not be able to integrate themes that I considered bloated,
-but should be able to accomodate multiple simpler and elegant
+I do not intend to be able to integrate themes that I considered bloated
+(too many distinctions with too numerous a set of color distinctions
+that obliterates a simpler conceptual grasp).
+But, I should be able to accomodate multiple simpler and elegant
 themes.  Let's see where we get!

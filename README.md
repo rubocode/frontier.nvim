@@ -34,7 +34,8 @@ the desired plugins.  This also helps validate the internal abstraction.
 > **Antoine de Saint-Exupery**
 
 You may appreciate the different flavors and even the internal organization.
-It uses a different approach.  Perhaps you would like to use this project
-as the basis for experimenting with your own preferred color selection.
+It uses a [different approach](doc/design/README.md).
+Perhaps you would like to use this project as the basis for experimenting
+with your own preferred color selection.
 
 Enjoy!

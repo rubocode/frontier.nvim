@@ -38,7 +38,8 @@ Language_ which was also just the right size.
 Standardization invited him to cater to everyone's whims and demands.
 C++ became _A Centralized Design by Committee Endeavor_.
 The tried to make it do everything under the Sun and yet have the
-best performance.  They lost focus.  It simply got out of hand.
+best performance.  The language lost both readability and writability.
+They lost focus.  It simply got out of hand.
 
 Now it is nigh impossible for one individual to properly understand
 the full language.  Oh wait, they aren't even done revising the

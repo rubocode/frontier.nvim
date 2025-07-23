@@ -113,7 +113,7 @@ abstractions.  This means the underlying internal abstraction must
 be general enough and be quite a bit discerning.
 The granularity of distinctions would require much consideration.
 I do not intend to be able to integrate themes that I considered bloated
-(too many distinctions with too numerous a set of color distinctions
-that obliterates a simpler conceptual grasp).
+(too many visual syntactic distinctions backed by a broad color
+palette that obliterates a simpler conceptual grasp).
 But, I should be able to accomodate multiple simpler and elegant
 themes.  Let's see where we get!

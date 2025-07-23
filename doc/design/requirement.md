@@ -12,7 +12,7 @@ for better debugging.  I took the classic agile approach
 I would just sit and talk to myself when necessary. ;)
 
 But most of all I would have to capture the semantics (ligua franca)
-of the problem dommain.  The technical term used for this these days
+of the problem domain.  The technical term used for this these days
 is DSL (Domain Specific Language).  If I capture the elements,
 abstractions and mechanisms for the creation of colorshcemes,
 I could create multiple colorschemes with ease.

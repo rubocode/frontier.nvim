@@ -31,13 +31,12 @@ There were only a few good ones and were also hard to find.
 Once discovered, the LSP diagnostics and git colors were either
 not anticipated or defaulted.  The experience was a bit awkward.
 
+### A LEARNING OPPORTUNITY
+
 The customization bug that is common to all neovim users had bit me.
 I wanted to create my own personal colorscheme.
 It was an excellent opportunity learn _lua_ (the builtin customization
 language for modern neovim).
-
-### A LEARNING OPPORTUNITY
-
 So I decided to create a colorscheme that looks exactly the same on both
 the macOS Terminal and WezTerm and hopefully on any kind of _Linux_ terminal.
 
@@ -54,7 +53,7 @@ nor truecolor.  I reached the point of successfully achieving the same look
 and feel on both _xterm256_ and _truecolor_ on macOS terminal and WezTerm.
 
 Now I wanted to generalize the theming abstraction from there.  Then I found
-[Apprentice](../theme/apprentice/README.md).
+[apprentice](../theme/apprentice/README.md).
 It worked the same on both the masOS Terminal and WezTerm.
 The theming was also simpler than two-firewatch.
 With this new found knowledge, I separated my abstraction into three concerns

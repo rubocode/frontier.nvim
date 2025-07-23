@@ -3,7 +3,10 @@
 
 Initially, I just wanted to create a new colorscheme that I would personally
 use on a daily basis.  This happened because I could not find one that I liked
-enough.
+enough.  The handful I found were legacy implementations using _vimscript_
+and did not include adequate support for more recent additions such as LSP.
+I needed a way to fully customize my experience.  I was only going to use
+a handful of programming languages to begin with.
 
 I was new to _lua_ but I was happy that it was more expressive than _vimscript_.
 Not only was I learning lua but I was also trying to figure out how to integrate

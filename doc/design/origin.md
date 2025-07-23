@@ -106,7 +106,7 @@ and the number of colors used in every theme inside it.
 I wanted my personal preferences in one primary theme.  At the same time,
 I wanted to be able to recreate other themes I liked with the language
 and plugin support accomodated in the primary.
-I could accomodate adjustments and enhancements to legacy themes.
+I could then accomodate adjustments and enhancements to legacy themes.
 
 I decided to create a new colorscheme that supports multiple theming
 abstractions.  This means the underlying internal abstraction must

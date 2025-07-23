@@ -2,7 +2,7 @@
 > JUL 08, 2025
 
 URL: [https://github.com/romainl/Apprentice](https://github.com/romainl/Apprentice)  
-ORIGIN: [**Romain Lafourcade**](https://github.com/romainl)
+ORIGIN: [**Romain Lafourcade**](https://github.com/romainl)  
 PALETTE: [apprentice.colortemplate](apprentice.colortemplate)  
 
 * It was developed with _vimscript_ with slightly different design goals.

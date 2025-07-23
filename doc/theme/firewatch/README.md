@@ -2,8 +2,8 @@
 > JUL 08, 2025
 
 URL: [https://github.com/rakr/vim-two-firewatch](https://github.com/rakr/vim-two-firewatch)  
-ORIGIN: [**Ramzi Akremi**](https://github.com/rakr)
-PALETTE: [image](palette.png)
+ORIGIN: [**Ramzi Akremi**](https://github.com/rakr)  
+PALETTE: [image](palette.png)  
 EXTRACT: [two_firewatch.vim](two-firewatch.vim)
 
 He was primarily targeting a refined visual experience on truecolor terminals.

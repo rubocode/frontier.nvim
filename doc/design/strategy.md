@@ -35,7 +35,7 @@ the right size in the early nineties.
 Then there was the quite excellent _The Design of the C++ Programming
 Language_ which was also just the right size.
 Standardization invited him to cater to everyone's whims and demands.
-C++ became _A Centralized Design by Committee Endeavor_ project
+C++ became _A Centralized Design by Committee Endeavor_
 and lost focus. It simply got out of hand.  Bjarne was aided by
 _Herb Sutter_ of Microsoft lineage.
 

@@ -67,7 +67,7 @@ platform with _C++_ and perhaps the primary reason we got paid
 was for the ability to navigate the jungle successfully and
 deliver simplicity for our users.
 After a while, you long for elegance, simplicity and stability,
-not speed.  Efficiency is a deep subject.
+not speed.  Efficiency and productivity are deep subjects.
 Your environment influences you in unimaginable ways!
 Did I mention that _Swift_ was written in _C++_?
 

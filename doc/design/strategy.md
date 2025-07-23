@@ -65,7 +65,9 @@ you to dissect the problem down into focused components,
 you end up with a rushed design.
 There is always someone rushing you, especially if you have
 a boss or are part of a committee looking for money, power
-or fame.
+or fame (or alternatively money, sex and alcohol).
+If you are a programmer or a mathematician, you may have
+extracted out the common factor rather easily.
 
 > So everybody is in a hurry, and many of our clients want to do
 > things in less time.

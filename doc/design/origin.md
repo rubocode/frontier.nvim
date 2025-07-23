@@ -12,7 +12,6 @@ When I first started using _neovim_ recently, it was on a macOS Terminal
 that was limited to 256 colors (_xterm256-color_).
 I was looking for a colorscheme I liked, but all the popular ones were
 meant for _truecolor_ terminals.
-
 I switched to a _WezTerm_ terminal and then was disappointed again
 because the popular colorschemes were rather bloated.
 I was intrigued by the rather minimal and dark

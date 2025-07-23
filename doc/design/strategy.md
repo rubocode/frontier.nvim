@@ -5,7 +5,7 @@ Supporting more than one theme requires dynamic binding of some sort
 and one of the methods seemed to be to call a function with the theme
 as a parameter and get back color-infused highlight group definitions.
 Many people define a fully inclusive theming abstraction ripe with
-elements called _theme.ui.bg1_ and _theme.ui.fg7_.
+elements called _theme.ui.bg1_ and _theme.ui.fg3_.
 The numbering helps to identify the same thing on both a _light_
 and _dark_ version of the same colorscheme.  However, this
 is a semantically deprived approach.

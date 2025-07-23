@@ -59,14 +59,15 @@ of the novice and the seasoned programmer.
 It is kind of sad.
 Bjarne was aided by _Herb Sutter_ of Microsoft lineage.
 
-Perhaps, this is all a result of the fact that _Bjarne_ used
-a _Windows_ laptop as his personal default instead of opting
-for one that ran some version of _unix_, despite working at
-_Bell Labs_.  I used to work on the _Windows_ platform with
-_C++_ and perhaps the primary reason we got paid was for the
-ability to navigate the jungle successfully.
+Perhaps, this is all a result of the fact that — despite
+working at _Bell Labs_ — _Bjarne_ used a _Windows_ laptop
+as his personal default instead of opting for one that ran
+some version of _unix_.  I used to work on the _Windows_
+platform with _C++_ and perhaps the primary reason we got paid
+was for the ability to navigate the jungle successfully and
+deliver simplicity for our users.
 After a while, you long for elegance, simplicity and stability,
-not speed.
+not speed.  Efficiency is a deep subject.
 Your environment influences you in unimaginable ways!
 Did I mention that _Swift_ was written in _C++_?
 

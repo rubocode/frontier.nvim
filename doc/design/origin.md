@@ -101,4 +101,15 @@ The limited choices enable rapid selection and evolution.
 
 ### OUTCOME
 
-I decided to create a new colorscheme.  Let's see where we get!
+Generally, a colorscheme design sticks to the same syntactic distinctions
+and the number of colors used in every theme inside it.
+
+I wanted my personal preferences in one primary theme.  At the same time,
+I wanted to be able to recreate other themes I liked with the language
+and plugin support accomodated in the same.
+I decided to create a new colorscheme that supports multiple theming
+abstractions.  This means the underlying internal abstraction must
+be general enough and be quite a bit discerning.
+I will not be able to integrate themes that I considered bloated,
+but should be able to accomodate multiple simpler and elegant
+themes.  Let's see where we get!

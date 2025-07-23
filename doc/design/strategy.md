@@ -16,28 +16,48 @@ _grey.Darker_ and _grey.Lighter_.  I could also use _text.Normal_,
 _text.Quiet_ and _text.Loud_ and know what that looks like on
 the screen.  How cool is that!
 
-Another crucial yet obvious design decision was due to my inherent
-hatred of placing all parts of my abstraction in one file.
+Another crucial yet obvious design decision was due to my
+inherent hatred of placing all parts of my abstraction in one file.
 One might think that this comes from doing time in object oriented
 projects for too long.  But that is not the case.
 I wanted to deal with the problem in a more intuitive modular style.
 
-We are _unix_ programmers after all.  We prefer specialized distributed
-intelligence over complex and unwieldy centralized intelligence.
-We use focused tools and piping (in essence, specialized small functions
-and interfaces) instead of bloated monoliths (huge long functions
-dealing with too many unrelated shared variables inside one scope).
+We are _unix_ programmers after all.  We prefer specialized
+distributed intelligence over complex and unwieldy centralized
+intelligence.  We use focused tools and piping (in essence,
+specialized small functions and interfaces) instead of bloated
+monoliths (huge long functions dealing with too many unrelated
+shared variables inside one scope).
 
-Even _Bjarne Stroustrup_ gave up on writing his monolithic tomes on
-_The C++ Programming Language_ after four editions.
-His second edition and the Annotated Reference Manual (ARM) were just
-the right size in the early nineties.
+Even _Bjarne Stroustrup_ gave up on writing his monolithic tomes
+on _The C++ Programming Language_ after four editions.
+His second edition and the Annotated Reference Manual (ARM) were
+just the right size in the early nineties.
 Then there was the quite excellent _The Design of the C++ Programming
 Language_ which was also just the right size.
 Standardization invited him to cater to everyone's whims and demands.
-C++ became _A Centralized Design by Committee Endeavor_
-and lost focus. It simply got out of hand.  Bjarne was aided by
-_Herb Sutter_ of Microsoft lineage.
+C++ became _A Centralized Design by Committee Endeavor_.
+The tried to make it do everything under the Sun and yet have the
+best performance.  They lost focus.  It simply got out of hand.
+
+Now it is nigh impossible for one individual to properly understand
+the full language.  Oh wait, they aren't even done revising the
+language.  Instead of the language orchestrating focused
+localized specilization, now the programmers have to specialize
+in subsets of the language.  Compatibility with multiple legacy
+editions (like 2011, 2014, 2017, 2020 and 2023) is now the burden
+of the novice and the seasoned programmer.
+It is kind of sad.
+Bjarne was aided by _Herb Sutter_ of Microsoft lineage.
+
+Perhaps, this is all a result of the fact that _Bjarne_ used
+a _Windows_ laptop as his personal default instead of opting
+for one that ran some version of _unix_, despite working at
+_Bell Labs_.  I used to work on the _Windows_ platform with
+_C++_ and perhaps the primary reason we got paid was for the
+ability to navigate the jungle successfully.
+After a while, you long for elegance, simplicity and stability,
+not speed.  Your environment influences you in unimaginable ways!
 
 > If you think it's simple, you have misunderstood the problem.  
 > **Bjarne Stroustrup**

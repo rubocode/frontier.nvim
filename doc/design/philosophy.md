@@ -46,4 +46,4 @@ Now, your outlook on life might differ.
 You could very well prefer to ask _ChatGPT_ to do this for you.
 Then again, you just might enjoy creating a design that pleases you.
 That gives you a better feeling than the one you get by becoming
-a _prompt engineer_.  You could become a _prompt_ engineer instead.
+a _prompt engineer_.  You could become a _prompt_ engineer instead. ;)

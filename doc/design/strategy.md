@@ -122,12 +122,12 @@ more intuitive and insightful.
 I also had huge reservations about not having a proper _enum_ type
 in _golang_.  It is a bad idea to have a strategy of coding by
 convention and not provide first class language support for that usage.
-People end up creating automation in IDEs or language servers
+People end up creating automation in IDEs or other analytic tools
 later trying to police the conventions.  Ruby on Rails is a good
 example.  _Bjarne_ ended up creating a separate website with specific
-rules and guidance which Caterinated the desire of having tool vendors
-help with analytic solutions.  They are inviting the _AI_ vendors
-to take over territory from the humans.
+rules and guidance which signaled the desire of having tool vendors
+help with analytic and supervisory solutions.
+This invites the _AI_ vendors to take over territory from the humans.
 
 > Research your own experience.  Absorb what is useful, reject
 > what is useless and add what is essentially your own.  

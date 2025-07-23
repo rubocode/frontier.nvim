@@ -10,6 +10,7 @@ The _unix_ approach has worked quite well over the long haul
 in managing complexity with elegant simplicity.  It avoids
 towering monolithic intelligence and prefers the collaboration
 of distributed specialized intelligence.
+It has a heavy focus on the fundamentals.
 
 ### C++
 

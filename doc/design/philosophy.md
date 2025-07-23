@@ -42,8 +42,14 @@ the aesthetic aspects.
 > **Steve Jobs**
 
 You have just increased your productivity via intelligent automation.
-Now, your outlook on life might differ.
+Then again, your outlook on life might differ.
 You could very well prefer to ask _ChatGPT_ to do this for you.
+That thing will most likely provide you with a single file colorscheme
+and you will get it in under three seconds.
+It will also load faster.  Yee haw!
+
+It would take longer for you to formulate the request than it takes
+_ChatGPT_ to give you what you asked for.
 Then again, you just might enjoy creating a design that pleases you.
 That gives you a better feeling than the one you get by becoming
-a _prompt engineer_.  You could become a _prompt_ engineer instead. ;)
+a _prompt engineer_.  You could instead become a _prompt_ engineer. ;)

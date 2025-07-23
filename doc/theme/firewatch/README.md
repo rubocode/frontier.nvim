@@ -33,6 +33,3 @@ was established.
 * A simple colorscheme would have sufficed anyway.
 * Among other things, I also needed a better LSP experience.
 * TWO-FIREWATCH was a bit dated.
-
-I wanted to create a new one using _lua_ instead of _vimscript_ which
-would allow me to learn to use **Lua** in a real life project as well.

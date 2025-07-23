@@ -9,7 +9,7 @@ I also used _ULTRIX_, _SunOS_ and _Solaris_ in the nineties and
 a bit later, _Linux_.
 
 When I first started using _neovim_ recently, it was on a macOS Terminal
-that was limited to 256 colors (_xterm256-color_).
+that was limited to 256 colors (_xterm256_).
 I was looking for a colorscheme I liked, but all the popular ones were
 meant for _truecolor_ terminals.
 I switched to a _WezTerm_ terminal and then was disappointed again
@@ -20,7 +20,7 @@ and [yugen](https://github.com/bettervim/yugen.nvim).
 
 Then I found [two-firewatch](../theme/firewatch/README.md).
 I didn't particularly like the _light_ and _dark_ themes on _truecolor_,
-but boy did I like the _dark_ theme on my macOS Terminal (xterm256).
+but boy did I like the _dark_ theme on the macOS Terminal (xterm256).
 I wanted the same colors on a truecolor terminal as well for consistent
 experience.
 

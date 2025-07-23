@@ -6,8 +6,8 @@ and one of the methods seemed to be to call a function with the theme
 as a parameter and get back color-infused highlight group definitions.
 Many people define a fully inclusive theming abstraction ripe with
 elements called _theme.ui.bg1_ and _theme.ui.fg3_.
-The numbering helps to identify the same thing on both a _light_
-and _dark_ version of the same colorscheme.  However, this
+The numbering helps to identify the same thing on both the _light_
+and the _dark_ versions of the same colorscheme.  However, this
 is a semantically deprived approach.
 
 The design constraint to stick to dark themes allows the semantics

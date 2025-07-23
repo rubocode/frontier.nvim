@@ -48,12 +48,15 @@ customize it.  I called the project _uniwatch_ because I wanted the same
 any other that supports xterm256 colors including _truecolor_ terminals.
 
 I was not too concerned about 16 color terminals at the time.
-I handled the situation via _nvim.config_ by checking the terminal type
-and switching to the system default when the terminal is neither xterm256
-nor truecolor.  A _vt100_ like situation is not a daily experience and
-if you find yourself logging into an external server and using some
-version of _vi_, you are not usually _coding_ but doing some
-_sysadmin_ work.
+I handled the situation via [_nvim.config_](https://github.com/rubocode/nvim.config)
+by checking the terminal type and switching to the system default when
+the terminal is neither xterm256 nor truecolor.  A _vt100_ like situation
+is not a daily experience for me and if you find yourself logging into
+an external server and need to use some version of _vi_, you are not usually
+_coding_ but doing some _sysadmin_ work and don't have the luxury of setting
+up your _Personal Development Environment (PDE)_.  You need a full PDE
+only on your development machine.  At the moment, I don't even use _TMUX_
+and I don't log in to other servers.
 
 I reached the point of successfully achieving the same look
 and feel on both _xterm256_ and _truecolor_ on macOS terminal and WezTerm.

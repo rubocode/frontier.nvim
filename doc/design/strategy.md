@@ -160,7 +160,7 @@ This is a space to apply the wisdom of cohesion and coupling.
 
 The design also uses a heavy dose of the SRP and DRY principles.
 It also uses very small functions.
-This is going to make _Uncle Bob (Robert C. Martin)_ very happy.
+This is going to make _Uncle Bob (Robert C. Martin)_ very happy. ;)
 
 * Single Responsibilty Principle (SRP)
 * Don't Repeat Yourself (DRY)

@@ -57,11 +57,15 @@ an ingrained modular architecture.
 Ken was aided by _Rob Pike_ who was also a former _Bell Labs_
 colleague.
 
-This is the difference between a nuanced and elegant approach versus
-a brute force approach.
-You are in such a hurry and have no time to contemplate the fitting
-abstractions and their relationships to enable you to dissect
-the problem down into focused components.
+This is the difference between a nuanced and elegant approach
+versus a brute force approach.
+If you are in a mighty hurry and have no time to contemplate
+the fitting abstractions and their relationships to enable
+you to dissect the problem down into focused components,
+you end up with a rushed design.
+There is always someone rushing you, especially if you have
+a boss or are part of a committee looking for money, power
+or fame.
 
 > So everybody is in a hurry, and many of our clients want to do
 > things in less time.

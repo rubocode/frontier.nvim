@@ -1,5 +1,5 @@
 ## DESIGN STRATEGY
-> JUL 10, 2025
+> JUL 23, 2025
 
 Supporting more than one theme requires dynamic binding of some sort
 and one of the methods seemed to be to call a function with the theme

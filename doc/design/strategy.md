@@ -175,6 +175,4 @@ The language _lua_ didn't support fixed interfaces
 (or _structs_).  This resulted in ghosted variables thus
 allowing bugs due to missed data fields.
 
-I started by creating a handful of folders and less than
-a dozen files inside each folder.
-Let's see where we get!
+What would success be without the possibility of failure!

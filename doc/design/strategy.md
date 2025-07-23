@@ -166,12 +166,14 @@ This is going to make _Uncle Bob (Robert C. Martin)_ very happy. ;)
 * Don't Repeat Yourself (DRY)
 
 I initially preferred having a separate project for each theme.
-Life would have been much simpler.
+Life would have been much simpler albeit less interesting.
 But then, I wanted to see how _lua_ allows me to deal with the
 problem of generalization in the simplest and most elegant way
-possible in light of not being able to take advantage of fixed
-interface definitions that are checked by the language itself
-statically.
+possible.  I wanted to discover a decent way of reusing the
+highlight definitions.  There was a minor handicap.
+The language _lua_ didn't support fixed interfaces
+(or _structs_).  This resulted in ghosted variables thus
+allowing bugs due to missed data fields.
 
 I started by creating a handful of folders and less than
 a dozen files inside each folder.

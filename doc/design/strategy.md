@@ -70,19 +70,19 @@ the problem down into focused components.
 > **Peter Block**
 
 When you want to apply the definition of a module in the theme into
-a highlight group and get back a color-infused highlight group, you can supply
-that module as a parameter to a function inside the highlight module.
+a highlight group and get back a color-infused highlight group, you can
+supply that module as a parameter to a function inside the highlight module.
 In general, you need to allow passing multiple theme modules as parameters.
 
 > Design is not just what it looks like and feels like.
 > Design is how it works.  
 > **Steve Jobs**
 
-Inside the function in the highlight group, you don't get proper code completion
-support because the require path is computed as a variable instead of using
-a simple string literal.
-You can have an empty definition (a shared interface) for all aspects of
-the program to use and get code completion support everywhere.
+Inside the function in the highlight group, you don't get proper code
+completion support when the require path is computed as a variable
+instead of using a simple string literal.
+You can have an empty definition (a shared interface) for all aspects
+of the program to use and get code completion support everywhere.
 It will also be a good thing to have the empty interface so that the
 different themes can follow the same standard for interfacing with
 the highlight group modules.

@@ -105,6 +105,10 @@ with sound generics.  People have had experience with
 it for quite a while.  They had the option of doing something
 more intuitive and insightful earlier in the design of the langauge.
 
+> Research your own experience.  Absorb what is useful, reject
+> what is useless and add what is essentially your own.  
+> **Bruce Lee**
+
 I also had huge reservations about not having a proper _enum_ type
 in _golang_.  Good semantics reduces complexity in an intuitive
 manner resuting in enhanced readability and expressive elegance.
@@ -120,9 +124,12 @@ help with analytic and supervisory solutions.
 This invites the _AI_ vendors to take over territory from the humans.
 Both parties end up simply creating and sustaining unnecessary complexity.
 
-> Research your own experience.  Absorb what is useful, reject
-> what is useless and add what is essentially your own.  
-> **Bruce Lee**
+> Software is not limited by physics, like buildings are.
+> It is limited by imagination, by design, by organization.
+> In short, it is limited by properties of people, not by properties
+> of the world.  
+> “We have met the enemy, and he is us.”  
+> **Ralph Johnson**
 
 _Golang_ certainly is not quite suited for designing abstractions
 to implement object centered segements such as user interfaces.

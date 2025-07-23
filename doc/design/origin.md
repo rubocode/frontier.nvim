@@ -60,7 +60,7 @@ and feel on both _xterm256_ and _truecolor_ on macOS terminal and WezTerm.
 Then I wanted to generalize the theming abstraction from there.
 On a lucky coincidence, I found [apprentice](../theme/apprentice/README.md).
 It worked the same on both the masOS Terminal and WezTerm.
-The theming was also simpler than two-firewatch.
+The theming was also simpler than two-firewatch and easier on the eyes.
 With this new found knowledge, I separated my abstraction into three concerns
 (_palette_, _theme_ and _highlights_) and pivoted my work on the intended
 primary personal colorscheme that I initially named _frontier_.

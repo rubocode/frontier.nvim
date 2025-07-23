@@ -59,6 +59,9 @@ of both the novice and the seasoned programmer.
 It is kind of sad.
 _Bjarne_ was aided by _Herb Sutter_ of Microsoft lineage.
 
+> If you think it's simple, you have misunderstood the problem.  
+> **Bjarne Stroustrup**
+
 Perhaps, this is all a result of the fact that — despite
 working at _Bell Labs_ — _Bjarne_ used a _Windows_ laptop
 as his personal default instead of opting for one that ran
@@ -71,11 +74,11 @@ not speed.  Efficiency and productivity are deep subjects.
 Your environment influences you in unimaginable ways!
 Did I mention that _Swift_ was written in _C++_?
 
-> If you think it's simple, you have misunderstood the problem.  
-> **Bjarne Stroustrup**
+> A good decision is based on knowledge and not numbers.  
+> **Plato**
 
-Google began as primarily a _linux/c++_ shop due to the initial choices
-of _Larry Page_ and _Sergey Brin_ during the startup stage.
+Google began as primarily a _linux/c++_ shop due to the initial
+choices of _Larry Page_ and _Sergey Brin_ during the startup stage.
 They were suffering the consequences of accidental complexity and
 the instability of the C++ standard.
 They hired _Ken Thompson_ — the original designer of the _unix_

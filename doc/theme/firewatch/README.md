@@ -4,7 +4,7 @@
 URL: [https://github.com/rakr/vim-two-firewatch](https://github.com/rakr/vim-two-firewatch)  
 ORIGIN: [**Ramzi Akremi**](https://github.com/rakr)  
 PALETTE: [image](palette.png)  
-EXTRACT: [two_firewatch.vim](two-firewatch.vim)
+EXTRACT: [two-firewatch.vim](two-firewatch.vim)
 
 He was primarily targeting a refined visual experience on truecolor terminals.
 But when I ran it on the macOS Terminal, it looked excellent and more importantly

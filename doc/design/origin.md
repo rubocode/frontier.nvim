@@ -1,7 +1,7 @@
 ## THE ORIGIN
 > JUL 08, 2025
 
-I had the fortune of working with using AOS/VS running on a Data General
+I had the fortune of working with AOS/VS running on a Data General
 minicomputer when I was 19 (last century, in 1989).
 It had an editor called _sed (stream editor)_ which was similar to _vi_.
 I had also used _vt100_ terminals on VAX/VMS.

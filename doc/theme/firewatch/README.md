@@ -11,9 +11,9 @@ But when I ran it on the macOS Terminal, it looked excellent and more importantl
 it didn't go into the broken CRT TV mode.  So I studied the theme.
 
 * It was developed in _vimscript_.
-* It was primarily targeted for truecolor terminals with light and dark themes.
+* It was primarily targeted for _truecolor_ terminals with _light_ and _dark_ themes.
 * The focus of the design was the color experience.
-* It used a contrasting duotone color palette.
+* It used a minimal and contrasting duotone color palette.
 
 I wasn't quite attracted to the truecolor rendition of the design,
 but was delighted with the derived dark version on xterm256.

@@ -26,9 +26,9 @@ experience.
 
 The colorschemes that worked the same on _xterm256_ and _truecolor_
 were often implemented using _vimscript_.
-They were only a few good ones and were also hard to find.
-When found, the LSP diagnostics and git colors were either
-not anticipated or defaulted.
+There were only a few good ones and were also hard to find.
+Once discovered, the LSP diagnostics and git colors were either
+not anticipated or defaulted.  The experience was a bit awkward.
 
 The customization bug that is common to all neovim users had bit me.
 I wanted to create my own personal colorscheme.

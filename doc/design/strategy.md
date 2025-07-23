@@ -136,12 +136,13 @@ to take over territory from the humans.
 _Golang_ certainly is not quite suited for designing abstractions
 to implement object centered segements such as user interfaces.
 The desire to stick to interface based composition and duck typing
-over inheritance has ruled out a certain class of practical applications.
+and flat out rejecting inheritance has ruled out a certain class
+of practical applications.
 Instead it has a self-proclaimed niche in networking and backend scaling.
 It seems it is not enough of a general purpose language.
 There is a lot to like, but it also isn't _the better C_
-that we were waiting for especially from the _Bell Labs_ crowd.
-With heavy weight funding and backing, was a golden opportunity
+that we could have expected especially from the _Bell Labs_ crowd.
+With such heavy weight funding and backing, was a golden opportunity
 missed again?
 
 > So everybody is in a hurry, and many of our clients want to do

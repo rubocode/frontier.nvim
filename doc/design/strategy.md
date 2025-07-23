@@ -107,7 +107,7 @@ extracted out the common factor rather easily.
 > To me that is an enormous loss.  
 > **Peter Block**
 
-Returning from that historical tangent, let's get back to the
+Returning from that nostalgic tangent, let's get back to the
 regular program.
 When you want to inject a properly customized profile definition
 into a highlight group and get back a color-infused highlight

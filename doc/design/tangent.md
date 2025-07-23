@@ -103,7 +103,7 @@ an adavantage in reducing duplication in a significant aspect of
 data representation and fundamental reusable algorithm implementation
 with sound generics.  People have had experience with
 it for quite a while.  They had the option of doing something
-more intuitive and insightful.
+more intuitive and insightful earlier in the design of the langauge.
 
 I also had huge reservations about not having a proper _enum_ type
 in _golang_.  It is a bad idea to have a strategy of coding by

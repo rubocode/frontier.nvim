@@ -38,7 +38,10 @@ Language_ which was also just the right size.
 Standardization invited him to cater to everyone's whims and demands.
 C++ became _A Centralized Design by Committee Endeavor_.
 The tried to make it do everything under the Sun and yet have the
-best performance.  The language lost both readability and writability.
+best performance.
+Features from other languages kept knocking at the door with
+fresh syntactic sugar.
+The language lost both readability and writability.
 They lost focus.  It simply got out of hand.
 
 Now it is nigh impossible for one individual to properly understand
@@ -58,7 +61,9 @@ _Bell Labs_.  I used to work on the _Windows_ platform with
 _C++_ and perhaps the primary reason we got paid was for the
 ability to navigate the jungle successfully.
 After a while, you long for elegance, simplicity and stability,
-not speed.  Your environment influences you in unimaginable ways!
+not speed.
+Your environment influences you in unimaginable ways!
+Did I mention that _Swift_ was written in _C++_?
 
 > If you think it's simple, you have misunderstood the problem.  
 > **Bjarne Stroustrup**

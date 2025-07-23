@@ -44,6 +44,11 @@ fresh syntactic sugar.
 The language lost both readability and writability.
 They lost focus.  It simply got out of hand.
 
+> I’m as proud of many of the things we haven’t done
+> as the things we have done.
+> Innovation is saying no to a thousand things.  
+> **Steve Jobs**
+
 Now it is nigh impossible for one individual to properly understand
 the full language.  Oh wait, they aren't even done revising the
 language.  Instead of the language orchestrating focused

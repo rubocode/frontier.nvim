@@ -166,6 +166,7 @@ This is going to make _Uncle Bob (Robert C. Martin)_ very happy. ;)
 * Don't Repeat Yourself (DRY)
 
 I initially preferred having a separate project for each theme.
+Life would have been much simpler.
 But then, I wanted to see how _lua_ allows me to deal with the
 problem of generalization in the simplest and most elegant way
 possible in light of not being able to take advantage of fixed

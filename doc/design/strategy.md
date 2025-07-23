@@ -90,6 +90,11 @@ It will also be a good thing to have the empty interface so that the
 different themes can follow the same standard for interfacing with
 the highlight group modules.
 
+This strategy emerged after the initial challenge of having a
+colorscheme look and feel the same on _xterm256_ and _truecolor_
+was overcome and the next challenge became one of supporting
+multiple themes.
+
 > Design is not just what it looks like and feels like.
 > Design is how it works.  
 > **Steve Jobs**
@@ -125,12 +130,6 @@ Default profiles also need to have the same magic in them.
 > sufficient for doing everything.
 > That's what having a clean design is all about.  
 > **Linus Torvalds**
-
-A practical way to supply default mappings emerged as the
-design and the implementation evolved and tackled redundancy and
-duplication elegantly.  It lifted up the semantic relationships
-into harmonious and consistent color mactching choices resulting
-in further simplification.
 
 If you don't supply a customization inside the theme, a default
 implementation using your standardized (internal abstraction)

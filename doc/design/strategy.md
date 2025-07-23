@@ -90,18 +90,25 @@ the highlight group modules.
 
 When we are finally gathering the highlight groups, we simply swap the
 empty interface definition with the custom module in the relevant theme.
-This is simply indirection via an interface.  However, it isn't prettier
-than not having any functions or theme swapping as these introduce sheer
-ugliness and even hard-to-find bugs due to missing elements in the custom
-module definitions in the themes, especially in a dynamic language such
-as _lua_.  You will also have to struggle with unnecessary duplication.
+This is simply indirection via an interface.
+However, it requires the highlight module to include functions
+around the previously rather simple table of data.
+Now, things are uglier and more complicated than it could be
+and increased the possibility of hard-to-find bugs due to missing
+elements in the custom module definitions in the themes, especially
+in a dynamic language such as _lua_.  You would also have to struggle
+with unnecessary duplication.  However, we have chosen to support
+multiple themes already.  Elegance will have to compensate for
+simplicity here to enable capability.
 
 We seem to be better off without passing any arguments or always pass
 just one argument to the function when we request the color-infused
 highlight groups and allow each highlight module to deal with its
 dependencies internally, leaving dependency intelligence delegated
 where it belongs — with the dependent.  The theme name can be this
-one argument.  This allows consistent gathering of highlight groups
+one argument.  The _require_ paths will be interpolated using
+the theme _name_ to locate specific customs modules.
+This allows consistent gathering of highlight groups
 when we aggregate elements to load the theme (you define a
 _get(theme)_ function inside each highlight module).
 Default profiles also need to have the same magic in them.
@@ -120,9 +127,9 @@ into harmonious and consistent color mactching choices resulting
 in further simplification.
 
 If you don't supply a customization inside the theme, a default
-implementation using your standardized (internal abstraction) color map
-— placed in the _map_ folder of the theme — will do the necessary mapping
-into the highlight groups.
+implementation using your standardized (internal abstraction)
+color map — placed in the _map_ folder of the theme — will do the
+necessary mapping into the highlight groups.
 In fact, it is better to allow the default to do the work except
 in very special cases.
 This turned out to be a blessing that enabled better consistency
@@ -133,21 +140,25 @@ a colorscheme.
 > Always go too far, because that’s where you will find the truth.    
 > **Albert Camus**
 
-Since we are dealing with a case with about a dozen or so theme
-modules, breaking up the highlight groups and reusing them
-will be justified by the coherence of the elements inside each
-component (SRP and DRY principles also apply).
-Ultimately, it is a design trade-off that balances flexibility,
-durability and adaptability.
+We are dealing with about a dozen or so theme maps — connecting
+the _palette_ to each _profile_.  The semantics in the map
+definitions are the anchors of the internal abstraction.
+This is a space to apply the wisdom of cohesion and coupling.
+
+The design also uses a heavy dose of the SRP and DRY principles.
+It also uses very small functions.
+This is going to make _Uncle Bob (Robert C. Martin)_ very happy.
 
 * Single Responsibilty Principle (SRP)
 * Don't Repeat Yourself (DRY)
 
 I initially preferred having a separate project for each theme.
-But then, I wanted to see how _lua_ allows me to deal with the problem
-of generalization in the simplest and most elegant way possible in light
-of not being able to define fixed interface definitions that are checked
-by the language itself statically.
+But then, I wanted to see how _lua_ allows me to deal with the
+problem of generalization in the simplest and most elegant way
+possible in light of not being able to take advantage of fixed
+interface definitions that are checked by the language itself
+statically.
 
-I started by creating a handful of folders and less than a dozen files
-inside each folder.  Let's see where we get!
+I started by creating a handful of folders and less than
+a dozen files inside each folder.
+Let's see where we get!

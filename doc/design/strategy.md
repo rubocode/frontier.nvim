@@ -75,11 +75,13 @@ extracted out the common factor rather easily.
 > To me that is an enormous loss.  
 > **Peter Block**
 
-When you want to apply the a properly customized profile definition
-in the theme into a highlight group and get back a color-infused highlight
-group, you can supply that profile as a parameter to a function inside
-the highlight module. In general, you need to allow passing multiple theme
-modules — profiles and maps — as parameters.
+When you want to inject a properly customized profile definition
+into a highlight group and get back a color-infused highlight
+group, you can supply that profile as a parameter to a function
+inside the highlight module. In general, you need to allow
+passing multiple theme modules — profiles and maps — as parameters.
+The approach taken was to compute _require_ paths using _theme_
+as a parameter.
 
 Inside the function in the highlight group, you don't get proper code
 completion support when the _require_ path is computed as a variable

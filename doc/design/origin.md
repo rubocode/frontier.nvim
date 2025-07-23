@@ -48,7 +48,8 @@ customize it.  I called the project _uniwatch_ because I wanted the same
 any other that supports xterm256 colors including _truecolor_ terminals.
 
 I was not too concerned about 16 color terminals at the time.
-I handled the situation via [_nvim.config_](https://github.com/rubocode/nvim.config)
+I handled the situation via
+[_nvim.config_](https://github.com/rubocode/nvim.config/blob/main/lua/user/colors.lua)
 by checking the terminal type and switching to the system default when
 the terminal is neither xterm256 nor truecolor.  A _vt100_ like situation
 is not a daily experience for me and if you find yourself logging into

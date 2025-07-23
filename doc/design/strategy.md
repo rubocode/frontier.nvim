@@ -43,7 +43,7 @@ best performance.  They lost focus.  It simply got out of hand.
 Now it is nigh impossible for one individual to properly understand
 the full language.  Oh wait, they aren't even done revising the
 language.  Instead of the language orchestrating focused
-localized specilization, now the programmers have to specialize
+localized specilization, now programmers have to specialize
 in subsets of the language.  Compatibility with multiple legacy
 editions (like 2011, 2014, 2017, 2020 and 2023) is now the burden
 of the novice and the seasoned programmer.

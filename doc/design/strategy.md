@@ -109,8 +109,8 @@ where it belongs — with the dependent.  The theme name can be this
 one argument.  The _require_ paths will be interpolated using
 the theme _name_ to locate specific customs modules.
 This allows consistent gathering of highlight groups
-when we aggregate elements to load the theme (you define a
-_get(theme)_ function inside each highlight module).
+when we aggregate elements to load the theme — you define
+a _get(theme)_ function inside each highlight module.
 Default profiles also need to have the same magic in them.
 
 > An ugly system is one in which there are special interfaces for

@@ -72,7 +72,7 @@ But I am merely being pragmatic here.
 ### ASPIRATION 
 
 When I am done with these, I would have created a colorscheme I would
-personally use and will have created a general color mapping abstraction with
+personally use and will have evolved a mapping abstraction with
 up-to-date feature support.
 
 > Once you start thinking more about where you want to be than about

@@ -21,7 +21,7 @@ Now, things are not too simple and that turns out to be a good thing.
 We can link one highlight group to another one so that the second one
 can automatically switch along with the first.
 In this case, you need only supply and modify the first and simply
-keep the link stable.
+keep the link alive.
 So, in a particular colorscheme, you supply some color definitions
 and often some links.
 

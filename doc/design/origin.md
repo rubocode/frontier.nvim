@@ -45,7 +45,7 @@ I started with the color palette in _two-firewatch_.
 Then I wanted to abstract out the theming so that it would be easy for me to
 customize it.  I called the project _uniwatch_ because I wanted the same
 (universal) color palette in the colorscheme whether on macOS Terminal or
-any other that supports xterm256 colors including truecolor terminals.
+any other that supports xterm256 colors including _truecolor_ terminals.
 
 I was not too concerned about 16 color terminals at the time.
 I handled the situation via _nvim.config_ by checking the terminal type

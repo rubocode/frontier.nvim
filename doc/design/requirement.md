@@ -8,7 +8,7 @@ enough.
 I had to explore, test, design, implement and debug the work.
 I would automate certain parts of the design and instrument the code
 for better debugging.  I took the classic agile approach
-(not the industrial flavor).  There were not daily standups.
+(not the industrial flavor).  There were no daily standups.
 I would just sit and talk to myself when necessary. ;)
 
 But most of all I would have to capture the semantics (ligua franca)

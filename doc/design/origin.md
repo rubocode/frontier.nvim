@@ -39,6 +39,7 @@ It was an excellent opportunity learn _lua_ (the builtin customization
 language for modern neovim).
 So I decided to create a colorscheme that looks exactly the same on both
 the macOS Terminal and WezTerm and hopefully on any kind of _Linux_ terminal.
+I would work with the constraint of the fixed palette in _xterm256_.
 
 I started with the color palette in _two-firewatch_.
 Then I wanted to abstract out the theming so that it would be easy for me to

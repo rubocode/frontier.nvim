@@ -55,7 +55,7 @@ the language.  Instead of the language orchestrating focused
 localized specialization, now programmers have to specialize
 in subsets of the language.  Compatibility with multiple legacy
 editions (like 2011, 2014, 2017, 2020 and 2023) is now the burden
-of the the novice and the seasoned programmer.
+of both the novice and the seasoned programmer.
 It is kind of sad.
 _Bjarne_ was aided by _Herb Sutter_ of Microsoft lineage.
 

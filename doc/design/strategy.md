@@ -81,10 +81,6 @@ group, you can supply that profile as a parameter to a function inside
 the highlight module. In general, you need to allow passing multiple theme
 modules — profiles and maps — as parameters.
 
-> Design is not just what it looks like and feels like.
-> Design is how it works.  
-> **Steve Jobs**
-
 Inside the function in the highlight group, you don't get proper code
 completion support when the _require_ path is computed as a variable
 instead of a simple string literal.
@@ -93,6 +89,10 @@ of the program to use and get code completion support everywhere.
 It will also be a good thing to have the empty interface so that the
 different themes can follow the same standard for interfacing with
 the highlight group modules.
+
+> Design is not just what it looks like and feels like.
+> Design is how it works.  
+> **Steve Jobs**
 
 When we are finally gathering the highlight groups, we simply swap the
 empty interface definition with the custom module in the relevant theme.

@@ -1,5 +1,5 @@
 # frontier.nvim
-A collection of colorschemes that look identical both on xterm256 and truecolor terminals
+A neovim colorscheme with themes that look identical on xterm256 and truecolor terminals
 
 > This is a work in progress!
 
@@ -29,11 +29,12 @@ out to meet aesthetic considerations but were either based on _vimscript_ or
 did not fully support the desired features (such as proper _LSP_ support) or
 the desired plugins.  This also helps validate the internal abstraction.
 
+> Perfection is achieved, not when there is nothing more to add,
+> but when there is nothing left to take away.  
+> **Antoine de Saint-Exupery**
+
 You may appreciate the different flavors and even the internal organization.
 It uses a different approach.  Perhaps you would like to use this project
 as the basis for experimenting with your own preferred color selection.
-
-> Premature optimization is the root of all evil.  
-> **Donald Knuth**
 
 Enjoy!

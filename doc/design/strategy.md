@@ -148,6 +148,7 @@ It made it easier to move from start to finish in creating
 a colorscheme.
 This facility emerged after multiple cycles with the custom
 profiles and maps had been accomplished.
+A reasonably stable mapping abstraction is the stepping stone.
 
 > Always go too far, because that’s where you will find the truth.    
 > **Albert Camus**

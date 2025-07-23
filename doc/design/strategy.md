@@ -50,8 +50,8 @@ They lost focus.  It simply got out of hand.
 > **Steve Jobs**
 
 Now it is nigh impossible for one individual to properly understand
-the full language.  Oh wait, they aren't even done revising the
-language.  Instead of the language orchestrating focused
+the full _C++_ language.  Oh wait, they aren't even done revising
+the language.  Instead of the language orchestrating focused
 localized specialization, now programmers have to specialize
 in subsets of the language.  Compatibility with multiple legacy
 editions (like 2011, 2014, 2017, 2020 and 2023) is now the burden

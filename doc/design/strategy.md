@@ -114,15 +114,20 @@ adding generics.  It seems like a fundamental necessity after being
 exposed to the concept for a few decades.  It didn't have to be
 nearly as ugly looking and cryptic as it is in _C++_.  But you are at
 an adavantage in reducing duplication in a significant aspect of
-data representation with generics.  People have had experience with
+data representation and fundamental reusable algorithm implementation
+with sound generics.  People have had experience with
 it for quite a while.  They had the option of doing something
 more intuitive and insightful.
+
 I also had huge reservations about not having a proper _enum_ type
 in _golang_.  It is a bad idea to have a strategy of coding by
 convention and not provide first class language support for that usage.
 People end up creating automation in IDEs or language servers
 later trying to police the conventions.  Ruby on Rails is a good
-example.
+example.  _Bjarne_ ended up creating a separate website with specific
+rules and guidance which Caterinated the desire of having tool vendors
+help with analytic solutions.  They are inviting the _AI_ vendors
+to take over territory from the humans.
 
 > Research your own experience.  Absorb what is useful, reject
 > what is useless and add what is essentially your own.  

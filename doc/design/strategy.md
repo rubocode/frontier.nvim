@@ -104,6 +104,11 @@ and fame (or alternatively money, sex and alcohol).
 If you are a programmer or a mathematician, you may have
 extracted out the common factor rather easily.
 
+> So often people are working hard at the wrong thing.
+> Working on the right thing is probably more important than
+> working hard.  
+> **Caterina Fake**
+
 On the other hand, the _golang_ team took quite a while to warm upto
 adding generics.  It seems like a fundamental necessity after being
 exposed to the concept for a few decades.  It didn't have to be
@@ -118,6 +123,10 @@ convention and not provide first class language support for that usage.
 People end up creating automation in IDEs or language servers
 later trying to police the conventions.  Ruby on Rails is a good
 example.
+
+> Research your own experience.  Absorb what is useful, reject
+> what is useless and add what is essentially your own.  
+> **Bruce Lee**
 
 _Golang_ certainly is not quite suited for designing abstractions
 to implement object centered segements such as user interfaces.

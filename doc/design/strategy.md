@@ -104,6 +104,32 @@ and fame (or alternatively money, sex and alcohol).
 If you are a programmer or a mathematician, you may have
 extracted out the common factor rather easily.
 
+On the other hand, the _golang_ team took quite a while to warm upto
+adding generics.  It seems like a fundamental necessity after being
+exposed to the concept for a few decades.  It didn't have to be
+nearly as ugly looking and cryptic as it is in _C++_.  But you are at
+an adavantage in reducing duplication in a significant aspect of
+data representation with generics.  People have had experience with
+it for quite a while.  They had the option of doing something
+more intuitive and insightful.
+I also had huge reservations about not having a proper _enum_ type
+in _golang_.  It is a bad idea to have a strategy of coding by
+convention and not provide first class language support for that usage.
+People end up creating automation in IDEs or language servers
+later trying to police the conventions.  Ruby on Rails is a good
+example.
+
+_Golang_ certainly is not quite suited for designing abstractions
+to implement object centered segements such as user interfaces.
+The desire to stick to interface based composition and duck typing
+over inheritance has ruled out a certain class of practical applications.
+Instead it has a self-proclaimed niche in networking and backend scaling.
+It seems it is not enough of a general purpose language.
+There is a lot to like, but it also isn't _the better C_
+that we were waiting for especially from the _Bell Labs_ crowd.
+With heavy weight funding and backing, was a golden opportunity
+missed again?
+
 > So everybody is in a hurry, and many of our clients want to do
 > things in less time.
 > This means they choose speed over depth.

@@ -4,15 +4,29 @@
 Supporting more than one theme requires dynamic binding of some sort
 and one of the methods seemed to be to call a function with the theme
 as a parameter and get back color-infused highlight group definitions.
+Many people define a fully inclusive theming abstraction ripe with
+elements called _theme.ui.bg1_ and _theme.ui.fg7_.
+The numbering helps to identify the same thing on both a _light_
+and _dark_ version of the same colorscheme.  However, this
+is a semantically deprived approach.
 
-The trouble was that I inherently hated placing all parts of
-my abstraction in one file.  I wanted to deal with the problem
-in a more intuitive modular style.  We are _unix_ programmers after
-all.  We prefer specialized distributed intelligence over complex
-and unwieldy centralized intelligence.  We use focused tools and piping
-(in essence, specialized small functions and interfaces) instead of
-bloated monoliths (huge long functions dealing with too many
-unrelated shared variables inside one scope).
+The design constraint to stick to dark themes allows the semantics
+to be much more intuitive.  I could benefit from _grey.Normal_,
+_grey.Darker_ and _grey.Lighter_.  I could also use _text.Normal_,
+_text.Quiet_ and _text.Loud_ and know what that looks like on
+the screen.  How cool is that!
+
+Another crucial yet obvious design decision was due to my inherent
+hatred of placing all parts of my abstraction in one file.
+One might think that this comes from doing time in object oriented
+projects for too long.  But that is not the case.
+I wanted to deal with the problem in a more intuitive modular style.
+
+We are _unix_ programmers after all.  We prefer specialized distributed
+intelligence over complex and unwieldy centralized intelligence.
+We use focused tools and piping (in essence, specialized small functions
+and interfaces) instead of bloated monoliths (huge long functions
+dealing with too many unrelated shared variables inside one scope).
 
 Even _Bjarne Stroustrup_ gave up on writing his monolithic tomes on
 _The C++ Programming Language_ after four editions.
@@ -21,9 +35,9 @@ the right size in the early nineties.
 Then there was the quite excellent _The Design of the C++ Programming
 Language_ which was also just the right size.
 Standardization invited him to cater to everyone's whims and demands.
-C++ became a _Design by Committee_ project and lost focus.
-It simply got out of hand.  Bjarne was aided by _Herb Sutter_
-of Microsoft lineage.
+C++ became _A Centralized Design by Committee Endeavor_ project
+and lost focus. It simply got out of hand.  Bjarne was aided by
+_Herb Sutter_ of Microsoft lineage.
 
 > If you think it's simple, you have misunderstood the problem.  
 > **Bjarne Stroustrup**

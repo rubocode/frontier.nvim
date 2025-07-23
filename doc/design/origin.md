@@ -21,7 +21,7 @@ and [yugen](https://github.com/bettervim/yugen.nvim).
 Then I found [two-firewatch](../theme/firewatch/README.md).
 I didn't particularly like the _light_ and _dark_ themes on _truecolor_,
 but boy did I like the _dark_ theme on the macOS Terminal (xterm256).
-I wanted the same colors on a truecolor terminal as well for consistent
+I wanted the same colors on a truecolor terminal as well for a consistent
 experience.  It was minimal and showed signs of good taste, even though
 I wouldn't exactly have made the same color choices myself.
 

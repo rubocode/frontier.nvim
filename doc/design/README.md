@@ -12,7 +12,7 @@ such as LSP.
 * I was only going to use a handful of programming languages to begin with.
 
 I was new to _lua_ but I was happy that it was simpler, elegant and
-more expressive than _vimscript_.  Not only was I learning lua but
+more expressive than _vimscript_.  Not only was I learning _lua_ but
 I was also trying to figure out how to integrate a colorscheme into _neovim_.
 I also didn't know how colorschemes for neovim were organized.
 So, what I had infront of me was an _experiment_ where I would work in

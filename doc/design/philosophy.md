@@ -21,8 +21,8 @@ If no one else does, you still made one that you would gladly use!
 
 The design challenge now becomes one of creating an accurate internal
 asbtraction that is congruent with the problem at hand to eliminate
-impedance mismatches.  The better you understand the neovim property
-design and classification, the better you can factor the internal
+impedance mismatches.  The better you understand the neovim highlight
+group design and classification, the better you can factor the internal
 abstraction.  The better your internal abstraction, the better your
 representation of aesthetics in the problem domain.
 

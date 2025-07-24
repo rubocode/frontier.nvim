@@ -262,7 +262,8 @@ That is a hard choice.
 There is a lot to like, but _golang_ isn't _the ultimate better C_
 that we could have expected especially from the _Bell Labs_ elite.
 With such heavy weight funding and backing, was a golden
-opportunity for a cleaner abstraction than _C_ missed again.
+opportunity for a cleaner abstraction than _C_ missed again?
+
 Wouldn't we be better off with a _C_ alternative that provides
 a better alternative to macros and strings and improved compiler
 performance via avoidance of reading and parsing the same

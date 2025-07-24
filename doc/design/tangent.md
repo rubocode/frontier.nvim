@@ -139,12 +139,13 @@ inside a single package.  You simly and another shared prefix after _Err_.
 > creating new words.
 > A _f\*\*king retard_ was shortened to _f\*\*ktard_). ;)
 >
-> I got the first taste of this at the very beginning but only realized
-> the regularity with which they applied the pattern.
+> I got the first indication of this practice at the very beginning
+> but only realized the regularity with which they applied the pattern
+> later.
 > My name is Ruchira Bomiriya and they had to come up with a _username_
 > for me in a situation where I was not physically present to
 > ask me for the preferred account name.
-> They abbreviated Ruchira to _ru_ and Bomiriya to _bo_ and
+> They abbreviated Ruchira into _ru_ and Bomiriya into _bo_ and
 > derived the username _rubo_.
 > To this day, I use that prefix to derive unique names.
 

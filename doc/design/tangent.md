@@ -165,7 +165,7 @@ Quite acceptable if the packages remain small and focused.
 
 > This reminds me of the time I worked for
 > [a Swedish company](https://rubocode.github.io/profile/work/cirrato).
-> Their language includes a practice of mushing together abbreviations
+> Their language includes the practice of mushing together abbreviations
 > and creating new words.
 > A _f\*\*king retard_ was shortened to a _f\*\*ktard_). ;)
 >

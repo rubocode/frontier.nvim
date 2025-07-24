@@ -172,7 +172,7 @@ example (I believe that there was a _gem_ called
 _Bjarne_ and _Herb_ ended up creating
 [a separate website](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
 with specific rules and guidance which signaled the desire of having
-tool vendors help with analytic and supervisory solutions.  There is even
+tool vendors help with analytical and supervisory solutions.  There is even
 [a separate library inside](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#gsl-guidelines-support-library)
 that is intended to help enforce these guidelines.
 Computing always involves nesting and recursion and someone once

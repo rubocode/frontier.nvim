@@ -264,7 +264,7 @@ that we could have expected especially from the _Bell Labs_ elite.
 With such heavy weight funding and backing, was a golden
 opportunity for a cleaner abstraction than _C_ missed again?
 
-Wouldn't we be better off with a _C_ alternative that provides
+Wouldn't we be better off with a _ a better C_ that provides
 a better alternative to macros and strings and improved compiler
 performance via avoidance of reading and parsing the same
 translation unit multiple times backed by a macro level
@@ -276,6 +276,27 @@ alternatives for pointer based indirection?
 > Someday you will meet a man who cares for none of these things.
 > Then you will know how poor you are.  
 > **Rudyard Kipling**
+
+I am taking a patient and careful look at _D_, _golang_, _rust_ and
+_zig_ at the moment.  I was also looking for a decent colorscheme
+for _neovim_ and found the renowned ones fell short of expectations.
+
+In the same vein, when I visit the websites for these languages,
+I often get an uneasy feeling when the aesthetic design of the
+documentation leaves much to be desired.
+Perhaps the team that is developing the language lack a well-rounded
+appreciation of the different aspects of life.
+I wonder about the nature of the language developed by people
+with less of an appreciation of quality in their work.
+Perhaps their priorities are not balanced.
+They may be sprinting instead of laying the foundation for a marathon.
+In real life, you can often recognize a _m\*ron_ from a mile away.
+When you do, the best thing is to avoid that fellow.
+
+> If an opinion contrary to your own makes you angry,
+> that is a sign that you are subconsciously aware of
+> having no good reason for thinking as you do.  
+> **Bertrand Russell**
 
 ### THE MORAL OF THE STORY
 

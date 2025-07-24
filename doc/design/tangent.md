@@ -128,7 +128,7 @@ provide first class language support for that usage.
 People end up creating automation in IDEs or other analytic tools
 later trying to police the conventions.  Ruby on Rails is a good
 example (I believe that there was a _gem_ called
-[_rubocop_](https://rubocop.org).
+[_RuboCop_](https://rubocop.org).
 Programming language design is an inherently arduous discipline.
 
 > A good decision is based on knowledge and not numbers.  

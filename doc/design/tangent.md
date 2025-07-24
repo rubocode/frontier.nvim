@@ -91,6 +91,11 @@ deliver simplicity and performance for our users.
 After a while, you long for elegance, simplicity and stability,
 not speed.
 
+> People judge you on your performance, so focus on the outcome.
+> Be a yardstick of quality.
+> Some people aren’t used to an environment where excellence is expected.  
+> **Steve Jobs**
+
 Efficiency and productivity are deep subjects where
 a long term perspective is more beneficial than immediate
 speed  — we are in a marathon and not a sprint.

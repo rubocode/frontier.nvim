@@ -33,16 +33,23 @@ Standardization invited him to cater to everyone's whims and demands.
 C++ became _A Centralized Design by Committee Endeavor_ — feature
 selection is done via a voting mechanism (relationships and
 loyalty gaining priority over reason and keen design intuition
-and insight).  They are pleasing the customers instead of focusing
+and insight).
+
+> Thinking is the hardest work there is, which is probably the
+> reason so few engage in it.  
+> **Henry Ford**
+
+They are pleasing the customers instead of focusing
 on the best product.  Wow!  It is a bad idea to depend on the
 customers to tell you what to do especially when you are doing
 something with substantial long term implications.
 If you have to ask customers, you don't know what you are doing.
 You're just looking for work or money.
 
-> Thinking is the hardest work there is, which is probably the
-> reason so few engage in it.  
-> **Henry Ford**
+> There are three classes of men:
+> lovers of wisdom, lovers of honor
+> and lovers of gain.  
+> **Plato**
 
 They tried to make it do everything under the Sun — which is ultimately
 the job of _C_ as the standard high-level machine abstraction — 

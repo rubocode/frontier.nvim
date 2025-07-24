@@ -78,7 +78,7 @@ the seasoned programmer.
 > **Aristotle Onassis**
 
 _C++_ has acquired a philosophy of continuous self-improvement
-over strving to accurately capture the fundamentals.
+instead strving to accurately capture the fundamentals.
 It has gone the path of _C#_ — a never ending saga.
 _Bjarne_ was aided by _Herb Sutter_ of Microsoft lineage.
 It is kind of sad.

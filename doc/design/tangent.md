@@ -22,8 +22,9 @@ Then there was the quite excellent _The Design of the C++ Programming
 Language_ which was also just the right size.
 Standardization invited him to cater to everyone's whims and demands.
 C++ became _A Centralized Design by Committee Endeavor_.
-The tried to make it do everything under the Sun and yet have the
-best performance.
+They tried to make it do everything under the Sun — which is ultimately
+the job of _C_ as the standard high-level machine abstraction — 
+and yet have the best performance.
 Features from other languages kept knocking at the door with
 fresh syntactic sugar.
 The language lost both readability and writability.

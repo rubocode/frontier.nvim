@@ -40,15 +40,20 @@ They lost focus.  It simply got out of hand.
 > Innovation is saying no to a thousand things.  
 > **Steve Jobs**
 
-Now it is nigh impossible for one individual to properly understand
-the full _C++_ language.  Oh wait, they aren't even done revising
-the language.  Instead of the language orchestrating focused
-localized specialization, now programmers have to specialize
-in subsets of the language.  Compatibility with multiple legacy
-editions (like 2011, 2014, 2017, 2020 and 2023) is now the burden
-of both the novice and the seasoned programmer.
+Now it is nigh impossible for one individual to properly
+understand the full _C++_ language.  Oh wait, they aren't even
+done revising the language.  Instead of the language orchestrating
+focused and orthogonal features with localized specialization,
+now programmers have to specialize in subsets of the language.
+Compatibility with multiple legacy editions (like 2011, 2014,
+2017, 2020 and 2023) is now the burden of both the novice and
+the seasoned programmer.  It has taken on a philosophy of
+continuous self-improvement over strving to accurately capture
+the fundamentals.  It has gone the path of _C#_ — a never ending
+saga.  _Bjarne_ was aided by _Herb Sutter_ of Microsoft lineage.
 It is kind of sad.
-_Bjarne_ was aided by _Herb Sutter_ of Microsoft lineage.
+In contrast, I believe that _C_ is pretty much done and has been
+that way for quite a while.
 
 > If you think it's simple, you have misunderstood the problem.  
 > **Bjarne Stroustrup**

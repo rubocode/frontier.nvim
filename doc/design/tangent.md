@@ -125,7 +125,7 @@ more intuitive and insightful earlier in the design of the langauge.
 > what is useless and add what is essentially your own.  
 > **Bruce Lee**
 
-I also had huge reservations about not having a proper _enum_
+I had huge reservations about not having a proper _enum_
 type in _golang_.  Good semantics reduces complexity in an intuitive
 manner resuting in enhanced readability, elegance and expressive power.
 It is quite nifty to have a bounded set of error conditions

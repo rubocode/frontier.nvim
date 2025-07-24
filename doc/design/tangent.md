@@ -106,13 +106,13 @@ extracted out the common factor rather easily.
 > working hard.  
 > **Caterina Fake**
 
-On the other hand, the _golang_ team took quite a while to warm upto
-adding generics.  It seems like a fundamental necessity after being
-exposed to the concept for a few decades.  It didn't have to be
-nearly as ugly looking and cryptic as it is in _C++_.  But you are at
-an adavantage in reducing duplication in a significant aspect of
-data representation and fundamental reusable algorithm implementation
-with sound generics.  People have had experience with
+The _golang_ team took quite a while to warm upto adding generics.
+It seems like a fundamental necessity after being
+exposed to the concept for a few decades.
+It didn't have to be nearly as ugly looking and cryptic as it is in _C++_.
+But you are at an adavantage in reducing duplication in a significant
+aspect of data representation and fundamental reusable algorithm
+implementation with sound generics.  People have had experience with
 it for quite a while.  They had the option of doing something
 more intuitive and insightful earlier in the design of the langauge.
 

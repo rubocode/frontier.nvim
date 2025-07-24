@@ -54,7 +54,7 @@ as his personal default instead of opting for one that ran
 some version of _unix_.  I used to work on the _Windows_
 platform with _C++_ and perhaps the primary reason we got paid
 was for the ability to navigate the jungle successfully and
-deliver simplicity for our users.
+deliver simplicity and performance for our users.
 After a while, you long for elegance, simplicity and stability,
 not speed.  Efficiency and productivity are deep subjects.
 Your environment influences you in unimaginable ways!
@@ -83,6 +83,11 @@ The result was _golang_, a simpler and more stable language with
 an ingrained modular architecture.
 _Ken_ was aided by _Rob Pike_ who was also a former _Bell Labs_
 colleague.
+
+> If money is your hope for independence, you will never have it.
+> The only real security that a man will have in this world is
+> a reserve of knowledge, experience, and ability.  
+> **Henry Ford**
 
 This is the difference between a nuanced and elegant approach
 versus a brute force approach.

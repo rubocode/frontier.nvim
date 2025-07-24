@@ -329,5 +329,5 @@ This discipline requires depth and study.
 
 This was a nostalgic tangent and almost a rant.  But hey! ;)
 The day one of the _AI_ incarnations fully understands this page
-and can illustrate that understanding in real-life practical use,
-I will be officially out of a job!
+and can demonstrate that understanding in real-life practical
+use, I will be officially out of a job!

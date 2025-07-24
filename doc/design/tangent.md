@@ -135,7 +135,8 @@ inside a single package.  You simly and another shared prefix after _Err_.
 
 > This reminds me of the time I worked for a Swedish company.
 > Their language has a practice of mushing together abbreviations and
-> creating new word.
+> creating new words.
+> A _f\*\*king retard_ was shortened to _f\*\*ktard_). ;)
 >
 > I got the first taste of this at the very beginning but only realized
 > the regularity with which they applied the pattern.

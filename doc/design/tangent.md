@@ -26,7 +26,8 @@ just the right size in the early nineties.
 Then there was the quite excellent _The Design of the C++ Programming
 Language_ which was also just the right size.
 Standardization invited him to cater to everyone's whims and demands.
-C++ became _A Centralized Design by Committee Endeavor_.
+C++ became _A Centralized Design by Committee Endeavor_ — feature
+selection is done via a voting mechanism.  Wow!
 They tried to make it do everything under the Sun — which is ultimately
 the job of _C_ as the standard high-level machine abstraction — 
 and yet have the best performance.

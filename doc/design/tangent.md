@@ -169,9 +169,6 @@ later trying to police the conventions.  Ruby on Rails is a good
 example (I believe that there was a _gem_ called
 [_RuboCop_](https://rubocop.org).  A rather strange coincidence.
 
-> A good decision is based on knowledge and not numbers.  
-> **Plato**
-
 ### BACK TO C++
 
 _Bjarne_ and _Herb_ ended up creating
@@ -194,9 +191,8 @@ This is far away from critical thinking coupled with measured judgment
 and instead leaning on probability and statistics.
 Both parties end up simply creating and sustaining unnecessary complexity.
 
-> Whenever you find yourself on the side of the majority,
-> it is time to pause and reflect.  
-> **Mark Twain**
+> A good decision is based on knowledge and not numbers.  
+> **Plato**
 
 ### BACK TO GOLANG
 
@@ -210,6 +206,20 @@ However, it has a narrowed its focus and market a self-proclaimed
 niche in networking and backend scaling.
 Effective light-weight threading via goroutines has become
 a powerful and simplified feature for scaling.
+Many companies have migrated tnd are migrating their core
+infrastructure to a _golang_ base.
+Perhaps, this is due to the fact that it can be learned
+and understood with a very short learning curve and
+enables programmers with less experience to produce
+more.  Certainly an overall cost advantage that is difficult to
+set aside.  But you would end up with a bunch of people of
+lesser intellectual depth to live with on a daily basis.
+That is a hard choice.
+
+> Whenever you find yourself on the side of the majority,
+> it is time to pause and reflect.  
+> **Mark Twain**
+
 There is a lot to like, but it also isn't _the ultimate better C_
 that we could have expected especially from the _Bell Labs_ elite.
 With such heavy weight funding and backing, was a golden

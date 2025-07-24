@@ -163,6 +163,8 @@ example (I believe that there was a _gem_ called
 > A good decision is based on knowledge and not numbers.  
 > **Plato**
 
+### BACK TO C++
+
 _Bjarne_ and _Herb_ ended up creating
 [a separate website](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
 with specific rules and guidance which signaled the desire of having
@@ -187,6 +189,8 @@ Both parties end up simply creating and sustaining unnecessary complexity.
 > it is time to pause and reflect.  
 > **Mark Twain**
 
+### BACK TO GOLANG
+
 _Golang_ certainly is not quite suited for designing abstractions
 to implement object centered segements such as user interfaces.
 The desire to stick to interface based composition and duck typing
@@ -195,12 +199,15 @@ of practical applications.
 Yet, it has achived the self-hosting milestone.
 However, it has a narrowed its focus and market a self-proclaimed
 niche in networking and backend scaling.
-Effective light-weight threading via goroutines has become a powerful
-feature for scaling.
+Effective light-weight threading via goroutines has become
+a powerful and simplified feature for scaling.
 There is a lot to like, but it also isn't _the ultimate better C_
 that we could have expected especially from the _Bell Labs_ elite.
-With such heavy weight funding and backing, was a golden opportunity
-missed again?
+With such heavy weight funding and backing, was a golden
+opportunity for a cleaner abstraction than _C_ — a better
+alternative to macros and strings and improved compiler
+performance via avoidance of reading and parsing the same
+translation unit multiple times — missed again?
 
 > Beware of overconcern for money, position or glory.
 > Someday you will meet a man who cares for none of these things.

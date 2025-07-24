@@ -328,3 +328,6 @@ This discipline requires depth and study.
 > **Peter Block**
 
 This was a nostalgic tangent and almost a rant.  But hey! ;)
+The day one of the _AI_ incarnations fully understands this page
+and can illustrate that understanding in real-life practical use,
+I will be officially out of a job!

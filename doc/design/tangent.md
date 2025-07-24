@@ -291,7 +291,7 @@ appreciation of the different aspects of life.
 Perhaps they don't appreciate the generality and universality
 that they need to enable.
 I wonder whether the language developed by people with less of
-an appreciation of quality in their work will endure.
+an appreciation for quality in their work will endure.
 Perhaps their priorities are not balanced.
 They may be sprinting instead of laying the foundation for a marathon.
 

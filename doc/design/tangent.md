@@ -263,7 +263,7 @@ That is a hard choice.
 
 There is a lot to like, but _golang_ isn't _the ultimate better C_
 that we could have expected especially from the _Bell Labs_ elite.
-With such heavy weight funding and backing, was a golden
+With such heavyweight funding and backing, was a golden
 opportunity for a cleaner abstraction than _C_ missed again?
 
 Wouldn't we be better off with _a better C_ that provides

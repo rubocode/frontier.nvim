@@ -130,12 +130,15 @@ at hand and provides conceptual stability.
 At the same time, however, one should avoid too many concepts
 and distinctions when capturing the fundamentals.
 
-It is a far superior approach that defining package scope global
-variable starting with _Err_.
+It seems _enums_ are a far superior approach than defining package
+scope global variable starting with _Err_.
 What if you have two separate categories of errors that need definition
-inside a single package.  You simply add another shared prefix after _Err_.
-It is the package name that scopes the different sets of errors.
+inside a single package?
+You simply add another shared prefix after _Err_.
+It is the package name that scopes the different sets of errors
+from all the other errors in the system.
 Interesting choice.
+Quite acceptable if the packages remain small and focused.
 
 > This reminds me of the time I worked for
 > [a Swedish company](https://rubocode.github.io/profile/work/cirrato).

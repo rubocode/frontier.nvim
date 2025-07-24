@@ -236,7 +236,7 @@ Yet, it has achived the self-hosting milestone.
 > You have to pick carefully.  
 > **Steve Jobs**
 
-However, it has a narrowed its focus and market a self-proclaimed
+However, it has narrowed its focus and market a self-proclaimed
 niche in networking and backend scaling.
 Effective light-weight threading via goroutines has become
 a simple yet powerful feature for massive scaling.

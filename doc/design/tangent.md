@@ -133,7 +133,8 @@ variable starting with _Err_.
 What if you have two separate categories of errors that need definition
 inside a single package.  You simly and another shared prefix after _Err_.
 
-> This reminds me of the time I worked for a Swedish company.
+> This reminds me of the time I worked for
+> [a Swedish company](https://rubocode.github.io/profile/work/cirrato).
 > Their language has a practice of mushing together abbreviations and
 > creating new words.
 > A _f\*\*king retard_ was shortened to _f\*\*ktard_). ;)

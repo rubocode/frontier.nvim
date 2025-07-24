@@ -47,10 +47,16 @@ focused and orthogonal features with localized specialization,
 now programmers have to specialize in subsets of the language.
 Compatibility with multiple legacy editions (like 2011, 2014,
 2017, 2020 and 2023) is now the burden of both the novice and
-the seasoned programmer.  It has taken on a philosophy of
-continuous self-improvement over strving to accurately capture
-the fundamentals.  It has gone the path of _C#_ — a never ending
-saga.  _Bjarne_ was aided by _Herb Sutter_ of Microsoft lineage.
+the seasoned programmer.
+
+> We must free ourselves of the hope that the sea will ever rest.
+> We must learn to sail in high winds.  
+> **Aristotle Onassis**
+
+_C++_ has acquired a philosophy of continuous self-improvement
+over strving to accurately capture the fundamentals.
+It has gone the path of _C#_ — a never ending saga.
+_Bjarne_ was aided by _Herb Sutter_ of Microsoft lineage.
 It is kind of sad.
 In contrast, I believe that _C_ is pretty much done and has been
 that way for quite a while.

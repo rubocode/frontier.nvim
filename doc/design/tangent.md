@@ -59,8 +59,12 @@ not speed.  Efficiency and productivity are deep subjects.
 Your environment influences you in unimaginable ways!
 Did I mention that _Swift_ was written in _C++_?
 
-> A good decision is based on knowledge and not numbers.  
-> **Plato**
+> Software is not limited by physics, like buildings are.
+> It is limited by imagination, by design, by organization.
+> In short, it is limited by properties of people, not by properties
+> of the world.
+> “We have met the enemy, and he is us.”  
+> **Ralph Johnson**
 
 ### GOLANG
 
@@ -87,7 +91,7 @@ you to dissect the problem down into focused components,
 you end up with a rushed design.
 There is always someone rushing you, especially if you have
 a boss or are part of a committee looking for money, power
-and fame (or alternatively money, sex and alcohol).
+or fame (or alternatively money, sex or alcohol).
 If you are a programmer or a mathematician, you may have
 extracted out the common factor rather easily.
 
@@ -110,41 +114,77 @@ more intuitive and insightful earlier in the design of the langauge.
 > what is useless and add what is essentially your own.  
 > **Bruce Lee**
 
-I also had huge reservations about not having a proper _enum_ type
-in _golang_.  Good semantics reduces complexity in an intuitive
-manner resuting in enhanced readability and expressive elegance.
+I also had huge reservations about not having a proper _enum_
+type in _golang_.  Good semantics reduces complexity in an intuitive
+manner resuting in enhanced readability, elegance and expressive power.
+It is quite nifty to have a bounded set of error conditions
+captured inside some construct similar to an enum.
+This approach captures the essential semantics of the problem
+at hand and provides conceptual stability.
 At the same time, one should avoid too many concepts and distinctions
 when capturing the fundamentals.
 It is a bad idea to have a strategy of coding by convention and not
 provide first class language support for that usage.
 People end up creating automation in IDEs or other analytic tools
 later trying to police the conventions.  Ruby on Rails is a good
-example.  _Bjarne_ ended up creating a separate website with specific
-rules and guidance which signaled the desire of having tool vendors
-help with analytic and supervisory solutions.
-This invites the _AI_ vendors to take over territory from the humans.
+example (I believe that there was a _gem_ called
+[_rubocop_](https://rubocop.org).
+Programming language design is an inherently arduous discipline.
+
+> A good decision is based on knowledge and not numbers.  
+> **Plato**
+
+_Bjarne_ and _Herb_ ended up creating
+[a separate website](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
+with specific rules and guidance which signaled the desire of having
+tool vendors help with analytic and supervisory solutions.  There is even
+[a separate library inside](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#gsl-guidelines-support-library)
+that is intended to help enforce these guidelines.
+Computing always involves nesting and recursion and someone once
+said that _it is turtles all the way down_.
+Interestingly, this invites the _AI_ vendors to take over territory from the humans.
+However — currently — AI is learning from humans as opposed to having some
+inherent cognitive genius.
+This is far away from critical thinking coupled with measured judgment
+and instead leaning on probability and statistics.
 Both parties end up simply creating and sustaining unnecessary complexity.
 
-> Software is not limited by physics, like buildings are.
-> It is limited by imagination, by design, by organization.
-> In short, it is limited by properties of people, not by properties
-> of the world.
-> “We have met the enemy, and he is us.”  
-> **Ralph Johnson**
+> Whenever you find yourself on the side of the majority,
+> it is time to pause and reflect.  
+> **Mark Twain**
 
 _Golang_ certainly is not quite suited for designing abstractions
 to implement object centered segements such as user interfaces.
 The desire to stick to interface based composition and duck typing
 and flat out rejecting inheritance has ruled out a certain class
 of practical applications.
-Instead it has a self-proclaimed niche in networking and backend scaling.
-It seems it is not enough of a general purpose language.
-There is a lot to like, but it also isn't _the better C_
-that we could have expected especially from the _Bell Labs_ crowd.
+Yet, it has achived the self-hosting milestone.
+However, it has a narrowed its focus and market a self-proclaimed
+niche in networking and backend scaling.
+Effective light-weight threading via goroutines has become a powerful
+feature for scaling.
+There is a lot to like, but it also isn't _the ultimate better C_
+that we could have expected especially from the _Bell Labs_ elite.
 With such heavy weight funding and backing, was a golden opportunity
 missed again?
 
+> Beware of overconcern for money, position or glory.
+> Someday you will meet a man who cares for none of these things.
+> Then you will know how poor you are.  
+> **Rudyard Kipling**
+
 ### THE MORAL OF THE STORY
+
+Design is a hard and complex activity which requires a heavy dose
+of critical thinking, judgment and taste.
+If you're in a hurry for one reason or the other or narrow in vision,
+you're likely going to impose constraints that help you focus and
+make the task manageable.
+This is a very useful and effective strategy.
+However, in the process it is quite possible to exclude some essentially
+fundamental aspect of the problem space and eventually hit a wall
+that is hard to leap over.
+This discipline requires depth and study.
 
 > So everybody is in a hurry, and many of our clients want to do
 > things in less time.

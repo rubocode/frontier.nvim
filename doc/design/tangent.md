@@ -268,8 +268,9 @@ However, the team has narrowed its focus and markets
 a self-proclaimed niche in networking and backend scaling.
 Effective light-weight threading via goroutines has become
 a simple yet powerful feature for massive scaling.
-It helps to keep in mind the number of CPUs running
-inside Google's server farm.
+It helps to
+[keep in mind](https://rubocode.github.io/blog/2019-04-25/programming-is-resource-management)
+the number of CPUs running inside Google's server farm.
 
 > Concentrate all your thoughts upon the work at hand.
 > The sun’s rays do not burn until brought to a focus.  

@@ -1,7 +1,8 @@
 # frontier.nvim
 A neovim colorscheme with themes that look identical on xterm256 and truecolor terminals
 
-> This is a work in progress!
+> This is a work in progress!  
+> [Design Documents](doc/design/README.md)
 
 There is a handful of colorscheme designs here.  They use different palettes
 and different choices (theming abstractions) in injecting those colors into
@@ -11,7 +12,7 @@ definitions in order that all themes (colorschemes) benefited when a new plugin
 was added to the ones that were chosen to be included.
 
 You may appreciate the different flavors and even the internal organization.
-It uses [a different approach](doc/design/README.md).
+It uses a different approach.
 Perhaps you would like to use this project as the basis for experimenting
 with your own preferred color selection.
 

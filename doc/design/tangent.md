@@ -287,6 +287,8 @@ the renowned ones fell short of expectations.
 In the same vein, when I visit the websites for these languages,
 I often get an uneasy feeling when the aesthetic design of the
 documentation leaves much to be desired.
+I am not expecting rainbows and sunshine, but simplicity and
+elegance.
 
 > Some people like what you do, some people hate what you do,
 > but most people simply don’t give a damn.  

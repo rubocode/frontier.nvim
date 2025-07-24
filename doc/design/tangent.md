@@ -56,9 +56,14 @@ platform with _C++_ and perhaps the primary reason we got paid
 was for the ability to navigate the jungle successfully and
 deliver simplicity and performance for our users.
 After a while, you long for elegance, simplicity and stability,
-not speed.  Efficiency and productivity are deep subjects.
+not speed.  Efficiency and productivity are deep subjects where
+a long term perspective is more beneficial than immediate
+speed  — we are in a marathon and not a sprint.
 Your environment influences you in unimaginable ways!
-Did I mention that _Swift_ was written in _C++_?
+Did I mention that _Swift_ with features galore was
+written in _C++_?
+It is a rather strange quandry when extreme programming requires
+balance instead of blind adherence to rules.
 
 > Software is not limited by physics, like buildings are.
 > It is limited by imagination, by design, by organization.

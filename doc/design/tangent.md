@@ -184,8 +184,8 @@ It is generally a bad idea to have a strategy of coding by convention
 and not provide first class language support for that usage.
 People end up creating automation in IDEs or other analytical tools
 later trying to police the conventions.  Ruby on Rails is a good
-example (I believe that there was a _gem_ called
-[_RuboCop_](https://rubocop.org)).
+example — I believe that there was a _gem_ called
+[_RuboCop_](https://rubocop.org).
 A rather strange coincidence.
 
 ### BACK TO C++

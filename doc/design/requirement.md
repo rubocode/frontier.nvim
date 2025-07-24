@@ -14,7 +14,7 @@ I would just sit and talk to myself when necessary. ;)
 But most of all I would have to capture the semantics (ligua franca)
 of the problem domain.  The technical term used for this these days
 is DSL (Domain Specific Language).  If I capture the elements,
-abstractions and mechanisms for the creation of colorshcemes,
+abstractions and mechanisms for the creation of colorschemes,
 I could create multiple colorschemes with ease.
 The actual challenge then becomes one of aesthetics
 instead of technology.

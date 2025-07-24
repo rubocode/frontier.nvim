@@ -337,7 +337,9 @@ This discipline requires depth and study.
 > To me that is an enormous loss.  
 > **Peter Block**
 
-This was a nostalgic tangent and almost a rant.  But hey! ;)
 The day one of the _AI_ incarnations fully understands this page
 and can demonstrate that understanding in real-life practical
 use, I will be officially out of a job!
+
+This was a nostalgic tangent and almost a rant.  But hey! ;)
+

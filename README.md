@@ -11,11 +11,6 @@ plugin support.  It seemed a good idea to centralize and stabilize the highlight
 definitions in order that all themes (colorschemes) benefited when a new plugin
 was added to the ones that were chosen to be included.
 
-You may appreciate the different flavors and even the internal organization.
-It uses a different approach.
-Perhaps you would like to use this project as the basis for experimenting
-with your own preferred color selection.
-
 ## frontier
 This is the theme I wanted to create for my regular personal use.
 The color palette was not fixed upfront as along as each color was
@@ -38,5 +33,10 @@ the desired plugins.  This also helps validate the internal abstraction.
 > Perfection is achieved, not when there is nothing more to add,
 > but when there is nothing left to take away.  
 > **Antoine de Saint-Exupery**
+
+You may appreciate the different flavors and even the internal organization.
+It uses a different approach.
+Perhaps you would like to use this project as the basis for experimenting
+with your own preferred color selection.
 
 Enjoy!

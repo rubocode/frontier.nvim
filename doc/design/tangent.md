@@ -260,6 +260,8 @@ unnecessary complexity primarily incentivised by money and
 motivated by the desire to influence, control and dominate other
 people.
 
+![freedom](photos/freedom.png)
+
 > I had rather excel others in the knowledge of what is excellent,
 > than in the extent of my power and dominion.  
 > **Alexander the Great**

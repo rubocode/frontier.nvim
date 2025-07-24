@@ -286,8 +286,8 @@ In the same vein, when I visit the websites for these languages,
 I often get an uneasy feeling when the aesthetic design of the
 documentation leaves much to be desired.
 
-Perhaps the team that is developing the language lack a well-rounded
-appreciation of the different aspects of life.
+Perhaps the team that is developing the language lacks
+a well-rounded appreciation for the different aspects of life.
 Perhaps they don't appreciate the generality and universality
 that they need to enable.
 I wonder whether the language developed by people with less of

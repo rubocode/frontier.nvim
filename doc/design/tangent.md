@@ -202,10 +202,21 @@ The desire to stick to interface based composition and duck typing
 and flat out rejecting inheritance has ruled out a certain class
 of practical applications.
 Yet, it has achived the self-hosting milestone.
+
+> People think focus means saying yes to the thing you’ve got to focus on.
+> It means saying no to the hundred other good ideas that there are.
+> You have to pick carefully.  
+> **Steve Jobs**
+
 However, it has a narrowed its focus and market a self-proclaimed
 niche in networking and backend scaling.
 Effective light-weight threading via goroutines has become
 a powerful and simplified feature for scaling.
+
+> Concentrate all your thoughts upon the work at hand.
+> The sun’s rays do not burn until brought to a focus.  
+> **Alexander Graham Bell**
+
 Many companies have migrated tnd are migrating their core
 infrastructure to a _golang_ base.
 Perhaps, this is due to the fact that it can be learned

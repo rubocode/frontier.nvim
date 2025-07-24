@@ -225,10 +225,10 @@ It helps to remember that we are not cattle!
 ### BACK TO GOLANG
 
 _Golang_ certainly is not quite suited for designing abstractions
-to implement object centered segements such as user interfaces.
-The desire to stick to interface based composition and duck typing
-and flat out rejecting inheritance has ruled out a certain class
-of practical applications.
+to implement object centered application categories such as user
+interfaces.  The desire to stick to interface based composition and
+duck typing and flat out rejecting inheritance has ruled out
+a certain class of practical applications.
 Yet, it has achived the self-hosting milestone.
 
 > People think focus means saying yes to the thing you’ve got to focus on.

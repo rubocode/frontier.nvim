@@ -191,18 +191,20 @@ Quite acceptable if the packages remain small and focused.
 
 > This reminds me of the time I worked for
 > [a Swedish company](https://rubocode.github.io/profile/work/cirrato).
-> Their language includes the practice of mushing together abbreviations
-> and creating new words.
-> A _f\*\*king retard_ was shortened down to _f\*\*ktard_). ;)
+> Their language includes the practice of mushing together other
+> words or abbreviations and creating new words.
+> A _f\*\*king retard_ was effortlessly abbreviated down to
+> a _f\*\*ktard_). ;)
 >
 > I got the first indication of this practice at the very beginning
 > but only realized the regularity with which they applied the pattern
 > later.
 > My name is Ruchira Bomiriya and they had to come up with a _username_
-> for me in a situation where I was not physically present to
-> ask me for the preferred account name.
+> for me in a situation where I was not physically present for them
+> to ask me for the preferred account name.
 > They abbreviated Ruchira into _ru_ and Bomiriya into _bo_ and
 > derived the username _rubo_.
+> Later, I found out tha everyone had been given such a username.
 > To this day, I use that prefix to derive
 > [unique names](https://rubocode.github.io).
 

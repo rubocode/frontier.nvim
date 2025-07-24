@@ -239,7 +239,7 @@ Yet, it has achived the self-hosting milestone.
 However, it has a narrowed its focus and market a self-proclaimed
 niche in networking and backend scaling.
 Effective light-weight threading via goroutines has become
-a powerful and simplified feature for scaling.
+a simple yet powerful feature for massive scaling.
 
 > Concentrate all your thoughts upon the work at hand.
 > The sun’s rays do not burn until brought to a focus.  

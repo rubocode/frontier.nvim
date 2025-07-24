@@ -204,7 +204,7 @@ Quite acceptable if the packages remain small and focused.
 > to ask me for the preferred account name.
 > They abbreviated Ruchira into _ru_ and Bomiriya into _bo_ and
 > derived the username _rubo_.
-> Later, I found out tha everyone had been given such a username.
+> Later, I found out that each one had been given such a username.
 > To this day, I use that prefix to derive
 > [unique names](https://rubocode.github.io).
 

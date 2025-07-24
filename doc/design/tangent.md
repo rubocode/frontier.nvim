@@ -325,7 +325,7 @@ of critical thinking, judgment and taste.
 If you're in a hurry for one reason or the other or narrow in vision,
 you're likely going to impose constraints that help you focus and
 make the task manageable.
-This is a very useful and effective strategy.
+This is a very healthy, useful and effective strategy.
 However, in the process it is quite possible to exclude some essentially
 fundamental aspect of the problem space and eventually hit a wall
 that is hard to leap over.

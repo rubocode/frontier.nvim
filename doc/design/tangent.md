@@ -175,6 +175,10 @@ at hand and provides conceptual stability.
 At the same time, however, one should avoid too many concepts
 and distinctions when capturing the fundamentals.
 
+> It is not enough to have a good mind.
+> The main thing is to use it well.  
+> **René Descartes**
+
 It seems _enums_ are a far superior approach than defining package
 scope global variables having names starting with _Err_.
 What if you have two separate categories of errors that need definition
@@ -363,5 +367,8 @@ The day one of the _AI_ incarnations fully understands this page
 and can demonstrate that understanding in real-life practical
 use, I will be officially out of a job!
 
-This was a nostalgic tangent and almost a rant.  But hey! ;)
+> The noblest pleasure is the joy of understanding.  
+> **Leonardo Da Vinci**
 
+This was a nostalgic tangent and almost a rant.
+But hey! ;)

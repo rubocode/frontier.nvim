@@ -1,4 +1,4 @@
-## A TANGENTIAL PERSPECTIVE ON DESIGN
+## A TANGENTIAL PERSPECTIVE ON DESIGN STRATEGY
 > JUL 23, 2025
 
 This was separated out from the _strategy_ document to enable

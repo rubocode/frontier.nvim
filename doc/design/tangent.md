@@ -264,7 +264,7 @@ that we could have expected especially from the _Bell Labs_ elite.
 With such heavy weight funding and backing, was a golden
 opportunity for a cleaner abstraction than _C_ missed again?
 
-Wouldn't we be better off with a _ a better C_ that provides
+Wouldn't we be better off with _a better C_ that provides
 a better alternative to macros and strings and improved compiler
 performance via avoidance of reading and parsing the same
 translation unit multiple times backed by a macro level

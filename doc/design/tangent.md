@@ -254,11 +254,11 @@ statistics which fundamentally amounts to herd thinking.
 > A good decision is based on knowledge and not numbers.  
 > **Plato**
 
-Both humans and machines end up in a daze of inadequate thinking
-resulting in the creation, glorification and sustenance of
-unnecessary complexity primarily incentivised by money and
-motivated by the desire to influence, control and dominate other
-people.
+Both humans and machines end up in a daze of inadequate and
+inaccurate thinking resulting in the creation, glorification and
+sustenance of unnecessary complexity primarily incentivised by
+money and motivated by the desire to influence, control and
+dominate other people.
 
 > I had rather excel others in the knowledge of what is excellent,
 > than in the extent of my power and dominion.  

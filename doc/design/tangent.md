@@ -288,6 +288,10 @@ In the same vein, when I visit the websites for these languages,
 I often get an uneasy feeling when the aesthetic design of the
 documentation leaves much to be desired.
 
+> Some people like what you do, some people hate what you do,
+> but most people simply don’t give a damn.  
+> **Charles Bukowski**
+
 Perhaps the team that is developing the language lacks
 a well-rounded appreciation for the different aspects of life.
 Perhaps they don't appreciate the generality and universality

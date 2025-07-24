@@ -258,7 +258,7 @@ Both humans and machines end up in a daze of inadequate thinking
 resulting in the creation, glorification and sustenance of
 unnecessary complexity primarily incentivised by money and
 motivated by the desire to influence, control and dominate other
-people.  It is quite a spectacle!
+people.  It is a pointless spectacle.
 
 ![freedom](photos/freedom.png)
 

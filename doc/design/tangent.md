@@ -127,6 +127,25 @@ It is quite nifty to have a bounded set of error conditions
 captured inside some construct similar to an enum.
 This approach captures the essential semantics of the problem
 at hand and provides conceptual stability.
+
+It is a far superior approach that defining package scope global
+variable starting with _Err_.
+What if you have two separate categories of errors that need definition
+inside a single package.  You simly and another shared prefix after _Err_.
+
+> This reminds me of the time I worked for a Swedish company.
+> Their language has a practice of mushing together abbreviations and
+> creating new word.
+>
+> I got the first taste of this at the very beginning but only realized
+> the regularity with which they applied the pattern.
+> My name is Ruchira Bomiriya and they had to come up with a _username_
+> for me in a situation where I was not physically present to
+> ask me for the preferred account name.
+> They abbreviated Ruchira to _ru_ and Bomiriya to _bo_ and
+> derived the username _rubo_.
+> To this day, I use that prefix to derive unique names.
+
 At the same time, one should avoid too many concepts and distinctions
 when capturing the fundamentals.
 It is a bad idea to have a strategy of coding by convention and not
@@ -134,7 +153,7 @@ provide first class language support for that usage.
 People end up creating automation in IDEs or other analytic tools
 later trying to police the conventions.  Ruby on Rails is a good
 example (I believe that there was a _gem_ called
-[_RuboCop_](https://rubocop.org).
+[_RuboCop_](https://rubocop.org).  A rather strange coincidence.
 Programming language design is an inherently arduous discipline.
 
 > A good decision is based on knowledge and not numbers.  

@@ -4,7 +4,9 @@
 This was separated out from the _strategy_ document to enable
 referring to it for a separate yet broader perspective.
 Design decisions are hard and you often fall short of expectations
-especially the more general your scope becomes.
+especially the more
+[general](https://rubocode.github.io/strategy/fundamentals/)
+your scope becomes.
 
 > The doers are the major thinkers.
 > The people that really create the things that change this industry

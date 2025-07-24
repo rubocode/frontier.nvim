@@ -131,7 +131,7 @@ at hand and provides conceptual stability.
 It is a far superior approach that defining package scope global
 variable starting with _Err_.
 What if you have two separate categories of errors that need definition
-inside a single package.  You simly and another shared prefix after _Err_.
+inside a single package.  You simply add another shared prefix after _Err_.
 
 > This reminds me of the time I worked for
 > [a Swedish company](https://rubocode.github.io/profile/work/cirrato).

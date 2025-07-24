@@ -131,7 +131,7 @@ At the same time, however, one should avoid too many concepts
 and distinctions when capturing the fundamentals.
 
 It seems _enums_ are a far superior approach than defining package
-scope global variable starting with _Err_.
+scope global variables having names starting with _Err_.
 What if you have two separate categories of errors that need definition
 inside a single package?
 You simply add another shared prefix after _Err_.

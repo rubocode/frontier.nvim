@@ -247,15 +247,29 @@ creativity.
 > It takes a wise man to discover a wise man.  
 > **Democritus**
 
-This is a far cry from using critical thinking coupled with measured
-judgment.  They have chosen to rely on probability and statistics
-which fundamentally amounts to herd thinking.
-Both humans and machines end up in a daze of incomplete thinking
-and simply creating and sustaining unnecessary complexity.
-It helps to remember that we are not cattle!
+This is a far cry from using critical thinking coupled with
+measured judgment.  They have chosen to rely on probability and
+statistics which fundamentally amounts to herd thinking.
 
 > A good decision is based on knowledge and not numbers.  
 > **Plato**
+
+Both humans and machines end up in a daze of inadequate thinking
+resulting in the creation, glorification and sustenance of
+unnecessary complexity primarily incentivised by money and
+ultimately motivated by the desire to influence, control and
+dominate other people.
+
+> I had rather excel others in the knowledge of what is excellent,
+> than in the extent of my power and dominion.  
+> **Alexander the Great**
+
+It helps to remember that we are not cattle!
+
+> For what good will it do a person if he gains the whole world,
+> but forfeits his soul?
+> Or what will a person give in exchange for his soul?  
+> **Matthew 16:26 NASB**
 
 ### BACK TO GOLANG
 

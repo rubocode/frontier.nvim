@@ -127,11 +127,15 @@ It is quite nifty to have a bounded set of error conditions
 captured inside some construct similar to an enum.
 This approach captures the essential semantics of the problem
 at hand and provides conceptual stability.
+At the same time, however, one should avoid too many concepts
+and distinctions when capturing the fundamentals.
 
 It is a far superior approach that defining package scope global
 variable starting with _Err_.
 What if you have two separate categories of errors that need definition
 inside a single package.  You simply add another shared prefix after _Err_.
+It is the package name that scopes the different sets of errors.
+Interesting choice.
 
 > This reminds me of the time I worked for
 > [a Swedish company](https://rubocode.github.io/profile/work/cirrato).
@@ -149,15 +153,12 @@ inside a single package.  You simply add another shared prefix after _Err_.
 > derived the username _rubo_.
 > To this day, I use that prefix to derive unique names.
 
-At the same time, one should avoid too many concepts and distinctions
-when capturing the fundamentals.
-It is a bad idea to have a strategy of coding by convention and not
-provide first class language support for that usage.
+It is generally a bad idea to have a strategy of coding by convention
+and not provide first class language support for that usage.
 People end up creating automation in IDEs or other analytic tools
 later trying to police the conventions.  Ruby on Rails is a good
 example (I believe that there was a _gem_ called
 [_RuboCop_](https://rubocop.org).  A rather strange coincidence.
-Programming language design is an inherently arduous discipline.
 
 > A good decision is based on knowledge and not numbers.  
 > **Plato**
@@ -170,6 +171,11 @@ tool vendors help with analytic and supervisory solutions.  There is even
 that is intended to help enforce these guidelines.
 Computing always involves nesting and recursion and someone once
 said that _it is turtles all the way down_.
+Sometimes, you end up chasing your own tail.
+
+> Trying to define yourself is like trying to bite your own teeth.  
+> **Alan Watts**
+
 Interestingly, this invites the _AI_ vendors to take over territory from the humans.
 However — currently — AI is learning from humans as opposed to having some
 inherent cognitive genius.

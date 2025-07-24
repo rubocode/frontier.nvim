@@ -295,8 +295,8 @@ an appreciation for quality in their work will endure.
 Perhaps their priorities are not balanced.
 They may be sprinting instead of laying the foundation for a marathon.
 
-I fully appreciate that putting lipstick on a pig leads to misconceptions
-and bad decisions.
+I fully appreciate that putting lipstick on a pig leads to misconceptions,
+detours, diversions and bad decisions.
 But elegance always creeps out and grabs you.
 In real life, you can often recognize a _m\*ron_ from a mile away.
 When you do, the best thing is to avoid that fellow.

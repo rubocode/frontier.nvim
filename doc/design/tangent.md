@@ -279,16 +279,20 @@ alternatives for pointer based indirection?
 > Then you will know how poor you are.  
 > **Rudyard Kipling**
 
+### THE SEARCH CONTINUES
+
 I am taking a patient and careful look at _D_ (for old times sake),
 _golang_, _rust_ and _zig_ at the moment.  There is no clear winner.
 
-I was also looking for a decent colorscheme for _neovim_ and found
-the renowned ones fell short of expectations.
+I was also looking for a decent colorscheme for _neovim_ — the simpler
+and daily things of life — and found the renowned ones fell short
+of expectations.
+
 In the same vein, when I visit the websites for these languages,
 I often get an uneasy feeling when the aesthetic design of the
 documentation leaves much to be desired.
-I am not expecting rainbows and sunshine, but simplicity and
-elegance.
+I am not expecting rainbows and sunshine, but simplicity, elegance
+and evidence of care — that they give a damn.
 
 > Some people like what you do, some people hate what you do,
 > but most people simply don’t give a damn.  

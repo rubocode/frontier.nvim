@@ -217,8 +217,8 @@ a powerful and simplified feature for scaling.
 > The sun’s rays do not burn until brought to a focus.  
 > **Alexander Graham Bell**
 
-Many companies have migrated tnd are migrating their core
-infrastructure to a _golang_ base.
+Many companies have migrated and more are migrating their
+core infrastructure on to a _golang_ foundation.
 Perhaps, this is due to the fact that it can be learned
 and understood with a very short learning curve and
 enables programmers with less experience to produce

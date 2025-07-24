@@ -292,7 +292,7 @@ In the same vein, when I visit the websites for these languages,
 I often get an uneasy feeling when the aesthetic design of the
 documentation leaves much to be desired.
 I am not expecting rainbows and sunshine, but simplicity, elegance
-and evidence of care — that they give a damn.
+and evidence of care — evidence that they give a damn.
 
 > Some people like what you do, some people hate what you do,
 > but most people simply don’t give a damn.  

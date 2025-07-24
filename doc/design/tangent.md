@@ -241,7 +241,7 @@ niche in networking and backend scaling.
 Effective light-weight threading via goroutines has become
 a simple yet powerful feature for massive scaling.
 It helps to keep in mind the number of CPUs running
-in Google's server farm.
+inside Google's server farm.
 
 > Concentrate all your thoughts upon the work at hand.
 > The sun’s rays do not burn until brought to a focus.  

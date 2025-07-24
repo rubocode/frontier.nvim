@@ -6,6 +6,11 @@ referring to it for a separate yet broader perspective.
 Design decisions are hard and you often fall short of expectations
 especially the more general your scope becomes.
 
+> The doers are the major thinkers.
+> The people that really create the things that change this industry
+> are both the thinker and doer in one person.  
+> **Steve Jobs**
+
 The _unix_ approach has worked quite well over the long haul
 in managing complexity with elegant simplicity.  It avoids
 towering monolithic intelligence and prefers the collaboration

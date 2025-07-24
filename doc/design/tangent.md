@@ -26,6 +26,9 @@ just the right size in the early nineties.
 Then there was the quite excellent _The Design of the C++ Programming
 Language_ which was also just the right size.
 
+> People don’t know what they want until you show it to them.  
+> **Steve Jobs**
+
 Standardization invited him to cater to everyone's whims and demands.
 C++ became _A Centralized Design by Committee Endeavor_ — feature
 selection is done via a voting mechanism (relationships and
@@ -37,8 +40,9 @@ something with substantial long term implications.
 If you have to ask customers, you don't know what you are doing.
 You're just looking for work or money.
 
-> People don’t know what they want until you show it to them.  
-> **Steve Jobs**
+> Thinking is the hardest work there is, which is probably the
+> reason so few engage in it.  
+> **Henry Ford**
 
 They tried to make it do everything under the Sun — which is ultimately
 the job of _C_ as the standard high-level machine abstraction — 

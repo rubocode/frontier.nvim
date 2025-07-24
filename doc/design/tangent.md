@@ -203,12 +203,21 @@ Sometimes, you end up chasing your own tail.
 > Trying to define yourself is like trying to bite your own teeth.  
 > **Alan Watts**
 
-Interestingly, this invites the _AI_ vendors to take over territory from the humans.
-However — currently — AI is learning from humans as opposed to having some
-inherent cognitive genius.
-This is far away from critical thinking coupled with measured judgment
-and instead leaning on probability and statistics.
-Both parties end up simply creating and sustaining unnecessary complexity.
+Interestingly, this invites the _AI_ vendors to take over territory
+from the humans. However — currently — AI is merely only learning
+from humans in the form of language as opposed to having or registering
+actual experience or any inherent cognitive genius augmented by
+creativity.
+
+> It takes a wise man to discover a wise man.  
+> **Democritus**
+
+This is a far cry from using critical thinking coupled with measured
+judgment.  They have chosen to rely on probability and statistics
+which fundamentally amounts to herd thinking.
+Both humans and machines end up in a daze of incomplete thinking
+and simply creating and sustaining unnecessary complexity.
+It helps to remember that we are not cattle!
 
 > A good decision is based on knowledge and not numbers.  
 > **Plato**

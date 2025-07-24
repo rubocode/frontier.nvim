@@ -259,7 +259,7 @@ That is a hard choice.
 > it is time to pause and reflect.  
 > **Mark Twain**
 
-There is a lot to like, but it also isn't _the ultimate better C_
+There is a lot to like, but _golang_ isn't _the ultimate better C_
 that we could have expected especially from the _Bell Labs_ elite.
 With such heavy weight funding and backing, was a golden
 opportunity for a cleaner abstraction than _C_ — a better

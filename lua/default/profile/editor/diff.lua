@@ -1,14 +1,15 @@
 -- DEFAULT EDITOR DIFF PROFILE
 -- JUL 15, 2025
 
-local diff = require("empty.map.diff")
+local diff = require("empty.archetype.diff")
+
 local mapper = require("util.mapper")
 
 local M = {}
 local profile = {}
 
 local remap = function(theme)
-	diff = mapper.pick(theme, "map.diff")
+	diff = mapper.pick(theme, "archetype.diff")
 end
 
 local infuse = function()

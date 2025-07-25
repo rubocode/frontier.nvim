@@ -5,7 +5,7 @@
 -- https://github.com/neovim/neovim/blob/master/runtime/colors/vim.lua
 --
 
-local uniq = require("empty.map.unique")
+local uniq = require("empty.archetype.unique")
 
 local mapper = require("util.mapper")
 
@@ -13,7 +13,7 @@ local M = {}
 local infused = {}
 
 local remap = function(theme)
-	uniq = mapper.pick(theme, "map.unique")
+	uniq = mapper.pick(theme, "archetype.unique")
 end
 
 local infuse = function()

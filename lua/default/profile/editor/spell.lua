@@ -1,7 +1,8 @@
 -- DEFAULT EDITOR SPELL PROFILE
 -- JUL 15, 2025
 
-local odd = require("empty.map.odd")
+local odd = require("empty.archetype.odd")
+
 local style = require("highlights.style")
 
 local mapper = require("util.mapper")
@@ -13,7 +14,7 @@ local profile = {}
 --
 
 local remap = function(theme)
-	odd = mapper.pick(theme, "map.odd")
+	odd = mapper.pick(theme, "archetype.odd")
 end
 
 local infuse = function()

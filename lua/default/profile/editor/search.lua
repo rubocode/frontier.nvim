@@ -1,8 +1,8 @@
 -- DEFAULT EDITOR GENERAL PROFILE
 -- JUL 09, 2025
 
-local canvas = require("empty.map.canvas")
-local text = require("empty.map.text")
+local canvas = require("empty.archetype.canvas")
+local text = require("empty.archetype.text")
 
 local mapper = require("util.mapper")
 
@@ -10,8 +10,8 @@ local M = {}
 local profile = {}
 
 local remap = function(theme)
-	canvas = mapper.pick(theme, "map.canvas")
-	text = mapper.pick(theme, "map.text")
+	canvas = mapper.pick(theme, "archetype.canvas")
+	text = mapper.pick(theme, "archetype.text")
 end
 
 local infuse = function()

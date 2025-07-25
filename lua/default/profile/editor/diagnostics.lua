@@ -1,7 +1,7 @@
 -- DEFAULT EDITOR DIAGNOSTICS PROFILE
 -- JUL 18, 2025
 
-local diag = require("empty.map.diagnostics")
+local diag = require("empty.archetype.diagnostics")
 
 local mapper = require("util.mapper")
 
@@ -9,7 +9,7 @@ local M = {}
 local profile = {}
 
 local remap = function(theme)
-	diag = mapper.pick(theme, "map.diagnostics")
+	diag = mapper.pick(theme, "archetype.diagnostics")
 end
 
 local infuse = function()

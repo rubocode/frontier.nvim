@@ -1,8 +1,8 @@
 -- DEFAULT EDITOR CURSOR PROFILE
 -- JUL 15, 2025
 
-local canvas = require("empty.map.canvas")
-local uniq = require("empty.map.unique")
+local canvas = require("empty.archetype.canvas")
+local uniq = require("empty.archetype.unique")
 
 local mapper = require("util.mapper")
 
@@ -10,8 +10,8 @@ local M = {}
 local profile = {}
 
 local remap = function(theme)
-	canvas = mapper.pick(theme, "map.canvas")
-	uniq = mapper.pick(theme, "map.unique")
+	canvas = mapper.pick(theme, "archetype.canvas")
+	uniq = mapper.pick(theme, "archetype.unique")
 end
 
 local infuse = function()

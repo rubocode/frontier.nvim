@@ -1,8 +1,8 @@
 -- MINI.STATUSLINE HIGHLIGHTS
 -- JUL 05, 2025
 
-local mode = require("empty.map.mode")
-local status = require("empty.map.status")
+local mode = require("empty.archetype.mode")
+local status = require("empty.archetype.status")
 
 local mapper = require("util.mapper")
 
@@ -12,8 +12,8 @@ local infused = {}
 M.URL = "https://github.com/echasnovski/mini.statusline"
 
 local remap = function(theme)
-	mode = mapper.pick(theme, "map.mode")
-	status = mapper.pick(theme, "map.status")
+	mode = mapper.pick(theme, "archetype.mode")
+	status = mapper.pick(theme, "archetype.status")
 end
 
 local infuse = function()

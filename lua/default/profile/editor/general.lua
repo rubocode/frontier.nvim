@@ -1,10 +1,10 @@
 -- DEFAULT EDITOR GENERAL PROFILE
 -- JUL 09, 2025
 
-local canvas = require("empty.map.canvas")
-local diag = require("empty.map.diagnostics")
-local text = require("empty.map.text")
-local odd = require("empty.map.odd")
+local canvas = require("empty.archetype.canvas")
+local diag = require("empty.archetype.diagnostics")
+local text = require("empty.archetype.text")
+local odd = require("empty.archetype.odd")
 
 local mapper = require("util.mapper")
 local style = require("highlights.style")
@@ -13,10 +13,10 @@ local M = {}
 local profile = {}
 
 local remap = function(theme)
-	canvas = mapper.pick(theme, "map.canvas")
-	diag = mapper.pick(theme, "map.diagnostics")
-	text = mapper.pick(theme, "map.text")
-	odd = mapper.pick(theme, "map.odd")
+	canvas = mapper.pick(theme, "archetype.canvas")
+	diag = mapper.pick(theme, "archetype.diagnostics")
+	text = mapper.pick(theme, "archetype.text")
+	odd = mapper.pick(theme, "archetype.odd")
 end
 
 local infuse = function()

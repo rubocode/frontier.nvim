@@ -1,8 +1,8 @@
 -- FRONTIER SYNTAX BASICS PROFILE
 -- JUL 06, 2025
 
-local text = require("theme.frontier.map.text")
-local uniq = require("theme.frontier.map.unique")
+local text = require("theme.frontier.archetype.text")
+local uniq = require("theme.frontier.archetype.unique")
 
 local M = {
 	Comment = { fg = text.Quiet },

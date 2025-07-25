@@ -22,7 +22,7 @@ local M = {
 	StorageClass = { fg = type.StorageClass },
 	String = { fg = type.String },
 	Tag = {},
-	Title = {},
+	Title = { uniq.Distinct },
 	Todo = {},
 	Type = { fg = type.Type },
 	Underlined = {},

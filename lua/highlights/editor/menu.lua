@@ -23,7 +23,7 @@ local infuse = function()
 		PmenuKind = { link = "Pmenu" },
 		PmenuKindSel = { link = "PmenuSel" },
 		PmenuMatch = { link = "Pmenu" },
-		PmenuMatchSeli = { link = "PmenuSel" },
+		PmenuMatchSel = { link = "PmenuSel" },
 		PmenuExtra = { link = "Pmenu" },
 		PmenuExtraSel = { link = "PmenuSel" },
 	}

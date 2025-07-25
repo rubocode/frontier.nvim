@@ -20,7 +20,7 @@ local M = {
 	StorageClass = { fg = text.Lighter },
 	String = { fg = uniq.Prominent },
 	Tag = {},
-	Title = {},
+	Title = { fg = uniq.Distinct },
 	Todo = {},
 	Type = { fg = uniq.Striking },
 	Underlined = {},

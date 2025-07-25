@@ -23,8 +23,8 @@ local infuse = function()
 		Border = { fg = cyan.Normal },
 		Prompt = { fg = green.Normal },
 		Selection = { fg = grey.Lighter, bg = black.Absolute, style = style.Reverse },
-		SelectionCaret = { fg = grey.Lighter, bg = black.Almost },
-		Special = { fg = black.Almost, bg = red.Darker, style = style.Reverse },
+		SelectionCaret = { fg = grey.Lighter, bg = black.Darker },
+		Special = { fg = black.Normal, bg = red.Normal, style = style.Reverse },
 		Title = { fg = yellow.Normal },
 	}
 end

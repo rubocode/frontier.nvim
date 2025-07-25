@@ -22,7 +22,6 @@ local infuse = function()
 	}
 	infused.LINKS = {
 		["@attribute"] = { link = "Macro" },
-		["@operator"] = { link = "Operator" },
 		["@property"] = { link = "Identifier" },
 		["@punctuation"] = { link = "Delimiter" },
 		["@variable"] = {},

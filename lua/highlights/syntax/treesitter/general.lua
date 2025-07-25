@@ -14,6 +14,7 @@ local infuse = function()
 	infused.PROFILE = {}
 	infused.LINKS = {
 		["@debug"] = { link = "Debug" },
+		["@operator"] = { link = "Operator" },
 	}
 end
 

@@ -29,7 +29,7 @@ local infuse = function()
 		FoldColumn = { fg = text.Darker, bg = canvas.Lighter },
 		Folded = { fg = text.Lighter, bg = canvas.Lighter },
 		Ignore = {},
-		MatchParen = { fg = uniq.Distinct, bg = canvas.Normal },
+		MatchParen = { fg = uniq.Distinct, bg = canvas.Normal, style = style.Bold },
 		NonText = { fg = text.Quiet },
 		Question = { fg = uniq.Pominent },
 		SpecialKey = { fg = text.Quiet },

@@ -1,6 +1,7 @@
 -- FRONTIER SYNTAX BASICS PROFILE
 -- JUL 06, 2025
 
+local canvas = require("theme.frontier.archetype.canvas")
 local text = require("theme.frontier.archetype.text")
 local uniq = require("theme.frontier.archetype.unique")
 
@@ -21,7 +22,7 @@ local M = {
 	String = { fg = uniq.Prominent },
 	Tag = {},
 	Title = { fg = uniq.Distinct },
-	Todo = {},
+	Todo = { fg = canvas.Normal, bg = uniq.Striking },
 	Type = { fg = uniq.Striking },
 	Underlined = {},
 }

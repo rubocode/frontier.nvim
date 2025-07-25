@@ -3,6 +3,9 @@
 
 local canvas = require("empty.archetype.canvas")
 local uniq = require("empty.archetype.unique")
+local text = require("empty.archetype.text")
+
+local style = require("highlights.style")
 
 local mapper = require("util.mapper")
 
@@ -12,14 +15,15 @@ local profile = {}
 local remap = function(theme)
 	canvas = mapper.pick(theme, "archetype.canvas")
 	uniq = mapper.pick(theme, "archetype.unique")
+	text = mapper.pick(theme, "archetype.text")
 end
 
 local infuse = function()
 	profile = {
 		Cursor = { fg = canvas.Darker, bg = uniq.Accent },
-		CursorColumn = { bg = canvas.Lighter },
+		CursorColumn = { fg = text.Lighter, bg = canvas.Lighter },
 		CursorLine = { bg = canvas.Darker },
-		CursorLineNr = { fg = uniq.Peculiar },
+		CursorLineNr = { fg = uniq.Peculiar, style = style.Bold },
 	}
 end
 

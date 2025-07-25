@@ -1,7 +1,6 @@
 -- FRONTIER UNIQUE ARCHETYPE
 -- JUL 22, 2025
 
-local cyan = require("palette.default.cyan")
 local green = require("palette.default.green")
 local orange = require("palette.default.orange")
 local red = require("palette.default.red")
@@ -14,6 +13,7 @@ local M = {
 	Peculiar = yellow.Normal,
 	Prominent = orange.Normal,
 	Special = red.Normal,
+	Striking = orange.Normal,
 }
 
 return M

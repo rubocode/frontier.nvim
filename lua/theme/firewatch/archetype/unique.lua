@@ -6,11 +6,12 @@ local syntax = require("theme.firewatch.palette.syntax")
 
 local M = {
 	Accent = syntax.Accent,
-	Dynamic = syntax.Bg,
+	Dynamic = syntax.Fg,
 	Fixed = duo.Duo3,
-	Peculiar = syntax.Bg,
+	Peculiar = syntax.Fg,
 	Prominent = duo.Duo1,
-	Special = duo.Duo3,
+	Special = syntax.Fg,
+	Striking = duo.Duo1,
 }
 
 return M

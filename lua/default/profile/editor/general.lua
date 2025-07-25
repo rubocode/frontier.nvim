@@ -4,7 +4,7 @@
 local canvas = require("empty.archetype.canvas")
 local diag = require("empty.archetype.diagnostics")
 local text = require("empty.archetype.text")
-local odd = require("empty.archetype.odd")
+local uniq = require("empty.archetype.unique")
 
 local style = require("highlights.style")
 
@@ -17,12 +17,12 @@ local remap = function(theme)
 	canvas = mapper.pick(theme, "archetype.canvas")
 	diag = mapper.pick(theme, "archetype.diagnostics")
 	text = mapper.pick(theme, "archetype.text")
-	odd = mapper.pick(theme, "archetype.odd")
+	uniq = mapper.pick(theme, "archetype.unique")
 end
 
 local infuse = function()
 	profile = {
-		ColorColumn = { bg = odd.Normal },
+		ColorColumn = { bg = uniq.Prominent },
 		Conceal = { fg = text.Normal },
 		Directory = { fg = text.Darker },
 		Error = diag.Text.Error,
@@ -31,19 +31,19 @@ local infuse = function()
 		Ignore = {},
 		MatchParen = { fg = text.Lighter, bg = canvas.Darker },
 		NonText = { fg = text.Quiet },
-		Question = { fg = odd.Normal },
+		Question = { fg = uniq.Pominent },
 		SpecialKey = { fg = text.Quiet },
 		TabLine = { fg = text.Lighter, bg = canvas.Lighter },
 		TabLineFill = { fg = text.Darker, bg = canvas.Darker },
-		TabLineSel = { fg = text.Darker, bg = odd.Normal },
+		TabLineSel = { fg = text.Darker, bg = uniq.Prominent },
 		ToolbarButton = { fg = text.Lighter, bg = text.Lighter },
 		ToolbarLine = { bg = canvas.Darker },
 		VertSplit = { fg = text.Darker, bg = canvas.Lighter },
 		Visual = { fg = text.Normal, bg = text.Normal },
 		VisualNOS = { style = style.Underline },
 		bold = { style = style.Bold },
-		helpLeadBlank = { fg = odd.Normal },
-		helpNormal = { fg = odd.Normal },
+		helpLeadBlank = { fg = uniq.Prominent },
+		helpNormal = { fg = uniq.Prominent },
 	}
 end
 

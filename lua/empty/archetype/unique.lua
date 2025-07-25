@@ -8,6 +8,7 @@ local M = {
 	Peculiar = nil,
 	Prominent = nil,
 	Special = nil,
+	Striking = nil,
 }
 
 return M

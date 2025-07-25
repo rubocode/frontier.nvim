@@ -12,7 +12,7 @@ local notify = require("util.notify")
 local M = {}
 
 local init_dev_settings = function()
-	notify.verbose()
+	-- notify.verbose()
 	-- notify.quiet()
 end
 

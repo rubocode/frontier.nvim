@@ -1,4 +1,4 @@
--- DEFAULT DIFF MAP
+-- DEFAULT DIFF ARCHETYPE
 -- JUL 13, 2025
 
 local green = require("palette.default.green")

@@ -1,4 +1,4 @@
--- DEFAULT STATUS MAP
+-- DEFAULT STATUS ARCHETYPE
 -- JUL 12, 2025
 
 local grey = require("palette.default.grey")

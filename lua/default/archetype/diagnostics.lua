@@ -1,4 +1,4 @@
--- DEFAULT DIAGNOSTICS MAP
+-- DEFAULT DIAGNOSTICS ARCHETYPE
 -- JUL 22, 2025
 
 local yellow = require("palette.default.yellow")

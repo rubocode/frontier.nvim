@@ -22,12 +22,21 @@ local infuse = function()
 		MiniStatuslineFileinfo = status.Normal,
 		MiniStatuslineFilename = status.Loud,
 		MiniStatuslineInactive = status.Quiet,
-		MiniStatuslineModeCommand = mode.Command,
-		MiniStatuslineModeInsert = mode.Insert,
-		MiniStatuslineModeNormal = mode.Normal,
-		MiniStatuslineModeOther = mode.Other,
-		MiniStatuslineModeReplace = mode.Replace,
-		MiniStatuslineModeVisual = mode.Visual,
+		-- JUL 25, 2025
+		-- The follwoing are defaulted to be linked to
+		-- standard highlights such as Cursor, DiffAdd
+		-- and DiffChange in _mini.statusline_.
+		-- These choices may be better in that they reflect
+		-- the usual expectations.
+		-- The approach here is to allow the custom theme
+		-- to provide empty {} for these if it chooses
+		-- to stick to _Chasnovski's_ defaults.
+		MiniStatuslineModeCommand = mode.Line.Command,
+		MiniStatuslineModeInsert = mode.Line.Insert,
+		MiniStatuslineModeNormal = mode.Line.Normal,
+		MiniStatuslineModeOther = mode.Line.Other,
+		MiniStatuslineModeReplace = mode.Line.Replace,
+		MiniStatuslineModeVisual = mode.Line.Visual,
 	}
 	infused.LINKS = {}
 end

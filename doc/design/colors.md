@@ -7,13 +7,13 @@ problem space (color terminals in general and xterm256 terminals
 in particular). A very small subset of the colors _grey_, _red_,
 _green_, _blue_, _cyan_ and _yellow_ were adopted.
 
-In the early stages, the origina; goal of having the same colors
-on both _xterm256_ and _truecolor_ terminal was achieved using
-colors outside the basic 16 colors.  The facilitation of
-a second colorscheme, introduced the problem of sharing a global
-color palette versus keeping a local and private color palette
-with each theme.  Upto a certain stage the selected shared subset
-was used as a default.
+The goal of having the same colors on both _xterm256_ and
+_truecolor_ terminals was achieved early using colors outside
+the basic 16 colors.  The facilitation of a second colorscheme
+introduced the problem of sharing a global color palette versus
+keeping a local and private color palette with each theme.
+Upto a certain stage the selected shared subset was used
+as a default.
 
 Once a useful mapping abstraction was reached, it appeared
 wise to have each separate theme define itself a private
@@ -32,10 +32,11 @@ mapping abstraction (the _archetype_) to define the
 _profiles_ and the _highlights_.
 We can still define the local custom color palette for
 a theme in terms of the available global defaults
-in tandem with the standard _xterm256_ directly.
+in tandem with the standard _xterm256_ definitions.
 But, we avoid using them directly in the the _archetype_.
-The mappings depend solely on the aesthetic choices
-in the specific palette chosen for the theme.
+It is a cleaner options for the archetype to depend
+solely on the aesthetic choices in the specific palette
+chosen for the theme.
 
 This allows the color abstraction to evolve naturally to
 accomodate the distinctions chosen to be made visible in
@@ -48,7 +49,7 @@ in supporting the set of programming languages we choose
 to accomodate.  In fact, this has been the chosen strategy
 in _neovim_ from the beginning.  Linking any syntax
 corresponding to _bultin_ aspects of the language such
-as keywords or standard library functions to the _Special_
+as standard library functions to the _Special_
 highlight group provides a familiar interpretation for
 the programmer — introducing simplicity, elegance,
 consistency and stability across the languages.

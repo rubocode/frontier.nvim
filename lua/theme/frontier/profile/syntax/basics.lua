@@ -22,7 +22,7 @@ local M = {
 	Tag = {},
 	Title = {},
 	Todo = {},
-	Type = { fg = uniq.Prominent },
+	Type = { fg = uniq.Striking },
 	Underlined = {},
 }
 

@@ -29,7 +29,7 @@ local infuse = function()
 		Keyword = { fg = text.Lighter },
 		Label = {},
 		Operator = { fg = uniq.Accent },
-		PreProc = { fg = uniq.Peculiar },
+		PreProc = { fg = text.Darker },
 		Special = { fg = uniq.Special },
 		Statement = { fg = text.Lighter },
 		StorageClass = { fg = text.Lighter },

@@ -28,7 +28,7 @@ local infuse = function()
 		Identifier = { fg = uniq.Dynamic },
 		Keyword = { fg = text.Lighter },
 		Label = {},
-		Operator = { fg = text.Lighter },
+		Operator = { fg = uniq.Accent },
 		PreProc = { fg = uniq.Peculiar },
 		Special = { fg = uniq.Special },
 		Statement = { fg = text.Lighter },
@@ -38,7 +38,7 @@ local infuse = function()
 		Title = { fg = uniq.Distinct },
 		Todo = { fg = canvas.Normal, bg = uniq.Striking },
 		Type = { fg = uniq.Striking },
-		Underlined = { style = style.Underlined },
+		Underlined = { style = style.Underline },
 	}
 end
 

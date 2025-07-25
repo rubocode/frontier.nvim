@@ -5,9 +5,10 @@ local green = require("palette.default.green")
 local orange = require("palette.default.orange")
 local red = require("palette.default.red")
 local yellow = require("palette.default.yellow")
+local grey = require("palette.default.grey")
 
 local M = {
-	Accent = green.Lighter,
+	Accent = grey.Lighter,
 	Distinct = yellow.Lighter,
 	Dynamic = green.Normal,
 	Fixed = red.Normal,

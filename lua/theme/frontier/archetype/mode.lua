@@ -23,7 +23,7 @@ local M = {
 	Line = {
 		Command = { fg = grey.Lighter, bg = red.Darker, style = style.Bold },
 		Insert = { fg = grey.Lighter, bg = green.Darker, style = style.Bold },
-		Normal = { fg = grey.Lighter, bg = black.Absolute, style = style.Bold },
+		Normal = { fg = grey.Lighter, bg = black.Darker, style = style.Bold },
 		Other = { fg = grey.Lighter, bg = purple.Darker, style = style.Bold },
 		Replace = { fg = grey.Lighter, bg = red.Normal, style = style.Bold },
 		Visual = { fg = grey.Lighter, bg = blue.Darker, style = style.Bold },

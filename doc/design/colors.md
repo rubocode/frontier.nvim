@@ -9,7 +9,7 @@ _green_, _blue_, _cyan_ and _yellow_ were adopted.
 
 The goal of having the same colors on both _xterm256_ and
 _truecolor_ terminals was achieved early using colors outside
-the basic 16 colors.  The facilitation of a second colorscheme
+the basic 16 colors.  The facilitation of a second theme 
 introduced the problem of sharing a global color palette versus
 keeping a local and private color palette with each theme.
 Upto a certain stage the selected shared subset was used

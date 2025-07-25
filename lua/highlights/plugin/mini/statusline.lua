@@ -32,7 +32,7 @@ local infuse = function()
 		-- to skip defining the mode.Line elements
 		-- by commenting out those items in the
 		-- [theme].archtype.mode file.
-		-- This will allow you to go with _Chasnivski's_
+		-- This will allow you to go with _Chasnovski's_
 		-- carefully chosen defaults.
 		-- It is a trade-off (general expectations
 		-- versus measured personal choices.

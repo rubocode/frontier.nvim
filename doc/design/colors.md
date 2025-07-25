@@ -33,10 +33,11 @@ _profiles_ and the _highlights_.
 We can still define the local custom color palette for
 a theme in terms of the available global defaults
 in tandem with the standard _xterm256_ definitions.
-But, we avoid using them directly in the the _archetype_.
-It is a cleaner options for the archetype to depend
+But, we avoid using them directly outside the _archetype_.
+It is a cleaner option for the archetype to depend
 solely on the aesthetic choices in the specific palette
-chosen for the theme.
+chosen for the theme and allow the highlights and
+profiles to depend only on the archetype.
 
 This allows the color abstraction to evolve naturally to
 accomodate the distinctions chosen to be made visible in

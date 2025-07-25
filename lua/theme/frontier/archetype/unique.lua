@@ -8,6 +8,7 @@ local yellow = require("palette.default.yellow")
 
 local M = {
 	Accent = green.Lighter,
+	Distinct = yellow.Lighter,
 	Dynamic = green.Normal,
 	Fixed = red.Normal,
 	Peculiar = yellow.Normal,

@@ -2,7 +2,6 @@
 -- JUL 15, 2025
 
 local text = require("theme.firewatch.archetype.text")
-local type = require("theme.firewatch.archetype.type")
 local uniq = require("theme.firewatch.archetype.unique")
 
 local style = require("highlights.style")
@@ -14,7 +13,7 @@ local M = {
 	Delimiter = { fg = text.Quiet },
 	Function = { fg = uniq.Dynamic },
 	Identifier = { fg = uniq.Special },
-	Keyword = { fg = type.Keyword },
+	Keyword = { fg = text.Loud },
 	Label = {},
 	Operator = { fg = uniq.Accent },
 	PreProc = {},

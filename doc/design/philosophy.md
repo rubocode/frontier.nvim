@@ -20,11 +20,11 @@ If no one else does, you still made one that you would gladly use!
 > **Steve Jobs**
 
 The design challenge now becomes one of creating an accurate internal
-asbtraction that is congruent with the problem at hand to eliminate
-impedance mismatches.  The better you understand the neovim highlight
-group design and classification, the better you can factor the internal
-abstraction.  The better your internal abstraction, the better your
-representation of aesthetics in the problem domain.
+asbtraction (an _archetype_) that is congruent with the problem at hand
+to eliminate impedance mismatches.  The better you understand the neovim
+highlight group design and classification, the better you can factor
+the internal abstraction.  The better your internal abstraction,
+the better your representation of aesthetics in the problem domain.
 
 The the better your internal abstraction, the better the semantics.
 The better the semantics, the better the defaults.

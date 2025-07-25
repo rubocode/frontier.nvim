@@ -26,6 +26,7 @@ fashion from a prototype to a finished product.
 * [Elements](elements.md)
 * [Strategy](strategy.md)
 * [Philosophy](philosophy.md)
+* [Colors](colors.md)
 * [Tangent](tangent.md)
 
 This could be quite useful and interesting!

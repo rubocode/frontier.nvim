@@ -19,7 +19,8 @@ you have to set the foreground color, background color and the style
 We call one of these elements a highlight group.
 Now, things are not too simple and that turns out to be a good thing.
 We can link one highlight group to another one so that the second one
-can automatically switch along with the first.
+can automatically switch along with the first (this is analogous
+to soft links in unix file systems).
 In this case, you need only supply and modify the first and simply
 keep the link alive.
 So, in a particular colorscheme, you supply some color definitions
@@ -30,11 +31,11 @@ and often some links.
 The color definitions you supply, I have decided to call profiles.
 A given set of highlights correspond to a PROFILE (one or more highlight
 groups) and a set of LINKS (you can see these semantics captured directly
-in the code).  You supply the profile (a partical specification for
+in the code).  You supply the profile (a partial specification for
 an aspect in the theme that you are working on) and the links do the
 remaining legwork for you.  You just have to set things up right once.
 We use a stable catalog of profiles organized primarily to isolate
-coherent groups of highlights.
+and support coherent groups of highlights on a one-to-one basis.
 
 When you want to support multiple themes, you need to be able
 to supply different colors and styling for each specific custom theme.
@@ -63,25 +64,29 @@ the chosen custom color palette and the editor color abstraction
 that needs to be translated into the flat list of properties that
 are the highlights.
 
-### MAP
+### ARCHETYPE 
 
 So, what you really need to do is to map the palette to
 an intermediate abstraction that has achived an elegant
 one-to-one relationship with the flat list of properties (highlights).
-Now you pick a palette and map it to the internal abstraction
-and voila, you have a working colorscheme.
+Once you pick a palette and map it to the internal abstraction,
+voila!, you have a working colorscheme.
+
+Let's call this internal abstraction _the archetype_ —
+to be specific and concise in communicating this design
+choice.
 
 ### DEFAULT
 
-Since we are aiming to create a general internal abstraction,
-it can be expected to become rather stable at some point.
-This should mean that the semantics have been captured successfully
-and the relationships between color aesthetics and technical
-elements demonstrate high fidelity.
+Since we are aiming to create a general internal abstraction
+(_the archetype_), it can be expected to become rather stable
+at some point. This should mean that the semantics have been
+captured successfully and the relationships between color
+aesthetics and technical elements demonstrate high fidelity.
 
-That would allow us to use the _map_ elements to expand into
+That would allow us to use the _archetype_ elements to expand into
 _profile_ elements reliably and consistently across the themes.
 This allows us to express the uniqueness of the theme to be
 achieved through a combination of intelligent aesthetically
-harmonious defaults and allowance of full granular customization
+harmonious defaults and accommodate full granular customization
 of profiles in exceptional cases.

@@ -61,8 +61,9 @@ and I don't log in to other servers.
 
 I reached the point of successfully achieving the same look
 and feel on both _xterm256_ and _truecolor_ on macOS terminal and WezTerm.
-Then I wanted to generalize the theming abstraction from there.
-On a lucky coincidence, I found [apprentice](../theme/apprentice/README.md).
+Then I wanted to generalize the theming abstraction (the _archetype)
+from there.  On a lucky coincidence,
+I found [apprentice](../theme/apprentice/README.md).
 It worked the same on both the masOS Terminal and WezTerm.
 The theming was also simpler than two-firewatch and easier on the eyes.
 With this new found knowledge, I separated my abstraction into three concerns
@@ -72,7 +73,8 @@ I always had the goal of generalization.
 
 It turned out that I prefer simple yet sophisticated color usage.
 It was also clear that I preferred _dark_ themes over _light_ themes.
-This has influenced the semantics of the color mapping.
+This has influenced the semantics of the color mapping and allowed
+better focus and simplicity.
 
 ### PRIORITIES
 
@@ -99,9 +101,9 @@ colors provided by the xterm256 palette.  You can experiment with different
 ones and pick what gives you the best aesthetics.
 One level of indirection (the custom palette abstraction) will keep you
 on good footing.
-The mapping from the custom palette to the internal abstraction keeps
-the semantics congruent and aligned.
-The limited choices enable rapid selection and evolution.
+The mapping from the custom palette to the internal abstraction
+(the _archetype_) keeps the semantics congruent and aligned.
+Limited choices — in this case — enable rapid selection and evolution.
 
 ### OUTCOME
 
@@ -113,8 +115,9 @@ and plugin support accomodated in the primary.
 I could then accomodate adjustments and enhancements to legacy themes.
 
 I decided to create a new colorscheme that supports multiple theming
-abstractions.  This means the underlying internal abstraction must
-be general enough and be quite a bit discerning.
+abstractions (combinations of _palettes_ and an _archetype_).
+This means the underlying internal abstraction (the _archetype)
+must be general enough and be quite a bit discerning.
 The granularity of distinctions would require much consideration.
 I do not intend to be able to integrate themes that I considered bloated
 (too many visual syntactic distinctions backed by a broad color

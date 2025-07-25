@@ -2,14 +2,17 @@
 > JUL 22, 2025
 
 I would be happy if I could create a handful of colorschemes with
-a single theming abstraction that is customized to accomodate multiple palettes.
-They will use different palettes and different choices (colors and themes)
-in injecting those colors into the highlight scheme which support _standard_
-neovim highlighting and _custom_ plugins.
+a single theming abstraction (an _archetype_) that is customized
+to accomodate multiple palettes.
+We will use different palettes and different choices (colors and themes)
+and map it into the _archetype_ an inject those color choices into the
+highlight scheme which supports _standard_ neovim highlighting and
+_custom_ plugins.
 
-It seemed a good idea to centralize and stabilize the highlight definitions
-and link them via a dynamic internal abstraction in order that all themes
-(colorschemes) benefited when a new plugin or a new neovim feature was added
+It seemed a good idea to centralize and stabilize the highlight
+definitions and link them via a dynamic internal abstraction
+(an _archetype) in order that all themes (colorschemes) benefited
+when a new plugin or a new neovim feature was added
 to the ones that were chosen to be included.
 
 ## frontier
@@ -71,9 +74,11 @@ But I am merely being pragmatic here.
 
 ### ASPIRATION 
 
-When I am done with these, I would have created a colorscheme I would
-personally use and evolved a mapping abstraction with
-up-to-date feature support.
+When I am done with these, I would have created a colorscheme
+I would personally use and evolved a mapping abstraction with
+up-to-date feature support with the ability tinker with easily
+and adapt rapidly with future changes.  It is also a goal to
+keep it as simple as possible, but no simpler.
 
 > Once you start thinking more about where you want to be than about
 > making the best product, you’re screwed.  

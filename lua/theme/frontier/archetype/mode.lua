@@ -1,4 +1,4 @@
--- DEFAULT MODE ARCHETYPE
+-- FRONTIER MODE ARCHETYPE
 -- JUL 22, 2025
 
 local black = require("palette.default.black")

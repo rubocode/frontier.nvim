@@ -29,8 +29,13 @@ local infuse = function()
 		-- These choices may be better in that they reflect
 		-- the usual expectations.
 		-- The approach here is to allow the custom theme
-		-- to provide empty {} for these if it chooses
-		-- to stick to _Chasnovski's_ defaults.
+		-- to skip defining the mode.Line elements
+		-- by commenting out those items in the
+		-- [theme].archtype.mode file.
+		-- This will allow you to go with _Chasnivski's_
+		-- carefully chosen defaults.
+		-- It is a trade-off (general expectations
+		-- versus measured personal choices.
 		MiniStatuslineModeCommand = mode.Line.Command,
 		MiniStatuslineModeInsert = mode.Line.Insert,
 		MiniStatuslineModeNormal = mode.Line.Normal,

@@ -12,8 +12,8 @@ local notify = require("util.notify")
 local M = {}
 
 local init_dev_settings = function()
-	-- notify.verbose()
-	notify.quiet()
+	notify.verbose()
+	-- notify.quiet()
 end
 
 local init_colorscheme = function(theme, background)

@@ -21,12 +21,10 @@ local init_colorscheme = function(theme, background)
 	vim.cmd("syntax reset")
 	vim.o.background = background
 
-	local name = theme
-
-	if not name == "frontier" then
-		name = "frontier-" .. name
+	if not theme == "frontier" then
+		theme = "frontier-" .. theme
 	end
-	vim.g.colors_name = name
+	vim.g.colors_name = theme
 end
 
 local load_groups = function(theme, category, list)

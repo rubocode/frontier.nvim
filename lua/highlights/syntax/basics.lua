@@ -34,6 +34,7 @@ local infuse = function()
 		Underlined = basics.Underlined,
 	}
 	infused.LINKS = {
+		Conditional = { link = "Keyword" },
 		Boolean = { link = "Constant" },
 		Character = { link = "Constant" },
 		Define = { link = "PreProc" },

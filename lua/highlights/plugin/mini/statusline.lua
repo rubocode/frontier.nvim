@@ -31,7 +31,7 @@ local infuse = function()
 		-- The approach here is to allow the custom theme
 		-- to skip defining the mode.Line elements
 		-- by commenting out those items in the
-		-- [theme].archetype.mode file.
+		-- _[theme].archetype.mode_ file in the _Line_ section.
 		-- This will allow you to go with _Chasnovski's_
 		-- carefully chosen defaults.
 		-- Otherwise, you can pick your own colors

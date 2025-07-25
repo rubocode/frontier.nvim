@@ -19,7 +19,14 @@ local infuse = function()
 		PmenuThumb = menu.PmenuThumb,
 		WildMenu = menu.WildMenu,
 	}
-	infused.LINKS = {}
+	infused.LINKS = {
+		PmenuKind = { link = "Pmenu" },
+		PmenuKindSel = { link = "PmenuSel" },
+		PmenuMatch = { link = "Pmenu" },
+		PmenuMatchSeli = { link = "PmenuSel" },
+		PmenuExtra = { link = "Pmenu" },
+		PmenuExtraSel = { link = "PmenuSel" },
+	}
 end
 
 function M.get(theme)

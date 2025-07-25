@@ -1,4 +1,4 @@
--- FRONTIER TEXT MAP
+-- FRONTIER TEXT ARCHETYPE
 -- JUL 22, 2025
 
 local grey = require("palette.default.grey")

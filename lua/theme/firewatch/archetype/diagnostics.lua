@@ -1,4 +1,4 @@
--- FRONTIER DIAGNOSTICS MAP
+-- FRONTIER DIAGNOSTICS ARCHETYPE
 -- JUL 22, 2025
 
 local yellow = require("palette.default.yellow")

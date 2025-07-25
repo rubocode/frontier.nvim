@@ -4,7 +4,7 @@
 local syntax = require("theme.firewatch.palette.syntax")
 
 local M = {
-	Darkest = syntax.CursorLine,
+	Darker = syntax.CursorLine,
 	Normal = syntax.Bg,
 	Lighter = syntax.Bg,
 }

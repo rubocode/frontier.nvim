@@ -1,22 +1,23 @@
 -- FIREWATCH SYNTAX BASICS PROFILE
 -- JUL 15, 2025
 
-local fg = require("theme.firewatch.map.foreground")
-local type = require("theme.firewatch.map.type")
-local odd = require("theme.firewatch.map.odd")
+local text = require("theme.firewatch.archetype.text")
+local type = require("theme.firewatch.archetype.type")
+local odd = require("theme.firewatch.archetype.odd")
+local uniq = require("theme.firewatch.archetype.unique")
 
 local M = {
-	Comment = { fg = fg.Quiet },
+	Comment = { fg = text.Quiet },
 	Constant = { fg = type.Constant },
 	Debug = {},
-	Delimiter = { fg = fg.Quiet },
+	Delimiter = { fg = text.Quiet },
 	Function = { fg = type.Function },
 	Identifier = { fg = type.Identifier },
 	Keyword = { fg = type.Keyword },
 	Label = {},
-	Operator = { fg = fg.Accent },
+	Operator = { fg = uniq.Accent },
 	PreProc = {},
-	Special = { fg = fg.Special },
+	Special = { fg = uniq.Special },
 	Statement = { fg = odd.Lighter },
 	StorageClass = { fg = type.StorageClass },
 	String = { fg = type.String },

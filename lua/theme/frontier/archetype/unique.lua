@@ -1,4 +1,4 @@
--- FRONTIER UNIQUE MAP
+-- FRONTIER UNIQUE ARCHETYPE
 -- JUL 22, 2025
 
 local cyan = require("palette.default.cyan")

@@ -35,7 +35,7 @@ local infuse = function()
 		-- This will allow you to go with _Chasnovski's_
 		-- carefully chosen defaults.
 		-- Otherwise, you can pick your own colors
-		-- in harmony with custom theme.
+		-- in harmony with your custom theme.
 		-- It is a trade-off (general expectations
 		-- versus measured personal choices).
 		MiniStatuslineModeCommand = mode.Line.Command,

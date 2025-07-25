@@ -6,24 +6,23 @@
 -- a very dark theme and the usual diagndstics messages
 -- do not have enough contrast against the backdrop.
 --
-local line = require("theme.firewatch.support.diagnostics.line")
-local text = require("theme.firewatch.support.diagnostics.text")
+local diag = require("theme.firewatch.archetype.diagnostics")
 
 local M = {
-	ErrorMsg = text.Error,
-	ModeMsg = text.Info,
-	MoreMsg = text.Hint,
-	WarningMsg = text.Warn,
-	DiagnosticError = line.Error,
-	DiagnosticHint = line.Hint,
-	DiagnosticInfo = line.Info,
-	DiagnosticOk = line.Ok,
-	DiagnosticWarn = line.Warn,
-	DiagnosticVirtualLinesError = line.Error,
-	DiagnosticVirtualLinesHint = line.Hint,
-	DiagnosticVirtualLinesInfo = line.Info,
-	DiagnosticVirtualLinesOk = line.Ok,
-	DiagnosticVirtualLinesWarn = line.Warn,
+	ErrorMsg = diag.text.Error,
+	ModeMsg = diag.text.Info,
+	MoreMsg = diag.text.Hint,
+	WarningMsg = diag.text.Warn,
+	DiagnosticError = diag.line.Error,
+	DiagnosticHint = diag.line.Hint,
+	DiagnosticInfo = diag.line.Info,
+	DiagnosticOk = diag.line.Ok,
+	DiagnosticWarn = diag.line.Warn,
+	DiagnosticVirtualLinesError = diag.line.Error,
+	DiagnosticVirtualLinesHint = diag.line.Hint,
+	DiagnosticVirtualLinesInfo = diag.line.Info,
+	DiagnosticVirtualLinesOk = diag.line.Ok,
+	DiagnosticVirtualLinesWarn = diag.line.Warn,
 }
 
 return M

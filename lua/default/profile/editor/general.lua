@@ -6,8 +6,9 @@ local diag = require("empty.archetype.diagnostics")
 local text = require("empty.archetype.text")
 local odd = require("empty.archetype.odd")
 
-local mapper = require("util.mapper")
 local style = require("highlights.style")
+
+local mapper = require("util.mapper")
 
 local M = {}
 local profile = {}
@@ -24,7 +25,7 @@ local infuse = function()
 		ColorColumn = { bg = odd.Normal },
 		Conceal = { fg = text.Normal },
 		Directory = { fg = text.Darker },
-		Error = { fg = diag.Text.Error },
+		Error = diag.Text.Error,
 		FoldColumn = { fg = text.Darker, bg = canvas.Lighter },
 		Folded = { fg = text.Lighter, bg = canvas.Lighter },
 		Ignore = {},

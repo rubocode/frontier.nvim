@@ -10,11 +10,11 @@ local grey = require("palette.default.grey")
 
 local M = {
 	Text = {
-		Error = { fg = red.Normal },
-		Hint = { fg = blue.Normal },
-		Info = { fg = cyan.Normal },
-		Ok = { fg = green.Normal },
-		Warn = { fg = yellow.Normal },
+		Error = red.Normal,
+		Hint = blue.Normal,
+		Info = cyan.Normal,
+		Ok = green.Normal,
+		Warn = yellow.Normal,
 	},
 	Line = {
 		Error = { fg = grey.Lighter, bg = red.Darker },

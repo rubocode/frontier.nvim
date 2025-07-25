@@ -34,8 +34,10 @@ local infuse = function()
 		-- [theme].archtype.mode file.
 		-- This will allow you to go with _Chasnovski's_
 		-- carefully chosen defaults.
+		-- Otherwise, you can pick your own colors
+		-- in harmony with custom theme.
 		-- It is a trade-off (general expectations
-		-- versus measured personal choices.
+		-- versus measured personal choices).
 		MiniStatuslineModeCommand = mode.Line.Command,
 		MiniStatuslineModeInsert = mode.Line.Insert,
 		MiniStatuslineModeNormal = mode.Line.Normal,

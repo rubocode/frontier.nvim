@@ -13,7 +13,7 @@ local M = {
 	Fixed = duo.Duo3,
 	Peculiar = syntax.Fg,
 	Prominent = duo.Duo1,
-	Special = syntax.Fg,
+	Special = uno.Uno3,
 	Striking = duo.Duo1,
 }
 

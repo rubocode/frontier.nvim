@@ -13,7 +13,7 @@ local M = {
 	Debug = {},
 	Delimiter = { fg = text.Quiet },
 	Function = { fg = uniq.Dynamic },
-	Identifier = { fg = type.Identifier },
+	Identifier = { fg = uniq.Special },
 	Keyword = { fg = type.Keyword },
 	Label = {},
 	Operator = { fg = uniq.Accent },

@@ -20,7 +20,7 @@ local M = {
 		Error = { fg = grey.Lighter, bg = red.Darker },
 		Hint = { fg = grey.Loud, bg = blue.Normal },
 		Info = { fg = grey.Darkest, bg = cyan.Normal },
-		Ok = { fg = grey.Lighter, bg = green.Normal },
+		Ok = { fg = grey.Loud, bg = green.Normal },
 		Warn = { fg = grey.Darkest, bg = yellow.Normal },
 	},
 }

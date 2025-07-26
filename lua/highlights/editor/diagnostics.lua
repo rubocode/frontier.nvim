@@ -22,6 +22,11 @@ local infuse = function()
 		DiagnosticInfo = diag.DiagnosticInfo,
 		DiagnosticOk = diag.DiagnosticOk,
 		DiagnosticWarn = diag.DiagnosticWarn,
+		DiagnosticFloatingError = diag.DiagnosticFloatingError,
+		DiagnosticFloatingHint = diag.DiagnosticFloatingHint,
+		DiagnosticFloatingInfo = diag.DiagnosticFloatingInfo,
+		DiagnosticFloatingOk = diag.DiagnosticFloatingOK,
+		DiagnosticFloatingWarn = diag.DiagnosticFloatingWarn,
 		DiagnosticVirtualLinesError = diag.DiagnosticVirtualLinesError,
 		DiagnosticVirtualLinesHint = diag.DiagnosticVirtualLinesHint,
 		DiagnosticVirtualLinesInfo = diag.DiagnosticVirtualLinesInfo,
@@ -29,11 +34,6 @@ local infuse = function()
 		DiagnosticVirtualLinesWarn = diag.DiagnosticVirtualLinesWarn,
 	}
 	infused.LINKS = {
-		DiagnosticFloatingError = { link = "DiagnosticError" },
-		DiagnosticFloatingHint = { link = "DiagnosticHint" },
-		DiagnosticFloatingInfo = { link = "DiagnosticInfo" },
-		DiagnosticFloatingOk = { link = "DiagnosticOk" },
-		DiagnosticFloatingWarn = { link = "DiagnosticWarn" },
 		DiagnosticSignError = { link = "DiagnosticError" },
 		DiagnosticSignHint = { link = "DiagnosticHint" },
 		DiagnosticSignInfo = { link = "DiagnosticInfo" },

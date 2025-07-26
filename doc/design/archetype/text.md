@@ -19,6 +19,11 @@ This turned out to be a good way of keeping things simple
 and elegant.  However, they didn't bother with _gitsigns_,
 _diagnostics_ or _lsp_.
 
+The _apprenntice_ colorscheme also had the same approach.
+A grey spectrum and an color spectrum.
+The modern _neovim_ color palette is the same — a grey spectrum
+and light and dark versions of six basic colors.
+
 In our abstraction, the archetype is a bit more sophisticated
 and the nuances and distinctions are different.
 But the philosophy remains in line with _firewatch_.

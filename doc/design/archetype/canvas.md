@@ -1,4 +1,4 @@
-## CANVAS ARCHETYPE
+## THE CANVAS ARCHETYPE
 > JUL 26, 2025
 
 This archetype is where our choice of background colors reside.

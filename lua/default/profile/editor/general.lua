@@ -22,7 +22,7 @@ end
 
 local infuse = function()
 	profile = {
-		ColorColumn = { fg = text.Loud, bg = text.Quiet },
+		ColorColumn = { fg = canvas.Darker, bg = text.Quiet },
 		Conceal = { fg = text.Normal },
 		Directory = { fg = text.Darker },
 		Error = diag.Text.Error,

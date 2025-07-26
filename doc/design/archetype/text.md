@@ -40,9 +40,9 @@ together with two darker versions called _Darker_ and _Quiet_.
 
 It helps you to remember that _text.Quiet_ is used for 
 _comments_.  In our design — from the inception — we prefer
-rather quiet comments.  The integratipn of that design
-decision into the semantics of color definition helping
+rather quiet comments.  The integration of that design
+decision into the semantics of color definition helps
 us keep things simple, concise and meaningful in context.
 We have translated our knowledge of the problem space and
 design decisions and built it into the _lingua franca (DSL)_
-in the solution.
+of the solution.

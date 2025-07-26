@@ -1,8 +1,7 @@
 -- DEFAULT EDITOR SPELL PROFILE
 -- JUL 15, 2025
 
-local odd = require("empty.archetype.odd")
-
+local diag = require("empty.archetype.diagnostics")
 local style = require("highlights.style")
 
 local mapper = require("util.mapper")
@@ -14,15 +13,15 @@ local profile = {}
 --
 
 local remap = function(theme)
-	odd = mapper.pick(theme, "archetype.odd")
+	diag = mapper.pick(theme, "archetype.diagnostics")
 end
 
 local infuse = function()
 	profile = {
-		SpellBad = { fg = odd.Normal, style = style.Undercurl },
-		SpellCap = { fg = odd.Lighter, style = style.Undercurl },
-		SpellLocal = { fg = odd.Normal, style = style.Undercurl },
-		SpellRare = { fg = odd.Normal, style = style.Undercurl },
+		SpellBad = { fg = diag.Text.Error.fg, style = style.Undercurl },
+		SpellCap = { fg = diag.Text.Warn.fg, style = style.Undercurl },
+		SpellLocal = { fg = diag.Text.Info.fg, style = style.Undercurl },
+		SpellRare = { fg = diag.Text.Info.fg, style = style.Undercurl },
 	}
 end
 

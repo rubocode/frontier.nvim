@@ -22,7 +22,7 @@ end
 
 local infuse = function()
 	profile = {
-		ColorColumn = { bg = uniq.Prominent },
+		ColorColumn = { fg = text.Loud, bg = text.Quiet },
 		Conceal = { fg = text.Normal },
 		Directory = { fg = text.Darker },
 		Error = diag.Text.Error,
@@ -34,8 +34,8 @@ local infuse = function()
 		Question = { fg = uniq.Pominent },
 		SpecialKey = { fg = text.Quiet },
 		TabLine = { fg = text.Lighter, bg = canvas.Lighter },
-		TabLineFill = { fg = text.Darker, bg = canvas.Darker },
-		TabLineSel = { fg = text.Darker, bg = uniq.Prominent },
+		TabLineFill = { fg = text.Lighter, bg = canvas.Darker },
+		TabLineSel = { fg = canvas.Darker, bg = uniq.Prominent },
 		ToolbarButton = { fg = text.Lighter, bg = text.Lighter },
 		ToolbarLine = { bg = canvas.Darker },
 		VertSplit = { fg = text.Darker, bg = canvas.Lighter },

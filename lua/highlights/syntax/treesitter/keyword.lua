@@ -15,7 +15,7 @@ local infuse = function()
 	infused.LINKS = {
 		["@keyword.conditional"] = { link = "Conditional" },
 		["@keyword.repeat"] = { link = "Repeat" },
-		["@keyword.type"] = { link = "Structure" },
+		["@keyword.type"] = { link = "Keyword" },
 		["@label"] = { link = "Label" },
 		["@keyword"] = { link = "Keyword" },
 		["@keyword.exception"] = { link = "Exception" },

@@ -6,13 +6,13 @@ regular text colors.  They are meant to make some part
 of the display or text stand out for you.
 The syntactic coloring of _strings_, _booleans_ and
 _numbers_ come to mind.  These are the building blocks
-of the most fundamental computing abstraction.
+of the most fundamental computing abstractions.
 It helps the programmer if these elements appear
 recognizably different from the rest and at the same
 time be different from each other.
 
 This is where the _unique_ palette comes in handy.
-This has eight options and are the highest levels
+This has eight options and are at the highest levels
 of abstraction for better application in creating
 harmony in the design space.
 
@@ -52,16 +52,17 @@ manner.  How cool is that!
 
 ### DYNAMIC
 
-Life is nouns and verbs.  Computing is data and
-functions.  From a higher perspective these
-are things and actions.  Things represent states
-of being and action is about creating movement
-in time.  They are stable versus volatile —
-_static_ versus _dynamic_.  Since _static_ is
+Life is _nouns_ and _verbs_.  Computing is _data_
+and _functions_.  From a higher perspective these
+are _things_ and _actions_.
+Things represent states of being and action is
+about creating movement in time.
+They are _stable_ versus _volatile_ — _static_
+versus _dynamic_.  Since _static_ is
 computing slang and often a keyword, I didn't
 use it here.  Instead, I went with _Fixed_ and
 _Dynamic_.  You've got to be very careful during
-semantic abstraction.  The primary used of 
+semantic abstraction.  The primary use of 
 _Dynamic_ is for _functions_ which specify
 activity.
 
@@ -73,9 +74,9 @@ _Number_, and _Float_ among other things.
 
 In the _frontier_ primary theme — at this point
 in time — I have used the same color for
-_Special_ in addition to the above.
-In our case, we have linked to _Special_ to
-associate _buitin_ functions for example.
+_Special_ in addition to _Fixed_.
+In our case, we have used _Special_ to
+link _buitin_ functions for example.
 We are reflecting the fact that the builtin
 functions represent stability.
 I can always change my mind and have the _builtin_
@@ -86,9 +87,10 @@ A direct result of taking advantage of the
 Single Responsibility Principle (SRP) in the
 implementation.
 
-Of course, one theme can have them the same and
-another one can have them different.
-But you don't touch the highlight group definitions
+Of course, one can have them the same in one theme
+and have them different in another.
+But you don't touch the highlight group definitions.
+They simply stand in to show you the playing field.
 You have the profile definitions in the middle
 and they inform the highlights.
 Stability, accuracy, completeness and flexibility
@@ -97,8 +99,8 @@ How cool is that!
 
 ### PECULIAR
 
-The origin of this term is when I wanted to have a
-separate color for parameters passed to a function.
+The origin of this term occured when I wanted to have
+a separate color for parameters passed to a function.
 They needed to be different from everything else
 inside a function — rather peculiar.
 
@@ -106,16 +108,16 @@ inside a function — rather peculiar.
 
 This one primarily exists to define the color for
 _strings_.  The same can be used elsewhere.
-In all colorscheme I have experienced, strings have
-a privileged and staring at your face nature.
-I have term this as _Prominent_.  You can use it
+In all colorschemes I have experienced, strings have
+a privileged position and a stare at your face nature.
+I have termed this as _Prominent_.  You can use it
 elsewhere too without coupling to much into a name
 such as _type.String_.  That would be too tight
 a coupling.
 
 ### SPECIAL
 
-This is one is simply tied to the _Special_ highlight
+This one is simply tied to the _Special_ highlight
 group.  It is used in many contexts by _neovim_ that
 are too neumerous to mention.  One of them usually
 is for _builtin_ functions.

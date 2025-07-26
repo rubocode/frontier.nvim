@@ -18,7 +18,7 @@ local infuse = function()
 		["@character.special"] = { link = "SpecialChar" },
 		["@constant"] = { link = "Constant" },
 		["@constant.builtin"] = { link = "Special" },
-		["@constant.macro"] = { link = "Define" },
+		["@constant.macro"] = { link = "Constant" },
 		["@number"] = { link = "Number" },
 		["@number.float"] = { link = "Float" },
 		["@string"] = { link = "String" },

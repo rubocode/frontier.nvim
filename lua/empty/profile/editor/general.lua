@@ -18,6 +18,7 @@ local M = {
 	TabLineSel = {},
 	ToolbarButton = {},
 	ToolbarLine = {},
+	Underlined = {},
 	VertSplit = {},
 	Visual = {},
 	VisualNOS = {},

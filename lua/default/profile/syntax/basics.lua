@@ -38,7 +38,6 @@ local infuse = function()
 		Title = { fg = uniq.Distinct },
 		Todo = { fg = canvas.Normal, bg = uniq.Striking },
 		Type = { fg = uniq.Striking },
-		Underlined = { style = style.Underline },
 	}
 end
 

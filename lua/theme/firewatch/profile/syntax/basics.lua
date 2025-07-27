@@ -4,8 +4,6 @@
 local text = require("theme.firewatch.archetype.text")
 local uniq = require("theme.firewatch.archetype.unique")
 
-local style = require("highlights.style")
-
 local M = {
 	Comment = { fg = text.Quiet },
 	Constant = { fg = uniq.Fixed },
@@ -25,7 +23,6 @@ local M = {
 	Title = { fg = uniq.Distinct },
 	Todo = {},
 	Type = { fg = uniq.Striking },
-	Underlined = { style = style.Underline },
 }
 
 return M

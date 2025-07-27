@@ -20,7 +20,6 @@ local M = {
 	Title = {},
 	Todo = {},
 	Type = {},
-	Underlined = {},
 }
 
 return M

@@ -5,8 +5,8 @@ local aux = require("palette.xterm256.auxiliary")
 
 local M = {
 	Add = aux.SkyBlue2,
-	Delete = aux.LightGoldenrod2B,
 	Change = aux.Grey84,
+	Delete = aux.LightGoldenrod2B,
 	Text = aux.Grey69,
 }
 

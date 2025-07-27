@@ -8,7 +8,7 @@ local canvas = require("theme.firewatch.archetype.canvas")
 local M = {
 	Loud = { fg = text.Loud, bg = text.Quiet },
 	Normal = { fg = canvas.Normal, bg = uniq.Special },
-	Quiet = { fg = text.Quiet, bg = canvas.Darker },
+	Quiet = { fg = text.Quiet, bg = canvas.Normal },
 }
 
 return M

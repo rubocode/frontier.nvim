@@ -40,22 +40,6 @@ end
 function M.install(theme)
 	init_dev_settings()
 	init_colorscheme(theme, "dark")
-
-	-- To avoid weird syntactic and semantic collisions
-	-- DAWNFOX had these two variables clear and "M" remained "RED"
-	-- Not clear why it works!
-	-- JUL 14, 2025
-	--
-	-- Clearing these is no longer necessary.
-	-- The _treesitter_ and _lsp_ wiring seems
-	-- to have fixed the issue.
-	-- JUL 27, 2025
-	--
-	-- vim.cmd("highlight clear @variable")
-	-- vim.cmd("highlight clear @lsp")
-	-- vim.cmd("highlight clear @function")
-	-- vim.cmd("highlight clear @lsp.type.variable")
-
 	load_groups(theme, "editor", editor)
 	load_groups(theme, "syntax", syntax)
 	load_groups(theme, "lang", lang)
@@ -63,3 +47,18 @@ function M.install(theme)
 end
 
 return M
+
+-- To avoid weird syntactic and semantic collisions
+-- DAWNFOX had these two variables clear and "M" remained "RED"
+-- Not clear why it works!
+-- JUL 14, 2025
+--
+-- Clearing these is no longer necessary.
+-- The _treesitter_ and _lsp_ wiring seems
+-- to have fixed the issue.
+-- JUL 27, 2025
+--
+-- vim.cmd("highlight clear @variable")
+-- vim.cmd("highlight clear @lsp")
+-- vim.cmd("highlight clear @function")
+-- vim.cmd("highlight clear @lsp.type.variable")

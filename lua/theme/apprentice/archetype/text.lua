@@ -4,9 +4,9 @@
 local grey = require("theme.apprentice.palette.grey")
 
 local M = {
-	Quiet = grey.Grey,
-	Darker = grey.Medium,
-	Normal = grey.Light,
+	Quiet = grey.Light,
+	Darker = grey.Light,
+	Normal = grey.Lighter,
 	Lighter = grey.Lighter,
 	Loud = grey.White,
 }

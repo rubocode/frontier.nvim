@@ -6,8 +6,8 @@ local uniq = require("theme.firewatch.archetype.unique")
 local canvas = require("theme.firewatch.archetype.canvas")
 
 local M = {
-	Loud = { fg = text.Loud, bg = text.Quiet },
-	Normal = { fg = canvas.Normal, bg = uniq.Special },
+	Loud = { fg = canvas.Normal, bg = text.Quiet },
+	Normal = { fg = canvas.Normal, bg = uniq.Dynamic },
 	Quiet = { fg = text.Quiet, bg = canvas.Normal },
 }
 

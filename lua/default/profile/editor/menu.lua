@@ -17,7 +17,7 @@ end
 
 local infuse = function()
 	profile = {
-		Pmenu = { fg = text.Normal, bg = canvas.Normal },
+		Pmenu = { fg = text.Normal, bg = canvas.Lighter },
 		PmenuSbar = { fg = text.Normal, bg = canvas.Lighter },
 		PmenuSel = { fg = canvas.Normal, bg = text.Normal, style = style.Bold },
 		PmenuThumb = { fg = canvas.Normal, bg = text.Normal },

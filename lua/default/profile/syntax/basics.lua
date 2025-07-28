@@ -5,8 +5,6 @@ local canvas = require("empty.archetype.canvas")
 local text = require("empty.archetype.text")
 local uniq = require("empty.archetype.unique")
 
-local style = require("highlights.style")
-
 local mapper = require("util.mapper")
 
 local M = {}

@@ -1,4 +1,4 @@
--- SYTNAX TREESITTER TEXT HIGHLIGHTS
+-- SYTNAX TREESITTER MARKUP HIGHLIGHTS
 -- JUL 21, 2025
 --
 -- Refer the original list in the neovim source tree:
@@ -13,8 +13,6 @@ local remap = function(_) end
 local infuse = function()
 	infused.PROFILE = {}
 	infused.LINKS = {
-		["@comment"] = { link = "Comment" },
-		["@comment.todo"] = { link = "Todo" },
 		["@markup.heading"] = { link = "Title" },
 		["@markup.link"] = { link = "Identifier" },
 		["@markup.link.url"] = { link = "Underlined" },

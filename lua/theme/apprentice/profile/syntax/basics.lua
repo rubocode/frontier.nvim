@@ -25,7 +25,7 @@ local M = {
 	StorageClass = { fg = uniq.Striking },
 	String = { fg = uniq.Prominent },
 	Tag = { fg = uniq.Special },
-	Title = { fg = uniq.Fixed, style = style.Bold },
+	Title = { fg = uniq.Dynamic },
 	Todo = { style = style.Reverse },
 	Type = { fg = uniq.Striking },
 	Underlined = { fg = uniq.Prominent, style = style.Underline },

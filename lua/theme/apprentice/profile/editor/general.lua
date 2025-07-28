@@ -26,7 +26,6 @@ local M = {
 	TabLine = { fg = std.Ocre, bg = grey.Grey },
 	TabLineFill = { fg = grey.Grey, bg = grey.Grey },
 	TabLineSel = { fg = grey.Darker, bg = std.Ocre },
-	Title = {},
 	Todo = {},
 	ToolbarButton = { fg = text.Normal, bg = grey.Medium },
 	ToolbarLine = { bg = canvas.Darker },

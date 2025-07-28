@@ -34,7 +34,7 @@ local infuse = function()
 		StorageClass = { fg = text.Lighter },
 		String = { fg = uniq.Prominent },
 		Tag = { fg = text.Lighter },
-		Title = { fg = uniq.Fixed, style = style.Bold },
+		Title = { fg = uniq.Peculiar, style = style.Bold },
 		Todo = { fg = canvas.Normal, bg = uniq.Striking },
 		Type = { fg = uniq.Striking },
 		Underlined = { fg = uniq.Prominent, style = style.Underline },

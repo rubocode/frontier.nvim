@@ -1,31 +1,29 @@
 -- DEFAULT TELESCOPE VIEW PROFILE
 -- JUL 22, 2025
 
--- TODO: Remap for custom themes
---
-local black = require("palette.default.black")
-local grey = require("palette.default.grey")
-local cyan = require("palette.default.cyan")
-local red = require("palette.default.red")
-local green = require("palette.default.green")
-local yellow = require("palette.default.yellow")
-local style = require("highlights.style")
+local canvas = require("empty.archetype.canvas")
+local text = require("empty.archetype.text")
+local uniq = require("empty.archetype.unique")
 
 local mapper = require("util.mapper")
 
 local M = {}
 local profile = {}
 
-local remap = function(_) end
+local remap = function(theme)
+	canvas = mapper.pick(theme, "archetype.canvas")
+	text = mapper.pick(theme, "archetype.text")
+	uniq = mapper.pick(theme, "archetype.unique")
+end
 
 local infuse = function()
 	profile = {
-		Border = { fg = cyan.Normal },
-		Prompt = { fg = green.Normal },
-		Selection = { fg = grey.Lighter, bg = black.Absolute, style = style.Reverse },
-		SelectionCaret = { fg = grey.Lighter, bg = black.Darker },
-		Special = { fg = black.Normal, bg = red.Normal, style = style.Reverse },
-		Title = { fg = yellow.Normal },
+		Border = { fg = uniq.Accent },
+		Prompt = { fg = uniq.Special },
+		Selection = { fg = canvas.Normal, bg = text.Lighter },
+		SelectionCaret = { fg = text.Lighter, bg = canvas.Darker },
+		Special = { fg = uniq.Fixed },
+		Title = { fg = uniq.Peculiar },
 	}
 end
 

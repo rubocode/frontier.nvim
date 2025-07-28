@@ -3,6 +3,9 @@
 
 local text = require("theme.firewatch.archetype.text")
 local uniq = require("theme.firewatch.archetype.unique")
+local style = require("highlights.style")
+
+local duo = require("theme.firewatch.palette.duo")
 
 local M = {
 	Comment = { fg = text.Quiet },
@@ -20,7 +23,7 @@ local M = {
 	StorageClass = { fg = text.Lighter },
 	String = { fg = uniq.Prominent },
 	Tag = { fg = text.Lighter },
-	Title = { fg = uniq.Distinct },
+	Title = { fg = duo.Duo2, style = style.Bold },
 	Todo = {},
 	Type = { fg = uniq.Striking },
 }

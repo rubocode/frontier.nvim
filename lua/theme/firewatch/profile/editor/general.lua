@@ -1,6 +1,7 @@
 -- FIREWATCH EDITOR GENERAL PROFILE
 -- JUL 09, 2025
 
+local duo = require("theme.firewatch.palette.duo")
 local style = require("highlights.style")
 local syntax = require("theme.firewatch.palette.syntax")
 local uno = require("theme.firewatch.palette.uno")
@@ -22,6 +23,7 @@ local M = {
 	TabLineSel = { fg = syntax.Fg },
 	ToolbarButton = {},
 	ToolbarLine = {},
+	Underlined = { fg = duo.Duo1, style = style.Underline },
 	VertSplit = { fg = syntax.FoldBg },
 	Visual = { fg = syntax.Fg, bg = syntax.Bg, style = style.Reverse },
 	VisualNOS = { fg = syntax.Fg, bg = syntax.Bg },

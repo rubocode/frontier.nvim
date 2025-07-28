@@ -16,6 +16,7 @@ local M = {
 	Statement = {},
 	StorageClass = {},
 	String = {},
+	Underlined = {},
 	Tag = {},
 	Title = {},
 	Todo = {},

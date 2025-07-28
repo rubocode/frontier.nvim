@@ -31,7 +31,6 @@ local infuse = function()
 		Todo = general.Todo,
 		ToolbarButton = general.ToolbarButton,
 		ToolbarLine = general.ToolbarLine,
-		Underlined = general.Underlined,
 		VertSplit = general.VertSplit,
 		Visual = general.Visual,
 		VisualNOS = general.VisualNOS,

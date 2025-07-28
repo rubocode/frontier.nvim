@@ -30,7 +30,6 @@ local M = {
 	Todo = {},
 	ToolbarButton = { fg = text.Normal, bg = grey.Medium },
 	ToolbarLine = { bg = canvas.Darker },
-	Underlined = { fg = std.Aqua, style = style.Underline },
 	VertSplit = { fg = grey.Grey, bg = grey.Grey },
 	Visual = { fg = light.Blue, bg = grey.Darker },
 	VisualNOS = { style = style.Underline },

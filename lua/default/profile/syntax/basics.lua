@@ -37,6 +37,7 @@ local infuse = function()
 		Title = { fg = uniq.Fixed, style = style.Bold },
 		Todo = { fg = canvas.Normal, bg = uniq.Striking },
 		Type = { fg = uniq.Striking },
+		Underlined = { fg = uniq.Prominent, style = style.Underline },
 	}
 end
 

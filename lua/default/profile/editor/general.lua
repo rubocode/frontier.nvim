@@ -38,7 +38,6 @@ local infuse = function()
 		TabLineSel = { fg = canvas.Darker, bg = uniq.Prominent },
 		ToolbarButton = { fg = text.Lighter, bg = text.Lighter },
 		ToolbarLine = { bg = canvas.Darker },
-		Underlined = { style = style.Underline },
 		VertSplit = { fg = text.Darker, bg = canvas.Lighter },
 		Visual = { fg = text.Normal, bg = canvas.Normal, style = style.Reverse },
 		VisualNOS = { style = style.Underline },

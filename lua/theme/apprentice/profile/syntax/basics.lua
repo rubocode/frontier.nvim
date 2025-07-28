@@ -28,6 +28,7 @@ local M = {
 	Title = { fg = uniq.Fixed, style = style.Bold },
 	Todo = { style = style.Reverse },
 	Type = { fg = uniq.Striking },
+	Underlined = { fg = std.Aqua, style = style.Underline },
 }
 
 return M

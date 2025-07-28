@@ -26,6 +26,7 @@ local M = {
 	Title = { fg = duo.Duo2, style = style.Bold },
 	Todo = {},
 	Type = { fg = uniq.Striking },
+	Underlined = { fg = duo.Duo1, style = style.Underline },
 }
 
 return M

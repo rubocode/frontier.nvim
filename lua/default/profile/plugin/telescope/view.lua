@@ -5,6 +5,8 @@ local canvas = require("empty.archetype.canvas")
 local text = require("empty.archetype.text")
 local uniq = require("empty.archetype.unique")
 
+local style = require("highlights.style")
+
 local mapper = require("util.mapper")
 
 local M = {}
@@ -20,7 +22,7 @@ local infuse = function()
 	profile = {
 		Border = { fg = uniq.Accent },
 		Prompt = { fg = uniq.Special },
-		Selection = { fg = canvas.Normal, bg = text.Normal },
+		Selection = { fg = text.Normal, bg = canvas.Normal, style = style.Reverse },
 		SelectionCaret = { fg = text.Normal, bg = canvas.Darker },
 		Special = { fg = uniq.Fixed },
 		Title = { fg = uniq.Peculiar },

@@ -20,8 +20,8 @@ local infuse = function()
 	profile = {
 		Border = { fg = uniq.Accent },
 		Prompt = { fg = uniq.Special },
-		Selection = { fg = canvas.Normal, bg = text.Lighter },
-		SelectionCaret = { fg = text.Lighter, bg = canvas.Darker },
+		Selection = { fg = canvas.Normal, bg = text.Normal },
+		SelectionCaret = { fg = text.Normal, bg = canvas.Darker },
 		Special = { fg = uniq.Fixed },
 		Title = { fg = uniq.Peculiar },
 	}

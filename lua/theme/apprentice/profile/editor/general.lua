@@ -30,7 +30,7 @@ local M = {
 	ToolbarButton = { fg = text.Normal, bg = grey.Medium },
 	ToolbarLine = { bg = canvas.Darker },
 	VertSplit = { fg = grey.Grey, bg = grey.Grey },
-	Visual = { fg = light.Blue, bg = grey.Darker },
+	Visual = { fg = canvas.Normal, bg = light.Blue },
 	VisualNOS = { style = style.Underline },
 	bold = { style = style.Bold },
 	helpLeadBlank = {},

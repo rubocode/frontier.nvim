@@ -29,10 +29,10 @@ end
 
 local load_groups = function(theme, category, list)
 	for _, item in pairs(list) do
-		local group = "highlights." .. category .. "." .. item
+		local module = "highlights." .. category .. "." .. item
 		notify.warning("****************")
-		notify.warning("Working on: " .. group)
-		loader.process(theme, group)
+		notify.warning("Working on: " .. module)
+		loader.process(theme, module)
 		notify.warning("PATH done!")
 	end
 end

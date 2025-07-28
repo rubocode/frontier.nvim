@@ -4,6 +4,7 @@
 local canvas = require("empty.archetype.canvas")
 local text = require("empty.archetype.text")
 local uniq = require("empty.archetype.unique")
+local style = require("highlights.style")
 
 local mapper = require("util.mapper")
 
@@ -33,7 +34,7 @@ local infuse = function()
 		StorageClass = { fg = text.Lighter },
 		String = { fg = uniq.Prominent },
 		Tag = { fg = text.Lighter },
-		Title = { fg = uniq.Distinct },
+		Title = { fg = uniq.Fixed, style = style.Bold },
 		Todo = { fg = canvas.Normal, bg = uniq.Striking },
 		Type = { fg = uniq.Striking },
 	}

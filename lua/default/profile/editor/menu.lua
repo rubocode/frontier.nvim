@@ -5,7 +5,6 @@ local canvas = require("empty.archetype.canvas")
 local text = require("empty.archetype.text")
 
 local mapper = require("util.mapper")
-local style = require("highlights.style")
 
 local M = {}
 local profile = {}
@@ -19,7 +18,7 @@ local infuse = function()
 	profile = {
 		Pmenu = { fg = text.Normal, bg = canvas.Lighter },
 		PmenuSbar = { fg = text.Normal, bg = canvas.Lighter },
-		PmenuSel = { fg = canvas.Normal, bg = text.Normal, style = style.Bold },
+		PmenuSel = { fg = canvas.Normal, bg = text.Normal },
 		PmenuThumb = { fg = canvas.Normal, bg = text.Normal },
 		WildMenu = { fg = text.Lighter, bg = canvas.Normal },
 	}

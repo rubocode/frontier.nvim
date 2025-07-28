@@ -5,13 +5,11 @@ local canvas = require("theme.firewatch.archetype.canvas")
 local text = require("theme.firewatch.archetype.text")
 local uniq = require("theme.firewatch.archetype.unique")
 
-local style = require("highlights.style")
-
 local M = {
-	Pmenu = { fg = canvas.Normal, bg = text.Quiet },
-	PmenuSbar = { bg = text.Quiet },
-	PmenuSel = { fg = canvas.Normal, bg = uniq.Dynamic, style = style.Bold },
-	PmenuThumb = { fg = uniq.Dynamic, bg = uniq.Dynamic },
+	Pmenu = { fg = canvas.Lighter, bg = text.Normal },
+	PmenuSbar = { bg = text.Normal },
+	PmenuSel = { fg = text.Lighter, bg = text.Quiet },
+	PmenuThumb = { fg = text.Quiet, bg = text.Quiet },
 	WildMenu = { fg = text.Darker, bg = uniq.Accent },
 }
 

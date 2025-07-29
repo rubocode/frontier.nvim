@@ -6,6 +6,7 @@ local M = {
 	"diagnostics",
 	"diff",
 	"general",
+	"help",
 	"menu",
 	"msg",
 	"normal",

@@ -20,8 +20,6 @@ local M = {
 	Visual = {},
 	VisualNOS = {},
 	bold = {},
-	helpLeadBlank = {},
-	helpNormal = {},
 }
 
 return M

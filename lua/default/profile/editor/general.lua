@@ -42,8 +42,6 @@ local infuse = function()
 		Visual = { fg = text.Normal, bg = canvas.Normal, style = style.Reverse },
 		VisualNOS = { style = style.Underline },
 		bold = { style = style.Bold },
-		helpLeadBlank = { fg = uniq.Prominent },
-		helpNormal = { fg = uniq.Prominent },
 	}
 end
 

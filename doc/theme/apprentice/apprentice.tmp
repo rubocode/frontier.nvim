@@ -20,9 +20,6 @@ debugPC              none              blue
 
 ;;; Group         link to
 Terminal          -> Normal
-CursorIM          -> Cursor
-QuickFixLine      -> Search
-CurSearch         -> IncSearch
 
 
 ;;; Syntax

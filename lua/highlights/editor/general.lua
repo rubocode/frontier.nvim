@@ -35,8 +35,6 @@ local infuse = function()
 		Visual = general.Visual,
 		VisualNOS = general.VisualNOS,
 		bold = general.bold,
-		helpLeadBlank = general.helpLeadBlank,
-		helpNormal = general.helpNormal,
 	}
 	infused.LINKS = {}
 end

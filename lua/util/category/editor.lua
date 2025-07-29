@@ -7,6 +7,7 @@ local M = {
 	"diff",
 	"general",
 	"menu",
+	"msg",
 	"normal",
 	"search",
 	"spell",

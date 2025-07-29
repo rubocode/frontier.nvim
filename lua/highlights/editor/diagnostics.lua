@@ -13,10 +13,6 @@ end
 
 local infuse = function()
 	infused.PROFILE = {
-		ErrorMsg = diag.ErrorMsg,
-		ModeMsg = diag.ModeMsg,
-		MoreMsg = diag.MoreMsg,
-		WarningMsg = diag.WarningMsg,
 		DiagnosticError = diag.DiagnosticError,
 		DiagnosticHint = diag.DiagnosticHint,
 		DiagnosticInfo = diag.DiagnosticInfo,

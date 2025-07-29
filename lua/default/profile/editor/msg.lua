@@ -1,5 +1,5 @@
--- DEFAULT EDITOR DIAGNOSTICS PROFILE
--- JUL 18, 2025
+-- DEFAULT EDITOR MSG PROFILE
+-- JUL 29, 2025
 
 local diag = require("empty.archetype.diagnostics")
 
@@ -31,16 +31,10 @@ end
 
 local infuse = function()
 	profile = {
-		DiagnosticError = diag.Text.Error,
-		DiagnosticHint = diag.Text.Hint,
-		DiagnosticInfo = diag.Text.Info,
-		DiagnosticOk = diag.Text.Ok,
-		DiagnosticWarn = diag.Text.Warn,
-		DiagnosticVirtualTextError = diag.Line.Error,
-		DiagnosticVirtualTextHint = diag.Line.Hint,
-		DiagnosticVirtualTextInfo = diag.Line.Info,
-		DiagnosticVirtualTextOk = diag.Line.Ok,
-		DiagnosticVirtualTextWarn = diag.Line.Warn,
+		ErrorMsg = diag.Text.Error,
+		ModeMsg = diag.Text.Info,
+		MoreMsg = diag.Text.Hint,
+		WarningMsg = diag.Text.Warn,
 	}
 end
 

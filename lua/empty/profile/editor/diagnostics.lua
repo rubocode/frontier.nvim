@@ -2,10 +2,6 @@
 -- JUL 13, 2025
 
 local M = {
-	ErrorMsg = {},
-	ModeMsg = {},
-	MoreMsg = {},
-	WarningMsg = {},
 	DiagnosticError = {},
 	DiagnosticHint = {},
 	DiagnosticInfo = {},

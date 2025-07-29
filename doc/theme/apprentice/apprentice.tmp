@@ -15,8 +15,6 @@ ToolbarLine          none              almost_black
 VertSplit            grey              grey
 Visual               light_blue        darker_grey       reverse
 VisualNOS            none              none              underline
-debugBreakpoint      none              red
-debugPC              none              blue
 
 ;;; Group                           link to
 Boolean                             -> Constant

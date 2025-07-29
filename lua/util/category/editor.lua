@@ -14,6 +14,7 @@ local M = {
 	"search",
 	"spell",
 	"statusline",
+	"tab",
 }
 
 return M

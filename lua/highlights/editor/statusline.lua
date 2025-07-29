@@ -13,10 +13,10 @@ end
 
 local infuse = function()
 	infused.PROFILE = {
+		StatusLine = line.StatusLine,
 		StatusLineNC = line.StatusLineNC,
 		StatusLineTerm = line.StatusLineTerm,
 		StatusLineTermNC = line.StatusLineTermNC,
-		StatusLine = line.StatusLine,
 	}
 	infused.LINKS = {}
 end

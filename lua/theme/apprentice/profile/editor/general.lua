@@ -12,7 +12,7 @@ local std = require("theme.apprentice.palette.std")
 local style = require("highlights.style")
 
 local M = {
-	ColorColumn = { bg = grey.Dark },
+	ColorColumn = { bg = grey.AlmostBlack },
 	Conceal = { fg = text.Normal },
 	Directory = { fg = light.Aqua },
 	Error = { fg = std.Red },

@@ -2,7 +2,6 @@
 -- JUL 27, 2025
 
 local canvas = require("theme.apprentice.archetype.canvas")
-local diag = require("theme.apprentice.archetype.diagnostics")
 local text = require("theme.apprentice.archetype.text")
 local uniq = require("theme.apprentice.archetype.unique")
 
@@ -14,7 +13,6 @@ local style = require("highlights.style")
 local M = {
 	ColorColumn = { bg = grey.AlmostBlack },
 	Directory = { fg = light.Aqua },
-	Error = diag.Text.Error,
 	FoldColumn = { fg = grey.Light, bg = canvas.Darker },
 	Folded = { fg = grey.Light, bg = canvas.Darker },
 	MatchParen = { fg = light.Yellow, bg = canvas.Darker },

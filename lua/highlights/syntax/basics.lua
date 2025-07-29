@@ -14,27 +14,20 @@ end
 local infuse = function()
 	infused.PROFILE = {
 		Comment = basics.Comment,
-		Conceal = basics.Conceal,
 		Constant = basics.Constant,
-		Debug = basics.Debug,
 		Delimiter = basics.Delimiter,
 		Function = basics.Function,
 		Identifier = basics.Identifier,
-		Ignore = basics.Ignore,
 		Keyword = basics.Keyword,
 		Label = basics.Label,
 		Operator = basics.Operator,
 		PreProc = basics.PreProc,
 		Special = basics.Special,
-		SpecialKey = basics.SpecialKey,
 		Statement = basics.Statement,
 		StorageClass = basics.StorageClass,
 		String = basics.String,
 		Tag = basics.Tag,
-		Title = basics.Title,
-		Todo = basics.Todo,
 		Type = basics.Type,
-		Underlined = basics.Underlined,
 	}
 	infused.LINKS = {
 		Repeat = { link = "Keyword" },

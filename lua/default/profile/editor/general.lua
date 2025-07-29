@@ -2,7 +2,6 @@
 -- JUL 09, 2025
 
 local canvas = require("empty.archetype.canvas")
-local diag = require("empty.archetype.diagnostics")
 local text = require("empty.archetype.text")
 local uniq = require("empty.archetype.unique")
 
@@ -15,7 +14,6 @@ local profile = {}
 
 local remap = function(theme)
 	canvas = mapper.pick(theme, "archetype.canvas")
-	diag = mapper.pick(theme, "archetype.diagnostics")
 	text = mapper.pick(theme, "archetype.text")
 	uniq = mapper.pick(theme, "archetype.unique")
 end
@@ -24,7 +22,6 @@ local infuse = function()
 	profile = {
 		ColorColumn = { fg = canvas.Darker, bg = text.Quiet },
 		Directory = { fg = text.Darker },
-		Error = diag.Text.Error,
 		FoldColumn = { fg = text.Darker, bg = canvas.Lighter },
 		Folded = { fg = text.Lighter, bg = canvas.Lighter },
 		MatchParen = { fg = uniq.Distinct, bg = canvas.Normal, style = style.Bold },

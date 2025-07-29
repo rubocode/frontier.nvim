@@ -2,7 +2,6 @@
 -- JUL 09, 2025
 
 local canvas = require("theme.firewatch.archetype.canvas")
-local diag = require("theme.firewatch.archetype.diagnostics")
 local text = require("theme.firewatch.archetype.text")
 
 local duo = require("theme.firewatch.palette.duo")
@@ -13,7 +12,6 @@ local uno = require("theme.firewatch.palette.uno")
 local M = {
 	ColorColumn = { bg = syntax.CursorLine },
 	Directory = { fg = uno.Uno1 },
-	Error = diag.Text.Error,
 	FoldColumn = { fg = uno.Uno3, bg = canvas.Darker },
 	Folded = { fg = canvas.Normal, bg = syntax.FoldBg },
 	MatchParen = { fg = duo.Duo1, bg = canvas.Normal, style = style.Bold },

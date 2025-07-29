@@ -15,7 +15,6 @@ local infuse = function()
 	infused.PROFILE = {
 		ColorColumn = general.ColorColumn,
 		Directory = general.Directory,
-		Error = general.Error,
 		FoldColumn = general.FoldColumn,
 		Folded = general.Folded,
 		MatchParen = general.MatchParen,

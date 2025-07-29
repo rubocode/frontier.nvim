@@ -3,27 +3,19 @@
 
 local M = {
 	Comment = {},
-	Conceal = {},
 	Constant = {},
-	Debug = {},
 	Delimiter = {},
-	Error = {},
 	Function = {},
 	Identifier = {},
-	Ignore = {},
 	Keyword = {},
 	Label = {},
 	Operator = {},
 	PreProc = {},
 	Special = {},
-	SpecialKey = {},
 	Statement = {},
 	StorageClass = {},
 	String = {},
-	Underlined = {},
 	Tag = {},
-	Title = {},
-	Todo = {},
 	Type = {},
 }
 

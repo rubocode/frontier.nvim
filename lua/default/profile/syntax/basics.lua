@@ -1,10 +1,8 @@
 -- DEFAULT SYNTAX BASICS PROFILE
 -- JUL 25, 2025
 
-local canvas = require("empty.archetype.canvas")
 local text = require("empty.archetype.text")
 local uniq = require("empty.archetype.unique")
-local style = require("highlights.style")
 
 local mapper = require("util.mapper")
 
@@ -12,7 +10,6 @@ local M = {}
 local profile = {}
 
 local remap = function(theme)
-	canvas = mapper.pick(theme, "archetype.canvas")
 	text = mapper.pick(theme, "archetype.text")
 	uniq = mapper.pick(theme, "archetype.unique")
 end
@@ -20,27 +17,20 @@ end
 local infuse = function()
 	profile = {
 		Comment = { fg = text.Quiet },
-		Conceal = { fg = text.Normal },
 		Constant = { fg = uniq.Fixed },
-		Debug = {},
 		Delimiter = { fg = text.Darker },
 		Function = { fg = uniq.Dynamic },
 		Identifier = { fg = uniq.Dynamic },
-		Ignore = {},
 		Keyword = { fg = text.Lighter },
 		Label = {},
 		Operator = { fg = uniq.Accent },
 		PreProc = { fg = text.Lighter },
 		Special = { fg = uniq.Special },
-		SpecialKey = { fg = text.Quiet },
 		Statement = { fg = text.Lighter },
 		StorageClass = { fg = text.Lighter },
 		String = { fg = uniq.Prominent },
 		Tag = { fg = text.Lighter },
-		Title = { fg = uniq.Peculiar, style = style.Bold },
-		Todo = { fg = canvas.Normal, bg = uniq.Striking },
 		Type = { fg = uniq.Striking },
-		Underlined = { fg = uniq.Prominent, style = style.Underline },
 	}
 end
 

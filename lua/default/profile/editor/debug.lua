@@ -14,8 +14,8 @@ end
 
 local infuse = function()
 	profile = {
-		debugBreakPoint = { bg = diag.Text.Error },
-		debugPC = { bg = diag.Text.Hint },
+		debugBreakPoint = diag.Text.Error,
+		debugPC = diag.Text.Hint,
 	}
 end
 

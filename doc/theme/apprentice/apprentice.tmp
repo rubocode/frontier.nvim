@@ -1,11 +1,9 @@
 FoldColumn           light_grey        almost_black
 Folded               light_grey        almost_black
-IncSearch            darker_grey       red
 LineNr               light_grey        almost_black
 MatchParen           yellow            almost_black
 NonText              medium_grey       none
 Question             light_green       none
-Search               darker_grey       yellow
 SignColumn           light_grey        almost_black
 TabLine              ocre              grey
 TabLineFill          grey              grey

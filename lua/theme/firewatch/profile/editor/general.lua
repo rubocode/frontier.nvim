@@ -8,9 +8,7 @@ local uno = require("theme.firewatch.palette.uno")
 
 local M = {
 	ColorColumn = { bg = syntax.CursorLine },
-	Conceal = {},
 	Directory = { fg = uno.Uno1 },
-	Error = {},
 	FoldColumn = { fg = uno.Uno3, bg = syntax.CursorLine },
 	Folded = { fg = syntax.Bg, bg = syntax.FoldBg },
 	Ignore = {},

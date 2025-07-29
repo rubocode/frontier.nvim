@@ -9,9 +9,11 @@ local duo = require("theme.firewatch.palette.duo")
 
 local M = {
 	Comment = { fg = text.Quiet },
+	Conceal = {},
 	Constant = { fg = uniq.Fixed },
 	Debug = {},
 	Delimiter = { fg = text.Quiet },
+	Error = {},
 	Function = { fg = uniq.Dynamic },
 	Identifier = { fg = uniq.Special },
 	Keyword = { fg = text.Loud },

@@ -2,6 +2,7 @@
 -- JUL 27, 2025
 
 local uniq = require("theme.apprentice.archetype.unique")
+local text = require("theme.apprentice.archetype.text")
 
 local grey = require("theme.apprentice.palette.grey")
 local light = require("theme.apprentice.palette.light")
@@ -11,9 +12,11 @@ local style = require("highlights.style")
 
 local M = {
 	Comment = { fg = grey.Light },
+	Conceal = { fg = text.Normal },
 	Constant = { fg = uniq.Fixed },
 	Debug = { fg = uniq.Special },
 	Delimiter = { fg = uniq.Special },
+	Error = { fg = std.Red },
 	Function = { fg = uniq.Dynamic },
 	Identifier = { fg = std.Blue },
 	Keyword = { fg = light.Blue },

@@ -3,9 +3,11 @@
 
 local M = {
 	Comment = {},
+	Conceal = {},
 	Constant = {},
 	Debug = {},
 	Delimiter = {},
+	Error = {},
 	Function = {},
 	Identifier = {},
 	Keyword = {},

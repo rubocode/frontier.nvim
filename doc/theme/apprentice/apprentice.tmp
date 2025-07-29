@@ -1,5 +1,3 @@
-Directory            light_aqua        none
-EndOfBuffer          medium_grey       none
 ErrorMsg             red               darker_grey       reverse
 FoldColumn           light_grey        almost_black
 Folded               light_grey        almost_black

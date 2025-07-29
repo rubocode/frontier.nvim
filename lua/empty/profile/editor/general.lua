@@ -3,9 +3,7 @@
 
 local M = {
 	ColorColumn = {},
-	Conceal = {},
 	Directory = {},
-	Error = {},
 	FoldColumn = {},
 	Folded = {},
 	Ignore = {},

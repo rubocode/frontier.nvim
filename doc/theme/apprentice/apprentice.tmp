@@ -7,10 +7,6 @@ NonText              medium_grey       none
 Question             light_green       none
 Search               darker_grey       yellow
 SignColumn           light_grey        almost_black
-StatusLine           darker_grey       ocre
-StatusLineNC         ocre              grey
-StatusLineTerm       darker_grey       ocre
-StatusLineTermNC     ocre              grey
 TabLine              ocre              grey
 TabLineFill          grey              grey
 TabLineSel           darker_grey       ocre

@@ -3,6 +3,7 @@
 
 local M = {
 	"cursor",
+	"debug",
 	"diagnostics",
 	"diff",
 	"general",

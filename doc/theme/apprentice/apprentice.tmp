@@ -40,8 +40,6 @@ Title                none              none
 Todo                 none              none              reverse
 Type                 light_purple      none
 Underlined           aqua              none              underline
-helpLeadBlank        none              none
-helpNormal           none              none
 
 ;;; Group                           link to
 Boolean                             -> Constant

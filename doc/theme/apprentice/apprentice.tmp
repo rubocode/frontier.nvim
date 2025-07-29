@@ -7,10 +7,6 @@ NonText              medium_grey       none
 Question             light_green       none
 Search               darker_grey       yellow
 SignColumn           light_grey        almost_black
-SpellBad             red               none              undercurl s=red
-SpellCap             light_aqua        none              undercurl s=light_aqua
-SpellLocal           green             none              undercurl s=green
-SpellRare            orange            none              undercurl s=orange
 StatusLine           darker_grey       ocre
 StatusLineNC         ocre              grey
 StatusLineTerm       darker_grey       ocre

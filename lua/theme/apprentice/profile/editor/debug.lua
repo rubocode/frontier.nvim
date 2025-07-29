@@ -1,4 +1,4 @@
--- APPRENTICE EDITOR DEBUH PROFILE
+-- APPRENTICE EDITOR DEBUG PROFILE
 -- JUL 29, 2025
 
 local std = require("theme.apprentice.palette.std")

@@ -21,26 +21,6 @@ debugPC              none              blue
 ;;; Group         link to
 Terminal          -> Normal
 
-
-;;; Syntax
-;;; Group            Foreground        Background        Attributes
-Comment              light_grey        none
-Conceal              lighter_grey      none
-Constant             orange            none
-Error                red               none              reverse
-Function             yellow            none
-Identifier           blue              none
-Ignore               none              none
-PreProc              aqua              none
-Special              green             none
-SpecialKey           medium_grey       none
-Statement            light_blue        none
-String               light_green       none
-Title                none              none
-Todo                 none              none              reverse
-Type                 light_purple      none
-Underlined           aqua              none              underline
-
 ;;; Group                           link to
 Boolean                             -> Constant
 Character                           -> Constant

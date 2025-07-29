@@ -16,7 +16,7 @@ local M = {
 	Constant = { fg = uniq.Fixed },
 	Debug = { fg = uniq.Special },
 	Delimiter = { fg = uniq.Special },
-	Error = { fg = std.Red },
+	Error = { fg = std.Red, style = style.Reverse },
 	Function = { fg = uniq.Dynamic },
 	Identifier = { fg = std.Blue },
 	Keyword = { fg = light.Blue },

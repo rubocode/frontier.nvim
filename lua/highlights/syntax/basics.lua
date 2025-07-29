@@ -14,6 +14,7 @@ end
 local infuse = function()
 	infused.PROFILE = {
 		Comment = basics.Comment,
+		Conceal = basics.Conceal,
 		Constant = basics.Constant,
 		Debug = basics.Debug,
 		Delimiter = basics.Delimiter,

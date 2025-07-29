@@ -13,7 +13,6 @@ local style = require("highlights.style")
 
 local M = {
 	ColorColumn = { bg = grey.AlmostBlack },
-	Conceal = { fg = text.Normal },
 	Directory = { fg = light.Aqua },
 	Error = diag.Text.Error,
 	FoldColumn = { fg = grey.Light, bg = canvas.Darker },

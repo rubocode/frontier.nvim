@@ -12,7 +12,6 @@ local uno = require("theme.firewatch.palette.uno")
 
 local M = {
 	ColorColumn = { bg = syntax.CursorLine },
-	Conceal = { fg = text.Normal },
 	Directory = { fg = uno.Uno1 },
 	Error = diag.Text.Error,
 	FoldColumn = { fg = uno.Uno3, bg = canvas.Darker },

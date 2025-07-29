@@ -20,6 +20,7 @@ end
 local infuse = function()
 	profile = {
 		Comment = { fg = text.Quiet },
+		Conceal = { fg = text.Normal },
 		Constant = { fg = uniq.Fixed },
 		Debug = {},
 		Delimiter = { fg = text.Darker },

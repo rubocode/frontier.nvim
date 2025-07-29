@@ -10,7 +10,7 @@ local syntax = require("theme.firewatch.palette.syntax")
 
 local M = {
 	Comment = { fg = text.Quiet },
-	Conceal = {},
+	Conceal = { fg = text.Normal },
 	Constant = { fg = uniq.Fixed },
 	Debug = {},
 	Delimiter = { fg = text.Quiet },

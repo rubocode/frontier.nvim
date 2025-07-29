@@ -1,7 +1,3 @@
-DiffAdd              DiffAdd           dark_grey         reverse
-DiffChange           DiffChange        dark_grey         reverse
-DiffDelete           DiffDelete        dark_grey         reverse
-DiffText             DiffText          dark_grey         reverse
 Directory            light_aqua        none
 EndOfBuffer          medium_grey       none
 ErrorMsg             red               darker_grey       reverse

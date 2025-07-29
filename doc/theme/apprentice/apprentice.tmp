@@ -4,10 +4,6 @@ IncSearch            darker_grey       red
 LineNr               light_grey        almost_black
 MatchParen           yellow            almost_black
 NonText              medium_grey       none
-Pmenu                lighter_grey      grey
-PmenuSbar            none              medium_grey
-PmenuSel             darker_grey       aqua
-PmenuThumb           aqua              aqua
 Question             light_green       none
 Search               darker_grey       yellow
 SignColumn           light_grey        almost_black
@@ -27,7 +23,6 @@ ToolbarLine          none              almost_black
 VertSplit            grey              grey
 Visual               light_blue        darker_grey       reverse
 VisualNOS            none              none              underline
-WildMenu             darker_grey       light_blue
 debugBreakpoint      none              red
 debugPC              none              blue
 

@@ -11,7 +11,7 @@ local M = {
 	LineNr = { fg = text.Quiet, bg = canvas.Darker },
 	Normal = { fg = text.Normal, bg = canvas.Normal },
 	NormalFloat = { bg = canvas.Darker },
-	SignColumn = { bg = canvas.Darker },
+	SignColumn = { fg = grey.Light, bg = canvas.Darker },
 }
 
 return M

@@ -6,6 +6,7 @@ local uniq = require("theme.firewatch.archetype.unique")
 local style = require("highlights.style")
 
 local duo = require("theme.firewatch.palette.duo")
+local syntax = require("theme.firewatch.palette.syntax")
 
 local M = {
 	Comment = { fg = text.Quiet },
@@ -16,11 +17,13 @@ local M = {
 	Error = {},
 	Function = { fg = uniq.Dynamic },
 	Identifier = { fg = uniq.Special },
+	Ignore = {},
 	Keyword = { fg = text.Loud },
 	Label = {},
 	Operator = { fg = uniq.Accent },
 	PreProc = {},
 	Special = { fg = uniq.Special },
+	SpecialKey = { fg = syntax.FoldBg },
 	Statement = { fg = uniq.Prominent },
 	StorageClass = { fg = text.Lighter },
 	String = { fg = uniq.Prominent },

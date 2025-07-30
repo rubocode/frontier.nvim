@@ -17,6 +17,7 @@ local infuse = function()
 		Debug = extra.Debug,
 		Error = extra.Error,
 		Ignore = extra.Ignore,
+		MatchParen = extra.MatchParen,
 		SpecialKey = extra.SpecialKey,
 		Title = extra.Title,
 		Todo = extra.Todo,

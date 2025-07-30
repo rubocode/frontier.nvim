@@ -6,7 +6,6 @@ local M = {
 	Directory = {},
 	FoldColumn = {},
 	Folded = {},
-	MatchParen = {},
 	NonText = {},
 	Question = {},
 	ToolbarButton = {},

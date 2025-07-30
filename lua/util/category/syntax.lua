@@ -3,6 +3,7 @@
 
 local M = {
 	"basics",
+	"extra",
 	"lsp",
 	"treesitter.constant",
 	"treesitter.keyword",

@@ -24,7 +24,6 @@ local infuse = function()
 		Directory = { fg = text.Darker },
 		FoldColumn = { fg = text.Darker, bg = canvas.Lighter },
 		Folded = { fg = text.Lighter, bg = canvas.Lighter },
-		MatchParen = { fg = uniq.Distinct, bg = canvas.Normal, style = style.Bold },
 		NonText = { fg = text.Quiet },
 		Question = { fg = uniq.Pominent },
 		ToolbarButton = { fg = text.Lighter, bg = text.Lighter },

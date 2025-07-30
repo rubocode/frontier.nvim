@@ -17,7 +17,6 @@ local infuse = function()
 		Directory = general.Directory,
 		FoldColumn = general.FoldColumn,
 		Folded = general.Folded,
-		MatchParen = general.MatchParen,
 		NonText = general.NonText,
 		Question = general.Question,
 		Title = general.Title,

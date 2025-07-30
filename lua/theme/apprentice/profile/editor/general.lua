@@ -15,7 +15,6 @@ local M = {
 	Directory = { fg = light.Aqua },
 	FoldColumn = { fg = grey.Light, bg = canvas.Darker },
 	Folded = { fg = grey.Light, bg = canvas.Darker },
-	MatchParen = { fg = light.Yellow, bg = canvas.Darker },
 	NonText = { fg = grey.Medium },
 	Question = { fg = uniq.Prominent },
 	ToolbarButton = { fg = text.Normal, bg = grey.Medium },

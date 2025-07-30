@@ -6,6 +6,7 @@ local M = {
 	Debug = {},
 	Error = {},
 	Ignore = {},
+	MatchParen = {},
 	SpecialKey = {},
 	Title = {},
 	Todo = {},

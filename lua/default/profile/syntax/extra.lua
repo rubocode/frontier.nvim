@@ -25,6 +25,7 @@ local infuse = function()
 		Debug = {},
 		Error = diag.Text.Error,
 		Ignore = {},
+		MatchParen = { fg = uniq.Distinct, bg = canvas.Normal, style = style.Bold },
 		SpecialKey = { fg = text.Quiet },
 		Title = { fg = uniq.Peculiar, style = style.Bold },
 		Todo = { fg = canvas.Normal, bg = uniq.Striking },

@@ -13,6 +13,12 @@ local M = {
 	Peculiar = grey.Lighter,
 	Prominent = light.Green,
 	Special = std.Green,
+	-- JUL 30, 2025
+	-- TODO:
+	-- light.Purple is not contrasting enough for this very critical
+	-- color choice.
+	-- See if there is a better choice
+	--
 	Striking = light.Purple,
 }
 

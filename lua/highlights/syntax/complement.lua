@@ -1,14 +1,14 @@
 -- SYNTAX EXTRA HIGHLIGHTS
 -- JUL 29, 2025
 
-local extra = require("empty.profile.syntax.extra")
+local extra = require("empty.profile.syntax.complement")
 local mapper = require("util.mapper")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	extra = mapper.pick(theme, "profile.syntax.extra")
+	extra = mapper.pick(theme, "profile.syntax.complement")
 end
 
 local infuse = function()

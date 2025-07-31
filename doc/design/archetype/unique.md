@@ -41,7 +41,7 @@ other element even inside the _unique_ archetype.
 The _frontier_ primary theme uses _red.Normal_
 for both _Fixed_ and _Special_ elements.
 But these are separately used in the highlight
-definitions.  You can change your mind of _Fixed_
+definitions.  You can change your mind on _Fixed_
 or _Special_ at any point with changing the color
 at just this one place in the project and receive
 the desired outcome.  We have the carefully chosen

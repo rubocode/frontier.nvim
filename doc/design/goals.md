@@ -11,7 +11,7 @@ _custom_ plugins.
 
 It seemed a good idea to centralize and stabilize the highlight
 definitions and link them via a dynamic internal abstraction
-(an _archetype) in order that all themes (colorschemes) benefited
+(an _archetype_) in order that all themes (colorschemes) benefited
 when a new plugin or a new neovim feature was added
 to the ones that were chosen to be included.
 

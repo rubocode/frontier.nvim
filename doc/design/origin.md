@@ -116,7 +116,7 @@ I could then accomodate adjustments and enhancements to legacy themes.
 
 I decided to create a new colorscheme that supports multiple theming
 abstractions (combinations of _palettes_ and an _archetype_).
-This means the underlying internal abstraction (the _archetype)
+This means the underlying internal abstraction (the _archetype_)
 must be general enough and be quite a bit discerning.
 The granularity of distinctions would require much consideration.
 I do not intend to be able to integrate themes that I considered bloated

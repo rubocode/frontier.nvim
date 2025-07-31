@@ -1,27 +1,27 @@
 -- SYNTAX EXTRA HIGHLIGHTS
 -- JUL 29, 2025
 
-local extra = require("empty.profile.syntax.complement")
+local comp = require("empty.profile.syntax.complement")
 local mapper = require("util.mapper")
 
 local M = {}
 local infused = {}
 
 local remap = function(theme)
-	extra = mapper.pick(theme, "profile.syntax.complement")
+	comp = mapper.pick(theme, "profile.syntax.complement")
 end
 
 local infuse = function()
 	infused.PROFILE = {
-		Conceal = extra.Conceal,
-		Debug = extra.Debug,
-		Error = extra.Error,
-		Ignore = extra.Ignore,
-		MatchParen = extra.MatchParen,
-		SpecialKey = extra.SpecialKey,
-		Title = extra.Title,
-		Todo = extra.Todo,
-		Underlined = extra.Underlined,
+		Conceal = comp.Conceal,
+		Debug = comp.Debug,
+		Error = comp.Error,
+		Ignore = comp.Ignore,
+		MatchParen = comp.MatchParen,
+		SpecialKey = comp.SpecialKey,
+		Title = comp.Title,
+		Todo = comp.Todo,
+		Underlined = comp.Underlined,
 	}
 	infused.LINKS = {}
 end

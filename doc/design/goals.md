@@ -5,7 +5,7 @@ I would be happy if I could create a handful of colorschemes with
 a single theming abstraction (an _archetype_) that is customized
 to accomodate multiple palettes.
 We will use different palettes and different choices (colors and themes)
-and map it into the _archetype_ an inject those color choices into the
+and map it into the _archetype_ and inject those color choices into the
 highlight scheme which supports _standard_ neovim highlighting and
 _custom_ plugins.
 

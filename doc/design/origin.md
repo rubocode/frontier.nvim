@@ -61,7 +61,7 @@ and I don't log in to other servers.
 
 I reached the point of successfully achieving the same look
 and feel on both _xterm256_ and _truecolor_ on macOS terminal and WezTerm.
-Then I wanted to generalize the theming abstraction (the _archetype)
+Then I wanted to generalize the theming abstraction (the _archetype_)
 from there.  On a lucky coincidence,
 I found [apprentice](../theme/apprentice/README.md).
 It worked the same on both the masOS Terminal and WezTerm.

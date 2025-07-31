@@ -1,4 +1,4 @@
--- APPRENTICE SYNTAX EXTRA PROFILE
+-- APPRENTICE SYNTAX COMPLEMENT PROFILE
 -- JUL 29, 2025
 
 local canvas = require("theme.apprentice.archetype.canvas")

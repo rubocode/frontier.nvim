@@ -33,7 +33,7 @@ the desired plugins.  This also helps validate the internal abstraction.
 ## INSTALLATION
 ```lua
 {
-    "rubocode/forntier.nvim",
+    "rubocode/frontier.nvim",
     lazy = false,
     config = function()
     end,

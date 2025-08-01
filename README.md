@@ -31,6 +31,9 @@ did not fully support the desired features (such as proper _LSP_ support) or
 the desired plugins.  This also helps validate the internal abstraction.
 
 ## INSTALLATION
+
+### LazyVim
+
 ```lua
 {
     "rubocode/frontier.nvim",

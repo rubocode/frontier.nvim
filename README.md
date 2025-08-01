@@ -30,13 +30,25 @@ out to meet aesthetic considerations but were either based on _vimscript_ or
 did not fully support the desired features (such as proper _LSP_ support) or
 the desired plugins.  This also helps validate the internal abstraction.
 
-> Perfection is achieved, not when there is nothing more to add,
-> but when there is nothing left to take away.  
-> **Antoine de Saint-Exupery**
+## INSTALLATION
+```lua
+{
+    "rubocode/forntier.nvim",
+    lazy = false,
+    config = function()
+    end,
+}
+```
+
+## NOTE
 
 You may appreciate the different flavors and even the internal organization.
 It uses a different approach.
 Perhaps you would like to use this project as the basis for experimenting
 with your own preferred color selection.
+
+> Perfection is achieved, not when there is nothing more to add,
+> but when there is nothing left to take away.  
+> **Antoine de Saint-Exupery**
 
 Enjoy!

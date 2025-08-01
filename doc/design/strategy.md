@@ -63,7 +63,7 @@ multiple themes.
 
 When we are finally gathering the highlight groups, we simply
 swap the empty interface reference with the corresponding
-custom module reference and infused the highlight group
+custom module reference and infuse the highlight group
 with the custom colors.
 This is simply indirection via an interface.
 However, it requires the highlight module to include functions

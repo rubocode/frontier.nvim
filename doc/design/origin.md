@@ -3,7 +3,8 @@
 
 I had the fortune of working with AOS/VS running on a Data General
 minicomputer when I was 19 (last century, in 1989).
-It had an editor called _sed (stream editor)_ which was similar to _vi_.
+It had editors called _ed_ and _sed (stream editor)_ which were
+similar to _vi_ in general design and philosophy.
 I was working with _vt100_ terminals on VAX/VMS in my college days.
 I also used _ULTRIX_, _SunOS_ and _Solaris_ in the nineties and
 _Linux_, a bit later.

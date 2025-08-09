@@ -20,7 +20,7 @@ end
 
 local infuse = function()
 	profile = {
-		Cursor = { style = style.Reverse },
+		Cursor = { fg = text.Normal, bg = canvas.Normal, style = style.Reverse },
 		CursorColumn = { fg = text.Lighter, bg = canvas.Lighter },
 		CursorLine = { bg = canvas.Darker },
 		CursorLineNr = { fg = uniq.Peculiar, style = style.Bold },

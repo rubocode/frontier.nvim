@@ -2,7 +2,6 @@
 A neovim colorscheme with themes that look identical on xterm256 and truecolor terminals
 
 > [Design Documents](doc/design/README.md)  
-> This is a work in progress!
 
 There is a handful of colorscheme designs here.  They use different palettes
 and different choices (theming abstractions) in injecting those colors into
